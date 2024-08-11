@@ -1,0 +1,36 @@
+
+S Mulle meeldib reisida .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Tavalaiselt ma ostan reis internetis , see on odavam kui firmas .
+A 0 1|||R:SPELL|||Tavaliselt|||REQUIRED|||-NONE-|||0
+A 1 3|||R:WO|||ostan ma|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOM:FORM|||reisi||reise|||REQUIRED|||-NONE-|||0
+A 4 5|||R:NOM:FORM|||internetist|||REQUIRED|||-NONE-|||0
+A 10 11|||R:NOM:FORM|||firmast|||REQUIRED|||-NONE-|||0
+A 11 11|||M:LEX|||osta|||REQUIRED|||-NONE-|||0
+
+S Minu viimane reis oli Maltas .
+A 4 5|||R:NOM:FORM|||Maltale||Maltasse|||REQUIRED|||-NONE-|||0
+
+S See oli Septembris .
+A 2 3|||R:CASE|||septembris|||REQUIRED|||-NONE-|||0
+
+S Ilm oli vaga ilus , päikasepaisteline ja soj .
+A 2 3|||R:SPELL|||väga|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||päikesepaisteline||päiksepaisteline|||REQUIRED|||-NONE-|||0
+A 7 8|||R:SPELL|||soe|||REQUIRED|||-NONE-|||0
+
+S Mina ja minu mehe ujusime meris .
+A 3 4|||R:NOM:FORM|||mees|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||meres|||REQUIRED|||-NONE-|||0
+
+S Me sõidame ka vaned linnad Valletta ja Mdina .
+A 1 2|||R:VERB:FORM|||sõitsime|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOM:FORM:SPELL|||vanadesse|||REQUIRED|||-NONE-|||0
+A 4 5|||R:NOM:FORM|||linnadesse|||REQUIRED|||-NONE-|||0
+A 5 6|||R:NOM:FORM|||Vallettasse|||REQUIRED|||-NONE-|||0
+A 7 8|||R:NOM:FORM:SPELL|||Medinasse|||REQUIRED|||-NONE-|||0
+
+S See oli väga huvitav reis .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0

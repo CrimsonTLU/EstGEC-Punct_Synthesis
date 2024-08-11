@@ -1,0 +1,84 @@
+
+S Kodanikuühendused - kohaliku kogukonna elu arendajad .
+A 6 7|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Eelmisel nädalavahetusel toimus linnaraamatukogus kodanikuühenduste tegevusele pühendatud konverents .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Sündmuse läbiviimist toetas kohalik omavalitsus ja 2 päeva jooksul oli võimalik osa võtta rohketest vestlusringidest , kuulata ettekandeid ja külastada kohalike seltse tutvustava posternäitusega .
+A 20 21|||R:NOM:FORM|||kohalikke|||REQUIRED|||-NONE-|||0
+A 22 23|||R:NOM:FORM|||tutvustavat|||REQUIRED|||-NONE-|||0
+A 23 24|||R:NOM:FORM|||posternäitust|||REQUIRED|||-NONE-|||0
+
+S Konverentsist võtsid osa korteriühistud , naisteklubi , ülikooli vilistlaste selts , liit " Roheline linn " , " Teeme ära " liikumise aktivistid , keelekohvikute läbiviijad ja mõned välisühingute esindajad .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Allpool tahaksin jagada oma isiklikke mõtteid ja ideid kodanikuühenduste võimalikkusest meie linnaski .
+A 4 5|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||1
+
+S Kahtlemata mängivad taolised ühendused olulist rolli kohaliku kogukonna elu arendajatena , aga lisaks sellele ka laiemalt - nö. kogukonna tunde loojatena .
+A 16 17|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 17 18|||R:SPELL|||n-ö|||REQUIRED|||-NONE-|||0
+
+S Tahaksin siinkohal tuua selliseid näiteid meil naaberlinnast - sealne naisteklubi korraldas eelmisel suvel tutvumisõhtuid .
+A 5 6|||R:NOM:FORM|||meie|||REQUIRED|||-NONE-|||0
+
+S Selliste õhtude sihtrühmaks olid linna alles hiljuti kolinud pered ja ülesandeks - kaasata neid kohaliku kogukonda läbi isikliku kontakti .
+A 1 2|||R:SPELL|||õhtute|||REQUIRED|||-NONE-|||0
+A 4 7|||R:WO|||alles hiljuti linna|||REQUIRED|||-NONE-|||0
+A 14 15|||R:NOM:FORM|||kohalikku|||REQUIRED|||-NONE-|||0
+A 10 11|||R:LEX|||eesmärgiks|||REQUIRED|||-NONE-|||0
+A 16 19|||R:LEX:WO|||isikliku kontakti kaudu|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||õhtute|||REQUIRED|||-NONE-|||1
+A 4 7|||R:WO|||alles hiljuti linna|||REQUIRED|||-NONE-|||1
+A 14 15|||R:NOM:FORM|||kohalikku|||REQUIRED|||-NONE-|||1
+A 16 19|||R:LEX:WO|||isikliku kontakti kaudu|||REQUIRED|||-NONE-|||1
+
+S Meie linngi on viimastel aastatel jõudsalt kasvanud ja seda eelkõige sisserändajate arvelt .
+A 11 12|||R:LEX|||tõttu|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||1
+
+S Kahjuks olen märganud , et paljud uued elanikud ei osale kohalikus elus ei .
+A 0 10|||R:WO|||Olen märganud , et kahjuks ei osale paljud uued elanikud|||REQUIRED|||-NONE-|||0
+A 12 13|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+A 12 13|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+
+S Teen siinkohal väljakutse meie kohalikele seltsidele - miks mitte korraldada meilgi sarnaseid õhtuid ?
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Mõni sõna ka vabatahtlikest ja nende kaasamisest kultuurivaldkonda jne .
+A 0 1|||R:LEX|||Paar|||REQUIRED|||-NONE-|||0
+
+S Isiklikult leian , et tegemist on suurepärane viisiga , kuidas võiksime saada käima mõned valdkonnad , mis praegu meie linnas ripakil eelkõige ebapiisava eelarve tõttu .
+A 6 7|||R:NOM:FORM|||suurepärase|||REQUIRED|||-NONE-|||0
+A 11 12|||R:LEX|||panna|||REQUIRED|||-NONE-|||0
+A 17 17|||R:LEX|||on|||REQUIRED|||-NONE-|||0
+A 0 2|||U:LEX|||Leian|||REQUIRED|||-NONE-|||1
+A 6 7|||R:NOM:FORM|||suurepärase|||REQUIRED|||-NONE-|||1
+A 11 15|||R:LEX:WO|||mõned valdkonnad käima panna|||REQUIRED|||-NONE-|||1
+A 17 17|||R:LEX|||on|||REQUIRED|||-NONE-|||1
+
+S Toon näiteks meie raamatukogu .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Nagu teada on see üsna halvas seisundis ja pealegi avatud ainult tööpäeviti , mistõttu töötavad inimesed ei saa võimalustki seda kasutada .
+A 2 2|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 14 15|||R:LEX|||tööl käivad|||REQUIRED|||-NONE-|||0
+A 2 2|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+
+S Miks mitte lahendada seda muret vabatahlikke abiga ?
+A 5 6|||R:SPELL|||vabatahtlike|||REQUIRED|||-NONE-|||0
+
+S Imselt oleksid paljud kohalikud lapsed ja muidu raamatuarmastajad huvitatud sedalaadi " hobbist " .
+A 10 11|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 11 12|||R:SPELL|||hobist|||REQUIRED|||-NONE-|||0
+A 12 13|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 8 12|||R:WO|||sedalaadi hobist huvitatud|||REQUIRED|||-NONE-|||0
+A 10 11|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+A 11 12|||R:SPELL|||hobist|||REQUIRED|||-NONE-|||1
+A 12 13|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+
+S Loodetavasti äratab mu kiri laialdasemat huvi meie linnas ja loeksin hea meelega meie linnalehe järgmistest numbritest teie tagasisidet minu mõtete kohta ja ehk ka teie ideeid .
+A 4 8|||R:WO|||meie linnas laialdasemat huvi|||REQUIRED|||-NONE-|||0
+A 25 26|||R:SPELL|||ideid|||REQUIRED|||-NONE-|||0

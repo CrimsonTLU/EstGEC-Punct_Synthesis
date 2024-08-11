@@ -1,0 +1,95 @@
+
+S Järgmisel aastal ma väga tahan ostma üks ilus kass .
+A 2 5|||R:WO|||tahan ma väga|||REQUIRED|||-NONE-|||0
+A 5 6|||R:VERB:FORM|||osta|||REQUIRED|||-NONE-|||0
+A 6 7|||R:NOM:FORM|||ühe|||REQUIRED|||-NONE-|||0
+A 7 8|||R:NOM:FORM|||ilusa|||REQUIRED|||-NONE-|||0
+A 8 9|||R:NOM:FORM|||kassi|||REQUIRED|||-NONE-|||0
+
+S Tema nimi on " Bengal "
+A 3 4|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 5 6|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 6 6|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+A 1 2|||R:LEX|||tõug|||REQUIRED|||-NONE-|||1
+A 3 4|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+A 4 5|||R:CASE|||bengal|||REQUIRED|||-NONE-|||1
+A 5 6|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+A 6 6|||M:PUNCT|||.|||REQUIRED|||-NONE-|||1
+
+S Ta väljanäeb nagu väike leopard , rohelised silmad tal on ja suured kõrvad .
+A 1 2|||R:WS|||näeb välja|||REQUIRED|||-NONE-|||0
+A 6 10|||R:WO|||tal on rohelised silmad|||REQUIRED|||-NONE-|||0
+
+S Ma tahan see kassi endale selle pärast et kodus mul on juba üks sama kass , ja ma tahan osta temale sõbra .
+A 2 3|||R:NOM:FORM|||seda|||REQUIRED|||-NONE-|||0
+A 5 7|||R:WS|||sellepärast|||REQUIRED|||-NONE-|||0
+A 7 7|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 8 11|||R:WO|||mul on kodus|||REQUIRED|||-NONE-|||0
+A 13 14|||R:LEX|||samasugune|||REQUIRED|||-NONE-|||0
+A 15 16|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 19 22|||R:WO|||temale sõbra osta|||REQUIRED|||-NONE-|||0
+A 2 3|||R:NOM:FORM|||seda|||REQUIRED|||-NONE-|||1
+A 7 7|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 8 12|||R:WO|||mul on juba kodus|||REQUIRED|||-NONE-|||1
+A 13 14|||R:LEX|||samasugune|||REQUIRED|||-NONE-|||1
+A 15 16|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+A 20 21|||R:NOM:FORM|||talle|||REQUIRED|||-NONE-|||1
+
+S See kas nägu tavaline kass , aga üks korda kuus ta peab süüa toores veiseliha .
+A 1 2|||R:SPELL|||kass|||REQUIRED|||-NONE-|||0
+A 2 2|||M:LEX|||on|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||nagu|||REQUIRED|||-NONE-|||0
+A 8 9|||R:SPELL|||kord|||REQUIRED|||-NONE-|||0
+A 10 12|||R:WO|||peab ta|||REQUIRED|||-NONE-|||0
+A 12 13|||R:VERB:FORM|||sööma|||REQUIRED|||-NONE-|||0
+A 13 14|||R:NOM:FORM|||toorest|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||kass|||REQUIRED|||-NONE-|||1
+A 2 2|||M:LEX|||on|||REQUIRED|||-NONE-|||1
+A 2 3|||R:SPELL|||nagu|||REQUIRED|||-NONE-|||1
+A 6 7|||R:LEX|||ainult et|||REQUIRED|||-NONE-|||1
+A 8 9|||R:SPELL|||kord|||REQUIRED|||-NONE-|||1
+A 10 12|||R:WO|||peab ta|||REQUIRED|||-NONE-|||1
+A 12 13|||R:VERB:FORM|||sööma|||REQUIRED|||-NONE-|||1
+A 13 14|||R:NOM:FORM|||toorest|||REQUIRED|||-NONE-|||1
+A 12 15|||R:WO|||toorest veiseliha sööma|||REQUIRED|||-NONE-|||1
+
+S Ta on väga tark ja mängib päris palju .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Ja väga meeldib lapsed .
+A 1 1|||M:LEX|||talle|||REQUIRED|||-NONE-|||0
+A 2 3|||R:VERB:FORM|||meeldivad|||REQUIRED|||-NONE-|||0
+A 1 1|||M:LEX|||talle|||REQUIRED|||-NONE-|||1
+A 2 3|||R:VERB:FORM|||meeldivad|||REQUIRED|||-NONE-|||1
+A 0 3|||R:WO|||Ja talle meeldivad väga|||REQUIRED|||-NONE-|||1
+
+S Ma arvan et järmisel aastal mingi juunis või juulis ma saan sellekassi ostma .
+A 2 2|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||järgmisel|||REQUIRED|||-NONE-|||0
+A 5 6|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+A 9 11|||R:WO|||saan ma|||REQUIRED|||-NONE-|||0
+A 11 12|||R:WS|||selle kassi|||REQUIRED|||-NONE-|||0
+A 12 13|||R:VERB:FORM|||osta|||REQUIRED|||-NONE-|||0
+A 2 2|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 5 6|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 9 10|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 11 12|||R:WS|||selle kassi|||REQUIRED|||-NONE-|||1
+A 3 13|||R:WO|||saan selle kassi osta järgmisel aastal juunis või juulis|||REQUIRED|||-NONE-|||1
+
+S Üks pere müüb ainult selline kassi , ja maksab päris palju mingi viis - kuus sotti euro .
+A 0 4|||R:WO|||Ainult üks pere müüb|||REQUIRED|||-NONE-|||0
+A 4 5|||R:NOM:FORM|||sellist|||REQUIRED|||-NONE-|||0
+A 6 7|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 8 8|||M:LEX|||ta|||REQUIRED|||-NONE-|||0
+A 11 11|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 16 17|||R:NOM:FORM|||eurot|||REQUIRED|||-NONE-|||0
+
+S Praegu mul on kodus üks kass tema nimi on Leon , ja üks koer tema nimi on Sändi .
+A 1 3|||R:WO|||on mul|||REQUIRED|||-NONE-|||0
+A 6 6|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 6 7|||R:LEX|||kelle|||REQUIRED|||-NONE-|||0
+A 14 14|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 14 15|||R:LEX|||kelle|||REQUIRED|||-NONE-|||0
+
+S Nad on väga hea sõbrad ja elavad koos juba neli aastat .
+A 3 4|||R:NOM:FORM|||head|||REQUIRED|||-NONE-|||0

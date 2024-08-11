@@ -1,0 +1,76 @@
+
+S Eelmisel nädalal ma käisin kontserdil .
+A 2 4|||R:WO|||käisin ma|||REQUIRED|||-NONE-|||0
+A 0 4|||R:WO|||Ma käisin eelmisel nädalal|||REQUIRED|||-NONE-|||1
+
+S Mulle väga meeldib käia kontserdil või muuseumis .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Ma valisin kontsert " Meister ja Margarita " .
+A 2 3|||R:NOM:FORM|||kontserdi|||REQUIRED|||-NONE-|||0
+
+S Ma valisin selle sellepärast , et koolis ma lugesin seda raamatut .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Ma käisin kontserdil oma abikaasaga , emaga ja isaga .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+A 3 3|||M:LEX|||koos|||REQUIRED|||-NONE-|||1
+A 4 5|||R:NOM:FORM|||abikaasa|||REQUIRED|||-NONE-|||1
+A 6 7|||R:NOM:FORM|||ema|||REQUIRED|||-NONE-|||1
+
+S Mulle väga meeldis see kontsert ja minu pere ka .
+A 7 8|||R:NOM:FORM|||perele|||REQUIRED|||-NONE-|||0
+
+S Konsert oli kolm tundi ja toimus Narvas Genevas kontserdimajas .
+A 0 1|||R:SPELL|||Kontsert|||REQUIRED|||-NONE-|||0
+A 4 4|||M:LEX|||pikk|||REQUIRED|||-NONE-|||0
+A 7 8|||R:NOM:FORM|||Geneva|||REQUIRED|||-NONE-|||0
+A 0 1|||R:SPELL|||Kontsert|||REQUIRED|||-NONE-|||1
+A 1 2|||R:LEX|||kestis|||REQUIRED|||-NONE-|||1
+A 7 8|||R:NOM:FORM|||Geneva|||REQUIRED|||-NONE-|||1
+
+S Pärast kontserti me läksime poodi , seal me ostsime toiduained ja läksime minu kodu .
+A 2 4|||R:WO|||läksime me|||REQUIRED|||-NONE-|||0
+A 6 7|||R:LEX|||sealt|||REQUIRED|||-NONE-|||0
+A 9 10|||R:NOM:FORM|||toiduaineid|||REQUIRED|||-NONE-|||0
+A 13 14|||R:NOM:FORM|||koju|||REQUIRED|||-NONE-|||0
+A 2 4|||R:WO|||läksime me|||REQUIRED|||-NONE-|||1
+A 6 7|||R:LEX|||sealt|||REQUIRED|||-NONE-|||1
+A 7 9|||R:WO|||ostsime me|||REQUIRED|||-NONE-|||1
+A 9 10|||R:NOM:FORM|||toiduaineid|||REQUIRED|||-NONE-|||1
+A 13 14|||R:NOM:FORM|||koju|||REQUIRED|||-NONE-|||1
+
+S Kodus me rääkisime kontserdist ja kõikest , ka me tegime nalja ja jõime kohvi .
+A 1 3|||R:WO|||rääkisime me|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||kõigest|||REQUIRED|||-NONE-|||0
+A 7 10|||R:WO|||me tegime ka|||REQUIRED|||-NONE-|||0
+A 1 3|||R:WO|||rääkisime me|||REQUIRED|||-NONE-|||1
+A 5 6|||R:SPELL|||kõigest|||REQUIRED|||-NONE-|||1
+A 6 6|||M:LEX|||muust|||REQUIRED|||-NONE-|||1
+A 7 10|||R:WO|||me tegime ka|||REQUIRED|||-NONE-|||1
+A 5 6|||R:SPELL|||kõigest|||REQUIRED|||-NONE-|||2
+A 6 6|||M:LEX|||muust|||REQUIRED|||-NONE-|||2
+A 7 10|||R:WO|||me tegime ka|||REQUIRED|||-NONE-|||2
+
+S Pärast me läksime pargi ja see oli kell umbes kakskümmed üks .
+A 3 4|||R:NOM:FORM|||parki|||REQUIRED|||-NONE-|||0
+A 7 9|||R:WO|||umbes kell|||REQUIRED|||-NONE-|||0
+A 9 10|||R:SPELL|||kakskümmend|||REQUIRED|||-NONE-|||0
+A 1 3|||R:WO|||läksime me|||REQUIRED|||-NONE-|||1
+A 3 4|||R:NOM:FORM|||parki|||REQUIRED|||-NONE-|||1
+A 7 9|||R:WO|||umbes kell|||REQUIRED|||-NONE-|||1
+A 9 10|||R:SPELL|||kakskümmend|||REQUIRED|||-NONE-|||1
+
+S See oli väga tore päev .
+A 5 6|||R:PUNCT|||!|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||1
+
+S Me leppisime kokku , et järgmisel nädalal me läheme " Masha ja Karu " l .
+A 7 9|||R:WO|||läheme me|||REQUIRED|||-NONE-|||0
+A 9 9|||M:LEX|||vaatama|||REQUIRED|||-NONE-|||0
+A 10 11|||R:NOM:FORM:SPELL|||Mašat|||REQUIRED|||-NONE-|||0
+A 12 13|||R:CASE|||karu|||REQUIRED|||-NONE-|||0
+A 14 15|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+A 5 9|||R:WO|||me läheme järgmisel nädalal|||REQUIRED|||-NONE-|||1
+A 9 9|||M:LEX|||etendusele|||REQUIRED|||-NONE-|||1
+A 10 11|||R:SPELL|||Maša|||REQUIRED|||-NONE-|||1

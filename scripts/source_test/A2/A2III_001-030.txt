@@ -1,0 +1,42 @@
+
+S Kallis sõber !
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Täna hommikul minu pesumasin läks katki , rohkem ta ei tööta .
+A 2 5|||R:WO|||läks minu pesumasin|||REQUIRED|||-NONE-|||0
+A 7 8|||R:LEX|||enam|||REQUIRED|||-NONE-|||0
+A 8 9|||R:LEX|||see|||REQUIRED|||-NONE-|||0
+A 2 5|||R:WO|||läks minu pesumasin|||REQUIRED|||-NONE-|||1
+A 7 8|||R:LEX|||enam|||REQUIRED|||-NONE-|||1
+A 8 9|||R:LEX|||see|||REQUIRED|||-NONE-|||1
+A 7 11|||R:WO|||see ei tööta enam|||REQUIRED|||-NONE-|||1
+A 2 5|||R:WO|||läks minu pesumasin|||REQUIRED|||-NONE-|||2
+A 7 8|||R:LEX|||enam|||REQUIRED|||-NONE-|||2
+A 7 11|||R:WO|||ta ei tööta enam|||REQUIRED|||-NONE-|||2
+
+S Ma tean , et reedel teil on vaba päev , ma ootan teid minu korteris kell 9 .
+A 5 7|||R:WO|||on teil|||REQUIRED|||-NONE-|||0
+A 9 11|||R:PUNCT|||. Ma|||REQUIRED|||-NONE-|||0
+A 13 14|||R:LEX|||enda||oma|||REQUIRED|||-NONE-|||0
+
+S Mulle vaja abi .
+A 0 1|||R:NOM:FORM|||Mul|||REQUIRED|||-NONE-|||0
+A 1 1|||M:LEX|||on|||REQUIRED|||-NONE-|||0
+A 0 1|||R:NOM:FORM|||Mul|||REQUIRED|||-NONE-|||1
+A 1 1|||M:LEX|||on|||REQUIRED|||-NONE-|||1
+A 1 3|||R:WO|||abi vaja|||REQUIRED|||-NONE-|||1
+
+S Sa tead , et ma armastan sind , ning abi eest ma annan sulle viiskümmend eurot ja parfüümit .
+A 7 8|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 9 14|||R:WO|||ma annan sulle abi eest|||REQUIRED|||-NONE-|||0
+A 17 18|||R:SPELL|||parfüümi|||REQUIRED|||-NONE-|||0
+A 9 14|||R:WO|||ma annan sulle abi eest|||REQUIRED|||-NONE-|||1
+A 17 18|||R:SPELL|||parfüümi|||REQUIRED|||-NONE-|||1
+
+S See on kõik , head aega , reedeni .
+A 3 5|||R:PUNCT|||. Head|||REQUIRED|||-NONE-|||0
+A 6 8|||R:PUNCT|||! Reedeni|||REQUIRED|||-NONE-|||0
+A 8 9|||R:PUNCT|||!|||REQUIRED|||-NONE-|||0
+
+S Julia .
+A 1 2|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0

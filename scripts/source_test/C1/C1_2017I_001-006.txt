@@ -1,0 +1,83 @@
+
+S Nädal tagasi osalesin Päästeameti korraldatud teabepäeval ja mul on hea meel rääkida teile oma tunnetest ja omandatud teadmistest .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Päästeamet pidas vajalikuks rahvale meelde tuletada õnnetusjuhtumite põhjustest .
+A 7 8|||R:NOM:FORM|||põhjuseid|||REQUIRED|||-NONE-|||0
+A 7 8|||R:NOM:FORM|||põhjuseid|||REQUIRED|||-NONE-|||1
+A 4 8|||R:WO|||õnnetusjuhtumite põhjuseid meelde tuletada|||REQUIRED|||-NONE-|||1
+
+S Toetan nende seisukoha , et tuleb võimalikult aktiivselt seda teemat inimestele edasi anda , nii öelda valgustada neid .
+A 2 3|||R:NOM:FORM|||seisukohta|||REQUIRED|||-NONE-|||0
+A 5 11|||R:WO|||seda teemat tuleb inimestele võimalikult aktiivselt|||REQUIRED|||-NONE-|||0
+A 14 16|||R:WS|||nii-öelda|||REQUIRED|||-NONE-|||0
+A 14 18|||R:WO|||neid nii-öelda valgustada|||REQUIRED|||-NONE-|||0
+A 2 3|||R:NOM:FORM|||seisukohta|||REQUIRED|||-NONE-|||1
+A 5 11|||R:WO|||inimestele tuleb seda teemat võimalikult aktiivselt|||REQUIRED|||-NONE-|||1
+A 14 16|||R:WS|||nii-öelda|||REQUIRED|||-NONE-|||1
+A 14 18|||R:WO|||neid nii-öelda valgustada|||REQUIRED|||-NONE-|||1
+
+S Igapäeva , rutiinse elu elades automaatselt unustad autos turvavöö kinnitada .
+A 0 1|||R:NOM:FORM|||Igapäevast|||REQUIRED|||-NONE-|||0
+A 2 3|||R:NOM:FORM|||rutiinset|||REQUIRED|||-NONE-|||0
+A 5 7|||R:WO|||unustad automaatselt|||REQUIRED|||-NONE-|||0
+
+S Tundub , et tavaline olukord , igaühel juhtub ju .
+A 1 2|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 2 3|||R:LEX|||olevat|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||1
+
+S Aga mõelge , millega see lõppeda saab !
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Selline ohutusnõuete eiramine on mõtetu ja isegi rumal .
+A 4 5|||R:SPELL|||mõttetu|||REQUIRED|||-NONE-|||0
+
+S Ei tohi eirata ka seda , et isegi väike kogus alkoholi võib tunduvalt vähendada teie tähelepanu juhtimise ajal ning alkoholi mõju all kasvab inimesel ohutustunne , mis võib teda tappa .
+A 12 18|||R:WO|||juhtimise ajal teie tähelepanu tunduvalt vähendada|||REQUIRED|||-NONE-|||0
+A 19 19|||M:LEX|||et|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||1
+
+S Peale selle , märkas Päästeamet , et trahvide eesmärgiks ei ole teid rünnata ja rahast ilma jätta , vaid meie õigussüsteemis kannab trahv preventiivset funktsiooni , aitab hoida ära suurem osa õnnetusi .
+A 2 3|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 3 4|||R:LEX|||märkis|||REQUIRED|||-NONE-|||0
+A 29 30|||R:NOM:FORM|||suurema|||REQUIRED|||-NONE-|||0
+A 27 32|||R:WO|||suurema osa õnnetusi ära hoida|||REQUIRED|||-NONE-|||0
+
+S Siin sunnimeetodid on riigi poolt valitud just sellepärast , et see ongi kõige efektiivsem viis tekkida inimestel see lihtne harjumus kinnitada turvavöö !
+A 1 3|||R:WO|||on sunnimeetodid|||REQUIRED|||-NONE-|||0
+A 15 16|||R:LEX|||tekitada|||REQUIRED|||-NONE-|||0
+A 16 17|||R:NOM:FORM|||inimestes|||REQUIRED|||-NONE-|||0
+A 17 18|||R:NOM:FORM|||seda|||REQUIRED|||-NONE-|||0
+A 18 19|||R:NOM:FORM|||lihtsat|||REQUIRED|||-NONE-|||0
+A 19 20|||R:NOM:FORM|||harjumust|||REQUIRED|||-NONE-|||0
+
+S Teine suur ja oluline teema , mida meil oli võimalus arutleda , oli ennetustegevuse viisid ja võimalused õnnetuste vältimiseks .
+A 6 7|||R:LEX|||mille|||REQUIRED|||-NONE-|||0
+A 7 7|||M:LEX|||üle|||REQUIRED|||-NONE-|||0
+A 7 9|||R:WO|||oli meil|||REQUIRED|||-NONE-|||0
+
+S Kõige esimesena märkas Päästeamet seda , kuivõrd tähtis on õnnetusjuhtumite põhjustest rääkida koolides .
+A 2 3|||R:LEX|||märkis|||REQUIRED|||-NONE-|||0
+A 2 3|||R:LEX|||märkis|||REQUIRED|||-NONE-|||1
+A 11 13|||R:WO|||koolides rääkida|||REQUIRED|||-NONE-|||1
+
+S Lapsed on riigi tulevik ning lapsepõlvest alates vormistab lapse peas ohu tunne .
+A 7 8|||R:LEX|||vormub|||REQUIRED|||-NONE-|||0
+A 10 12|||R:WS|||ohutunne|||REQUIRED|||-NONE-|||0
+
+S Haritud ühiskond - peamine meetod , millega saaks ära hoida suurem osa õnnetusi .
+A 10 11|||R:NOM:FORM|||suurema|||REQUIRED|||-NONE-|||0
+
+S Rääkisime juba meie trahvisüsteemist , mis on ka efektiivne , kuid arusaadav , et see süsteem on väga ebameeldiv kõigile .
+A 17 20|||R:WO|||kõigile väga ebameeldiv|||REQUIRED|||-NONE-|||0
+
+S Kokkuvõtes võin järeldada , et Päästeameti teabepäev oli tohutult kasulik .
+A 0 1|||R:NOM:FORM:SPELL|||Kokkuvõtteks|||REQUIRED|||-NONE-|||0
+
+S Soovitan kõigile võimalusel külastada , kuna see paneb teid veel üks korm mõtlema hakkata ja valida õiget käitumisviisi .
+A 1 2|||R:NOM:FORM|||kõigil|||REQUIRED|||-NONE-|||0
+A 2 2|||M:LEX|||seda|||REQUIRED|||-NONE-|||0
+A 11 12|||R:SPELL|||kord|||REQUIRED|||-NONE-|||0
+A 13 14|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+A 15 16|||R:VERB:FORM|||valima|||REQUIRED|||-NONE-|||0

@@ -1,0 +1,64 @@
+
+S See oli Karl --- .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Võib olla sina ka mäletad teda .
+A 0 2|||R:WS|||Võib-olla||Võibolla|||REQUIRED|||-NONE-|||0
+A 2 5|||R:WO|||mäletad sina ka|||REQUIRED|||-NONE-|||0
+
+S Õppisime temaga koos umbes 3 aastat .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Ta oli väga vaikne ja kinnine poiss , tal üldse polnud sõpru .
+A 9 11|||R:WO|||polnud üldse|||REQUIRED|||-NONE-|||0
+
+S Aga ta muutus väga .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+A 2 3|||R:VERB:FORM|||on muutunud|||REQUIRED|||-NONE-|||1
+A 2 4|||R:WO|||on väga muutunud|||REQUIRED|||-NONE-|||1
+
+S Nüüd ta on avameelne ja abivalmis , räägib väga palju .
+A 1 3|||R:WO|||on ta|||REQUIRED|||-NONE-|||0
+
+S Ma sain temalt teada , et ta abiellus ja praegu tal on 2 tütart : Nadja ja Alisa .
+A 10 12|||R:WO|||on tal|||REQUIRED|||-NONE-|||0
+A 10 12|||R:WO|||on tal|||REQUIRED|||-NONE-|||1
+A 14 15|||R:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 10 12|||R:WO|||on tal|||REQUIRED|||-NONE-|||2
+A 14 15|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||2
+
+S Elab ta oma perega suures eramajas Maardus ja tal on 3 autot .
+A 0 2|||R:WO|||Ta elab|||REQUIRED|||-NONE-|||0
+A 0 2|||R:WO|||Ta elab|||REQUIRED|||-NONE-|||1
+A 4 7|||R:WO|||Maardus suures eramajas|||REQUIRED|||-NONE-|||1
+
+S Ta on ärimees .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Nagu ta ütles , et tema palk on umbes 5000 eurot kuus .
+A 0 2|||U:LEX|||Ta|||REQUIRED|||-NONE-|||0
+A 4 5|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 5 8|||R:WO|||on tema palk|||REQUIRED|||-NONE-|||1
+
+S Elab ta väga rikkalt .
+A 0 2|||R:WO|||Ta elab|||REQUIRED|||-NONE-|||0
+
+S Ka tahan ma sinu käest küsida , võib olla sa tead midagi veel meie klassikaaslastest .
+A 7 7|||M:LEX|||kas|||REQUIRED|||-NONE-|||0
+A 7 9|||R:WS|||võib-olla||võibolla|||REQUIRED|||-NONE-|||0
+A 7 13|||R:WO|||sa tead võib-olla veel midagi||sa tead võibolla veel midagi|||REQUIRED|||-NONE-|||0
+A 0 3|||R:WO|||Ma tahan ka|||REQUIRED|||-NONE-|||1
+A 7 7|||M:LEX|||kas|||REQUIRED|||-NONE-|||1
+A 7 9|||R:WS|||võib-olla||võibolla|||REQUIRED|||-NONE-|||1
+A 7 13|||R:WO|||sa tead võib-olla veel midagi||sa tead võibolla veel midagi|||REQUIRED|||-NONE-|||1
+
+S Võib olla nägid kedagi .
+A 0 2|||R:WS|||Võib-olla||Võibolla|||REQUIRED|||-NONE-|||0
+A 0 2|||R:WS|||Võib-olla||Võibolla|||REQUIRED|||-NONE-|||1
+A 4 5|||R:PUNCT|||?|||REQUIRED|||-NONE-|||1
+
+S Sellega lõpetan .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Sergei
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0

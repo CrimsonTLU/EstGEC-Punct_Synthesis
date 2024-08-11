@@ -1,0 +1,89 @@
+
+S Ma olen Egiptulane , ja minu viimine reisi on Egiptuses .
+A 2 3|||R:SPELL|||egiptlane|||REQUIRED|||-NONE-|||0
+A 3 4|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||viimane|||REQUIRED|||-NONE-|||0
+A 7 8|||R:NOM:FORM|||reis|||REQUIRED|||-NONE-|||0
+A 8 9|||R:VERB:FORM|||oli|||REQUIRED|||-NONE-|||0
+A 9 10|||R:NOM:FORM|||Egiptusesse|||REQUIRED|||-NONE-|||0
+
+S Ma käisin Kairos , mo olin minu vanas kodus .
+A 4 5|||R:SPELL|||ma|||REQUIRED|||-NONE-|||0
+A 6 7|||R:LEX|||oma||enda|||REQUIRED|||-NONE-|||0
+
+S Ma sain minu perega kokku .
+A 2 3|||R:LEX|||oma||enda|||REQUIRED|||-NONE-|||0
+
+S Ma kaisin kinos , sest mulle meeldib aarabia film .
+A 1 2|||R:SPELL|||käisin|||REQUIRED|||-NONE-|||0
+A 6 7|||R:VERB:FORM|||meeldivad|||REQUIRED|||-NONE-|||0
+A 7 8|||R:SPELL|||araabia|||REQUIRED|||-NONE-|||0
+A 8 9|||R:NOM:FORM|||filmid|||REQUIRED|||-NONE-|||0
+
+S Ma kohtusin minu vanad Sobrad .
+A 2 3|||R:LEX|||oma||enda|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOM:FORM|||vanade|||REQUIRED|||-NONE-|||0
+A 4 5|||R:NOM:FORM:SPELL:CASE|||sõpradega|||REQUIRED|||-NONE-|||0
+
+S Minu reisi oli eesmisel aasta , novembris .
+A 1 2|||R:NOM:FORM|||reis|||REQUIRED|||-NONE-|||0
+A 3 4|||R:LEX|||eelmisel|||REQUIRED|||-NONE-|||0
+A 4 5|||R:NOM:FORM|||aastal|||REQUIRED|||-NONE-|||0
+A 5 6|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 1 2|||R:NOM:FORM|||reis|||REQUIRED|||-NONE-|||1
+A 3 4|||R:LEX|||eelmisel|||REQUIRED|||-NONE-|||1
+A 4 5|||R:NOM:FORM|||aastal|||REQUIRED|||-NONE-|||1
+A 1 2|||R:NOM:FORM|||reis|||REQUIRED|||-NONE-|||2
+A 3 4|||R:LEX:NOM:FORM|||eelmise|||REQUIRED|||-NONE-|||2
+A 5 6|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||2
+
+S Ma unustais praegu teise reisi , ma laksin ka eestis . .
+A 1 2|||R:SPELL|||unustasin|||REQUIRED|||-NONE-|||0
+A 5 5|||M:LEX|||ära|||REQUIRED|||-NONE-|||0
+A 7 8|||R:LEX:SPELL|||käisin|||REQUIRED|||-NONE-|||0
+A 9 10|||R:CASE|||Eestis|||REQUIRED|||-NONE-|||0
+A 11 12|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 0 1|||R:NOM:FORM|||Mulle|||REQUIRED|||-NONE-|||1
+A 1 2|||R:LEX:SPELL|||meenus|||REQUIRED|||-NONE-|||1
+A 3 3|||M:LEX|||ka|||REQUIRED|||-NONE-|||1
+A 3 4|||R:NOM:FORM|||teine|||REQUIRED|||-NONE-|||1
+A 4 5|||R:NOM:FORM|||reis|||REQUIRED|||-NONE-|||1
+A 7 8|||R:LEX:SPELL|||käisin|||REQUIRED|||-NONE-|||1
+A 9 10|||R:CASE|||Eestis|||REQUIRED|||-NONE-|||1
+A 11 12|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+
+S See oli nii tore , Eesti on minu liimik koht .
+A 8 10|||R:WS:SPELL|||lemmikkoht|||REQUIRED|||-NONE-|||0
+
+S mul on Eestis nii palju sobrad ka .
+A 0 1|||R:CASE|||Mul|||REQUIRED|||-NONE-|||0
+A 5 6|||R:NOM:FORM:SPELL|||sõpru|||REQUIRED|||-NONE-|||0
+A 3 7|||R:WO|||ka nii palju sõpru|||REQUIRED|||-NONE-|||0
+
+S Ma kaisin tartus , sest ma opisin
+A 1 2|||R:SPELL|||käisin|||REQUIRED|||-NONE-|||0
+A 2 3|||R:CASE|||Tartus|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||õppisin|||REQUIRED|||-NONE-|||0
+A 7 7|||M:LEX|||seal|||REQUIRED|||-NONE-|||0
+A 7 7|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+
+S iga kord ma olen Eestis tartus Ulikoolis .
+A 0 1|||R:CASE|||Iga|||REQUIRED|||-NONE-|||0
+A 2 2|||M:LEX|||, kui|||REQUIRED|||-NONE-|||0
+A 5 5|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 5 5|||M:LEX|||käin|||REQUIRED|||-NONE-|||0
+A 5 6|||R:CASE|||Tartus|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL:CASE|||ülikoolis|||REQUIRED|||-NONE-|||0
+
+S Kui ma olen Eestisn . Suvel , ma käin parnus .
+A 3 4|||R:SPELL|||Eestis|||REQUIRED|||-NONE-|||0
+A 4 5|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 5 6|||R:CASE|||suvel|||REQUIRED|||-NONE-|||0
+A 7 9|||R:WO|||käin ma|||REQUIRED|||-NONE-|||0
+A 9 10|||R:SPELL:CASE|||Pärnus|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||Eestis|||REQUIRED|||-NONE-|||1
+A 4 5|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+A 5 6|||R:CASE|||suvel|||REQUIRED|||-NONE-|||1
+A 7 7|||M:LEX|||siis|||REQUIRED|||-NONE-|||1
+A 7 9|||R:WO|||käin ma|||REQUIRED|||-NONE-|||1
+A 9 10|||R:SPELL:CASE|||Pärnus|||REQUIRED|||-NONE-|||1

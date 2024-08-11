@@ -1,0 +1,24 @@
+
+S Müüa auto Toiota Carolla 2008a .
+A 2 3|||R:SPELL|||Toyota|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||Corolla|||REQUIRED|||-NONE-|||0
+A 4 5|||R:WS:SPELL|||2008. a|||REQUIRED|||-NONE-|||0
+
+S Auto hind on 500 euro
+A 4 5|||R:NOM:FORM|||eurot|||REQUIRED|||-NONE-|||0
+A 5 5|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+
+S Autot näha saab Sinimae tee ---
+A 1 3|||R:WO|||saab näha|||REQUIRED|||-NONE-|||0
+A 3 3|||M:LEX|||aadressil|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||Sinimäe|||REQUIRED|||-NONE-|||0
+A 1 3|||R:WO|||saab näha|||REQUIRED|||-NONE-|||1
+A 3 4|||R:SPELL|||Sinimäe|||REQUIRED|||-NONE-|||1
+
+S Helistage telefonil ---
+A 3 3|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+
+S Kui tahate , siis
+A 0 4|||R:WO|||Siis , kui tahate|||REQUIRED|||-NONE-|||0
+A 4 4|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+A 2 4|||U:LEX|||.|||REQUIRED|||-NONE-|||1

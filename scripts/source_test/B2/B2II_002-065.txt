@@ -1,0 +1,92 @@
+
+S Lugupeetud omavalitsus !
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Ma olen meie linna elanik Viktor --- ning ma olen mures teenusepakkujaga lepungu , mis Te sõlmisite eelmisel aastal pärast .
+A 11 12|||R:NOM:FORM|||teenusepakkuja|||REQUIRED|||-NONE-|||0
+A 12 13|||R:SPELL|||lepingu|||REQUIRED|||-NONE-|||0
+A 14 15|||R:NOM:FORM|||mille|||REQUIRED|||-NONE-|||0
+A 13 20|||R:WO|||pärast , mille Te eelmisel aastal sõlmisite|||REQUIRED|||-NONE-|||0
+
+S See firma vastas meie linna tänavate ja parkide hooldamise eest ning ma ei jäänud rahule selle firma tööga .
+A 2 3|||R:LEX:VERB:FORM|||vastutab|||REQUIRED|||-NONE-|||0
+A 14 18|||R:WO|||selle firma tööga rahule|||REQUIRED|||-NONE-|||0
+
+S Nagu teenusepakkumise firma rääkis , et kõik meie tänavad on puhas ja korras nende firma töötamise ajal , aga park on restavreeritud .
+A 1 2|||R:LEX|||teenusepakkuja|||REQUIRED|||-NONE-|||0
+A 0 2|||U:LEX|||Teenusepakkuja|||REQUIRED|||-NONE-|||0
+A 10 11|||R:NOM:FORM|||puhtad|||REQUIRED|||-NONE-|||0
+A 6 17|||R:WO|||nende firma töötamise ajal on kõik meie tänavad puhtad ja korras|||REQUIRED|||-NONE-|||0
+A 17 18|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 18 19|||R:LEX|||ja|||REQUIRED|||-NONE-|||0
+A 21 22|||R:SPELL|||restaureeritud|||REQUIRED|||-NONE-|||0
+
+S Aga seda ei juhtinud ning isegi vastupidi , et meie linna tänavatel on palju prügi ning ei keegi ei korista seda , aga park ei olnud restavreeritud ning seisukord pargis praegu halvem , kui viis aastat tagasi .
+A 3 4|||R:SPELL|||juhtunud|||REQUIRED|||-NONE-|||0
+A 5 6|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+A 7 8|||R:PUNCT|||-|||REQUIRED|||-NONE-|||0
+A 8 9|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+A 16 17|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+A 26 27|||R:SPELL|||restaureeritud|||REQUIRED|||-NONE-|||0
+A 30 30|||M:LEX|||on|||REQUIRED|||-NONE-|||0
+A 32 33|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||juhtunud|||REQUIRED|||-NONE-|||1
+A 5 6|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 7 8|||R:PUNCT|||-|||REQUIRED|||-NONE-|||1
+A 8 9|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 16 17|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 23 24|||R:NOM:FORM|||parki|||REQUIRED|||-NONE-|||1
+A 22 24|||R:WO|||parki aga|||REQUIRED|||-NONE-|||1
+A 25 26|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 26 27|||R:SPELL|||restaureeritud|||REQUIRED|||-NONE-|||1
+A 30 30|||M:LEX|||on|||REQUIRED|||-NONE-|||1
+A 28 30|||R:WO|||pargis on seisukord|||REQUIRED|||-NONE-|||1
+A 32 33|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+
+S Praegu pargis on ka nii palju prügi , samuti pargis puuduvad isegi istukohad , sest kõik need on rakendatud .
+A 1 3|||R:WO|||on pargis|||REQUIRED|||-NONE-|||0
+A 9 11|||R:WO|||puuduvad pargis|||REQUIRED|||-NONE-|||0
+A 12 13|||R:SPELL|||istekohad|||REQUIRED|||-NONE-|||0
+A 18 19|||R:VERB:FORM|||rakenduses|||REQUIRED|||-NONE-|||0
+A 1 3|||R:WO|||on pargis|||REQUIRED|||-NONE-|||1
+A 9 11|||R:WO|||puuduvad pargis|||REQUIRED|||-NONE-|||1
+A 12 13|||R:SPELL|||istekohad|||REQUIRED|||-NONE-|||1
+A 15 18|||R:WO|||need on kõik|||REQUIRED|||-NONE-|||1
+A 18 19|||R:LEX:VERB:FORM|||kasutuses|||REQUIRED|||-NONE-|||1
+A 1 3|||R:WO|||on pargis|||REQUIRED|||-NONE-|||2
+A 9 11|||R:WO|||puuduvad pargis|||REQUIRED|||-NONE-|||2
+A 12 13|||R:SPELL|||istekohad|||REQUIRED|||-NONE-|||2
+A 15 18|||R:WO|||need on kõik|||REQUIRED|||-NONE-|||2
+A 18 19|||R:LEX|||võetud|||REQUIRED|||-NONE-|||2
+
+S Samuti meie pargis ei ole paigaldatud prügikorve ning inimesed viskavad ära prügi kuhu nad tahavad .
+A 2 3|||R:NOM:FORM|||parki|||REQUIRED|||-NONE-|||0
+A 1 5|||R:WO|||ei ole meie parki|||REQUIRED|||-NONE-|||0
+A 10 12|||R:WO|||prügi ära|||REQUIRED|||-NONE-|||0
+A 12 12|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+
+S Järgmine põhjus selles , et meie linnas olid kaks lapseplatsi , aga see firma arvas , et need ei olnud sobivad kohad laste jaoks ning praegu need puuduvad ja mitte midagi ei ehitati nende lapseplatside asemel .
+A 2 2|||M:LEX|||on|||REQUIRED|||-NONE-|||0
+A 7 8|||R:VERB:FORM|||oli|||REQUIRED|||-NONE-|||0
+A 9 10|||R:NOM:FORM|||lasteplatsi|||REQUIRED|||-NONE-|||0
+A 20 24|||R:WO|||laste jaoks sobivad kohad|||REQUIRED|||-NONE-|||0
+A 32 33|||R:VERB:FORM|||ehitatud|||REQUIRED|||-NONE-|||0
+A 34 35|||R:NOM:FORM|||lasteplatside|||REQUIRED|||-NONE-|||0
+A 35 36|||R:LEX|||asemele|||REQUIRED|||-NONE-|||0
+A 2 2|||M:LEX|||on|||REQUIRED|||-NONE-|||1
+A 7 8|||R:VERB:FORM|||oli|||REQUIRED|||-NONE-|||1
+A 7 8|||R:LEX|||mänguväljakut|||REQUIRED|||-NONE-|||1
+A 34 35|||R:LEX:NOM:FORM|||mänguväljakute|||REQUIRED|||-NONE-|||1
+A 35 36|||R:LEX|||asemele|||REQUIRED|||-NONE-|||1
+
+S Minu arvates omavalitsusel on vaja vahetada teenusupakkujat meie linna tänavate ja parkide hooldamiseks .
+A 2 4|||R:WO|||on omavalitsusel|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||teenusepakkujat|||REQUIRED|||-NONE-|||0
+
+S Loodan , Te teete midagi selle probleemi lahendamiseks .
+A 2 2|||M:LEX|||et|||REQUIRED|||-NONE-|||0
+
+S Lugupidamisega , Viktor --- , linna kodanik
+A 1 2|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 1 2|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+A 5 7|||R:WS|||linnakodanik|||REQUIRED|||-NONE-|||1

@@ -1,0 +1,102 @@
+
+S Mul üks unistus .
+A 1 1|||M:LEX|||on|||REQUIRED|||-NONE-|||0
+
+S Ma tahan endale väike koera .
+A 3 4|||R:NOM:FORM|||väikest|||REQUIRED|||-NONE-|||0
+
+S Sellepärast et väike koer väga sõbralik .
+A 1 1|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 4 4|||M:LEX|||on|||REQUIRED|||-NONE-|||0
+A 4 4|||M:LEX|||on|||REQUIRED|||-NONE-|||1
+
+S Ma tean et koeraga on väja jalutada , mängida ja treenerida .
+A 2 2|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||vaja|||REQUIRED|||-NONE-|||0
+A 10 11|||R:SPELL|||treenida|||REQUIRED|||-NONE-|||0
+
+S See mulle sobib .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Mul on palju vaba aega .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Ma tahan koera saada minu sünnipäeval .
+A 4 5|||R:LEX|||oma|||REQUIRED|||-NONE-|||0
+A 5 6|||R:NOM:FORM|||sünnipäevaks|||REQUIRED|||-NONE-|||0
+A 2 2|||M:LEX|||omale|||REQUIRED|||-NONE-|||1
+A 4 5|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 5 6|||R:NOM:FORM|||sünnipäevaks|||REQUIRED|||-NONE-|||1
+
+S Minu sünnipäev on varsti .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S See koera ma nägin poes minu maja lähedal .
+A 0 1|||R:NOM:FORM|||Seda|||REQUIRED|||-NONE-|||0
+A 2 4|||R:WO|||nägin ma|||REQUIRED|||-NONE-|||0
+A 5 6|||R:LEX|||oma||enda|||REQUIRED|||-NONE-|||0
+A 6 7|||R:LEX|||kodu|||REQUIRED|||-NONE-|||0
+A 0 1|||R:NOM:FORM|||Seda|||REQUIRED|||-NONE-|||1
+A 2 4|||R:WO|||nägin ma|||REQUIRED|||-NONE-|||1
+A 5 6|||R:LEX|||oma||enda|||REQUIRED|||-NONE-|||1
+A 4 7|||R:WO|||oma maja lähedal poes||enda maja lähedal poes|||REQUIRED|||-NONE-|||1
+A 0 1|||R:NOM:FORM|||Seda|||REQUIRED|||-NONE-|||2
+A 0 4|||R:WO|||Ma nägin seda koera|||REQUIRED|||-NONE-|||2
+A 5 6|||R:LEX|||oma||enda|||REQUIRED|||-NONE-|||2
+A 6 7|||R:LEX|||kodu|||REQUIRED|||-NONE-|||2
+A 4 7|||R:WO|||oma kodu lähedal poes||enda kodu lähedal poes|||REQUIRED|||-NONE-|||2
+
+S Ma tahan , et minu ema ostab mulle see koera poest .
+A 6 7|||R:VERB:FORM|||ostaks|||REQUIRED|||-NONE-|||0
+A 8 9|||R:NOM:FORM|||selle|||REQUIRED|||-NONE-|||0
+A 8 11|||R:WO|||poest selle koera|||REQUIRED|||-NONE-|||0
+
+S Mul ole palju nälja lemmik koeraga .
+A 1 1|||M:LEX|||saab|||REQUIRED|||-NONE-|||0
+A 1 2|||R:VERB:FORM|||olema|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||nalja|||REQUIRED|||-NONE-|||0
+A 4 4|||M:LEX|||oma|||REQUIRED|||-NONE-|||0
+A 4 6|||R:WS|||lemmikkoeraga|||REQUIRED|||-NONE-|||0
+A 1 1|||M:LEX|||saab|||REQUIRED|||-NONE-|||1
+A 1 2|||R:VERB:FORM|||olema|||REQUIRED|||-NONE-|||1
+A 3 4|||R:SPELL|||nalja|||REQUIRED|||-NONE-|||1
+A 4 4|||M:LEX|||oma|||REQUIRED|||-NONE-|||1
+A 4 5|||R:LEX|||armsa|||REQUIRED|||-NONE-|||1
+A 1 6|||R:WO|||oma armsa koeraga palju nalja olema|||REQUIRED|||-NONE-|||1
+
+S Praegu ma mõtlen mis nimi koera anda .
+A 3 3|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 4 5|||R:NOM:FORM|||nime|||REQUIRED|||-NONE-|||0
+A 5 6|||R:NOM:FORM|||koerale|||REQUIRED|||-NONE-|||0
+A 1 3|||R:WO|||mõtlen ma|||REQUIRED|||-NONE-|||1
+A 3 3|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 4 5|||R:NOM:FORM|||nime|||REQUIRED|||-NONE-|||1
+A 5 6|||R:NOM:FORM|||koerale|||REQUIRED|||-NONE-|||1
+A 0 3|||R:WO|||Ma mõtlen praegu|||REQUIRED|||-NONE-|||2
+A 3 3|||M:PUNCT|||,|||REQUIRED|||-NONE-|||2
+A 4 5|||R:NOM:FORM|||nime|||REQUIRED|||-NONE-|||2
+A 5 6|||R:NOM:FORM|||koerale|||REQUIRED|||-NONE-|||2
+
+S Väga tahan lemmikloom .
+A 0 2|||R:WO|||Tahan väga|||REQUIRED|||-NONE-|||0
+A 2 3|||R:NOM:FORM|||lemmiklooma|||REQUIRED|||-NONE-|||0
+A 0 1|||M:LEX|||Ma väga|||REQUIRED|||-NONE-|||1
+A 2 3|||R:NOM:FORM|||lemmiklooma|||REQUIRED|||-NONE-|||1
+
+S Praegu mul ei ole kodus lemmikloom .
+A 1 4|||R:WO|||ei ole mul|||REQUIRED|||-NONE-|||0
+A 5 6|||R:NOM:FORM|||lemmiklooma|||REQUIRED|||-NONE-|||0
+
+S Minu ema ei tea veel , et ma tahan koera .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Aga täna ma tahan paluda see koera .
+A 2 4|||R:WO|||tahan ma|||REQUIRED|||-NONE-|||0
+A 5 6|||R:NOM:FORM|||seda|||REQUIRED|||-NONE-|||0
+A 4 7|||R:WO|||seda koera paluda|||REQUIRED|||-NONE-|||0
+A 1 4|||R:WO|||ma tahan täna|||REQUIRED|||-NONE-|||1
+A 5 6|||R:NOM:FORM|||seda|||REQUIRED|||-NONE-|||1
+A 4 7|||R:WO|||seda koera paluda|||REQUIRED|||-NONE-|||1
+
+S Ma loodan , et minu ema ostab mulle minu unistus .
+A 9 10|||R:NOM:FORM|||unistuse|||REQUIRED|||-NONE-|||0

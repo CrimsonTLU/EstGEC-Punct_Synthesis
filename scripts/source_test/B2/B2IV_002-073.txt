@@ -1,0 +1,43 @@
+
+S Tere , minu nimi on Martin ja tahaksin natuke rääkida meie asutusest , kus ma töötan .
+A 1 3|||R:PUNCT|||! Minu|||REQUIRED|||-NONE-|||0
+
+S Ma alustan sellest , et sattusin sellesse asutusse töötama kaheksa aastat tagasi , mul oli kutsesobivusvestlus milleks ma valmistasin ette umbes 2 nädalat , oli raske aga ma sain sellega hakkama .
+A 18 19|||R:LEX|||valmistusin|||REQUIRED|||-NONE-|||0
+A 16 16|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 26 26|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 8 9|||R:LEX|||tööle|||REQUIRED|||-NONE-|||1
+A 16 16|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 26 26|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+
+S Teine etapp oli tutvumine kolektiiviga .
+A 4 5|||R:SPELL|||kollektiiviga|||REQUIRED|||-NONE-|||0
+A 3 5|||R:WO|||kollektiiviga tutvumine|||REQUIRED|||-NONE-|||0
+
+S See oli närviline moment minu eest ja ma arvasin , et ma olen võõras inimene selles inimkonnas .
+A 5 6|||R:LEX|||jaoks|||REQUIRED|||-NONE-|||0
+A 16 17|||R:LEX|||seltskonnas|||REQUIRED|||-NONE-|||0
+A 5 6|||R:LEX|||jaoks|||REQUIRED|||-NONE-|||1
+A 2 6|||R:WO|||minu jaoks närviline moment|||REQUIRED|||-NONE-|||1
+A 16 17|||R:LEX|||seltskonnas|||REQUIRED|||-NONE-|||1
+A 13 17|||R:WO|||selles seltskonnas võõras inimene|||REQUIRED|||-NONE-|||1
+
+S Aga ma olin väga rõõmus , kui sain teada , et kõik inimesed , kes töötavad selles asutuses on üsna lahked ja lõbusad .
+A 18 18|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 15 18|||R:WO|||selles asutuses töötavad|||REQUIRED|||-NONE-|||1
+A 18 18|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+
+S Nad alati aitavad raskel hetkel , toetavad mind ja annavad nõu kui midagi läheb halvasti .
+A 1 3|||R:WO|||aitavad alati|||REQUIRED|||-NONE-|||0
+A 11 11|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+
+S Saan ka öelda , et nad edukad on väga nii töökohal kui ka isiklikus elus .
+A 6 9|||R:WO|||nad on väga edukad|||REQUIRED|||-NONE-|||0
+
+S Ma olen veendunud , et meil on üsna sõbralik ja edukas töökollektiiv .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Ma ei saa täpselt öelda milline võib asutus olla 10 aasta pärast aga olen kindel , et tulevikus selliste inimestega ja selles tööõhkkonnas me täpselt saavutame edu .
+A 5 5|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 12 12|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 18 27|||R:WO|||saavutame me edu täpselt selliste inimestega ja selles tööõhkkonnas|||REQUIRED|||-NONE-|||0

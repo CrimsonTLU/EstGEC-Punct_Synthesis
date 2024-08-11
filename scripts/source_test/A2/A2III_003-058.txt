@@ -1,0 +1,49 @@
+
+S Tere Peeter ,
+A 1 1|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 2 3|||R:PUNCT|||!|||REQUIRED|||-NONE-|||0
+A 1 3|||R:WO|||, Peeter|||REQUIRED|||-NONE-|||1
+
+S Kahjuks minu läks kodumasin katki .
+A 1 3|||R:WO|||läks minu|||REQUIRED|||-NONE-|||0
+
+S See on väga vana ja halb tehnoloogi .
+A 6 7|||R:SPELL|||tehnoloogia|||REQUIRED|||-NONE-|||0
+
+S Kas ma homme hommikul või õhtul sulle enda juurde kutsun .
+A 6 7|||R:NOM:FORM|||sind|||REQUIRED|||-NONE-|||0
+A 2 10|||R:WO|||kutsun sind enda juurde homme hommikul või õhtul|||REQUIRED|||-NONE-|||0
+A 10 11|||R:PUNCT|||?|||REQUIRED|||-NONE-|||0
+A 2 2|||M:LEX|||võin|||REQUIRED|||-NONE-|||1
+A 6 7|||R:NOM:FORM|||sind|||REQUIRED|||-NONE-|||1
+A 9 10|||R:LEX|||kutsuda|||REQUIRED|||-NONE-|||1
+A 10 11|||R:PUNCT|||?|||REQUIRED|||-NONE-|||1
+
+S Ma saan sinu abi eest õlut ja Pizzad annama , ja kas sa mõnikord sinul arvutil probleeme ma remontin tasuta .
+A 2 3|||R:NOM:FORM|||sulle|||REQUIRED|||-NONE-|||0
+A 7 8|||R:NOM:FORM:SPELL:CASE|||pitsat|||REQUIRED|||-NONE-|||0
+A 8 9|||R:VERB:FORM:SPELL|||anda|||REQUIRED|||-NONE-|||0
+A 9 10|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 11 12|||R:LEX|||kui|||REQUIRED|||-NONE-|||0
+A 12 13|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+A 14 15|||R:NOM:FORM|||sinu|||REQUIRED|||-NONE-|||0
+A 17 17|||M:LEX|||on|||REQUIRED|||-NONE-|||0
+A 17 17|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 17 18|||R:LEX|||siis|||REQUIRED|||-NONE-|||0
+A 18 19|||R:SPELL|||remondin|||REQUIRED|||-NONE-|||0
+A 19 19|||M:LEX|||seda|||REQUIRED|||-NONE-|||0
+A 2 3|||R:NOM:FORM|||sulle|||REQUIRED|||-NONE-|||1
+A 7 8|||R:NOM:FORM:SPELL:CASE|||pitsat|||REQUIRED|||-NONE-|||1
+A 8 9|||R:VERB:FORM:SPELL|||anda|||REQUIRED|||-NONE-|||1
+A 11 12|||R:LEX|||kui|||REQUIRED|||-NONE-|||1
+A 12 13|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 13 15|||R:WO|||sinul mõnikord|||REQUIRED|||-NONE-|||1
+A 15 16|||R:NOM:FORM|||arvutiga|||REQUIRED|||-NONE-|||1
+A 17 17|||M:LEX|||on|||REQUIRED|||-NONE-|||1
+A 17 17|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 17 18|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 18 19|||R:SPELL|||remondin|||REQUIRED|||-NONE-|||1
+A 19 19|||M:LEX|||seda|||REQUIRED|||-NONE-|||1
+
+S Suur aitäh .
+A 2 3|||R:PUNCT|||!|||REQUIRED|||-NONE-|||0

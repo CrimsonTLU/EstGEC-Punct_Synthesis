@@ -1,0 +1,45 @@
+
+S Tere , Liina .
+A 3 4|||R:PUNCT|||!|||REQUIRED|||-NONE-|||0
+A 3 4|||U:PUNCT|||-NONE|||REQUIRED|||-NONE-|||1
+
+S Kirjutan Sulle , sest mul on suur brobleem .
+A 7 8|||R:SPELL|||probleem|||REQUIRED|||-NONE-|||0
+A 1 2|||R:CASE|||sulle|||REQUIRED|||-NONE-|||1
+A 7 8|||R:SPELL|||probleem|||REQUIRED|||-NONE-|||1
+
+S Minu külmkapp on katki ja vaja remontida .
+A 5 5|||M:LEX|||seda on|||REQUIRED|||-NONE-|||0
+A 5 6|||R:LEX|||vajab|||REQUIRED|||-NONE-|||1
+A 6 7|||R:LEX|||remonti|||REQUIRED|||-NONE-|||1
+
+S Ma oskan , et sinu abikaasa on väga hea maister .
+A 1 2|||R:LEX|||tean|||REQUIRED|||-NONE-|||0
+A 9 10|||R:SPELL|||meister|||REQUIRED|||-NONE-|||0
+A 2 2|||M:LEX|||öelda|||REQUIRED|||-NONE-|||1
+A 9 10|||R:SPELL|||meister|||REQUIRED|||-NONE-|||1
+
+S Võib-olla ta saab aidata minule .
+A 4 5|||R:NOM:FORM|||mind|||REQUIRED|||-NONE-|||0
+A 3 5|||R:WO|||mind aidata|||REQUIRED|||-NONE-|||0
+A 1 3|||R:WO|||saab ta|||REQUIRED|||-NONE-|||1
+A 4 5|||R:NOM:FORM|||mind|||REQUIRED|||-NONE-|||1
+A 3 5|||R:WO|||mind aidata|||REQUIRED|||-NONE-|||1
+
+S Kui teil on vaba aeg , helista palun mulle telefonil --- või tulge mulle külla aadressil Luha --- , Tallinnas .
+A 4 5|||R:NOM:FORM|||aega|||REQUIRED|||-NONE-|||0
+A 6 7|||R:VERB:FORM|||helistage|||REQUIRED|||-NONE-|||0
+A 19 20|||R:NOM:FORM|||Tallinn|||REQUIRED|||-NONE-|||0
+A 4 5|||R:NOM:FORM|||aega|||REQUIRED|||-NONE-|||1
+A 19 20|||R:NOM:FORM|||Tallinn|||REQUIRED|||-NONE-|||1
+A 4 5|||R:NOM:FORM|||aega|||REQUIRED|||-NONE-|||2
+A 7 9|||R:WO|||mulle palun|||REQUIRED|||-NONE-|||2
+A 19 20|||R:NOM:FORM|||Tallinn|||REQUIRED|||-NONE-|||2
+
+S Head aega .
+A 2 3|||R:PUNCT|||!|||REQUIRED|||-NONE-|||0
+
+S Sinu sõbranna , Olga .
+A 2 3|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 2 3|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+A 4 5|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1

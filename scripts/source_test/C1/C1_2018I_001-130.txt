@@ -1,0 +1,85 @@
+
+S Olen osalenud ühiskondliku sallivuse ümarlaual .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+A 0 2|||R:VERB:FORM|||Osalesin|||REQUIRED|||-NONE-|||1
+
+S Antud teema on väga oluline ja aktuuaalne , see on väga tänapäevane peaaegu üle kogu maailma .
+A 6 7|||R:SPELL|||aktuaalne|||REQUIRED|||-NONE-|||0
+A 0 1|||R:LEX|||See|||REQUIRED|||-NONE-|||1
+A 6 7|||R:SPELL|||aktuaalne|||REQUIRED|||-NONE-|||1
+A 7 8|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+A 8 12|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+
+S Seda on raske ülehinnaata , kuna see keskendub inimeste - ja nende rahvuste identiteedi säilitamisel ja selle kaitsmisel , mis otseselt puutub kokku ka inimõigustega .
+A 3 4|||R:SPELL|||ülehinnata|||REQUIRED|||-NONE-|||0
+A 9 10|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 14 15|||R:NOM:FORM|||säilitamisele|||REQUIRED|||-NONE-|||0
+A 17 18|||R:NOM:FORM|||kaitsmisele|||REQUIRED|||-NONE-|||0
+
+S Üheks ümarlaua peamiseks teemaks oli lugupidamine teiste rahvuste , nende kultuuri , kommete ning keelte vastu .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+A 0 1|||R:NOM:FORM|||Üks|||REQUIRED|||-NONE-|||1
+A 2 3|||R:NOM:FORM|||peamistest|||REQUIRED|||-NONE-|||1
+A 3 4|||R:NOM:FORM|||teemadest|||REQUIRED|||-NONE-|||1
+
+S Selle põhiideeks oli iga rahvuse eripärasus kogu selle kultuuri mitmekülgsusega , mis võimaldab kõikidel rahvuse liikmetel elada , käituda ja rääkida selliselt , kuidas nad on harjunud , kui see ei tee liiga ümbritsevatele .
+A 5 6|||R:LEX|||eripära|||REQUIRED|||-NONE-|||0
+A 34 34|||M:LEX|||inimestele|||REQUIRED|||-NONE-|||0
+
+S Tänu sellele on võimalik viia läbi kultuuridevahelist struktureeritud dialoogi , mis pakuks lahendusi erinevatele probleemidele ja konfliktidele erinevatest vaatenurkadest , ning sellise dialoogi tulemus ehk kokkuvõte oleks täisulatuses objektiivne .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+A 4 6|||R:LEX|||pidada||arendada|||REQUIRED|||-NONE-|||1
+
+S Samas see annaks võimaluse kõikidele õppida tundma erinevaid kultuure , nende esindajaid ja keele , mis avardaks inimeste maailmavaadet ja suhtumist erinevatesse teemadesse .
+A 1 3|||R:WO|||annaks see|||REQUIRED|||-NONE-|||0
+A 3 5|||R:WO|||kõikidele võimaluse|||REQUIRED|||-NONE-|||0
+A 13 14|||R:NOM:FORM|||keeli|||REQUIRED|||-NONE-|||0
+A 0 1|||R:LEX|||Lisaks||Muuhulgas||Niisamuti||Samuti|||REQUIRED|||-NONE-|||1
+A 1 3|||R:WO|||annaks see|||REQUIRED|||-NONE-|||1
+A 3 5|||R:WO|||kõikidele võimaluse|||REQUIRED|||-NONE-|||1
+A 13 14|||R:NOM:FORM|||keeli|||REQUIRED|||-NONE-|||1
+
+S Teiseks peamiseks arutlemisteemaks oli inimeste valmisolek ja võimalused hoida rahvuslikku identiteedi ka võõrsil .
+A 10 11|||R:NOM:FORM|||identiteeti|||REQUIRED|||-NONE-|||0
+A 0 1|||R:NOM:FORM|||Teine|||REQUIRED|||-NONE-|||1
+A 1 2|||R:NOM:FORM|||peamine|||REQUIRED|||-NONE-|||1
+A 2 3|||R:NOM:FORM|||arutlemisteema|||REQUIRED|||-NONE-|||1
+A 10 11|||R:NOM:FORM|||identiteeti|||REQUIRED|||-NONE-|||1
+A 0 1|||R:NOM:FORM|||Teine|||REQUIRED|||-NONE-|||2
+A 1 2|||R:NOM:FORM|||peamine|||REQUIRED|||-NONE-|||2
+A 2 3|||R:LEX:NOM:FORM|||aruteluteema||arutlusteema||vestlusteema|||REQUIRED|||-NONE-|||2
+A 10 11|||R:NOM:FORM|||identiteeti|||REQUIRED|||-NONE-|||2
+
+S Selle teema põhiküsimuseks oligi see , kas tänapäeva inimene soovib ja suudab hoida oma kultuuri ja olla selle liikmeks igal pool , kuhu ta ei läheks .
+A 21 22|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 24 24|||M:LEX|||ka|||REQUIRED|||-NONE-|||0
+A 2 3|||R:NOM:FORM|||põhiküsimus|||REQUIRED|||-NONE-|||1
+A 18 19|||R:NOM:FORM|||liige|||REQUIRED|||-NONE-|||1
+A 21 22|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+A 24 24|||M:LEX|||ka|||REQUIRED|||-NONE-|||1
+A 25 26|||R:VERB:FORM|||lähe|||REQUIRED|||-NONE-|||1
+
+S Minu veendumuseks on see , et sellises multikultuurses maailmas , mis meil hetkel on , on raske isegi soovi korral pühendada kõike ja elada üheainsa kultuuri ja rahvuslikku identiteedi raames .
+A 27 28|||R:NOM:FORM|||rahvusliku|||REQUIRED|||-NONE-|||0
+A 1 2|||R:NOM:FORM|||veendumus|||REQUIRED|||-NONE-|||1
+A 27 28|||R:NOM:FORM|||rahvusliku|||REQUIRED|||-NONE-|||1
+
+S Inimestel on mugav võimalus kasutada interneti ja reisida , mis rikastab nende silmaringi , suurendab suhtlusringi , õpetab uusi enne teadmata oskusi .
+A 5 6|||R:NOM:FORM|||internetti|||REQUIRED|||-NONE-|||0
+
+S Seega kõik oleneb sellest , kuivõrd inimene ise soovib pidada ühte kultuuri või olla mitme kultuuri liikmeks ja luua enda individuaalse identiteedi .
+A 1 3|||R:WO|||oleneb kõik|||REQUIRED|||-NONE-|||0
+A 6 9|||R:WO|||soovib inimene ise|||REQUIRED|||-NONE-|||0
+A 20 21|||R:NOM:FORM|||individuaalset|||REQUIRED|||-NONE-|||0
+A 21 22|||R:NOM:FORM|||identiteeti|||REQUIRED|||-NONE-|||0
+A 16 17|||R:NOM:FORM|||liige|||REQUIRED|||-NONE-|||1
+A 20 21|||R:NOM:FORM|||individuaalset|||REQUIRED|||-NONE-|||1
+A 21 22|||R:NOM:FORM|||identiteeti|||REQUIRED|||-NONE-|||1
+
+S Tänapäeval on oluline suhtuda lugupidamisega igasse kultuuri ja selle esindajatesse , mis avardaks inimeste maailmavaadet .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Samuti see võimaldaks kultuuride jagamist inimeste vahel ja nende omamoodi segunemist .
+A 1 3|||R:WO|||võimaldaks see|||REQUIRED|||-NONE-|||0
+A 1 3|||R:WO|||võimaldaks see|||REQUIRED|||-NONE-|||1
+A 3 7|||R:WO|||inimeste vahel kultuuride jagamist|||REQUIRED|||-NONE-|||1

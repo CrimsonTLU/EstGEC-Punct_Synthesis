@@ -1,0 +1,25 @@
+
+S Tere minu kallis sõber Tõnis !
+A 1 1|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+
+S Mul läks kodumasin katki .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Seda on vaja remontida .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Ma ei saa aru , et juhtus .
+A 5 6|||R:LEX|||mis|||REQUIRED|||-NONE-|||0
+
+S Tõnis kutsud enda juurde õhtul .
+A 1 1|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 1 2|||R:VERB:FORM|||kutsun|||REQUIRED|||-NONE-|||0
+A 2 2|||M:LEX|||sind|||REQUIRED|||-NONE-|||0
+A 2 5|||R:WO|||õhtul enda juurde|||REQUIRED|||-NONE-|||0
+
+S Ma maksan sind 50 eurot abi eest .
+A 2 3|||R:NOM:FORM|||sulle|||REQUIRED|||-NONE-|||0
+A 3 7|||R:WO|||abi eest 50 eurot|||REQUIRED|||-NONE-|||0
+
+S Sinu sõber Igor .
+A 3 4|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0

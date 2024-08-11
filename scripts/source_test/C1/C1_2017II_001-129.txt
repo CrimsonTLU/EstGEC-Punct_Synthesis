@@ -1,0 +1,105 @@
+
+S Eelmisel laupäval Tallinnas toimus globaliseerumiskonverents , kus ma osalesin külastajana .
+A 1 2|||R:SPELL|||laupäeval|||REQUIRED|||-NONE-|||0
+A 2 4|||R:WO|||toimus Tallinnas|||REQUIRED|||-NONE-|||0
+
+S Seal esitlesid erinevad teadlased Tallinna ja Tartu ülikoolidest , aga mulle jäid mõned ettekanded meelde , sest nendes räägiti kodumaalt ning tehnoloogiast .
+A 1 2|||R:LEX|||esinesid|||REQUIRED|||-NONE-|||0
+A 12 15|||R:WO|||meelde mõned ettekanded|||REQUIRED|||-NONE-|||0
+A 19 20|||R:NOM:FORM|||kodumaast|||REQUIRED|||-NONE-|||0
+
+S Peamiselt tahan jutustada kodumaalt lahkumise põhjustest ja võimalikustest tagajärjedest .
+A 7 8|||R:SPELL|||võimalikkudest||võimalikest|||REQUIRED|||-NONE-|||0
+A 8 9|||R:SPELL|||tagajärgedest|||REQUIRED|||-NONE-|||0
+
+S Paljud teadlased rääkisid eelkõige uue kultuuriga tutvumisest , sest kui inimene sõidab välismaal , teda ootavad uued inimesed , uus keel , tundmanud kombed ja traditsioonid .
+A 12 13|||R:NOM:FORM|||välismaale|||REQUIRED|||-NONE-|||0
+A 14 16|||R:WO|||ootavad teda|||REQUIRED|||-NONE-|||0
+A 22 23|||R:SPELL|||tundmatud|||REQUIRED|||-NONE-|||0
+
+S Võib olla on see peamine põhjus , et kodumaalt lahkuda .
+A 0 2|||R:WS|||Võib-olla||Võibolla|||REQUIRED|||-NONE-|||0
+
+S Inimesed tahavad alusta uut elu uues riigis .
+A 2 3|||R:VERB:FORM|||alustada|||REQUIRED|||-NONE-|||0
+
+S Kuid sellega on seotud mõned probleemid nagu kallid elamistingimused , madal palk , keelebarjäär ning arusaamatud traditsioonid .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+A 6 6|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+
+S Tagajärjena inimene võiks jääda koduta või sõida tagasi kodumaale .
+A 2 3|||R:VERB:FORM|||võib|||REQUIRED|||-NONE-|||0
+A 1 3|||R:WO|||võib inimene|||REQUIRED|||-NONE-|||0
+A 6 7|||R:VERB:FORM|||sõita|||REQUIRED|||-NONE-|||0
+
+S Teine põhjus oli see , et noored tahavad proovida õppida välismaal .
+A 9 11|||R:WO|||välismaal õppida|||REQUIRED|||-NONE-|||0
+
+S Nad mõtlevad , et kui haridus on tasuta , siis nad vabalt saavad ülikooli sisse astuda ja elu lõpuni elada teises riigis .
+A 10 13|||R:WO|||saavad nad vabalt|||REQUIRED|||-NONE-|||0
+A 19 22|||R:WO|||teises riigis elada|||REQUIRED|||-NONE-|||0
+
+S Kuid ei mõtle , et nagu ma juba rääkisin , elutingimused , toit , üür , meelelahutused on kallid , töötada ja samal ajal õppida on raske ja noored lihtsalt ei saaks üksinda seal elada .
+A 5 5|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 16 17|||R:NOM:FORM|||meelelahutus|||REQUIRED|||-NONE-|||0
+A 5 5|||M:PUNCT|||–|||REQUIRED|||-NONE-|||1
+A 9 10|||R:PUNCT|||-|||REQUIRED|||-NONE-|||1
+A 15 16|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+A 15 16|||M:LEX|||ja|||REQUIRED|||-NONE-|||1
+A 16 17|||R:NOM:FORM|||meelelahutus|||REQUIRED|||-NONE-|||1
+A 27 28|||R:LEX|||ning|||REQUIRED|||-NONE-|||1
+
+S Samuti tekkib igatsus kodumaa järele , sest pere ja sõbrad on kaugel .
+A 1 2|||R:SPELL|||tekib|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||1
+
+S Teine olulina teema oli pühendatud tehnoloogia arengule kui kaugsuhtluse võimaldaja .
+A 1 2|||R:SPELL|||oluline|||REQUIRED|||-NONE-|||0
+A 9 10|||R:NOM:FORM|||võimaldajale|||REQUIRED|||-NONE-|||0
+
+S Muidugi meie pidevalt arenevas maailmas on raske elada ilma tehnoloogiata .
+A 1 6|||R:WO|||on meie pidevalt arenevas maailmas|||REQUIRED|||-NONE-|||0
+
+S See teema oli ka tihedalt seotud eelmise teemaga kodumaalt lahkumisest , sest nagu toimub kiire tehnoloogi areng , inimesed võivad elada erinevates maailma otsas ning suhelda omavahel kasutades erinevaid programme .
+A 12 13|||R:LEX|||kui|||REQUIRED|||-NONE-|||0
+A 15 16|||R:SPELL|||tehnoloogia|||REQUIRED|||-NONE-|||0
+A 18 20|||R:WO|||võivad inimesed|||REQUIRED|||-NONE-|||0
+A 23 24|||R:NOM:FORM|||otstes|||REQUIRED|||-NONE-|||0
+A 27 27|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+
+S Konverentsil teadalased rääksid peamistes suhtlusprogrammidest , nende võimalustest ja kuidas neid õigesti kasutada .
+A 1 2|||R:SPELL|||teadlased|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||rääkisid|||REQUIRED|||-NONE-|||0
+A 1 3|||R:WO|||rääkisid teadlased|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOM:FORM|||peamistest|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||teadlased|||REQUIRED|||-NONE-|||1
+A 2 3|||R:SPELL|||rääkisid|||REQUIRED|||-NONE-|||1
+A 1 3|||R:WO|||rääkisid teadlased|||REQUIRED|||-NONE-|||1
+A 3 4|||R:NOM:FORM|||peamistest|||REQUIRED|||-NONE-|||1
+A 9 9|||M:LEX|||sellest|||REQUIRED|||-NONE-|||1
+A 9 9|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+
+S Seoses sellega on kergem reisida ja jääda sugulastega , saata nendele fotosid , helistada nendele Interneti abiga ning lihtsalt suhelda .
+A 8 8|||M:LEX|||lähedaseks|||REQUIRED|||-NONE-|||0
+A 6 7|||R:LEX|||käia|||REQUIRED|||-NONE-|||1
+A 8 8|||M:LEX|||juures|||REQUIRED|||-NONE-|||1
+A 6 7|||R:LEX|||käia|||REQUIRED|||-NONE-|||2
+A 7 8|||R:NOM:FORM|||sugulastel|||REQUIRED|||-NONE-|||2
+A 8 8|||M:LEX|||külas|||REQUIRED|||-NONE-|||2
+
+S Kokkuvõtes mina sooviksin kõikedele külastada mingisuguseid konverentse , sest sealt igaüks saab leida uut enda jaoks .
+A 0 1|||R:SPELL|||Kokkuvõttes|||REQUIRED|||-NONE-|||0
+A 2 3|||R:LEX|||soovitaksin|||REQUIRED|||-NONE-|||0
+A 1 2|||R:NOM:FORM|||ma|||REQUIRED|||-NONE-|||0
+A 1 3|||R:WO|||soovitaksin ma|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOM:FORM:SPELL|||kõikidel|||REQUIRED|||-NONE-|||0
+A 4 7|||R:WO|||mingisuguseid konverentse külastada|||REQUIRED|||-NONE-|||0
+A 10 12|||R:WO|||saab igaüks|||REQUIRED|||-NONE-|||0
+A 13 13|||M:LEX|||midagi|||REQUIRED|||-NONE-|||0
+A 13 16|||R:WO|||enda jaoks midagi uut|||REQUIRED|||-NONE-|||0
+
+S Tehnikaga seotud teemad on praegu üsna aktuaalsed ja meie elu sõltub tehnoloogia arengust .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Seetõttu ärge unustage sõita teisele globaliseerumiskonverentsile , mis toimub järgmisel laupäeval .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0

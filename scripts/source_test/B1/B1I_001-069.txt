@@ -1,0 +1,89 @@
+
+S Kui ma olen noormees mul oli palju erinevaid loomad koerad ja kassid , kilpkonnad ja kallad .
+A 2 3|||R:VERB:FORM|||olin|||REQUIRED|||-NONE-|||0
+A 4 4|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 4 6|||R:WO|||oli mul|||REQUIRED|||-NONE-|||0
+A 8 9|||R:NOM:FORM|||loomi|||REQUIRED|||-NONE-|||0
+A 9 9|||M:PUNCT|||:|||REQUIRED|||-NONE-|||0
+A 15 16|||R:SPELL|||kalad|||REQUIRED|||-NONE-|||0
+
+S Nüüd ma elan oma korteris ja unistan saada koer , sest koeraga on võimalik jooksta meetsas kui on päris puhas õhk .
+A 1 3|||R:WO|||elan ma|||REQUIRED|||-NONE-|||0
+A 7 8|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+A 8 9|||R:NOM:FORM|||koerast|||REQUIRED|||-NONE-|||0
+A 14 15|||R:SPELL|||joosta|||REQUIRED|||-NONE-|||0
+A 15 16|||R:SPELL|||metsas|||REQUIRED|||-NONE-|||0
+A 16 16|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 16 17|||R:LEX|||kus|||REQUIRED|||-NONE-|||0
+
+S Samuti koeraga on võimalik mängida , lapsed ka meeldivad koerad .
+A 0 3|||R:WO|||Koeraga on samuti|||REQUIRED|||-NONE-|||0
+A 6 7|||R:NOM:FORM|||lastele|||REQUIRED|||-NONE-|||0
+A 7 9|||R:WO|||meeldivad ka|||REQUIRED|||-NONE-|||0
+A 1 3|||R:WO|||on koeraga|||REQUIRED|||-NONE-|||1
+A 6 7|||R:NOM:FORM|||lastele|||REQUIRED|||-NONE-|||1
+A 6 9|||R:WO|||ka lastele meeldivad|||REQUIRED|||-NONE-|||1
+A 1 3|||R:WO|||on koeraga|||REQUIRED|||-NONE-|||2
+A 6 8|||R:WO|||ka lapsed|||REQUIRED|||-NONE-|||2
+A 9 10|||R:NOM:FORM|||koerale||koertele|||REQUIRED|||-NONE-|||2
+
+S Paar minu sõpru kodus elavad koerad , milleaga nad käisivad mingi looma üritusele .
+A 0 1|||R:NOM:FORM|||Paari|||REQUIRED|||-NONE-|||0
+A 1 2|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+A 2 3|||R:NOM:FORM|||sõbra|||REQUIRED|||-NONE-|||0
+A 7 8|||R:LEX:SPELL|||kellega|||REQUIRED|||-NONE-|||0
+A 9 10|||R:SPELL|||käivad|||REQUIRED|||-NONE-|||0
+A 10 11|||R:NOM:FORM|||mingitel|||REQUIRED|||-NONE-|||0
+A 11 13|||R:WS:NOM:FORM|||loomaüritustel|||REQUIRED|||-NONE-|||0
+
+S Praegu mul koodus elavad paar väiksed loomad mis nime on degu , nad on tšiili oravad , ma ise ehitan nende kodu .
+A 2 3|||R:SPELL|||kodus|||REQUIRED|||-NONE-|||0
+A 1 4|||R:WO|||elavad mul kodus|||REQUIRED|||-NONE-|||0
+A 5 6|||R:NOM:FORM|||väikest|||REQUIRED|||-NONE-|||0
+A 6 7|||R:NOM:FORM|||looma|||REQUIRED|||-NONE-|||0
+A 7 7|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 7 8|||R:LEX|||kelle|||REQUIRED|||-NONE-|||0
+A 8 9|||R:NOM:FORM|||nimi|||REQUIRED|||-NONE-|||0
+A 10 11|||R:SPELL|||deegu|||REQUIRED|||-NONE-|||0
+A 20 21|||R:NOM:FORM|||neile|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||kodus|||REQUIRED|||-NONE-|||1
+A 1 4|||R:WO|||elavad mul kodus|||REQUIRED|||-NONE-|||1
+A 5 6|||R:NOM:FORM|||väikest|||REQUIRED|||-NONE-|||1
+A 6 7|||R:NOM:FORM|||looma|||REQUIRED|||-NONE-|||1
+A 7 7|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 7 8|||R:LEX|||kelle|||REQUIRED|||-NONE-|||1
+A 8 9|||R:NOM:FORM|||nimi|||REQUIRED|||-NONE-|||1
+A 10 11|||R:SPELL|||deegu|||REQUIRED|||-NONE-|||1
+A 11 13|||R:PUNCT|||. Nad|||REQUIRED|||-NONE-|||1
+A 20 21|||R:NOM:FORM|||neile|||REQUIRED|||-NONE-|||1
+A 18 21|||R:WO|||ehitan neile ise|||REQUIRED|||-NONE-|||1
+
+S Nad välja nägevad nagu väiksed tšinstsilad .
+A 2 3|||R:SPELL|||näevad|||REQUIRED|||-NONE-|||0
+A 1 3|||R:WO|||näevad välja|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||tšintšiljad|||REQUIRED|||-NONE-|||0
+
+S Koera kohta ma arvan , et ma võin osta poodist või küsida sõprade juurest , sest nad võivad aidata valida soobiva koera .
+A 8 8|||M:LEX|||ta|||REQUIRED|||-NONE-|||0
+A 9 10|||R:SPELL|||poest|||REQUIRED|||-NONE-|||0
+A 13 14|||R:LEX|||käest|||REQUIRED|||-NONE-|||0
+A 20 21|||R:NOM:FORM:SPELL|||sobivat|||REQUIRED|||-NONE-|||0
+A 0 3|||U:LEX|||Ma|||REQUIRED|||-NONE-|||1
+A 8 8|||M:LEX|||koera|||REQUIRED|||-NONE-|||1
+A 9 10|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 13 14|||R:LEX|||käest|||REQUIRED|||-NONE-|||1
+A 20 21|||R:SPELL|||sobiva|||REQUIRED|||-NONE-|||1
+
+S Ise ma elistan mingi suured koerad nagu malamut või haski .
+A 2 3|||R:SPELL|||eelistan|||REQUIRED|||-NONE-|||0
+A 1 3|||R:WO|||eelistan ma|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOM:FORM|||mingeid|||REQUIRED|||-NONE-|||0
+A 4 5|||R:NOM:FORM|||suuri|||REQUIRED|||-NONE-|||0
+A 5 6|||R:NOM:FORM|||koeri|||REQUIRED|||-NONE-|||0
+A 7 8|||R:SPELL|||malamuut|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||eelistan|||REQUIRED|||-NONE-|||1
+A 0 3|||R:WO|||Ma eelistan ise||Ma ise eelistan|||REQUIRED|||-NONE-|||1
+A 3 4|||R:NOM:FORM|||mingeid|||REQUIRED|||-NONE-|||1
+A 4 5|||R:NOM:FORM|||suuri|||REQUIRED|||-NONE-|||1
+A 5 6|||R:NOM:FORM|||koeri|||REQUIRED|||-NONE-|||1
+A 7 8|||R:SPELL|||malamuut|||REQUIRED|||-NONE-|||1

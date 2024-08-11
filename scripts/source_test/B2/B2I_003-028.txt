@@ -1,0 +1,93 @@
+
+S Tere Juta .
+A 1 1|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 2 3|||R:PUNCT|||!|||REQUIRED|||-NONE-|||0
+A 1 1|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 2 3|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+
+S Kirjutan sulle , et saada sinust nõuannet või isegi abi .
+A 5 6|||R:NOM:FORM|||sinult|||REQUIRED|||-NONE-|||0
+
+S Esmaspäeval 26. veebruaril toimus tööl üks probleem ja arusaamatu minu tööandjaga .
+A 1 1|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 3 3|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 3 4|||R:LEX|||tekkis|||REQUIRED|||-NONE-|||0
+A 8 9|||R:LEX|||arusaamatus|||REQUIRED|||-NONE-|||0
+
+S Sa tead , et ma töötan medõena koolis ja sellel päeval tegin arstiga laste läbivaatlus , kaalusime neid ja kontrolisime nende verderõhku .
+A 6 8|||R:WO|||koolis medõena|||REQUIRED|||-NONE-|||0
+A 8 8|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 14 15|||R:NOM:FORM:SPELL|||läbivaatust|||REQUIRED|||-NONE-|||0
+A 19 20|||R:SPELL|||kontrollisime|||REQUIRED|||-NONE-|||0
+A 21 22|||R:SPELL|||vererõhku|||REQUIRED|||-NONE-|||0
+
+S Pärast 12.30 umbes mul helistati koolist ja öeldi , et kehalise kasvatuse tunnis minu lapsega juhtus õnnetus .
+A 0 3|||R:WO|||Umbes pärast 12.30|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOM:FORM|||mulle|||REQUIRED|||-NONE-|||0
+A 3 5|||R:WO|||helistati mulle|||REQUIRED|||-NONE-|||0
+A 10 16|||R:WO|||minu lapsega juhtus kehalise kasvatuse tunnis|||REQUIRED|||-NONE-|||0
+A 1 1|||M:LEX|||kella|||REQUIRED|||-NONE-|||1
+A 0 3|||R:WO|||Umbes pärast kella 12.30|||REQUIRED|||-NONE-|||1
+A 3 4|||R:NOM:FORM|||mulle|||REQUIRED|||-NONE-|||1
+A 3 5|||R:WO|||helistati mulle|||REQUIRED|||-NONE-|||1
+A 14 16|||R:WO|||juhtus minu lapsega|||REQUIRED|||-NONE-|||1
+
+S Selle pärast kohe sõitsin kooli ja ei jõudnud mitte midagi ütelda juhtkonnale , et lähen töölt ära .
+A 0 2|||R:WS|||Sellepärast|||REQUIRED|||-NONE-|||0
+A 2 4|||R:WO|||sõitsin kohe|||REQUIRED|||-NONE-|||0
+A 8 10|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+A 0 2|||R:WS|||Sellepärast|||REQUIRED|||-NONE-|||1
+A 2 4|||R:WO|||sõitsin kohe|||REQUIRED|||-NONE-|||1
+A 5 7|||R:LEX|||ega|||REQUIRED|||-NONE-|||1
+A 8 8|||M:LEX|||selle kohta|||REQUIRED|||-NONE-|||1
+A 8 12|||R:WO|||juhtkonnale mitte midagi ütelda|||REQUIRED|||-NONE-|||1
+A 2 4|||R:WO|||sõitsin kohe|||REQUIRED|||-NONE-|||2
+A 5 7|||R:LEX|||ega|||REQUIRED|||-NONE-|||2
+A 8 10|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||2
+
+S Kui tulin lapse pärast siis kohe sõitsime arsti juurde , kus meil öeldi , et ta sai parema jala luumurd .
+A 1 2|||R:LEX|||läksin|||REQUIRED|||-NONE-|||0
+A 2 3|||R:NOM:FORM|||lapsele|||REQUIRED|||-NONE-|||0
+A 3 4|||R:LEX|||järele|||REQUIRED|||-NONE-|||0
+A 4 4|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 5 7|||R:WO|||sõitsime kohe|||REQUIRED|||-NONE-|||0
+A 11 12|||R:NOM:FORM|||meile|||REQUIRED|||-NONE-|||0
+A 19 20|||R:NOM:FORM|||luumurru|||REQUIRED|||-NONE-|||0
+A 1 2|||R:LEX|||läksin|||REQUIRED|||-NONE-|||1
+A 2 3|||R:NOM:FORM|||lapsele|||REQUIRED|||-NONE-|||1
+A 3 4|||R:LEX|||järele|||REQUIRED|||-NONE-|||1
+A 1 4|||R:WO|||lapsele järele läksin|||REQUIRED|||-NONE-|||1
+A 4 4|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 5 7|||R:WO|||sõitsime kohe|||REQUIRED|||-NONE-|||1
+A 11 12|||R:NOM:FORM|||meile|||REQUIRED|||-NONE-|||1
+A 15 16|||R:NOM:FORM|||tal|||REQUIRED|||-NONE-|||1
+A 16 17|||R:LEX:VERB:FORM|||on|||REQUIRED|||-NONE-|||1
+
+S Järgmisel päeval tulin tööle ja sain aru , et juhtkond oli ebarahul ja palus mind kirjutama seletuskirja , kus ma pidin seletama , miks nii juhtus .
+A 11 12|||R:LEX|||rahulolematu|||REQUIRED|||-NONE-|||0
+A 14 15|||R:NOM:FORM|||mul|||REQUIRED|||-NONE-|||0
+A 15 16|||R:VERB:FORM|||kirjutada|||REQUIRED|||-NONE-|||0
+
+S Kui laps praegu haige , siis tahan temaga kodus olla ja tähendab see , et ei saa kõiki tööd piisavalt mahus teha .
+A 2 2|||M:LEX|||on|||REQUIRED|||-NONE-|||0
+A 11 13|||R:WO|||see tähendab|||REQUIRED|||-NONE-|||0
+A 15 15|||M:LEX|||ma|||REQUIRED|||-NONE-|||0
+A 18 19|||R:NOM:FORM|||töid|||REQUIRED|||-NONE-|||0
+A 19 20|||R:LEX|||piisavas|||REQUIRED|||-NONE-|||0
+
+S Arvan , et saan rääkida tööandjaga ja lepida kokku tööd kodust teha ühe nädala jooksul .
+A 7 8|||R:SPELL|||leppida|||REQUIRED|||-NONE-|||0
+A 7 9|||R:WO|||kokku leppida|||REQUIRED|||-NONE-|||0
+A 9 10|||R:NOM:FORM|||töö|||REQUIRED|||-NONE-|||0
+A 11 12|||R:LEX|||tegemise|||REQUIRED|||-NONE-|||0
+A 10 12|||R:WO|||tegemise kodust|||REQUIRED|||-NONE-|||0
+A 7 8|||R:SPELL|||leppida|||REQUIRED|||-NONE-|||1
+A 9 9|||M:LEX|||, et|||REQUIRED|||-NONE-|||1
+A 11 12|||R:VERB:FORM|||teen|||REQUIRED|||-NONE-|||1
+A 9 14|||R:WO|||teen ühe nädala tööd kodust|||REQUIRED|||-NONE-|||1
+A 14 15|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+
+S Kirjuta mulle , milline on sinu lahendus selle situatsiooni kohal .
+A 7 8|||R:LEX|||sellise|||REQUIRED|||-NONE-|||0
+A 9 10|||R:LEX|||korral|||REQUIRED|||-NONE-|||0
+A 9 10|||R:LEX|||korral||jaoks|||REQUIRED|||-NONE-|||1

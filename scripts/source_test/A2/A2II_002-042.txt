@@ -1,0 +1,35 @@
+
+S Ma soovin müüa oma autot .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S See on väga mugav ja ilus auto .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Tema marka on Volvo .
+A 0 1|||R:LEX|||Selle|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||mark|||REQUIRED|||-NONE-|||0
+
+S Tema on tehtud 2000 aastal , aga me ostasime ise 2003 aastal .
+A 0 1|||R:LEX|||See|||REQUIRED|||-NONE-|||0
+A 4 4|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+A 8 9|||R:SPELL|||ostsime|||REQUIRED|||-NONE-|||0
+A 9 9|||M:LEX|||selle|||REQUIRED|||-NONE-|||0
+A 11 11|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+
+S Auto on hea seisukorras .
+A 2 3|||R:NOM:FORM|||heas|||REQUIRED|||-NONE-|||0
+
+S Auto värv on must .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+A 1 4|||R:WO:NOM:FORM|||on musta värvi|||REQUIRED|||-NONE-|||1
+
+S See on bensiini auto .
+A 2 4|||R:WS|||bensiiniauto|||REQUIRED|||-NONE-|||0
+A 2 3|||R:LEX|||bensiinimootoriga|||REQUIRED|||-NONE-|||1
+
+S Autot saab näha esmaspäevast kuni reedeni kella 10-st kuni 19-ni õhtul , Või tulla kohale aadressil : Geoloogia --- , Sillamäe .
+A 11 12|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 12 13|||R:CASE|||või|||REQUIRED|||-NONE-|||0
+A 13 14|||R:VERB:FORM|||tulles|||REQUIRED|||-NONE-|||0
+A 15 16|||R:NOM:FORM|||aadressile|||REQUIRED|||-NONE-|||0
+A 16 17|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0

@@ -1,0 +1,83 @@
+
+S Lugupeetud kolleegid , hiljuti ma osalesin digipädevuse seminaril , mis äratas mul mõtteid digipädevuse eeldustest ja riskidest .
+A 4 6|||R:WO|||osalesin ma|||REQUIRED|||-NONE-|||0
+A 11 12|||R:NOM:FORM|||minus|||REQUIRED|||-NONE-|||0
+A 4 6|||R:WO|||osalesin ma|||REQUIRED|||-NONE-|||1
+A 11 12|||R:NOM:FORM|||minus|||REQUIRED|||-NONE-|||1
+A 14 15|||R:LEX|||eelistest|||REQUIRED|||-NONE-|||1
+
+S Tänapäeva ühiskonnas digipädevus on üks toimetuleku eeldustest .
+A 2 4|||R:WO|||on digipädevus|||REQUIRED|||-NONE-|||0
+
+S Kaasaegses maailmas peaaegu kõik toimingud ja tehingud on arvutiga seotud , eriti Eestis , kus on kõik pangasüsteemid , piletide ostmise punktid üle viidud digitaalsele formaadile .
+A 2 8|||R:WO|||on peaaegu kõik toimingud ja tehingud|||REQUIRED|||-NONE-|||0
+A 8 10|||R:WO|||seotud arvutiga|||REQUIRED|||-NONE-|||0
+A 19 20|||R:SPELL|||piletite|||REQUIRED|||-NONE-|||0
+A 2 8|||R:WO|||on peaaegu kõik toimingud ja tehingud|||REQUIRED|||-NONE-|||1
+A 19 20|||R:SPELL|||piletite|||REQUIRED|||-NONE-|||1
+A 18 19|||M:LEX|||ja|||REQUIRED|||-NONE-|||1
+
+S Me ostame kaupu internetist , bussi tunniplaani vaatame ka internetist , pangatehinguid sooritame internetis , isegi lapse hindeid ja koduseid ülesandeid vaatame internetist .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Selleks , et konsulteerida pangatelleri või telefonioperaatori esindajaga , on vaja järjekorra aparaadi nupule vajutada .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+A 11 12|||R:LEX|||järjekorranumbri|||REQUIRED|||-NONE-|||1
+A 11 12|||R:LEX|||järjekorranumbri|||REQUIRED|||-NONE-|||2
+A 12 13|||R:LEX|||printeri|||REQUIRED|||-NONE-|||2
+
+S Kõik need tehingud puutuvad meie vabasse ajasse .
+A 2 3|||R:LEX|||tegevused|||REQUIRED|||-NONE-|||0
+A 6 7|||R:NOM:FORM|||aega|||REQUIRED|||-NONE-|||0
+A 2 3|||R:LEX|||tegevused|||REQUIRED|||-NONE-|||1
+A 3 4|||R:LEX|||mõjutavad|||REQUIRED|||-NONE-|||1
+A 5 6|||R:NOM:FORM|||vaba|||REQUIRED|||-NONE-|||1
+A 6 7|||R:NOM:FORM|||aega|||REQUIRED|||-NONE-|||1
+
+S Paljude inimeste töö aga on seotud arvutiga ja nad veedavad iga päev 8 töötundi arvuti taga .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+A 3 5|||R:WO|||on aga|||REQUIRED|||-NONE-|||1
+
+S Arvutioskus on tänapäeva elus loomulik ning töövestlusel on rohkem eelistusi sellel kandidaadil , kes oskab igasuguseid arvutiprogramme .
+A 9 10|||R:LEX|||eeliseid|||REQUIRED|||-NONE-|||0
+A 9 10|||R:LEX|||eeliseid|||REQUIRED|||-NONE-|||1
+A 14 15|||R:LEX|||tunneb|||REQUIRED|||-NONE-|||1
+
+S Teiselt poolt digiseadmete kasutamine tõi meie maailma palju turvariske ja ohusid .
+A 2 5|||R:WO|||tõi digiseadmete kasutamine|||REQUIRED|||-NONE-|||0
+A 10 11|||R:SPELL|||ohtusid|||REQUIRED|||-NONE-|||0
+
+S Hiljutine olukord ID-kaartidega tõendab minu sõnu .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Mina arvasin , et pole midagi ID-kaardi kasutamisest turvalisemat .
+A 4 8|||R:WO|||ID-kaardi kasutamisest pole midagi|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||1
+
+S Elu aga näitas , et olukord on teistsugune .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Internetist ostmisel on oht petmise alla sattuda , samuti pangasüsteem ei ole täiuslik .
+A 5 6|||R:LEX|||ohvriks|||REQUIRED|||-NONE-|||0
+A 9 12|||R:WO|||ei ole pangasüsteem|||REQUIRED|||-NONE-|||0
+
+S Mõnikord annab media teada , et juhtuvad kuriteod , mis on internetiga seotud .
+A 2 3|||R:SPELL|||meedia|||REQUIRED|||-NONE-|||0
+
+S Samuti peab arvestama , et üsna sageli tekivad internetitõrged , sellel põhjusel ei tööta ka digiseadmed , mis omakorda viib erinevate organisatsioonide töö ajutisele peatumisele .
+A 8 9|||R:SPELL|||internetitõrked|||REQUIRED|||-NONE-|||0
+A 8 9|||R:SPELL|||internetitõrked|||REQUIRED|||-NONE-|||1
+A 9 11|||R:PUNCT|||. Sellel|||REQUIRED|||-NONE-|||1
+A 23 24|||R:NOM:FORM|||ajutise|||REQUIRED|||-NONE-|||1
+A 24 25|||R:NOM:FORM|||peatumiseni|||REQUIRED|||-NONE-|||1
+
+S Kokkuvõtteks tahaksin öelda , et tänapäevas maailmas me ikka peame digioskusi arendama , kuna kaasaegses maailmas on kõik elu valdkonnad arvutiga seotud .
+A 5 6|||R:NOM:FORM|||tänapäeva|||REQUIRED|||-NONE-|||0
+A 7 10|||R:WO|||peame me ikka|||REQUIRED|||-NONE-|||0
+
+S Aga olgem ettevaatlikumad ja pöörakem rohkem tähelepanu hoiatustele , mis arvutikuvarile ilmuvad , millest riik annab teada või massmeedias teatatakse .
+A 18 18|||M:LEX|||millest|||REQUIRED|||-NONE-|||0
+A 18 19|||R:SPELL|||massimeedias|||REQUIRED|||-NONE-|||0
+A 15 17|||R:WO|||teada annab|||REQUIRED|||-NONE-|||1
+A 18 18|||M:LEX|||millest|||REQUIRED|||-NONE-|||1
+A 18 19|||R:SPELL|||massimeedias|||REQUIRED|||-NONE-|||1

@@ -1,0 +1,25 @@
+
+S Tere , minu kallis Anton !
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Tahan sulle teatada , et ma soovin müüa oma autot .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S See on suur must autot BMW X6 .
+A 4 5|||R:NOM:FORM|||auto|||REQUIRED|||-NONE-|||0
+
+S Auto hind on 25 000 eurot .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Autot saab näha Fama Keskuses esmapäevast kuni pühapäevani kell 12.00 .
+A 5 6|||R:SPELL|||esmaspäevast|||REQUIRED|||-NONE-|||0
+A 4 5|||R:CASE|||keskuses|||REQUIRED|||-NONE-|||1
+A 5 6|||R:SPELL|||esmaspäevast|||REQUIRED|||-NONE-|||1
+A 6 7|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+
+S Kui miski ei laabu , siis helista mulle .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+A 3 4|||R:LEX|||sobi||suju|||REQUIRED|||-NONE-|||1
+
+S Julia
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0

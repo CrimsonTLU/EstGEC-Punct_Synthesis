@@ -1,0 +1,135 @@
+
+S 25. oktoobril Tallinnas viidi läbi tervisekonverents , mille käigus käsitleti väga palju erinevaid teemasid , mis puudutasid meie tervist .
+A 2 4|||R:WO|||viidi Tallinnas|||REQUIRED|||-NONE-|||0
+A 3 5|||R:LEX|||korraldati|||REQUIRED|||-NONE-|||1
+A 2 5|||R:WO|||korraldati Tallinnas|||REQUIRED|||-NONE-|||1
+
+S Teema olulisust tõestas osalejate pidev aktiivsus .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Selles artiklis mina tahaksin lähemalt jutustada , millest me rääkisime .
+A 2 4|||R:WO|||tahaksin mina|||REQUIRED|||-NONE-|||0
+A 2 3|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+
+S Esimene väga huvitav teema oli niisugune : kohaliku omavalitsuse võimalused ja viisid elanike tervise eest hoolitsemisel .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Meeskond , mis koosnes noortest arstidest , esines selle teemaga ja nende ettepanekud on järgmised : esimene asi , mis võib meie kohalik omavalitsus teha , et parem hoolitseda kohalike elanikke terise eest on teha ravimid inimestele , kes on töötu tasuta või palju soodsamaks .
+A 0 10|||R:WO|||Selle teemaga esines meeskond , mis koosnes noortest arstidest ,|||REQUIRED|||-NONE-|||0
+A 13 14|||R:VERB:FORM|||olid|||REQUIRED|||-NONE-|||0
+A 19 20|||R:NOM:FORM|||mida|||REQUIRED|||-NONE-|||0
+A 20 24|||R:WO|||meie kohalik omavalitsus võib|||REQUIRED|||-NONE-|||0
+A 27 28|||R:LEX|||paremini|||REQUIRED|||-NONE-|||0
+A 30 31|||R:NOM:FORM|||elanike|||REQUIRED|||-NONE-|||0
+A 31 32|||R:SPELL|||tervise|||REQUIRED|||-NONE-|||0
+A 33 33|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 40 41|||R:NOM:FORM|||töötud|||REQUIRED|||-NONE-|||0
+A 42 42|||M:LEX|||kättesaadavaks|||REQUIRED|||-NONE-|||0
+A 36 45|||R:WO|||tasuta kättesaadavaks või palju soodsamaks inimestele , kes on töötud|||REQUIRED|||-NONE-|||0
+
+S Mulle see ettepanek väga meeldis ja mina olen täiesti nendega nõus .
+A 1 5|||R:WO|||meeldis see ettepanek väga|||REQUIRED|||-NONE-|||0
+A 8 10|||R:WO|||nendega täiesti|||REQUIRED|||-NONE-|||0
+
+S Nad ütlesid , et näiteks Inglismaal on juba ammu see asjaolu praktiseeritakse ning inimeste elutustase on muutunud kõrgemaks .
+A 10 11|||R:LEX|||lahendus|||REQUIRED|||-NONE-|||0
+A 11 12|||R:LEX|||kasutusel|||REQUIRED|||-NONE-|||0
+A 14 15|||R:SPELL|||elatustase|||REQUIRED|||-NONE-|||0
+A 6 7|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 9 10|||R:NOM:FORM|||seda|||REQUIRED|||-NONE-|||1
+A 10 11|||R:LEX|||lahendust|||REQUIRED|||-NONE-|||1
+A 6 11|||R:WO|||praktiseeritakse seda lahendust|||REQUIRED|||-NONE-|||1
+A 14 15|||R:SPELL|||elatustase|||REQUIRED|||-NONE-|||1
+
+S Lisaks sellele , oli mainitud , et tuleb korraldada erinevaid üritusi selleks , et propagondeerida tervisliku eluviisi ja võiks konsulteerida igasuguste tervisespetsialistidega .
+A 2 3|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 14 15|||R:SPELL|||propageerida|||REQUIRED|||-NONE-|||0
+A 15 16|||R:NOM:FORM|||tervislikku|||REQUIRED|||-NONE-|||0
+A 2 3|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 3 5|||R:VERB:FORM|||mainiti|||REQUIRED|||-NONE-|||0
+A 14 15|||R:SPELL|||propageerida|||REQUIRED|||-NONE-|||0
+A 15 16|||R:NOM:FORM|||tervislikku|||REQUIRED|||-NONE-|||0
+
+S Lõpuks , üks naine , kes oli kohaliku omavalitsuse esindaja ütles , et alates sellest aastast järjekorrad selleks , et arsti juurde sattuda vähenevad .
+A 1 2|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 2 11|||R:WO|||ütles üks naine , kes oli kohaliku omavalitsuse esindaja|||REQUIRED|||-NONE-|||0
+A 22 23|||R:LEX|||minna|||REQUIRED|||-NONE-|||0
+A 16 24|||R:WO|||vähenevad järjekorrad selleks , et arsti juurde minna|||REQUIRED|||-NONE-|||0
+
+S Ta ütles , et nad teevad koos töötervishoiuorganisatsiooniga progmmi , mis võimaldab kiiremini saada arsti nõustamist .
+A 8 9|||R:SPELL|||programmi|||REQUIRED|||-NONE-|||0
+
+S Teine teema , mis jäi mulle meelde , rääkis tervisekontrolli olulisust .
+A 10 11|||R:NOM:FORM|||olulisusest|||REQUIRED|||-NONE-|||0
+A 4 7|||R:WO|||mulle meelde jäi|||REQUIRED|||-NONE-|||1
+A 10 11|||R:NOM:FORM|||olulisusest|||REQUIRED|||-NONE-|||1
+
+S Töötervishoiarstid avaldasid oma arvamust selle kohta .
+A 2 6|||R:WO|||selle kohta oma arvamust|||REQUIRED|||-NONE-|||0
+
+S Nad arvavad , et tervisekontroll peab olema kohustuslik igale inimesele , eriti nendele , kes on üle 45 aastat vana .
+A 18 19|||R:NOM:FORM|||aasta|||REQUIRED|||-NONE-|||0
+A 19 20|||R:NOM:FORM|||vanad|||REQUIRED|||-NONE-|||0
+A 18 19|||R:NOM:FORM|||aasta|||REQUIRED|||-NONE-|||1
+A 19 20|||R:LEX|||vanused|||REQUIRED|||-NONE-|||1
+A 16 17|||R:LEX|||rohkem kui|||REQUIRED|||-NONE-|||2
+A 19 20|||R:NOM:FORM|||vanad|||REQUIRED|||-NONE-|||2
+
+S Väga palju inimesi praegu kannatavad südame probleemide , diabeedi või perioodiliste peavalude all .
+A 3 5|||R:WO|||kannatavad praegu|||REQUIRED|||-NONE-|||0
+A 5 7|||R:WS|||südameprobleemide|||REQUIRED|||-NONE-|||0
+A 3 5|||R:WO|||kannatavad praegu|||REQUIRED|||-NONE-|||1
+A 5 7|||R:WS|||südameprobleemide|||REQUIRED|||-NONE-|||1
+A 12 13|||R:LEX|||käes|||REQUIRED|||-NONE-|||1
+
+S Siis selleks , et ennetada need haigusi on vaja alati kontrollida oma tervise seisundit .
+A 5 6|||R:NOM:FORM|||neid|||REQUIRED|||-NONE-|||0
+A 4 7|||R:WO|||neid haigusi ennetada|||REQUIRED|||-NONE-|||0
+A 7 7|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 9 14|||R:WO|||oma tervise seisundit alati kontrollida|||REQUIRED|||-NONE-|||0
+
+S Veel nad rääkisid seksuaaltervisest , et ka vaja seda kontrollida , sest Eesti on 1. kohal Euroopas HIV nakatamiselt .
+A 0 3|||R:WO|||Nad rääkisid veel|||REQUIRED|||-NONE-|||0
+A 9 9|||M:LEX|||on|||REQUIRED|||-NONE-|||0
+A 7 9|||R:WO|||seda on vaja|||REQUIRED|||-NONE-|||0
+A 17 18|||R:NOM:FORM|||HIV-i|||REQUIRED|||-NONE-|||0
+A 18 19|||R:LEX|||nakatumises|||REQUIRED|||-NONE-|||0
+A 14 19|||R:WO|||HIV-i nakatumises 1. kohal Euroopas|||REQUIRED|||-NONE-|||0
+
+S Kokkuvõtteks , mulle väga meeldis see konverents , sest me rääkisime väga olulistest probleemidest seotud tervisega .
+A 1 2|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 2 7|||R:WO|||meeldis see konverents mulle väga|||REQUIRED|||-NONE-|||0
+A 13 16|||R:WO|||tervisega seotud probleemidest|||REQUIRED|||-NONE-|||0
+A 3 7|||R:WO|||meeldis see konverents väga|||REQUIRED|||-NONE-|||1
+A 13 16|||R:WO|||tervisega seotud probleemidest|||REQUIRED|||-NONE-|||1
+
+S Mina pooldan iga esinejate arvamusi , aga kõige olulisem ma pean , et ikkagi tasuks teha ravimeid töötu inimestele tasuta .
+A 3 4|||R:NOM:FORM|||esineja|||REQUIRED|||-NONE-|||0
+A 8 9|||R:NOM:FORM|||olulisemaks|||REQUIRED|||-NONE-|||0
+A 7 11|||R:WO|||ma pean kõige olulisemaks|||REQUIRED|||-NONE-|||0
+A 16 17|||R:NOM:FORM|||ravimid|||REQUIRED|||-NONE-|||0
+A 17 18|||R:NOM:FORM|||töötutele|||REQUIRED|||-NONE-|||0
+A 20 20|||M:LEX|||kättesaadavaks|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOM:FORM|||esineja|||REQUIRED|||-NONE-|||1
+A 8 9|||R:NOM:FORM|||olulisemaks|||REQUIRED|||-NONE-|||1
+A 9 10|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 16 17|||R:NOM:FORM|||ravimid|||REQUIRED|||-NONE-|||1
+A 17 18|||R:NOM:FORM|||töötutele|||REQUIRED|||-NONE-|||1
+A 20 20|||M:LEX|||kättesaadavaks|||REQUIRED|||-NONE-|||1
+
+S Loodan , et mul võiks ka võimalus osaleda niisugustes üritustes veel kord .
+A 4 5|||R:LEX|||oleks|||REQUIRED|||-NONE-|||0
+A 8 9|||R:NOM:FORM|||niisugusel|||REQUIRED|||-NONE-|||0
+A 9 10|||R:NOM:FORM|||üritusel|||REQUIRED|||-NONE-|||0
+A 7 12|||R:WO|||veel kord võimalus osaleda niisugusel üritusel|||REQUIRED|||-NONE-|||0
+A 4 5|||R:LEX|||oleks|||REQUIRED|||-NONE-|||1
+A 5 6|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 8 9|||R:NOM:FORM|||niisugustel|||REQUIRED|||-NONE-|||1
+A 9 10|||R:NOM:FORM|||üritustel|||REQUIRED|||-NONE-|||1
+A 10 12|||R:WS|||veelkord|||REQUIRED|||-NONE-|||1
+A 7 12|||R:WO|||veelkord võimalus niisugustel üritustel osaleda|||REQUIRED|||-NONE-|||1
+A 4 5|||R:LEX|||oleks|||REQUIRED|||-NONE-|||2
+A 5 6|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||2
+A 8 9|||R:NOM:FORM|||niisugustel|||REQUIRED|||-NONE-|||2
+A 9 10|||R:NOM:FORM|||üritustel|||REQUIRED|||-NONE-|||2
+A 7 12|||R:WO|||veel kord võimalus niisugustel üritustel osaleda|||REQUIRED|||-NONE-|||2

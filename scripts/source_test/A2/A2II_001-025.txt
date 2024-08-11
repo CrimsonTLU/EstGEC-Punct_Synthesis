@@ -1,0 +1,47 @@
+
+S Müüa uus auto " Honda " 2018 a .
+A 3 4|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 5 6|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||2018.|||REQUIRED|||-NONE-|||0
+
+S Värv on must , salon on nähk , väga hea valja .
+A 4 5|||R:SPELL|||salong|||REQUIRED|||-NONE-|||0
+A 6 7|||R:NOM:FORM:SPELL|||nahast|||REQUIRED|||-NONE-|||0
+A 10 11|||R:LEX:SPELL|||välimusega|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||salong|||REQUIRED|||-NONE-|||1
+A 6 7|||R:NOM:FORM:SPELL|||nahast|||REQUIRED|||-NONE-|||1
+A 8 8|||M:LEX|||näeb|||REQUIRED|||-NONE-|||1
+A 10 11|||R:SPELL|||välja|||REQUIRED|||-NONE-|||1
+
+S Kiimba on suvel-talv , bensin on 6-7 litrit 100 km .
+A 0 1|||R:SPELL|||Kliima|||REQUIRED|||-NONE-|||0
+A 2 3|||R:NOM:FORM|||suvel-talvel|||REQUIRED|||-NONE-|||0
+A 4 5|||R:NOM:FORM:SPELL|||bensiini|||REQUIRED|||-NONE-|||0
+A 5 6|||R:LEX|||kulub|||REQUIRED|||-NONE-|||0
+A 7 8|||R:SPELL|||liitrit|||REQUIRED|||-NONE-|||0
+A 10 10|||M:LEX|||kohta|||REQUIRED|||-NONE-|||0
+
+S Hund on 30.300 ebrot .
+A 0 1|||R:SPELL|||Hind|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||30300|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||eurot|||REQUIRED|||-NONE-|||0
+A 0 1|||R:SPELL|||Hind|||REQUIRED|||-NONE-|||1
+A 2 3|||R:SPELL|||30 300|||REQUIRED|||-NONE-|||1
+A 3 4|||R:SPELL|||eurot|||REQUIRED|||-NONE-|||1
+
+S See auto tahate näha laupäeval voi pühapäeval kell 10-ks kuni 12-ni kaubakeskus parkla " Vironia "
+A 0 1|||R:NOM:FORM|||Seda|||REQUIRED|||-NONE-|||0
+A 1 2|||R:NOM:FORM|||autot|||REQUIRED|||-NONE-|||0
+A 2 3|||R:LEX|||saate|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||või|||REQUIRED|||-NONE-|||0
+A 7 8|||R:NOM:FORM|||kella|||REQUIRED|||-NONE-|||0
+A 8 9|||R:NOM:FORM|||10-st|||REQUIRED|||-NONE-|||0
+A 11 12|||R:NOM:FORM|||kaubakeskuse|||REQUIRED|||-NONE-|||0
+A 12 13|||R:NOM:FORM|||parklas|||REQUIRED|||-NONE-|||0
+A 13 14|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 11 15|||R:WO|||kaubakeskuse Vironia parklas|||REQUIRED|||-NONE-|||0
+A 15 16|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 16 16|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+
+S kubakeskus asub Maleva tn . --- .
+A 0 1|||R:SPELL:CASE|||Kaubakeskus|||REQUIRED|||-NONE-|||0

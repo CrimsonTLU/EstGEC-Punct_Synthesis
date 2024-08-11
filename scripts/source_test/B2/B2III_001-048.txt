@@ -1,0 +1,149 @@
+
+S Tere , Eeva !
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Vabanda mind , et nii palju aega ei kirjutanud Sulle .
+A 5 6|||R:LEX|||pikka|||REQUIRED|||-NONE-|||0
+A 9 10|||R:CASE|||sulle|||REQUIRED|||-NONE-|||0
+A 8 9|||R:VERB:FORM|||ole kirjutanud|||REQUIRED|||-NONE-|||0
+A 4 10|||R:WO|||ei ole nii pikka aega sulle kirjutanud|||REQUIRED|||-NONE-|||0
+A 5 6|||R:LEX|||pikka|||REQUIRED|||-NONE-|||1
+A 8 9|||R:VERB:FORM|||ole kirjutanud|||REQUIRED|||-NONE-|||1
+A 9 10|||R:CASE|||sulle|||REQUIRED|||-NONE-|||1
+A 4 10|||R:WO|||ei ole sulle nii pikka aega kirjutanud|||REQUIRED|||-NONE-|||1
+A 5 6|||R:LEX|||pikka|||REQUIRED|||-NONE-|||2
+A 8 9|||R:VERB:FORM|||ole kirjutanud|||REQUIRED|||-NONE-|||2
+A 4 10|||R:WO|||ei ole nii pikka aega Sulle kirjutanud|||REQUIRED|||-NONE-|||2
+
+S Kahjuks mul ei olnud aega ja võimalust , aga nüüd istun ja kirjutan .
+A 3 3|||M:LEX|||ole|||REQUIRED|||-NONE-|||0
+A 1 4|||R:WO|||ei ole mul olnud|||REQUIRED|||-NONE-|||0
+A 1 4|||R:WO|||ei olnud mul|||REQUIRED|||-NONE-|||1
+
+S Tahan kirjutada Sulle sellest , et paar päeva tagasi ma leidsin raamatuid ja vanaid ajakirje .
+A 2 3|||R:CASE|||sulle|||REQUIRED|||-NONE-|||0
+A 9 11|||R:WO|||leidsin ma|||REQUIRED|||-NONE-|||0
+A 13 14|||R:SPELL|||vanu|||REQUIRED|||-NONE-|||0
+A 14 15|||R:SPELL|||ajakirju|||REQUIRED|||-NONE-|||0
+A 2 3|||R:CASE|||sulle|||REQUIRED|||-NONE-|||1
+A 1 3|||R:WO|||sulle kirjutada|||REQUIRED|||-NONE-|||1
+A 6 11|||R:WO|||ma leidsin paar päeva tagasi|||REQUIRED|||-NONE-|||1
+A 13 14|||R:NOM:FORM:SPELL|||vanu|||REQUIRED|||-NONE-|||1
+A 14 15|||R:SPELL|||ajakirju|||REQUIRED|||-NONE-|||1
+A 9 11|||R:WO|||leidsin ma|||REQUIRED|||-NONE-|||2
+A 13 14|||R:SPELL|||vanu|||REQUIRED|||-NONE-|||2
+A 14 15|||R:SPELL|||ajakirju|||REQUIRED|||-NONE-|||2
+
+S Õnneks ma lugesin kõik neid raamatuid läbi juba kaks aastat tagasi ning tahan küsida Sinu käest , kas keegi tahaks neid endale ?
+A 1 3|||R:WO|||lugesin ma|||REQUIRED|||-NONE-|||0
+A 4 5|||R:NOM:FORM|||need|||REQUIRED|||-NONE-|||0
+A 5 6|||R:NOM:FORM|||raamatud|||REQUIRED|||-NONE-|||0
+A 14 15|||R:CASE|||sinu|||REQUIRED|||-NONE-|||0
+A 13 16|||R:WO|||sinu käest küsida|||REQUIRED|||-NONE-|||0
+A 22 23|||R:PUNCT|||.|||REQUIRED|||-NONE-|||0
+A 1 3|||R:WO|||Ma lugesin õnneks|||REQUIRED|||-NONE-|||1
+A 4 5|||R:NOM:FORM|||need|||REQUIRED|||-NONE-|||1
+A 5 6|||R:NOM:FORM|||raamatud|||REQUIRED|||-NONE-|||1
+A 14 15|||R:CASE|||sinu|||REQUIRED|||-NONE-|||1
+A 13 16|||R:WO|||sinu käest küsida|||REQUIRED|||-NONE-|||1
+A 22 23|||R:PUNCT|||.|||REQUIRED|||-NONE-|||1
+A 1 3|||R:WO|||lugesin ma|||REQUIRED|||-NONE-|||2
+A 4 5|||R:NOM:FORM|||need|||REQUIRED|||-NONE-|||2
+A 5 6|||R:NOM:FORM|||raamatud|||REQUIRED|||-NONE-|||2
+A 13 16|||R:WO|||Sinu käest küsida|||REQUIRED|||-NONE-|||2
+A 22 23|||R:PUNCT|||.|||REQUIRED|||-NONE-|||2
+
+S Rammatud on väga erinevad .
+A 0 1|||R:SPELL|||Raamatud|||REQUIRED|||-NONE-|||0
+
+S On raamatud nii lastele kui ka täiskasvanutele .
+A 1 2|||R:NOM:FORM|||raamatuid|||REQUIRED|||-NONE-|||0
+
+S Raamatute seas on väga huvitavad eesti teosed , eesti lasteraamat " Sipsik " , inglise keelsed muinasjutud , prantsuse keelne klaasika ja isegi hiina keele õpik .
+A 14 16|||R:WS|||ingliskeelsed|||REQUIRED|||-NONE-|||0
+A 18 20|||R:WS|||prantsuskeelne|||REQUIRED|||-NONE-|||0
+A 20 21|||R:SPELL|||klassika|||REQUIRED|||-NONE-|||0
+
+S Selleks , et need raamatud endale saada on vaja kirjutada kiri mulle , kus on kirjutatud miks need raamatud peavad olema just sellel inimestel .
+A 7 7|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 10 12|||R:WO|||mulle kiri|||REQUIRED|||-NONE-|||0
+A 16 16|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 17 20|||R:WO|||peavad need raamatud|||REQUIRED|||-NONE-|||0
+A 23 24|||R:NOM:FORM|||inimesel|||REQUIRED|||-NONE-|||0
+A 7 7|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 10 12|||R:WO|||mulle kiri|||REQUIRED|||-NONE-|||1
+A 13 14|||R:LEX|||kuhu|||REQUIRED|||-NONE-|||1
+A 16 16|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 17 20|||R:WO|||peavad need raamatud|||REQUIRED|||-NONE-|||1
+A 20 21|||R:LEX|||minema|||REQUIRED|||-NONE-|||1
+A 22 23|||R:NOM:FORM|||sellele|||REQUIRED|||-NONE-|||1
+A 23 24|||R:NOM:FORM|||inimesele|||REQUIRED|||-NONE-|||1
+A 7 7|||M:PUNCT|||,|||REQUIRED|||-NONE-|||2
+A 10 12|||R:WO|||mulle kiri|||REQUIRED|||-NONE-|||2
+A 15 16|||R:LEX|||öeldud||seletatud|||REQUIRED|||-NONE-|||2
+A 16 16|||M:PUNCT|||,|||REQUIRED|||-NONE-|||2
+A 17 20|||R:WO|||peavad need raamatud|||REQUIRED|||-NONE-|||2
+A 23 24|||R:NOM:FORM|||inimesel|||REQUIRED|||-NONE-|||2
+
+S Kiri peab olema umbes 100 sõna ning kelle kiri mulle meeldib kõige rohkem , siis see inimene saab need väljaandeid endale .
+A 6 6|||M:LEX|||pikk|||REQUIRED|||-NONE-|||0
+A 7 7|||M:LEX|||see|||REQUIRED|||-NONE-|||0
+A 7 7|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 9 11|||R:WO|||meeldib mulle|||REQUIRED|||-NONE-|||0
+A 14 17|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+A 19 20|||R:NOM:FORM|||väljaanded|||REQUIRED|||-NONE-|||0
+A 6 6|||M:LEX|||pikk|||REQUIRED|||-NONE-|||1
+A 7 7|||M:LEX|||see inimene|||REQUIRED|||-NONE-|||1
+A 7 7|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 10 13|||R:WO|||kõige rohkem meeldib|||REQUIRED|||-NONE-|||1
+A 14 17|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 19 20|||R:NOM:FORM|||väljaanded|||REQUIRED|||-NONE-|||1
+A 0 1|||R:NOM:FORM|||Kirjas|||REQUIRED|||-NONE-|||2
+A 7 8|||R:LEX|||kui|||REQUIRED|||-NONE-|||2
+A 10 13|||R:WO|||kõige rohkem meeldib|||REQUIRED|||-NONE-|||2
+A 15 17|||R:WO|||saab see inimene|||REQUIRED|||-NONE-|||2
+A 19 20|||R:NOM:FORM|||väljaanded|||REQUIRED|||-NONE-|||2
+
+S Tahaksin küsida Sinu käest , kas Sul on niisugused sõbrad või sugulased , kellele meeldib lugeda raamatuid ja ajakirju ?
+A 2 3|||R:CASE|||sinu|||REQUIRED|||-NONE-|||0
+A 6 7|||R:CASE|||sul|||REQUIRED|||-NONE-|||0
+A 19 20|||R:PUNCT|||.|||REQUIRED|||-NONE-|||0
+A 2 3|||R:CASE|||sinu|||REQUIRED|||-NONE-|||1
+A 1 4|||R:WO|||sinu käest küsida|||REQUIRED|||-NONE-|||1
+A 6 7|||R:CASE|||sul|||REQUIRED|||-NONE-|||1
+A 8 9|||R:NOM:FORM|||niisuguseid|||REQUIRED|||-NONE-|||1
+A 9 10|||R:NOM:FORM|||sõpru|||REQUIRED|||-NONE-|||1
+A 11 12|||R:NOM:FORM|||sugulasi|||REQUIRED|||-NONE-|||1
+A 15 19|||R:WO|||raamatuid ja ajakirju lugeda|||REQUIRED|||-NONE-|||1
+A 19 20|||R:PUNCT|||.|||REQUIRED|||-NONE-|||1
+A 1 4|||R:WO|||Sinu käest küsida|||REQUIRED|||-NONE-|||2
+A 8 9|||R:NOM:FORM|||niisuguseid|||REQUIRED|||-NONE-|||2
+A 9 10|||R:NOM:FORM|||sõpru|||REQUIRED|||-NONE-|||2
+A 11 12|||R:NOM:FORM|||sugulasi|||REQUIRED|||-NONE-|||2
+A 19 20|||R:PUNCT|||.|||REQUIRED|||-NONE-|||2
+
+S Vaatamata sellele , kui mitte keegi ei soovi neid raamatuid , mida siis teha ?
+A 0 1|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+A 1 2|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+A 2 3|||U:PUNCT|||-NONE- Kui|||REQUIRED|||-NONE-|||0
+A 0 1|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 1 2|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 2 3|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+A 3 14|||R:WO|||Mida siis teha , kui mitte keegi ei soovi neid raamatuid|||REQUIRED|||-NONE-|||1
+
+S Anda palun nõu .
+A 0 1|||R:VERB:FORM|||Anna|||REQUIRED|||-NONE-|||0
+A 0 1|||R:VERB:FORM|||Anna|||REQUIRED|||-NONE-|||1
+A 3 4|||R:PUNCT|||!|||REQUIRED|||-NONE-|||1
+A 0 1|||R:VERB:FORM|||Anna|||REQUIRED|||-NONE-|||2
+A 0 2|||R:WO|||Palun anna|||REQUIRED|||-NONE-|||2
+A 3 4|||R:PUNCT|||!|||REQUIRED|||-NONE-|||2
+
+S Ootan Sinust vastust .
+A 1 2|||R:NOM:FORM:CASE|||sinu||sinult|||REQUIRED|||-NONE-|||0
+A 1 2|||R:NOM:FORM:CASE|||sinu||sinult|||REQUIRED|||-NONE-|||1
+A 3 4|||R:PUNCT|||!|||REQUIRED|||-NONE-|||1
+A 1 2|||R:NOM:FORM|||Sinu||Sinult|||REQUIRED|||-NONE-|||2
+
+S Parimate soovidega , Polina
+A 2 3|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0

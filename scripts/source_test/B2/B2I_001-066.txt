@@ -1,0 +1,131 @@
+
+S Tere !
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Loodan , et sul läheb hästi .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+A 6 7|||R:PUNCT|||!|||REQUIRED|||-NONE-|||1
+
+S Kirjutan sulle seoses ühe probleemiga tööl , mis juba pika aja jooksul ei jätta mind rahule .
+A 13 14|||R:VERB:FORM|||jäta|||REQUIRED|||-NONE-|||0
+A 8 16|||R:WO|||mind juba pika aja jooksul rahule ei jäta|||REQUIRED|||-NONE-|||0
+A 4 6|||R:WS:NOM:FORM|||tööprobleemiga|||REQUIRED|||-NONE-|||1
+A 9 10|||R:NOM:FORM|||pikka||pikemat|||REQUIRED|||-NONE-|||1
+A 10 11|||R:NOM:FORM|||aega|||REQUIRED|||-NONE-|||1
+A 11 12|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 13 14|||R:LEX:SPELL|||anna|||REQUIRED|||-NONE-|||1
+A 14 15|||R:NOM:FORM|||mulle|||REQUIRED|||-NONE-|||1
+A 15 16|||R:LEX|||rahu|||REQUIRED|||-NONE-|||1
+A 8 16|||R:WO|||mulle juba pikka aega rahu ei anna||mulle juba pikemat aega rahu ei anna|||REQUIRED|||-NONE-|||1
+
+S Mõtlesin kuidas seda probleemi lahendada ja tuli meelde et paar aastat tagasi sa rääkis mulle samast olukorrast .
+A 1 1|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 5 5|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 8 8|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 13 14|||R:VERB:FORM|||rääkisid|||REQUIRED|||-NONE-|||0
+A 12 14|||R:WO|||rääkisid sa|||REQUIRED|||-NONE-|||0
+A 1 1|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 5 5|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 8 8|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 13 14|||R:VERB:FORM|||rääkisid|||REQUIRED|||-NONE-|||1
+A 12 14|||R:WO|||rääkisid sa|||REQUIRED|||-NONE-|||1
+A 15 16|||R:LEX|||sarnasest|||REQUIRED|||-NONE-|||1
+
+S Kõigepealt seletan sulle lühidalt milles asi on .
+A 4 4|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 4 4|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 5 7|||R:WO|||on asi|||REQUIRED|||-NONE-|||1
+
+S Sa ju tead , et viimastel aastatel Eestis on olnud päris suur ja pidev palgakasv , mis ma loodan väljendas ka sinu sissetulekus .
+A 7 9|||R:WO|||on Eestis|||REQUIRED|||-NONE-|||0
+A 17 17|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 19 19|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 19 20|||R:LEX|||väljendus|||REQUIRED|||-NONE-|||0
+A 7 9|||R:WO|||on Eestis|||REQUIRED|||-NONE-|||1
+A 17 19|||R:LEX|||loodetavasti|||REQUIRED|||-NONE-|||1
+A 19 20|||R:LEX|||väljendus|||REQUIRED|||-NONE-|||1
+
+S Vaatamata sellele minu palk on jäänud viimase kolme aasta jooksul muutmata .
+A 2 5|||R:WO|||on minu palk|||REQUIRED|||-NONE-|||0
+A 2 5|||R:WO|||on minu palk|||REQUIRED|||-NONE-|||1
+A 10 11|||R:LEX|||muutumata|||REQUIRED|||-NONE-|||1
+A 2 5|||R:WO|||on minu palk|||REQUIRED|||-NONE-|||2
+A 5 6|||R:LEX|||püsinud|||REQUIRED|||-NONE-|||2
+A 10 11|||R:LEX|||muutumata|||REQUIRED|||-NONE-|||2
+
+S Töökoormus ja vastutus aga on suurenenud , mis teeb olukorda veel pingeliseks .
+A 3 5|||R:WO|||on aga|||REQUIRED|||-NONE-|||0
+A 9 10|||R:NOM:FORM|||olukorra|||REQUIRED|||-NONE-|||0
+A 11 12|||R:NOM:FORM|||pingelisemaks|||REQUIRED|||-NONE-|||0
+A 3 5|||R:WO|||on aga|||REQUIRED|||-NONE-|||1
+A 11 12|||R:NOM:FORM|||pingelisemaks|||REQUIRED|||-NONE-|||1
+
+S Käisin kaks korda sellest rääkimas .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+A 1 4|||R:WO|||sellest kaks korda|||REQUIRED|||-NONE-|||1
+
+S Kahjuks tulemuseta .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Minu ülemus vastas mulle , et ettevõtte kasumlikkus kahaneb iga aasta , seega ta peab kulusid kontrolli all hoidma ja tööviljakust tõstma .
+A 13 15|||R:WO|||peab ta|||REQUIRED|||-NONE-|||0
+A 10 11|||R:NOM:FORM|||aastaga|||REQUIRED|||-NONE-|||1
+A 13 15|||R:WO|||peab ta|||REQUIRED|||-NONE-|||1
+A 9 10|||R:NOM:FORM|||igal|||REQUIRED|||-NONE-|||2
+A 10 11|||R:NOM:FORM|||aastal|||REQUIRED|||-NONE-|||2
+A 13 15|||R:WO|||peab ta|||REQUIRED|||-NONE-|||2
+
+S Mul on kahju , aga olen sunnitud otsima lahendusi väljaspool meie ettevõtte , kus ma veetsin kümme aastat .
+A 9 10|||R:LEX|||väljastpoolt|||REQUIRED|||-NONE-|||0
+A 11 12|||R:NOM:FORM|||ettevõtet|||REQUIRED|||-NONE-|||0
+A 15 16|||R:VERB:FORM|||olen veetnud|||REQUIRED|||-NONE-|||0
+A 11 12|||R:NOM:FORM|||ettevõtet|||REQUIRED|||-NONE-|||1
+A 15 16|||R:VERB:FORM|||olen veetnud|||REQUIRED|||-NONE-|||1
+
+S Pöördusin personaaliotsingu firma poole , kuna ma ei taha otseselt kandideerida läbi cv online või cv keskus portaali .
+A 1 2|||R:SPELL|||personaliotsingu|||REQUIRED|||-NONE-|||0
+A 12 14|||R:WS:NOM:FORM:CASE|||CV-Online'i|||REQUIRED|||-NONE-|||0
+A 15 16|||R:CASE|||CV|||REQUIRED|||-NONE-|||0
+A 16 17|||R:NOM:FORM:CASE|||Keskuse|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||personaliotsingu|||REQUIRED|||-NONE-|||1
+A 12 14|||R:WS:NOM:FORM:CASE|||CV-Online'i|||REQUIRED|||-NONE-|||1
+A 15 16|||R:CASE|||CV|||REQUIRED|||-NONE-|||1
+A 16 17|||R:NOM:FORM:CASE|||Keskuse|||REQUIRED|||-NONE-|||1
+A 11 18|||R:LEX:WO|||CV-Online'i või CV Keskuse portaali kaudu|||REQUIRED|||-NONE-|||1
+A 1 2|||R:SPELL|||personaliotsingu|||REQUIRED|||-NONE-|||2
+A 12 14|||R:WS:CASE|||CV-Online|||REQUIRED|||-NONE-|||2
+A 15 16|||R:SPELL|||CV|||REQUIRED|||-NONE-|||2
+A 16 17|||R:CASE|||Keskus|||REQUIRED|||-NONE-|||2
+A 11 18|||R:LEX:WO|||portaali CV-Online või CV Keskus kaudu|||REQUIRED|||-NONE-|||2
+
+S Ma kardan , et siis info võib lekkida ja jõuda minu ülemuseni .
+A 5 7|||R:WO|||võib info|||REQUIRED|||-NONE-|||0
+
+S Sul oli aga samasugune probleem .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Sa oled kuidagi hakkama saanud , seega loodan et sa saad mulle nõuannet anda ja oma kogemusest natuke rääkida .
+A 8 8|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 12 13|||R:NOM:FORM|||nõuande||nõuandeid|||REQUIRED|||-NONE-|||0
+A 8 8|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 12 13|||R:LEX|||nõu|||REQUIRED|||-NONE-|||1
+A 15 18|||R:WO|||natuke oma kogemusest|||REQUIRED|||-NONE-|||1
+
+S Kindlasti see aitaks mulle leida lahendust ja maandada riske .
+A 1 3|||R:WO|||aitaks see|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOM:FORM|||mul|||REQUIRED|||-NONE-|||0
+A 4 6|||R:WO|||lahendust leida|||REQUIRED|||-NONE-|||0
+A 7 9|||R:WO|||riske maandada|||REQUIRED|||-NONE-|||0
+A 1 3|||R:WO|||aitaks see|||REQUIRED|||-NONE-|||1
+A 3 4|||R:NOM:FORM|||mul|||REQUIRED|||-NONE-|||1
+A 5 6|||R:NOM:FORM|||lahenduse|||REQUIRED|||-NONE-|||1
+A 4 6|||R:WO|||lahenduse leida|||REQUIRED|||-NONE-|||1
+
+S Jään ootama sinu vastust .
+A 1 4|||R:WO|||sinu vastust ootama|||REQUIRED|||-NONE-|||0
+
+S Kõige paremat !
+A 0 1|||R:NOM:FORM|||Kõike|||REQUIRED|||-NONE-|||0
+
+S Peeter
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0

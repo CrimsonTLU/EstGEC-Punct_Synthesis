@@ -1,0 +1,70 @@
+
+S Tere !
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Kirjutan Teile palvega tänavate ja parkide hooldamist firmat vahetada , sest ma ei ole selle firma tööga rahul .
+A 6 7|||R:NOM:FORM|||hooldamise|||REQUIRED|||-NONE-|||0
+A 3 9|||R:WO|||vahetada tänavate ja parkide hooldamise firmat|||REQUIRED|||-NONE-|||0
+A 6 7|||R:NOM:FORM|||hooldamise|||REQUIRED|||-NONE-|||1
+
+S Mind häirib see asi , et mul on väike laps , kellel on vaja pärist lõunat magama , aga lõuna ajal algatakse tanävate pesemine ja parkide kohtade hooldamine .
+A 14 15|||R:SPELL|||pärast|||REQUIRED|||-NONE-|||0
+A 16 17|||R:VERB:FORM|||magada|||REQUIRED|||-NONE-|||0
+A 21 22|||R:LEX:SPELL|||alustatakse|||REQUIRED|||-NONE-|||0
+A 22 23|||R:SPELL|||tänavate|||REQUIRED|||-NONE-|||0
+A 23 24|||R:NOM:FORM|||pesemist|||REQUIRED|||-NONE-|||0
+A 26 27|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+A 27 28|||R:NOM:FORM|||hooldamist|||REQUIRED|||-NONE-|||0
+A 3 4|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 14 15|||R:SPELL|||pärast|||REQUIRED|||-NONE-|||1
+A 16 17|||R:VERB:FORM|||magada|||REQUIRED|||-NONE-|||1
+A 21 22|||R:LEX:SPELL|||alustatakse|||REQUIRED|||-NONE-|||1
+A 22 23|||R:SPELL|||tänavate|||REQUIRED|||-NONE-|||1
+A 23 24|||R:NOM:FORM|||pesemist|||REQUIRED|||-NONE-|||1
+A 26 27|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 27 28|||R:NOM:FORM|||hooldamist|||REQUIRED|||-NONE-|||1
+
+S Tore on see , et hooldamine tehakse , aga aeg selleks on ebamugav .
+A 5 6|||R:NOM:FORM|||hooldamist|||REQUIRED|||-NONE-|||0
+A 5 6|||R:NOM:FORM|||hooldamist|||REQUIRED|||-NONE-|||1
+A 10 12|||R:WO|||on selleks|||REQUIRED|||-NONE-|||1
+
+S Kohalik omavalitsus sõlmis ainult eelmisel aastal uue teenuspakkujaga lepingu .
+A 3 4|||R:LEX|||alles|||REQUIRED|||-NONE-|||0
+A 7 8|||R:SPELL|||teenusepakkujaga|||REQUIRED|||-NONE-|||0
+A 6 9|||R:WO|||lepingu uue teenusepakkujaga|||REQUIRED|||-NONE-|||0
+A 3 4|||R:LEX|||alles|||REQUIRED|||-NONE-|||1
+A 7 8|||R:SPELL|||teenusepakkujaga|||REQUIRED|||-NONE-|||1
+
+S Võib olla seda ebamugavust hooldamise ajaga saab lahendada .
+A 0 2|||R:WS|||Võib-olla||Võibolla|||REQUIRED|||-NONE-|||0
+A 2 7|||R:WO|||saab seda ebamugavust hooldamise ajaga|||REQUIRED|||-NONE-|||0
+
+S Minu ettepanek on selline , äkki saab meil tänavate ja parkide hooldamise aja muuta hommikupooliku ajaks .
+A 5 5|||M:LEX|||et|||REQUIRED|||-NONE-|||0
+A 14 15|||R:LEX|||hommikupoolsemaks|||REQUIRED|||-NONE-|||0
+A 15 16|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+A 4 5|||R:PUNCT|||:|||REQUIRED|||-NONE-|||1
+A 7 8|||R:NOM:FORM|||meie|||REQUIRED|||-NONE-|||1
+A 13 14|||R:LEX|||tõsta|||REQUIRED|||-NONE-|||1
+A 14 15|||R:NOM:FORM|||hommikupoolikule|||REQUIRED|||-NONE-|||1
+A 15 16|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+
+S Hommikul kõik inimesed on tööl , lapsed lähevad kooli ja see oleks tore aeg tänavate ja parkide hooldamiseks , sest parkide kohad on põhimõtteliselt tühjad .
+A 1 4|||R:WO|||on kõik inimesed|||REQUIRED|||-NONE-|||0
+A 20 21|||R:NOM:FORM|||pargid|||REQUIRED|||-NONE-|||0
+A 21 22|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Loodan Teie arusaamise eest ja loodan , et minu palve leiab lahenduse tänavate ja parkide hooldamise aja vahetamiseks .
+A 2 3|||R:NOM:FORM|||arusaamisele|||REQUIRED|||-NONE-|||0
+A 3 4|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+A 10 18|||R:WO|||tänavate ja parkide hooldamise aja vahetamiseks leiab lahenduse|||REQUIRED|||-NONE-|||1
+A 0 1|||R:LEX|||Tänan|||REQUIRED|||-NONE-|||1
+A 1 2|||R:NOM:FORM|||Teid|||REQUIRED|||-NONE-|||1
+A 10 18|||R:WO|||tänavate ja parkide hooldamise aja vahetamiseks leiab lahenduse|||REQUIRED|||-NONE-|||2
+
+S Teie linna elanik .
+A 3 4|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Alina .
+A 1 2|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0

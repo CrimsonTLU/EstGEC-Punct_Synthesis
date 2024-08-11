@@ -1,0 +1,68 @@
+
+S Kallid kolleegid !
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Tänapäeval on linnastumisteema eriti aktuaalne .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S On tihti kuulda , et linnades ja ääremaadel on ebavõrdsed tingimused .
+A 0 2|||R:WO|||Tihti on|||REQUIRED|||-NONE-|||0
+
+S Just nendel teemadel arutati seminaril , kus ma hiljuti käisin .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Tahan ka teile kuuldust teada anda , sest arvan , et käesolev teema on tähtis iga inimese jaoks .
+A 2 3|||R:NOM:FORM|||teiega|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOM:FORM|||kuuldut|||REQUIRED|||-NONE-|||0
+A 4 6|||R:LEX|||jagada|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||1
+
+S Olen õnnelik , kui teie mulle kaasa mõtleks ning oma arvamusi samuti avaldaksite .
+A 4 5|||R:NOM:FORM|||te|||REQUIRED|||-NONE-|||0
+A 5 6|||R:NOM:FORM|||minuga|||REQUIRED|||-NONE-|||0
+
+S Üks käsitletud teemasid oli " Teenused , kultuurielu ning töökohad linnades ja ääremaadel " .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Kuna seminaril osalesid inimesed täiesti erinevatest Eestimaa kohtadest , jagasid nad oma arvamusi eriti aktiivselt .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Enamik inimestest on arvanud , et teenused ja kultuurielu eri paigades on tõepoolest märgatavalt ebaühtlaseks muutunud .
+A 2 4|||R:VERB:FORM|||arvas|||REQUIRED|||-NONE-|||0
+A 10 11|||R:SPELL|||paikades|||REQUIRED|||-NONE-|||0
+
+S Lõpuks jõudsime kokkuleppele , et valitsus peab kindlasti midagi ette võtma , et muuta olukorda paremaks ning seega ka õiglasemaks .
+A 13 20|||R:WO|||olukorda paremaks ning seega ka õiglasemaks muuta|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||1
+
+S Järgmine teema oligi seotud lahenduste otsimisega : " Riigi kõigi piirkondade ühtlase arengu tagamise võimalused " .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Tänapäeval inimesed otsivad rohkem ja rohkem võimalusi oma elu parandamiseks .
+A 1 3|||R:WO|||otsivad inimesed|||REQUIRED|||-NONE-|||0
+A 3 3|||M:LEX|||aina||üha|||REQUIRED|||-NONE-|||0
+
+S Urbanisatsiooni tõttu linnade osakaal suureneb ning enamus ääremaade elanikudest ruttavad kolida linna , kus on arenenud majandus , haridus , meditsiin ja infrastruktuur .
+A 2 5|||R:WO|||suureneb linnade osakaal|||REQUIRED|||-NONE-|||0
+A 8 9|||R:SPELL|||elanikest|||REQUIRED|||-NONE-|||0
+A 10 11|||R:VERB:FORM|||kolima|||REQUIRED|||-NONE-|||0
+A 8 9|||R:SPELL|||elanikest|||REQUIRED|||-NONE-|||1
+A 10 11|||R:VERB:FORM|||kolima|||REQUIRED|||-NONE-|||1
+
+S See tekitab tööjõudu puudust ääremaadel ning selle tõttu teenused , kultuurielu ja töökohtade pakkumised on külades ja maadel halvem .
+A 2 3|||R:NOM:FORM|||tööjõu|||REQUIRED|||-NONE-|||0
+A 8 15|||R:WO|||on teenused , kultuurielu ja töökohtade pakkumised|||REQUIRED|||-NONE-|||0
+A 17 18|||R:NOM:FORM|||maal|||REQUIRED|||-NONE-|||0
+A 18 19|||R:NOM:FORM|||halvemad|||REQUIRED|||-NONE-|||0
+
+S Kolleegid pakkusid korraldada rohkem kursuseid ning seminare õpetajatele ja teenistuses töötavatele inimestele .
+A 2 2|||M:LEX|||välja|||REQUIRED|||-NONE-|||0
+
+S Suurepärane idee oli ka teha vahetusi linnade ja maade töötajate vahel .
+A 8 9|||R:LEX|||maakohtade|||REQUIRED|||-NONE-|||0
+
+S Sellest võiks veel kaua rääkida , kuid pean lõpetama .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Igaüks teeb ise endale kindlaks mis on õige ja mis vale .
+A 5 5|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0

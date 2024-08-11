@@ -1,0 +1,76 @@
+
+S Lugupeetud lugejaid !
+A 1 2|||R:NOM:FORM|||lugejad|||REQUIRED|||-NONE-|||0
+
+S Sel nädalal on meie asutuse sünnipäev ja ma tahaksin jutustada meie asutusest .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Kaks aastat tagasi ma nägin reklaami , et meie asutus otsib uusi töötajaid tööle .
+A 3 5|||R:WO|||nägin ma|||REQUIRED|||-NONE-|||0
+
+S Sest minu elukutse sobib asutusele , ma otsustasin proovida saada oma CV ja õnneks , minu kanditatuur meeldis nendele .
+A 0 1|||R:LEX|||Kuna||Et|||REQUIRED|||-NONE-|||0
+A 3 4|||R:VERB:FORM|||sobis|||REQUIRED|||-NONE-|||0
+A 6 8|||R:WO|||otsustasin ma|||REQUIRED|||-NONE-|||0
+A 9 10|||R:SPELL|||saata|||REQUIRED|||-NONE-|||0
+A 11 12|||R:NOM:FORM|||CVd|||REQUIRED|||-NONE-|||0
+A 14 15|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 16 17|||R:SPELL|||kandidatuur|||REQUIRED|||-NONE-|||0
+A 0 1|||R:LEX|||Kuna||Et|||REQUIRED|||-NONE-|||1
+A 3 4|||R:VERB:FORM|||sobis|||REQUIRED|||-NONE-|||1
+A 6 8|||R:WO|||otsustasin ma|||REQUIRED|||-NONE-|||1
+A 9 10|||R:SPELL|||saata|||REQUIRED|||-NONE-|||1
+A 14 15|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+A 16 17|||R:LEX:SPELL|||avaldus||taotlus|||REQUIRED|||-NONE-|||1
+
+S Esimesest tööpäevast tänanpäevani mulle meeldib kõik .
+A 2 3|||R:SPELL|||tänapäevani|||REQUIRED|||-NONE-|||0
+A 3 5|||R:WO|||meeldib mulle|||REQUIRED|||-NONE-|||0
+A 2 3|||R:LEX:SPELL|||tänaseni|||REQUIRED|||-NONE-|||1
+A 3 5|||R:WO|||meeldib mulle|||REQUIRED|||-NONE-|||1
+
+S Meie kollektiiv on arusaadav , kui tekitavad mingeid probleeme , siis nad kergesti leiavad aega aitamisele .
+A 3 4|||R:LEX|||mõistev|||REQUIRED|||-NONE-|||0
+A 6 7|||R:LEX|||tekivad|||REQUIRED|||-NONE-|||0
+A 7 8|||R:NOM:FORM|||mingid||mingisugused|||REQUIRED|||-NONE-|||0
+A 8 9|||R:NOM:FORM|||probleemid|||REQUIRED|||-NONE-|||0
+A 11 14|||R:WO|||leiavad nad kergesti|||REQUIRED|||-NONE-|||0
+A 15 16|||R:NOM:FORM|||aitamiseks|||REQUIRED|||-NONE-|||0
+
+S Ka mulle meeldib , et kogu töö on jagatud töötajate vahel ausalt .
+A 0 3|||R:WO|||Mulle meeldib ka|||REQUIRED|||-NONE-|||0
+A 8 12|||R:WO|||töötajate vahel ausalt jagatud|||REQUIRED|||-NONE-|||0
+
+S Meie asutuses valitseb positiivne ja rõõmus tööõhkkond .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Ka meie töö eelis , et meil on kõrged palgad , mida väga rõõmustab .
+A 1 1|||M:LEX|||on|||REQUIRED|||-NONE-|||0
+A 11 12|||R:NOM:FORM|||mis|||REQUIRED|||-NONE-|||0
+
+S Mulle tundub , et tulevikus meie asutus suurenes .
+A 7 8|||R:VERB:FORM|||suureneb|||REQUIRED|||-NONE-|||0
+
+S Meil on plaanis uuendada oma töövahendeid ja teha uue nüüdisaegse hoone meie asutusele .
+A 8 9|||R:NOM:FORM|||uus|||REQUIRED|||-NONE-|||0
+A 9 10|||R:NOM:FORM|||nüüdisaegne|||REQUIRED|||-NONE-|||0
+A 8 13|||R:WO|||meie asutusele uus nüüdisaegne hoone|||REQUIRED|||-NONE-|||0
+
+S Oleks parem , et meie asutus töötaks ka välismaal , minu arvates see suureneb meie võimalusi .
+A 3 4|||R:LEX|||kui|||REQUIRED|||-NONE-|||0
+A 13 14|||R:LEX|||suurendaks|||REQUIRED|||-NONE-|||0
+
+S Aga muidugi head ideed ilmuvad töös .
+A 5 6|||R:NOM:FORM|||töö|||REQUIRED|||-NONE-|||0
+A 6 6|||M:LEX|||käigus|||REQUIRED|||-NONE-|||0
+A 5 6|||R:NOM:FORM|||töö|||REQUIRED|||-NONE-|||1
+A 6 6|||M:LEX|||käigus|||REQUIRED|||-NONE-|||1
+A 1 6|||R:WO|||head ideed ilmuvad muidugi töö käigus|||REQUIRED|||-NONE-|||1
+
+S Ma arvan , et alguseks see piisab , selleks et parandada meie asutust tulevikus .
+A 4 5|||R:LEX|||alustuseks|||REQUIRED|||-NONE-|||0
+A 5 6|||R:NOM:FORM|||sellest|||REQUIRED|||-NONE-|||0
+A 10 14|||R:WO|||meie asutust tulevikus parandada|||REQUIRED|||-NONE-|||0
+
+S Kokkuvõtteks võin öelda , et töötamine selles asutuses on minu parim otsus , sest seal on väga hea kollektiiv ja töötingimused minu jaoks .
+A 16 23|||R:WO|||minu jaoks väga hea kollektiiv ja töötingimused|||REQUIRED|||-NONE-|||0

@@ -1,0 +1,52 @@
+
+S Tere , Mari !
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Kuidas läheb ?
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Tahan sind kutsuda minuga reisi minna .
+A 3 4|||R:LEX|||endaga|||REQUIRED|||-NONE-|||0
+A 4 5|||R:NOM:FORM|||reisile|||REQUIRED|||-NONE-|||0
+A 5 6|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+A 3 4|||R:LEX|||endaga|||REQUIRED|||-NONE-|||1
+A 4 5|||R:NOM:FORM|||reisile|||REQUIRED|||-NONE-|||1
+A 5 6|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 2 5|||R:WO|||endaga reisile kutsuda|||REQUIRED|||-NONE-|||1
+
+S Ma tahan Pärnusse minna .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+A 2 4|||R:WO|||minna Pärnusse|||REQUIRED|||-NONE-|||1
+
+S Nüüd on suvi , päike paistab , käime ujumas !
+A 7 8|||R:LEX|||lähme|||REQUIRED|||-NONE-|||0
+A 8 9|||R:VERB:FORM|||ujuma|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||1
+
+S Millal sul on vaba päevad ?
+A 1 3|||R:WO|||on sul|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOM:FORM|||vabad|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOM:FORM|||vabad|||REQUIRED|||-NONE-|||1
+
+S Ma tahan Pärnusse minna sellel nädalavahetusel .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+A 2 4|||R:WO|||minna Pärnusse|||REQUIRED|||-NONE-|||1
+
+S Aga kui sul ei ole aega , siis sõidame järgmisel nädalavahetusel .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+A 3 6|||R:WO|||aega ei ole|||REQUIRED|||-NONE-|||1
+
+S Pärnu on väga ilus linn , ma tahan seal väga palju jalutada , ujuda ja muidugi mingeid restorane minna .
+A 16 17|||R:NOM:FORM|||mingitesse|||REQUIRED|||-NONE-|||0
+A 17 18|||R:NOM:FORM|||restoranidesse|||REQUIRED|||-NONE-|||0
+A 18 19|||R:LEX|||külastada|||REQUIRED|||-NONE-|||1
+
+S Utle mulle , kas see on soobib ?
+A 0 1|||R:SPELL|||Ütle|||REQUIRED|||-NONE-|||0
+A 5 6|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||sobib|||REQUIRED|||-NONE-|||0
+A 0 1|||R:SPELL|||Ütle|||REQUIRED|||-NONE-|||1
+A 6 7|||R:LEX:SPELL|||sobiv||sobilik|||REQUIRED|||-NONE-|||1
+
+S Olga
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0

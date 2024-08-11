@@ -1,0 +1,119 @@
+
+S Lugupeetud kolleegid !
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Hiljuti mina osalesin linnastumisteemalisel seminaril .
+A 1 2|||R:NOM:FORM|||ma|||REQUIRED|||-NONE-|||0
+A 1 3|||R:WO|||osalesin ma|||REQUIRED|||-NONE-|||0
+
+S Olulisemad teemad olid järgmised :
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S 1. Teenused , kultuurielu ning töökohad linnades ja ääremaadel .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S 2. Riigi kõigi piirkondade ühtlase arengu tagamise võimalused .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Oli arutelu , et linnades ja ääremaadel on rohkem võimalusi teenuste , kultuurielu ja töökohtade valdkonnas .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Tundub , et point on selles , et mida suurem on linn , seda rohkem sellel on ressursi .
+A 15 17|||R:WO|||on selles|||REQUIRED|||-NONE-|||0
+A 17 18|||R:NOM:FORM|||ressurssi|||REQUIRED|||-NONE-|||0
+
+S Suuredes linnades on rohkem raha linnavalitsuses , rohkem inimesi osalevad selle kultuurielus , rohkem pakutakse igasuguseid ideid ja on ka rohkem tööjõudu .
+A 0 1|||R:SPELL|||Suurtes|||REQUIRED|||-NONE-|||0
+A 3 6|||R:WO|||linnavalitsuses rohkem raha|||REQUIRED|||-NONE-|||0
+A 9 10|||R:VERB:FORM|||osaleb|||REQUIRED|||-NONE-|||0
+A 7 12|||R:WO|||selle kultuurielus osaleb rohkem inimesi|||REQUIRED|||-NONE-|||0
+A 13 15|||R:WO|||pakutakse rohkem|||REQUIRED|||-NONE-|||1
+
+S Väiksemates maades aga elavad põhiliselt eakad inimesed .
+A 1 2|||R:LEX|||maakohtades||maapiirkondades|||REQUIRED|||-NONE-|||0
+
+S Probleem aga koosneb sellest , et see on nagu nõiaring .
+A 2 3|||R:LEX|||seisneb|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOM:FORM|||selles|||REQUIRED|||-NONE-|||0
+A 1 3|||R:WO|||seisneb aga|||REQUIRED|||-NONE-|||0
+A 2 3|||R:LEX|||seisneb|||REQUIRED|||-NONE-|||1
+A 3 4|||R:NOM:FORM|||selles|||REQUIRED|||-NONE-|||1
+
+S Noorus on jõud .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Aga kõik see jõud on suuredes linnades just sellepärast , et väiksetes kohtades on pigem eakad inimesed ja ei ole hea kvaliteedi teenuste puhul , ei ole eriti kultuurielu ega töökohta .
+A 5 7|||R:WS:SPELL|||suurlinnades|||REQUIRED|||-NONE-|||0
+A 0 1|||R:CASE|||aga|||REQUIRED|||-NONE-|||0
+A 0 7|||R:WO|||Kõik see jõud on aga suurlinnades|||REQUIRED|||-NONE-|||0
+A 11 12|||R:SPELL|||väikestes|||REQUIRED|||-NONE-|||0
+A 20 21|||R:NOM:FORM|||head|||REQUIRED|||-NONE-|||0
+A 21 22|||R:NOM:FORM|||kvaliteeti|||REQUIRED|||-NONE-|||0
+A 22 23|||R:NOM:FORM|||teenustel|||REQUIRED|||-NONE-|||0
+A 18 23|||R:WO|||teenustel ei ole head kvaliteeti|||REQUIRED|||-NONE-|||0
+A 23 24|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+A 30 31|||R:NOM:FORM|||töökohti|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||suurtes|||REQUIRED|||-NONE-|||1
+A 11 12|||R:SPELL|||väikestes|||REQUIRED|||-NONE-|||1
+A 20 21|||R:NOM:FORM|||head|||REQUIRED|||-NONE-|||1
+A 21 22|||R:NOM:FORM|||kvaliteeti|||REQUIRED|||-NONE-|||1
+A 22 23|||R:NOM:FORM|||teenustel|||REQUIRED|||-NONE-|||1
+A 18 23|||R:WO|||teenustel ei ole head kvaliteeti|||REQUIRED|||-NONE-|||1
+A 23 24|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 30 31|||R:NOM:FORM|||töökohti|||REQUIRED|||-NONE-|||1
+
+S Minu arvates , riigi kõigi piirkondade ühtlase arengu tagamise võimalused on järgmised :
+A 2 3|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 3 11|||R:WO|||on riigi kõigi piirkondade ühtlase arengu tagamise võimalused|||REQUIRED|||-NONE-|||0
+
+S Peaks rohkem toetada noori ja lapsi igas riigi piirkonnas .
+A 2 3|||R:VERB:FORM|||toetama|||REQUIRED|||-NONE-|||0
+A 2 3|||R:VERB:FORM|||toetama|||REQUIRED|||-NONE-|||1
+A 0 9|||R:WO|||Igas riigi piirkonnas peaks toetama rohkem noori ja lapsi||Igas riigi piirkonnas peaks rohkem noori ja lapsi toetama|||REQUIRED|||-NONE-|||1
+
+S Näiteks , võiks ka väikse linna kultuurimajas teha tasuta üritused , milles oleksid huvitatud noored ja lapsed .
+A 1 2|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 4 6|||R:WS:SPELL|||väikelinna|||REQUIRED|||-NONE-|||0
+A 7 8|||R:LEX|||korraldada|||REQUIRED|||-NONE-|||0
+A 9 10|||R:NOM:FORM|||üritusi|||REQUIRED|||-NONE-|||0
+A 11 12|||R:NOM:FORM|||millest|||REQUIRED|||-NONE-|||0
+A 1 2|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+A 9 10|||R:NOM:FORM|||üritusi|||REQUIRED|||-NONE-|||1
+A 11 12|||R:NOM:FORM|||millest|||REQUIRED|||-NONE-|||1
+
+S See võiks olla linna sünnipäev , Uus aasta või Jõulu kontsert .
+A 6 8|||R:WS:CASE|||uusaasta|||REQUIRED|||-NONE-|||0
+A 9 11|||R:WS:CASE|||jõulukontsert|||REQUIRED|||-NONE-|||0
+
+S Eriti seda võiks teha kuskil maakohas||maapiirkonnas .
+A 1 4|||R:WO|||võiks seda teha|||REQUIRED|||-NONE-|||0
+A 5 6|||R:LEX|||maakohas||maapiirkonnas|||REQUIRED|||-NONE-|||0
+
+S Mida rohkem noori on huvitatud kultuurielust , seda rohkem nendest jäävad elama väikses linnas või maal .
+A 10 11|||R:VERB:FORM|||jääb|||REQUIRED|||-NONE-|||0
+A 12 13|||R:NOM:FORM|||väiksesse|||REQUIRED|||-NONE-|||0
+A 13 14|||R:NOM:FORM|||linna|||REQUIRED|||-NONE-|||0
+A 15 16|||R:NOM:FORM|||maale|||REQUIRED|||-NONE-|||0
+
+S Kontserti läbiviijale võiks maksta kas või minimaalset palga .
+A 0 1|||R:NOM:FORM|||Kontserdi|||REQUIRED|||-NONE-|||0
+A 7 8|||R:NOM:FORM|||palka|||REQUIRED|||-NONE-|||0
+
+S Rohkem noori võiks kutsuda töötama kultuurimajasse , poodidesse , kooli ja lasteaia .
+A 11 12|||R:NOM:FORM|||lasteaeda|||REQUIRED|||-NONE-|||0
+
+S Kui on lastekasvatajad ja õpetajad on kohal , siis ei lapsed pea käima suures linnas koolis või lasteaias .
+A 5 6|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+A 6 7|||R:LEX|||kohapeal|||REQUIRED|||-NONE-|||0
+A 1 7|||R:WO|||kohapeal on lastekasvatajad ja õpetajad|||REQUIRED|||-NONE-|||0
+A 10 12|||R:WO|||pea lapsed|||REQUIRED|||-NONE-|||0
+
+S Siis maal ja üldse igas piirkonnas on rohkem noori ja siis on rohkem arengu võimaluseid .
+A 1 7|||R:WO|||on maal ja üldse igas piirkonnas|||REQUIRED|||-NONE-|||0
+A 10 11|||R:LEX|||niisiis|||REQUIRED|||-NONE-|||0
+A 11 12|||R:LEX|||ka|||REQUIRED|||-NONE-|||0
+A 13 15|||R:WS:SPELL|||arenguvõimalusi|||REQUIRED|||-NONE-|||0
+A 1 7|||R:WO|||on maal ja üldse igas piirkonnas|||REQUIRED|||-NONE-|||1
+A 10 11|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 11 12|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 13 15|||R:WS:SPELL|||arenguvõimalusi|||REQUIRED|||-NONE-|||1

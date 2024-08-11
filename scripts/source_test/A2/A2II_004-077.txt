@@ -1,0 +1,36 @@
+
+S Müüa AUTOT !
+A 1 2|||R:NOM:FORM:CASE|||auto|||REQUIRED|||-NONE-|||0
+A 1 2|||R:NOM:FORM|||AUTO|||REQUIRED|||-NONE-|||1
+
+S See auto on Fiat Punto , punane värv , aastal 2003 .
+A 6 7|||R:NOM:FORM|||punast|||REQUIRED|||-NONE-|||0
+A 7 8|||R:NOM:FORM|||värvi|||REQUIRED|||-NONE-|||0
+A 9 10|||R:NOM:FORM|||aastast|||REQUIRED|||-NONE-|||0
+A 5 6|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+A 6 7|||R:NOM:FORM|||punast|||REQUIRED|||-NONE-|||1
+A 7 8|||R:NOM:FORM|||värvi|||REQUIRED|||-NONE-|||1
+A 3 8|||R:WO|||punast värvi Fiat Punto|||REQUIRED|||-NONE-|||1
+A 8 9|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+A 9 10|||R:NOM:FORM|||aastast|||REQUIRED|||-NONE-|||1
+
+S See on väike ja stiline auto , sobib naistele .
+A 4 5|||R:SPELL|||stiilne|||REQUIRED|||-NONE-|||0
+
+S Auto hind , ainult täna on 4000€ .
+A 2 3|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 3 6|||R:WO|||on ainult täna|||REQUIRED|||-NONE-|||0
+A 6 7|||R:WS|||4000 €|||REQUIRED|||-NONE-|||0
+
+S Kui ta on naine või meeldib väikesed autod , tule ja vaata !
+A 1 2|||R:LEX|||sa|||REQUIRED|||-NONE-|||0
+A 2 3|||R:VERB:FORM|||oled|||REQUIRED|||-NONE-|||0
+A 5 5|||M:LEX|||sulle|||REQUIRED|||-NONE-|||0
+A 5 6|||R:VERB:FORM|||meeldivad|||REQUIRED|||-NONE-|||0
+
+S Aadress on Punane --- , Tallin .
+A 5 6|||R:SPELL|||Tallinn|||REQUIRED|||-NONE-|||0
+
+S Ma ootan sind igal reedel kella 18.00-20.00 , parklas .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+A 7 8|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1

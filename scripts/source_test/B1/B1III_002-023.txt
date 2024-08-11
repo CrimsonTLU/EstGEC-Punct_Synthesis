@@ -1,0 +1,81 @@
+
+S Eelmisel nädalal käisin Tallinnas kontserdil Lauluväljakul mängis mu lemmik bänd Metsatöll .
+A 5 5|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+A 8 10|||R:WS|||lemmikbänd|||REQUIRED|||-NONE-|||0
+A 5 5|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 5 6|||R:CASE|||lauluväljakul|||REQUIRED|||-NONE-|||1
+A 8 10|||R:WS|||lemmikbänd|||REQUIRED|||-NONE-|||1
+
+S Ma käisin kontserdile koos mehega .
+A 2 3|||R:NOM:FORM|||kontserdil|||REQUIRED|||-NONE-|||0
+A 1 2|||R:LEX|||läksin|||REQUIRED|||-NONE-|||1
+
+S Talle meeldib see bänd ka .
+A 2 5|||R:WO|||ka see bänd|||REQUIRED|||-NONE-|||0
+A 0 5|||R:WO|||Ka talle meeldib see bänd|||REQUIRED|||-NONE-|||1
+
+S See kontsert oli väga ilus .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Me kuulsime uued laulud ja elav muusikat .
+A 2 3|||R:NOM:FORM|||uusi|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOM:FORM|||laule|||REQUIRED|||-NONE-|||0
+A 5 6|||R:NOM:FORM|||elavat|||REQUIRED|||-NONE-|||0
+
+S Meie väga meeldib see ettendus .
+A 0 1|||R:NOM:FORM|||Meile|||REQUIRED|||-NONE-|||0
+A 2 3|||R:VERB:FORM|||meeldis|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||etendus|||REQUIRED|||-NONE-|||0
+
+S Pärast seda me käsime jalutamas koos sõbradega Piritas .
+A 3 4|||R:SPELL|||käisime|||REQUIRED|||-NONE-|||0
+A 2 4|||R:WO|||käisime me|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||sõpradega|||REQUIRED|||-NONE-|||0
+A 7 8|||R:NOM:FORM|||Pirital|||REQUIRED|||-NONE-|||0
+A 4 8|||R:WO|||koos sõpradega Pirital jalutamas|||REQUIRED|||-NONE-|||0
+
+S See päev oli väga huvitav ja lõbus .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+A 1 7|||R:WO|||oli väga huvitav ja lõbus päev|||REQUIRED|||-NONE-|||1
+
+S Järgmisel päeval me läksime koju .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+A 2 3|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 2 4|||R:WO|||läksime me|||REQUIRED|||-NONE-|||2
+
+S Nüüd me planeerime sõida järgmisel kontserdi Riias .
+A 2 3|||R:LEX|||plaanime|||REQUIRED|||-NONE-|||0
+A 1 3|||R:WO|||plaanime me|||REQUIRED|||-NONE-|||0
+A 3 4|||R:VERB:FORM|||sõita|||REQUIRED|||-NONE-|||0
+A 4 5|||R:NOM:FORM|||järgmisele|||REQUIRED|||-NONE-|||0
+A 5 6|||R:NOM:FORM|||kontserdile|||REQUIRED|||-NONE-|||0
+A 6 7|||R:NOM:FORM|||Riiga|||REQUIRED|||-NONE-|||0
+A 1 3|||R:WO|||planeerime me|||REQUIRED|||-NONE-|||1
+A 3 4|||R:LEX|||sõitu|||REQUIRED|||-NONE-|||1
+A 4 5|||R:NOM:FORM|||järgmisele|||REQUIRED|||-NONE-|||1
+A 5 6|||R:NOM:FORM|||kontserdile|||REQUIRED|||-NONE-|||1
+A 6 7|||R:NOM:FORM|||Riiga|||REQUIRED|||-NONE-|||1
+
+S Seal on kontsert Lady Gaga .
+A 2 5|||R:WO|||Lady Gaga kontsert|||REQUIRED|||-NONE-|||0
+
+S Mulle meeldib vaadata erinvaid ettenduseid , mu abikaasa ka meeldib .
+A 3 4|||R:SPELL|||erinevaid|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||etendusi|||REQUIRED|||-NONE-|||0
+A 7 8|||R:NOM:FORM|||abikaasale|||REQUIRED|||-NONE-|||0
+A 9 10|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Ka me armastame muusikat .
+A 0 3|||R:WO|||Me armastame ka|||REQUIRED|||-NONE-|||0
+A 1 3|||R:WO|||armastame me|||REQUIRED|||-NONE-|||1
+
+S Ka meile meeldib teater .
+A 0 3|||R:WO|||Meile meeldib ka|||REQUIRED|||-NONE-|||0
+A 1 3|||R:WO|||meeldib meile|||REQUIRED|||-NONE-|||1
+
+S Tahame järgmisel kuul teatri ettendus vaadata ka .
+A 3 5|||R:WS:NOM:FORM:SPELL|||teatrietendust|||REQUIRED|||-NONE-|||0
+A 3 7|||R:WO|||ka teatrietendust vaadata|||REQUIRED|||-NONE-|||0
+
+S See on nii huvitav !
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0

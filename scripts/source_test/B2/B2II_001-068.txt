@@ -1,0 +1,118 @@
+
+S Lugupeetud , meie kohalikku omavalitsuse esindaja .
+A 1 2|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOM:FORM|||kohaliku|||REQUIRED|||-NONE-|||0
+A 6 7|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 1 2|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+A 2 3|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 3 4|||R:NOM:FORM|||kohaliku|||REQUIRED|||-NONE-|||1
+A 6 7|||R:LEX|||!|||REQUIRED|||-NONE-|||1
+
+S Mina olen Juta --- , meie linna põhja rajooni elanik .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+A 7 9|||R:WS|||põhjarajooni|||REQUIRED|||-NONE-|||1
+A 7 8|||R:LEX|||põhjapoolse|||REQUIRED|||-NONE-|||2
+
+S Tahan pöörduda teile kaebusega .
+A 2 3|||R:NOM:FORM:CASE|||Teie|||REQUIRED|||-NONE-|||0
+A 3 3|||M:LEX|||poole|||REQUIRED|||-NONE-|||0
+A 2 3|||R:NOM:FORM:CASE|||Teie|||REQUIRED|||-NONE-|||1
+A 3 3|||M:LEX|||poole|||REQUIRED|||-NONE-|||1
+A 1 3|||R:WO|||Teie poole pöörduda|||REQUIRED|||-NONE-|||1
+
+S Selgitan minu pöördumise põhjust :
+A 1 2|||R:LEX|||oma||enda|||REQUIRED|||-NONE-|||0
+A 4 5|||R:PUNCT|||.|||REQUIRED|||-NONE-|||0
+
+S Eelmisel aastal meie kohalik omavalitsus sõlmis tänavate ja parkide hooldamiseks lepingu uue teenusepakkujaga .
+A 2 6|||R:WO|||sõlmis meie kohalik omavalitsus|||REQUIRED|||-NONE-|||0
+
+S Tahan teada Teid , et ei ole rahul tööga selle firma
+A 1 2|||R:LEX|||teavitada|||REQUIRED|||-NONE-|||0
+A 1 3|||R:WO|||Teid teavitada|||REQUIRED|||-NONE-|||0
+A 7 11|||R:WO|||selle firma tööga rahul|||REQUIRED|||-NONE-|||0
+A 11 11|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+A 1 2|||R:LEX|||teavitada|||REQUIRED|||-NONE-|||1
+A 1 3|||R:WO|||Teid teavitada|||REQUIRED|||-NONE-|||1
+A 8 11|||R:WO|||selle firma tööga|||REQUIRED|||-NONE-|||1
+A 11 11|||M:PUNCT|||.|||REQUIRED|||-NONE-|||1
+A 2 2|||M:LEX|||anda|||REQUIRED|||-NONE-|||2
+A 2 3|||R:NOM:FORM|||Teile|||REQUIRED|||-NONE-|||2
+A 1 3|||R:WO|||Teile teada anda|||REQUIRED|||-NONE-|||2
+A 7 11|||R:WO|||selle firma tööga rahul|||REQUIRED|||-NONE-|||2
+A 11 11|||M:PUNCT|||.|||REQUIRED|||-NONE-|||2
+
+S Ma jälgisin peaaegu terve aasta ja tulin kokkuvõtteks , et on vaja midagi muuta .
+A 2 2|||M:LEX|||neid|||REQUIRED|||-NONE-|||0
+A 7 8|||R:LEX:NOM:FORM|||järeldusele|||REQUIRED|||-NONE-|||0
+A 2 2|||M:LEX|||neid|||REQUIRED|||-NONE-|||1
+A 6 7|||R:LEX|||jõudsin|||REQUIRED|||-NONE-|||1
+A 7 8|||R:LEX:NOM:FORM|||järeldusele|||REQUIRED|||-NONE-|||1
+A 2 2|||M:LEX|||nende tööd||nende tegevust|||REQUIRED|||-NONE-|||1
+A 6 7|||R:LEX|||jõudsin|||REQUIRED|||-NONE-|||1
+A 7 8|||R:LEX|||järeldusele|||REQUIRED|||-NONE-|||1
+A 10 13|||R:WO|||midagi on vaja|||REQUIRED|||-NONE-|||1
+
+S Asi on selles , et see firma ei täita oma teenust , nii hästi ja korralikult , kui oli kirjanud lepingu järgi .
+A 8 9|||R:LEX|||paku|||REQUIRED|||-NONE-|||0
+A 11 12|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 19 20|||R:VERB:FORM:SPELL|||kirjutatud|||REQUIRED|||-NONE-|||0
+A 20 21|||R:NOM:FORM|||lepingus|||REQUIRED|||-NONE-|||0
+A 21 22|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+A 19 21|||R:WO|||lepingus kirjutatud|||REQUIRED|||-NONE-|||0
+A 8 9|||R:VERB:FORM|||täida|||REQUIRED|||-NONE-|||1
+A 10 11|||R:LEX|||kohustusi|||REQUIRED|||-NONE-|||1
+A 11 12|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+A 19 20|||R:LEX:SPELL|||kirjas|||REQUIRED|||-NONE-|||1
+A 20 21|||R:NOM:FORM|||lepingus|||REQUIRED|||-NONE-|||1
+A 21 22|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 8 9|||R:VERB:FORM|||täida|||REQUIRED|||-NONE-|||2
+A 10 11|||R:LEX|||kohustusi|||REQUIRED|||-NONE-|||2
+A 11 12|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||2
+A 19 20|||R:LEX:SPELL|||lubatud|||REQUIRED|||-NONE-|||2
+
+S Näiteks : talvel tänavadel ja parkidel olid suured hanged , millest tekkisid avariid ja ohlikuid situatsiooneid .
+A 3 4|||R:SPELL|||tänavatel|||REQUIRED|||-NONE-|||0
+A 5 6|||R:NOM:FORM|||parkides|||REQUIRED|||-NONE-|||0
+A 3 7|||R:WO|||olid tänavatel ja parkides|||REQUIRED|||-NONE-|||0
+A 14 15|||R:NOM:FORM:SPELL|||ohtlikud|||REQUIRED|||-NONE-|||0
+A 15 16|||R:NOM:FORM:SPELL|||situatsioonid|||REQUIRED|||-NONE-|||0
+A 1 2|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+A 3 4|||R:SPELL|||tänavatel|||REQUIRED|||-NONE-|||1
+A 5 6|||R:NOM:FORM|||parkides|||REQUIRED|||-NONE-|||1
+A 2 7|||R:WO|||olid talvel tänavatel ja parkides|||REQUIRED|||-NONE-|||1
+A 14 15|||R:NOM:FORM:SPELL|||ohtlikud|||REQUIRED|||-NONE-|||1
+A 15 16|||R:NOM:FORM:SPELL|||situatsioonid|||REQUIRED|||-NONE-|||1
+A 1 2|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||2
+A 3 4|||R:SPELL|||tänavatel|||REQUIRED|||-NONE-|||2
+A 5 6|||R:NOM:FORM|||parkides|||REQUIRED|||-NONE-|||2
+A 2 7|||R:WO|||olid talvel tänavatel ja parkides|||REQUIRED|||-NONE-|||2
+A 10 11|||R:NOM:FORM|||mis|||REQUIRED|||-NONE-|||2
+A 11 12|||R:LEX|||tekitasid|||REQUIRED|||-NONE-|||2
+A 12 13|||R:NOM:FORM|||avariisid|||REQUIRED|||-NONE-|||2
+A 14 15|||R:SPELL|||ohtlikke|||REQUIRED|||-NONE-|||2
+A 15 16|||R:SPELL|||situatsioone|||REQUIRED|||-NONE-|||2
+
+S Sügisel tänavad olid ka väga mustad .
+A 1 3|||R:WO|||olid tänavad|||REQUIRED|||-NONE-|||0
+A 1 4|||R:WO|||olid ka tänavad|||REQUIRED|||-NONE-|||1
+A 0 4|||R:WO|||Ka sügisel olid tänavad||Tänavad olid ka sügisel|||REQUIRED|||-NONE-|||2
+
+S Aga suvel oli nii palju tolmu ja sori , et see häiris meie elu .
+A 7 8|||R:SPELL|||sodi|||REQUIRED|||-NONE-|||0
+
+S Loodan , et Te üle vaadate selle firmaga lepingut ja aidake olukorra lahendada .
+A 5 6|||R:SPELL|||vaatate|||REQUIRED|||-NONE-|||0
+A 7 8|||R:NOM:FORM|||firma|||REQUIRED|||-NONE-|||0
+A 8 9|||R:NOM:FORM|||lepingu|||REQUIRED|||-NONE-|||0
+A 4 9|||R:WO|||vaatate selle firma lepingu üle|||REQUIRED|||-NONE-|||0
+A 10 11|||R:VERB:FORM|||aitate|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||vaatate|||REQUIRED|||-NONE-|||1
+A 4 6|||R:WO|||vaatate üle|||REQUIRED|||-NONE-|||1
+A 8 9|||R:NOM:FORM|||lepingu|||REQUIRED|||-NONE-|||1
+A 6 9|||R:WO|||lepingu selle firmaga|||REQUIRED|||-NONE-|||1
+A 10 11|||R:VERB:FORM|||aitate|||REQUIRED|||-NONE-|||1
+A 11 12|||R:NOM:FORM|||olukorda|||REQUIRED|||-NONE-|||1
+
+S Lugupidamisega , J. ---
+A 1 2|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0

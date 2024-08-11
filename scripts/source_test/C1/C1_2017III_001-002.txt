@@ -1,0 +1,133 @@
+
+S Hiljuti , 15. septembril 2017. aastal , toimus Tallinnas meediafoorum .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Mina , kui noor ja aktiivne meedikanalite kasutaja ning ka oma kooli esindaja , olin selle osaleja .
+A 6 7|||R:SPELL|||meediakanalite|||REQUIRED|||-NONE-|||0
+A 1 2|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+A 6 7|||R:SPELL|||meediakanalite|||REQUIRED|||-NONE-|||1
+A 15 16|||R:LEX|||seal|||REQUIRED|||-NONE-|||1
+
+S Foorum jättis paremaid muljeid , päevakavas olid huvitavad ja aktuaalsed teemad meedia rolli ja võimaluste kohta .
+A 2 3|||R:LEX|||hea|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOM:FORM|||mulje|||REQUIRED|||-NONE-|||0
+
+S Kuna olen teie ajalehe pidev lugeja , otsustasin jagada arvamust nii teiega kui ka teiste lugejatega , kui te otsustate mu kirja ka järgnevas numbris avaldada .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+A 22 23|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+
+S Esimene teema kõlas kui " Meedia võimalused väärtushinnangute kujundamisel " .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+A 2 4|||R:LEX|||oli|||REQUIRED|||-NONE-|||1
+
+S Kellegi jaoks pole saladus , et tänapäeva ühiskond on pidevas kokkupuutumises erinevate meediakanalitega , olgu need teler , raadio , internet või paberkandjad ajakiri ja ajaleht .
+A 22 23|||R:NOM:FORM|||paberkandjal|||REQUIRED|||-NONE-|||0
+A 10 11|||R:NOM:FORM|||kokkupuutes|||REQUIRED|||-NONE-|||1
+A 22 23|||R:NOM:FORM|||paberkandjal|||REQUIRED|||-NONE-|||1
+
+S Nende mõju ja võimalused on suurenemas sõnavabaduse populaarsuse levikuga .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Inimesed lapseeast peale vaatavad , kuulavad ja loevad meediakanaleid .
+A 1 8|||R:WO|||vaatavad , kuulavad ja loevad lapseeast peale|||REQUIRED|||-NONE-|||0
+
+S Informatsioon , tulenev sealt , kujundab nende maailmavaadet ja väärtuhinnanguid .
+A 1 2|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 0 4|||R:WO|||Sealt tulenev informatsioon|||REQUIRED|||-NONE-|||0
+A 4 5|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 9 10|||R:SPELL|||väärtushinnanguid|||REQUIRED|||-NONE-|||0
+
+S Meediakanalid on võimas vahend mõjutamiseks ühiskonna peale .
+A 4 6|||R:WO|||ühiskonna mõjutamiseks|||REQUIRED|||-NONE-|||0
+A 6 7|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Juba praeguseks võib leida meediast nii palju kasulikku kui ka hirmustavat , valet ja negatiivset .
+A 3 5|||R:WO|||meediast leida|||REQUIRED|||-NONE-|||0
+A 10 11|||R:SPELL|||hirmutavat|||REQUIRED|||-NONE-|||0
+A 15 15|||M:LEX|||infot|||REQUIRED|||-NONE-|||0
+A 3 5|||R:WO|||meediast leida|||REQUIRED|||-NONE-|||1
+A 10 11|||R:SPELL|||hirmutavat|||REQUIRED|||-NONE-|||1
+
+S Kasutades tänapäeva inimese privileegi olla vaba valikul mida saab öelda ja kuulata , on tarvis meeles pidada , et sõnadel on tagajärjed ja mõju teiste inimeste peale .
+A 6 7|||R:NOM:FORM|||valikutes|||REQUIRED|||-NONE-|||0
+A 7 7|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 24 25|||R:NOM:FORM|||teistele|||REQUIRED|||-NONE-|||0
+A 25 26|||R:NOM:FORM|||inimestele|||REQUIRED|||-NONE-|||0
+A 26 27|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Seega filtreerida on kasulik mitte ainult infot , mis tuleb ümbrusest kui ka seda , mis tuleneb ka endalt .
+A 1 4|||R:WO|||on kasulik filtreerida|||REQUIRED|||-NONE-|||0
+A 11 11|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 11 12|||R:LEX|||kuid|||REQUIRED|||-NONE-|||0
+A 16 17|||R:LEX|||tuleb|||REQUIRED|||-NONE-|||0
+A 17 18|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Teine teema oli " Meedia roll teavitajana , harijana ja ka meelelahutajana " .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Tänapäeval meedia on peamine abivahend õppimises , töös , meelelahutuses ja ka maailmas toimuvast kursis olemises .
+A 1 3|||R:WO|||on meedia|||REQUIRED|||-NONE-|||0
+A 5 6|||R:NOM:FORM|||õppimisel|||REQUIRED|||-NONE-|||0
+A 13 14|||R:NOM:FORM|||toimuvaga|||REQUIRED|||-NONE-|||0
+A 15 16|||R:NOM:FORM|||olemisel|||REQUIRED|||-NONE-|||0
+
+S Iga päev enamik arenenud riikide inimesi kasutab telefoni , raadiot , interneti jt .
+A 2 7|||R:WO|||kasutab enamik arenenud riikide inimesi|||REQUIRED|||-NONE-|||0
+A 11 12|||R:NOM:FORM|||internetti|||REQUIRED|||-NONE-|||0
+A 2 7|||R:WO|||kasutab enamik arenenud riikide inimesi|||REQUIRED|||-NONE-|||1
+A 11 12|||R:NOM:FORM|||internetti|||REQUIRED|||-NONE-|||1
+A 12 13|||R:LEX|||jms||jmt||jpm|||REQUIRED|||-NONE-|||1
+
+S Sealt saadakse teada kõike , mis toimub ümruses , sealt otsitakse vastusi küsimustele , seal luuakse sidemeid teiste inimestega .
+A 7 8|||R:SPELL|||ümbruses|||REQUIRED|||-NONE-|||0
+A 6 8|||R:WO|||ümbruses toimub|||REQUIRED|||-NONE-|||0
+A 11 12|||R:SPELL|||vastuseid|||REQUIRED|||-NONE-|||0
+A 7 8|||R:LEX:SPELL|||ümbruskonnas|||REQUIRED|||-NONE-|||1
+A 6 8|||R:WO|||ümbruskonnas toimub|||REQUIRED|||-NONE-|||1
+A 11 12|||R:SPELL|||vastuseid|||REQUIRED|||-NONE-|||1
+A 7 8|||R:LEX:SPELL|||ümberringi|||REQUIRED|||-NONE-|||1
+A 6 8|||R:WO|||ümberringi toimub|||REQUIRED|||-NONE-|||1
+A 11 12|||R:SPELL|||vastuseid|||REQUIRED|||-NONE-|||1
+
+S Meedia roll on tõesti suur tänapäeval .
+A 3 6|||R:WO|||tänapäeval tõesti suur|||REQUIRED|||-NONE-|||0
+
+S Küsimus on selles , kas see toob kasu või kahju .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Informatsiooni rohkus takistab leida õiget ja sobivat , meelelahutuse võimaluste äratus sageli ei lase inimesi mõelda tähtsamatest asjadest elus .
+A 3 4|||R:VERB:FORM|||leidmast|||REQUIRED|||-NONE-|||0
+A 10 11|||R:LEX|||teavitused|||REQUIRED|||-NONE-|||0
+A 14 15|||R:NOM:FORM|||inimestel|||REQUIRED|||-NONE-|||0
+A 11 15|||R:WO|||ei lase inimestel sageli|||REQUIRED|||-NONE-|||0
+A 18 19|||R:NOM:FORM|||elu|||REQUIRED|||-NONE-|||0
+A 17 19|||R:WO|||elu asjadest|||REQUIRED|||-NONE-|||0
+A 3 7|||R:LEX:WO:NOM:FORM|||õige ja sobiva leidmist|||REQUIRED|||-NONE-|||1
+A 10 11|||R:LEX|||teavitused|||REQUIRED|||-NONE-|||1
+A 14 15|||R:NOM:FORM|||inimestel|||REQUIRED|||-NONE-|||1
+A 11 15|||R:WO|||ei lase inimestel sageli|||REQUIRED|||-NONE-|||1
+
+S See on nagu ühe medali kaks külge .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Kas on meedia abistaja või ta loob takistusi .
+A 1 3|||R:WO|||meedia on|||REQUIRED|||-NONE-|||0
+A 5 7|||R:WO|||loob ta|||REQUIRED|||-NONE-|||0
+A 8 9|||R:PUNCT|||?|||REQUIRED|||-NONE-|||0
+
+S Aga sellele küsimusele vastamiseks on igal inimesel oma aju , mis aitab otsustada , kui suurt rolli mängib meedia mu elus .
+A 19 20|||R:LEX|||tema|||REQUIRED|||-NONE-|||0
+
+S Meedia on tõesti üks kasulikumaid ja huvitavamaid " leiutisi " kogu aegade jooksul .
+A 10 11|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+A 3 13|||R:WO|||aegade jooksul üks kasulikumaid ja huvitavamaid " leiutisi "|||REQUIRED|||-NONE-|||0
+
+S See annab teadust , tarkust , haridust ja ka meelelahutust , kuid vale kasutuse korral võib olla ka hirmus kahtlustaja .
+A 19 20|||R:LEX|||segaja|||REQUIRED|||-NONE-|||0
+
+S See , kellena ta on igaühe jaoks otsustab inimene ise .
+A 2 3|||R:LEX|||milline|||REQUIRED|||-NONE-|||0
+A 7 7|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+
+S Teiste arvamus on huvitav ja vajalik , aga ees peaks alati seisma enda oma , mis toetub südametunnistusele .
+A 8 9|||R:LEX|||eespool|||REQUIRED|||-NONE-|||0

@@ -1,0 +1,79 @@
+
+S Suvel mul oli puhkus .
+A 1 3|||R:WO|||oli mul|||REQUIRED|||-NONE-|||0
+A 0 3|||R:WO|||Mul oli suvel|||REQUIRED|||-NONE-|||1
+
+S Mul on väike pere : mina ja minu poeg .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Me käisime Turgis .
+A 2 3|||R:SPELL|||Türgis|||REQUIRED|||-NONE-|||0
+
+S Mulle meeldib puhata Turgis .
+A 3 4|||R:SPELL|||Türgis|||REQUIRED|||-NONE-|||0
+A 2 4|||R:WO|||Türgis puhata|||REQUIRED|||-NONE-|||0
+A 1 2|||R:VERB:FORM|||meeldis|||REQUIRED|||-NONE-|||1
+A 3 4|||R:SPELL|||Türgis|||REQUIRED|||-NONE-|||1
+A 2 4|||R:WO|||Türgis puhata|||REQUIRED|||-NONE-|||1
+
+S Seal väga soe .
+A 1 1|||M:LEX|||on||oli|||REQUIRED|||-NONE-|||0
+
+S See on väga ilus maal .
+A 4 5|||R:NOM:FORM|||maa|||REQUIRED|||-NONE-|||0
+
+S Ma puhkasin hottelis , kus asutas mere juures .
+A 2 3|||R:SPELL|||hotellis|||REQUIRED|||-NONE-|||0
+A 4 5|||R:LEX|||mis|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||asus|||REQUIRED|||-NONE-|||0
+A 7 8|||R:LEX|||ääres|||REQUIRED|||-NONE-|||0
+
+S Ma iga päev käin mere juures , ujus ja võttis päike .
+A 3 4|||R:VERB:FORM|||käisin|||REQUIRED|||-NONE-|||0
+A 1 4|||R:WO|||käisin iga päev|||REQUIRED|||-NONE-|||0
+A 5 6|||R:LEX|||ääres|||REQUIRED|||-NONE-|||0
+A 7 8|||R:VERB:FORM|||ujusin|||REQUIRED|||-NONE-|||0
+A 9 10|||R:VERB:FORM|||võtsin|||REQUIRED|||-NONE-|||0
+A 10 11|||R:NOM:FORM|||päikest|||REQUIRED|||-NONE-|||0
+
+S Õhtul ma käin linnas jalutada ja ostsin erinevaid asjad .
+A 2 3|||R:VERB:FORM|||käisin|||REQUIRED|||-NONE-|||0
+A 1 3|||R:WO|||käisin ma|||REQUIRED|||-NONE-|||0
+A 4 5|||R:VERB:FORM|||jalutamas|||REQUIRED|||-NONE-|||0
+A 8 9|||R:NOM:FORM|||asju|||REQUIRED|||-NONE-|||0
+A 0 1|||R:NOM:FORM|||Õhtuti||Õhtutel|||REQUIRED|||-NONE-|||1
+A 2 3|||R:VERB:FORM|||käisin|||REQUIRED|||-NONE-|||1
+A 1 3|||R:WO|||käisin ma|||REQUIRED|||-NONE-|||1
+A 4 5|||R:VERB:FORM|||jalutamas|||REQUIRED|||-NONE-|||1
+A 8 9|||R:NOM:FORM|||asju|||REQUIRED|||-NONE-|||1
+A 1 2|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||2
+A 2 3|||R:VERB:FORM|||käisin|||REQUIRED|||-NONE-|||2
+A 4 5|||R:VERB:FORM|||jalutamas|||REQUIRED|||-NONE-|||2
+A 8 9|||R:NOM:FORM|||asju|||REQUIRED|||-NONE-|||2
+
+S Mõnikord ma vaatasin kontserdi , kus oli hottelis .
+A 1 2|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+A 2 3|||R:LEX|||kuulasin|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOM:FORM|||kontserti|||REQUIRED|||-NONE-|||0
+A 5 6|||R:LEX|||mis|||REQUIRED|||-NONE-|||0
+A 7 8|||R:SPELL|||hotellis|||REQUIRED|||-NONE-|||0
+A 6 8|||R:WO|||hotellis oli|||REQUIRED|||-NONE-|||0
+A 2 3|||R:LEX|||kuulasin|||REQUIRED|||-NONE-|||1
+A 1 3|||R:WO|||kuulasin ma|||REQUIRED|||-NONE-|||1
+A 3 4|||R:NOM:FORM|||kontserti|||REQUIRED|||-NONE-|||1
+A 4 7|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 7 8|||R:SPELL|||hotellis|||REQUIRED|||-NONE-|||1
+A 3 8|||R:WO|||hotellis kontserti|||REQUIRED|||-NONE-|||1
+
+S Kõik on sureparane .
+A 1 2|||R:VERB:FORM|||oli|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||suurepärane|||REQUIRED|||-NONE-|||0
+A 3 4|||R:PUNCT|||!|||REQUIRED|||-NONE-|||0
+A 1 2|||R:VERB:FORM|||oli|||REQUIRED|||-NONE-|||1
+A 2 3|||R:SPELL|||suurepärane|||REQUIRED|||-NONE-|||1
+
+S ja hüvanane .
+A 0 1|||R:CASE|||Ja|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||hüva|||REQUIRED|||-NONE-|||0
+A 0 1|||R:CASE|||Ja|||REQUIRED|||-NONE-|||1
+A 1 2|||R:LEX|||hea||hästi|||REQUIRED|||-NONE-|||1

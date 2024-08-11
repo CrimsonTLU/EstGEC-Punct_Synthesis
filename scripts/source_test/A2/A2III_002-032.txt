@@ -1,0 +1,46 @@
+
+S Tere minu kallis sõber .
+A 1 1|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 4 5|||R:PUNCT|||!|||REQUIRED|||-NONE-|||0
+A 1 1|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 4 5|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+
+S Mul on selline uudis et : kodumasin katki läks .
+A 4 4|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 5 5|||M:LEX|||mu|||REQUIRED|||-NONE-|||0
+A 5 6|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 7 9|||R:WO|||läks katki|||REQUIRED|||-NONE-|||0
+
+S See on kohvimasin .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Seda on vaja remontida .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Ma tahan kutsun minu sõpra appi .
+A 2 3|||R:VERB:FORM|||kutsuda|||REQUIRED|||-NONE-|||0
+A 3 4|||R:LEX|||oma||enda|||REQUIRED|||-NONE-|||0
+A 4 5|||R:NOM:FORM|||sõbra|||REQUIRED|||-NONE-|||0
+A 2 3|||R:VERB:FORM|||kutsuda|||REQUIRED|||-NONE-|||1
+A 3 4|||R:LEX|||oma||enda|||REQUIRED|||-NONE-|||1
+A 4 5|||R:NOM:FORM|||sõbra|||REQUIRED|||-NONE-|||1
+A 2 6|||R:WO|||oma sõbra appi kutsuda||enda sõbra appi kutsuda|||REQUIRED|||-NONE-|||1
+A 1 2|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||2
+A 3 4|||R:LEX|||oma||enda|||REQUIRED|||-NONE-|||2
+
+S Ma ootan sind homme kell 12.00 .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Mul on töövahendid .
+A 3 3|||M:LEX|||olemas|||REQUIRED|||-NONE-|||0
+A 2 3|||R:NOM:FORM|||töövahendeid|||REQUIRED|||-NONE-|||1
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||2
+
+S Kui miski ei laabu , siis helistada mulle .
+A 6 7|||R:VERB:FORM|||helista|||REQUIRED|||-NONE-|||0
+
+S Aitäh , kohtumiseni .
+A 3 4|||R:PUNCT|||!|||REQUIRED|||-NONE-|||0
+
+S Olga .
+A 1 2|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0

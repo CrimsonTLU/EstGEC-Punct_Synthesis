@@ -1,0 +1,124 @@
+Kõikide lausete arv: 2029
+
+Kirjavahemärgivigade koguarv: 639 
+
+Kirjavahemärgivigu sisaldavate lausete arv: 464 (22.87%)
+Lausete, vigu sisaldavate lausete ja vigade arv keeletaseme kaupa:
+B2: 535 (163) (234)
+B1: 504 (98) (152)
+A2: 495 (118) (138)
+C1: 495 (85) (115)
+Vigade arv vea tüübi kaupa:
+U:PUNCT: 287 (44.91%)
+M:PUNCT: 262 (41.00%)
+R:PUNCT: 90 (14.08%)
+
+ Puuduv kirjavahemärk, osakaal kõigist M:PUNCT vigadest:
+,: 229 (87.40%)
+.: 25 (9.54%)
+!: 3 (1.15%)
+:: 2 (0.76%)
+-: 2 (0.76%)
+võib-olla: 0.5 (0.19%)
+võibolla: 0.5 (0.19%)
+
+ Üleliigne kirjavahemärk, osakaal kõigist U:PUNCT vigadest:
+,: 139 korda (48.43%)
+": 113 korda (39.37%)
+.: 22 korda (7.67%)
+:: 6 korda (2.09%)
+!: 3 korda (1.05%)
+-: 2 korda (0.70%)
+(: 1 korda (0.35%)
+): 1 korda (0.35%)
+
+ Üleliigne kirjavahemärk koos järgneva sõnaga:
+" + ,: 21 korda
+" + .: 13 korda
+, + ja: 12 korda
+, + kui: 10 korda
+, + minu: 5 korda
+
+ Vale kirjavahemärk, osakaal kõigist R:PUNCT vigadest:
+.: 50 (55.56%)
+,: 26 (28.89%)
+:: 6 (6.67%)
+?: 4 (4.44%)
+!: 1 (1.11%)
+.-: 1 (1.11%)
+-: 1 (1.11%)
+!!!: 1 (1.11%)
+
+ Vale märgi parandused:
+Vale märk: .
+    parandus: ! (45 korda) (90.00%)
+    parandus: ? (4 korda) (8.00%)
+    parandus: : (1 korda) (2.00%)
+Vale märk: ,
+    parandus: . (8.0 korda) (30.77%)
+    parandus: ! (13.0 korda) (50.00%)
+    parandus: : (1 korda) (3.85%)
+    parandus: – (2 korda) (7.69%)
+    parandus: - (2 korda) (7.69%)
+Vale märk: :
+    parandus: ! (0.5 korda) (8.33%)
+    parandus: , (3.5 korda) (58.33%)
+    parandus: . (2 korda) (33.33%)
+Vale märk: ?
+    parandus: . (4 korda) (100.00%)
+Vale märk: !
+    parandus: . (1 korda) (100.00%)
+Vale märk: .-
+    parandus: , (1 korda) (100.00%)
+Vale märk: -
+    parandus: , (1 korda) (100.00%)
+Vale märk: !!!
+    parandus: ! (1 korda) (100.00%)
+
+ Vale kirjavahemärk lause keskel, osakaal antud märgi esinemisest kokku:
+,: 18 (69.23%)
+:: 4 (66.67%)
+.-: 1 (100.00%)
+?: 1 (25.00%)
+-: 1 (100.00%)
+
+ Vale märgi parandused lause keskel:
+Vale märk: ,
+    parandus: . (8.0 korda) (44.44%)
+    parandus: ! (5.0 korda) (27.78%)
+    parandus: : (1 korda) (5.56%)
+    parandus: – (2 korda) (11.11%)
+    parandus: - (2 korda) (11.11%)
+Vale märk: :
+    parandus: ! (0.5 korda) (12.50%)
+    parandus: , (3.5 korda) (87.50%)
+Vale märk: .-
+    parandus: , (1 korda) (100.00%)
+Vale märk: ?
+    parandus: . (1 korda) (100.00%)
+Vale märk: -
+    parandus: , (1 korda) (100.00%)
+
+ Vale kirjavahemärk lause lõpus, osakaal antud märgi esinemisest kokku:
+.: 50 (100.00%)
+,: 8 (30.77%)
+?: 3 (75.00%)
+:: 2 (33.33%)
+!: 1 (100.00%)
+!!!: 1 (100.00%)
+
+ Vale märgi parandused lause lõpus:
+Vale märk: .
+    parandus: ! (45 korda) (90.00%)
+    parandus: ? (4 korda) (8.00%)
+    parandus: : (1 korda) (2.00%)
+Vale märk: ,
+    parandus: ! (8 korda) (100.00%)
+Vale märk: ?
+    parandus: . (3 korda) (100.00%)
+Vale märk: :
+    parandus: . (2 korda) (100.00%)
+Vale märk: !
+    parandus: . (1 korda) (100.00%)
+Vale märk: !!!
+    parandus: ! (1 korda) (100.00%)

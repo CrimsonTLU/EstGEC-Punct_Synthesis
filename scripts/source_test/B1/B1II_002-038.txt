@@ -1,0 +1,82 @@
+
+S Ta oli minu pinginaaber .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Me käisime temaga koolis .
+A 3 3|||M:LEX|||koos|||REQUIRED|||-NONE-|||0
+
+S Se on põhikool asub keskmises Tallinnas .
+A 0 1|||R:SPELL|||See|||REQUIRED|||-NONE-|||0
+A 1 2|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+A 4 5|||R:LEX|||kesklinnas||keskel|||REQUIRED|||-NONE-|||0
+A 4 6|||R:WO:NOM:FORM|||Tallinna kesklinnas||Tallinna keskel|||REQUIRED|||-NONE-|||0
+A 0 1|||R:SPELL|||See|||REQUIRED|||-NONE-|||1
+A 1 2|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 4 5|||R:LEX|||kesklinnas|||REQUIRED|||-NONE-|||1
+A 4 6|||R:WO|||Tallinnas kesklinnas|||REQUIRED|||-NONE-|||1
+A 0 1|||R:SPELL|||See|||REQUIRED|||-NONE-|||2
+A 1 2|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||2
+A 4 5|||R:LEX|||keset|||REQUIRED|||-NONE-|||2
+A 5 6|||R:NOM:FORM|||Tallinna|||REQUIRED|||-NONE-|||2
+
+S Minu sõpra nimi on Viktor .
+A 1 2|||R:NOM:FORM|||sõbra|||REQUIRED|||-NONE-|||0
+
+S Praegu ta töötan tehases .
+A 2 3|||R:VERB:FORM|||töötab|||REQUIRED|||-NONE-|||0
+A 1 3|||R:WO|||töötab ta|||REQUIRED|||-NONE-|||0
+
+S Varem ta lõpetasin kutsekooli oma erijala jargi .
+A 2 3|||R:VERB:FORM|||lõpetas|||REQUIRED|||-NONE-|||0
+A 1 3|||R:WO|||lõpetas ta|||REQUIRED|||-NONE-|||0
+A 5 6|||R:NOM:FORM:SPELL|||erialal|||REQUIRED|||-NONE-|||0
+A 6 7|||U:LEX:SPELL|||-NONE-|||REQUIRED|||-NONE-|||0
+A 2 3|||R:VERB:FORM|||on lõpetanud|||REQUIRED|||-NONE-|||1
+A 1 3|||R:WO|||on ta lõpetanud|||REQUIRED|||-NONE-|||1
+A 5 6|||R:NOM:FORM:SPELL|||erialal|||REQUIRED|||-NONE-|||1
+A 6 7|||U:LEX:SPELL|||-NONE-|||REQUIRED|||-NONE-|||1
+
+S Ta ei ole muutunud , ta jai lõbus ja hea inimees .
+A 6 7|||R:VERB:FORM:SPELL|||on jäänud|||REQUIRED|||-NONE-|||0
+A 7 8|||R:NOM:FORM|||lõbusaks|||REQUIRED|||-NONE-|||0
+A 9 10|||R:NOM:FORM|||heaks|||REQUIRED|||-NONE-|||0
+A 10 11|||R:NOM:FORM:SPELL|||inimeseks|||REQUIRED|||-NONE-|||0
+
+S Ta on abielus ja praegu temaga suur perekond - kolm last .
+A 5 5|||M:LEX|||on|||REQUIRED|||-NONE-|||0
+A 5 6|||R:NOM:FORM|||tal||temal|||REQUIRED|||-NONE-|||0
+
+S Üks laps käisid lasteajas ja kaks last kaisid koolis - kolmandas ja viiendas klassis .
+A 2 3|||R:VERB:FORM|||käib|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||lasteaias|||REQUIRED|||-NONE-|||0
+A 7 8|||R:VERB:FORM:SPELL|||käivad|||REQUIRED|||-NONE-|||0
+
+S Poisid lähevad futbolei trennis , ja norem laps kaisid tantsis .
+A 1 2|||R:LEX|||käivad|||REQUIRED|||-NONE-|||0
+A 2 3|||R:LEX|||jalgpalli|||REQUIRED|||-NONE-|||0
+A 4 5|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||noorem|||REQUIRED|||-NONE-|||0
+A 8 9|||R:VERB:FORM:SPELL|||käib|||REQUIRED|||-NONE-|||0
+A 9 10|||R:VERB:FORM|||tantsimas|||REQUIRED|||-NONE-|||0
+
+S Ma oli väga rahuldav sest me näeme .
+A 1 2|||R:VERB:FORM|||olin|||REQUIRED|||-NONE-|||0
+A 3 4|||R:LEX|||rahul|||REQUIRED|||-NONE-|||0
+A 4 4|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 4 5|||R:LEX|||et|||REQUIRED|||-NONE-|||0
+A 6 6|||M:LEX|||teineteist|||REQUIRED|||-NONE-|||0
+A 6 7|||R:VERB:FORM|||nägime|||REQUIRED|||-NONE-|||0
+A 1 2|||R:VERB:FORM|||olin|||REQUIRED|||-NONE-|||1
+A 3 4|||R:LEX|||rahul|||REQUIRED|||-NONE-|||1
+A 4 4|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 4 5|||R:LEX|||et|||REQUIRED|||-NONE-|||1
+A 6 7|||R:LEX|||kohtusime|||REQUIRED|||-NONE-|||1
+
+S Ma loodan et on näeme veel .
+A 2 2|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 3 4|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+A 2 2|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 3 4|||R:LEX|||me|||REQUIRED|||-NONE-|||1
+
+S Sinu sõbranna
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0

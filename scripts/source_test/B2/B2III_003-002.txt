@@ -1,0 +1,96 @@
+
+S Tere Liis !
+A 1 1|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+
+S Tahaksin sinu poolt nõu küsida .
+A 1 2|||R:NOM:FORM|||sinult|||REQUIRED|||-NONE-|||0
+A 2 3|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Asi on selles , et leidsin hiljuti oma raamaturiulitest üsna palju raamatuid ja ajakirju , mida enam ei ole vaja ning ei tea mida nendega praegu teha .
+A 8 9|||R:SPELL|||raamaturiiulitest|||REQUIRED|||-NONE-|||0
+A 20 20|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+
+S Nende hulgas on koolisõnastikud , raamatud , mis on seotud kooli kirjanduse prograamiga ning palju detektiive .
+A 12 13|||R:SPELL|||programmiga|||REQUIRED|||-NONE-|||0
+A 13 13|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 15 16|||R:LEX|||krimiromaane|||REQUIRED|||-NONE-|||0
+
+S Minu lapsed on juba täiskasvanud , aga detektiivid on lugenud juba ammu kolm korga läbi .
+A 7 8|||R:LEX|||krimiromaanid|||REQUIRED|||-NONE-|||0
+A 9 10|||R:VERB:FORM|||loetud|||REQUIRED|||-NONE-|||0
+A 13 14|||R:SPELL|||korda|||REQUIRED|||-NONE-|||0
+A 9 15|||R:WO|||juba ammu kolm korda läbi loetud|||REQUIRED|||-NONE-|||0
+
+S Lapselapsed ka veel ei ole ning ma ei taha seda enam säilitada .
+A 0 1|||R:NOM:FORM|||Lapselapsi|||REQUIRED|||-NONE-|||0
+A 9 10|||R:NOM:FORM|||neid|||REQUIRED|||-NONE-|||0
+
+S Ma pakuksin kõik neid raamatuid hea meelega kellelegi , kellele need läheks kasuks .
+A 2 3|||R:NOM:FORM|||kõiki|||REQUIRED|||-NONE-|||0
+A 11 13|||R:LEX:WO|||kasuks oleks|||REQUIRED|||-NONE-|||0
+A 2 3|||R:NOM:FORM|||kõiki|||REQUIRED|||-NONE-|||1
+A 10 11|||R:NOM:FORM|||neist|||REQUIRED|||-NONE-|||1
+A 12 13|||R:NOM:FORM|||kasu|||REQUIRED|||-NONE-|||1
+A 11 13|||R:LEX:WO|||kasu oleks|||REQUIRED|||-NONE-|||1
+
+S Kas sul on sõbrad või tuttavad , kellel lapsed käivad koolis ?
+A 3 4|||R:NOM:FORM|||sõpru|||REQUIRED|||-NONE-|||0
+A 5 6|||R:NOM:FORM|||tuttavaid|||REQUIRED|||-NONE-|||0
+A 7 8|||R:NOM:FORM|||kelle|||REQUIRED|||-NONE-|||0
+
+S Ma annan kõik välja tasuta .
+A 3 4|||R:LEX|||ära|||REQUIRED|||-NONE-|||0
+A 3 5|||R:WO|||tasuta ära|||REQUIRED|||-NONE-|||0
+
+S Las nad ainult tulevad ise autoga ning võtavad kõik , mis on meeldib .
+A 11 12|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Muide , kui ma õigesti mäletan , sinu sõbranna Kati töötab koolis õpetajana .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+A 7 7|||M:LEX|||siis|||REQUIRED|||-NONE-|||1
+A 7 11|||R:WO|||töötab sinu sõbranna Kati|||REQUIRED|||-NONE-|||2
+
+S Kas sa võid küsida tema käest , võib olla tohib pakkuda kooliraamatuid kooli raamatukogule .
+A 2 3|||R:LEX|||saad|||REQUIRED|||-NONE-|||0
+A 3 6|||R:WO|||tema käest küsida|||REQUIRED|||-NONE-|||0
+A 7 9|||R:WS|||võib-olla||võibolla|||REQUIRED|||-NONE-|||0
+
+S Kui see oleks võimalik , see oleks , minu arvamust kõige parem probleemi lahendamine .
+A 5 7|||R:WO|||oleks see|||REQUIRED|||-NONE-|||0
+A 7 8|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 9 10|||R:LEX|||arvates||arust|||REQUIRED|||-NONE-|||0
+A 13 14|||R:LEX|||lahendus|||REQUIRED|||-NONE-|||0
+
+S Aga mida teha vanade detektiividega ja ülejäänute vanade ajakirjadega ma hoopis ei tea .
+A 4 5|||R:LEX|||krimiromaanidega|||REQUIRED|||-NONE-|||0
+A 6 7|||R:NOM:FORM|||ülejäänud|||REQUIRED|||-NONE-|||0
+A 9 9|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 10 11|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+A 4 5|||R:LEX|||krimiromaanidega|||REQUIRED|||-NONE-|||1
+A 6 7|||R:NOM:FORM|||ülejäänud|||REQUIRED|||-NONE-|||1
+A 9 9|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 10 11|||R:LEX|||küll|||REQUIRED|||-NONE-|||1
+
+S Mida sa arvad , kui ma panen neid karbisse ja paigutan aknalaua peale trepikodus .
+A 7 8|||R:NOM:FORM|||need|||REQUIRED|||-NONE-|||0
+A 8 9|||R:NOM:FORM|||karpi|||REQUIRED|||-NONE-|||0
+A 11 14|||R:WO|||trepikotta aknalaua peale|||REQUIRED|||-NONE-|||0
+A 13 14|||R:NOM:FORM:SPELL|||trepikotta|||REQUIRED|||-NONE-|||0
+A 14 15|||R:PUNCT|||?|||REQUIRED|||-NONE-|||0
+
+S Äkki keegi naabritest tunneb huvi nende vastu .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Või see on rumal idee ning on parem kõike otsekohe prüügi kasti panna ?
+A 8 9|||R:NOM:FORM|||kõik|||REQUIRED|||-NONE-|||0
+A 10 12|||R:WS:SPELL|||prügikasti|||REQUIRED|||-NONE-|||0
+
+S Jään sinu arvamust ootades .
+A 3 4|||R:VERB:FORM:SPELL|||ootama|||REQUIRED|||-NONE-|||0
+A 4 5|||R:PUNCT|||!|||REQUIRED|||-NONE-|||0
+A 3 4|||R:VERB:FORM:SPELL|||ootama|||REQUIRED|||-NONE-|||1
+
+S Parimatega , Liina .
+A 1 2|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 0 1|||R:NOM:FORM|||Parimat|||REQUIRED|||-NONE-|||1
+A 1 2|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1

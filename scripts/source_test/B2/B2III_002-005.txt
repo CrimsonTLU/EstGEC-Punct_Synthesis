@@ -1,0 +1,98 @@
+
+S Kallid sõbrad !
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Eelmisel nädalal mina korrastasin oma raamaturiiuleid ja leidsin raamatuid ning ( ja ) ning ajakirju , mida ei vaja minule .
+A 2 3|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+A 9 10|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+A 10 11|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 12 13|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 13 14|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+A 19 20|||R:NOM:FORM|||ma|||REQUIRED|||-NONE-|||0
+A 17 20|||R:WO|||ma ei vaja|||REQUIRED|||-NONE-|||0
+
+S Ma tahan neid ära anda Teile .
+A 2 3|||R:NOM:FORM|||need|||REQUIRED|||-NONE-|||0
+A 5 6|||R:CASE|||teile|||REQUIRED|||-NONE-|||0
+A 3 6|||R:WO|||teile ära anda|||REQUIRED|||-NONE-|||0
+A 2 3|||R:NOM:FORM|||need|||REQUIRED|||-NONE-|||1
+A 3 6|||R:WO|||Teile ära anda|||REQUIRED|||-NONE-|||1
+A 2 3|||R:NOM:FORM|||need|||REQUIRED|||-NONE-|||2
+A 3 4|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||2
+A 2 3|||R:CASE|||teile|||REQUIRED|||-NONE-|||2
+A 4 6|||R:WO|||teile anda|||REQUIRED|||-NONE-|||2
+
+S Põhiliselt need raamatud on juba loetud minuga .
+A 1 4|||R:WO|||on need raamatud|||REQUIRED|||-NONE-|||0
+A 6 7|||R:NOM:FORM|||mul|||REQUIRED|||-NONE-|||0
+A 4 7|||R:WO|||mul juba loetud|||REQUIRED|||-NONE-|||0
+
+S Raamatud on armastusest , ajaloost ja loomadest .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Ajakirjad on väga huvitavad naiste jaoks , peamiselt need on moest ja ilust .
+A 2 6|||R:WO|||naiste jaoks väga huvitavad|||REQUIRED|||-NONE-|||0
+A 8 10|||R:WO|||on need|||REQUIRED|||-NONE-|||0
+
+S Seal on väga palju soovitusi kuidas hoolitseda oma välimuse eest .
+A 5 5|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 5 5|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 6 10|||R:WO|||oma välimuse eest hoolitseda|||REQUIRED|||-NONE-|||1
+
+S Oleks tore , kui keegi tahaks neid lugeda ja võtta endale .
+A 9 11|||R:WO|||endale võtta|||REQUIRED|||-NONE-|||0
+
+S Kas Te tahaksite neid saada ?
+A 1 2|||R:CASE|||te|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||1
+
+S Kui Teil on selline soov , siis saatke palun mulle mailiga missugust huvitavat ja naljast fotot .
+A 1 2|||R:CASE|||teil|||REQUIRED|||-NONE-|||0
+A 10 11|||R:SPELL|||meiliga|||REQUIRED|||-NONE-|||0
+A 11 12|||R:LEX|||mingisugune|||REQUIRED|||-NONE-|||0
+A 12 13|||R:NOM:FORM|||huvitav|||REQUIRED|||-NONE-|||0
+A 14 15|||R:LEX|||naljakas|||REQUIRED|||-NONE-|||0
+A 15 16|||R:NOM:FORM|||foto|||REQUIRED|||-NONE-|||0
+A 10 11|||R:SPELL|||meiliga|||REQUIRED|||-NONE-|||1
+A 11 12|||R:LEX|||mingisugune|||REQUIRED|||-NONE-|||1
+A 12 13|||R:NOM:FORM|||huvitav|||REQUIRED|||-NONE-|||1
+A 14 15|||R:LEX|||naljakas|||REQUIRED|||-NONE-|||1
+A 15 16|||R:NOM:FORM|||foto|||REQUIRED|||-NONE-|||1
+
+S Siis mina saan aru , et Te tahaksite saada minu kirjandust .
+A 1 2|||R:NOM:FORM|||ma|||REQUIRED|||-NONE-|||0
+A 6 7|||R:CASE|||te|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||1
+
+S ja siis me otsustame , kuidas ja millal mina saan ära anda need Teile !
+A 0 1|||R:CASE|||Ja|||REQUIRED|||-NONE-|||0
+A 8 9|||R:NOM:FORM|||ma|||REQUIRED|||-NONE-|||0
+A 13 14|||R:CASE|||teile|||REQUIRED|||-NONE-|||0
+A 10 14|||R:WO|||need teile ära anda|||REQUIRED|||-NONE-|||0
+A 0 1|||R:CASE|||Ja|||REQUIRED|||-NONE-|||1
+A 10 14|||R:WO|||need Teile ära anda|||REQUIRED|||-NONE-|||1
+A 0 1|||R:CASE|||Ja|||REQUIRED|||-NONE-|||2
+A 13 14|||R:CASE|||teile|||REQUIRED|||-NONE-|||2
+A 10 11|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||2
+A 8 9|||R:NOM:FORM|||ma|||REQUIRED|||-NONE-|||2
+A 10 14|||R:WO|||need teile anda|||REQUIRED|||-NONE-|||2
+
+S Aga kui te ei taha neid , siis andke palun mulle teada , kuidas siis mina saan neid kasutada veel .
+A 14 15|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+A 15 16|||R:NOM:FORM|||ma|||REQUIRED|||-NONE-|||0
+A 16 17|||R:VERB:FORM|||saaks|||REQUIRED|||-NONE-|||0
+A 18 20|||R:WO|||veel kasutada|||REQUIRED|||-NONE-|||0
+
+S Mina ootan Teie fotosid või vastust .
+A 0 1|||U:LEX|||Ootan|||REQUIRED|||-NONE-|||0
+A 2 3|||R:CASE|||teie|||REQUIRED|||-NONE-|||0
+A 6 7|||R:PUNCT|||!|||REQUIRED|||-NONE-|||0
+A 0 1|||U:LEX|||Ootan|||REQUIRED|||-NONE-|||1
+A 6 7|||R:PUNCT|||!|||REQUIRED|||-NONE-|||1
+
+S Heade soovidega , Teie Alisa .
+A 2 3|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 3 4|||R:CASE|||teie|||REQUIRED|||-NONE-|||0
+A 5 6|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 2 3|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+A 5 6|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1

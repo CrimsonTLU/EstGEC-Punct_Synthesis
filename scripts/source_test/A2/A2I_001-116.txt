@@ -1,0 +1,50 @@
+
+S Kallis sõber .
+A 2 3|||R:PUNCT|||!|||REQUIRED|||-NONE-|||0
+
+S Ma tahan kutsuda sulle kesklinnas .
+A 3 4|||R:NOM:FORM|||sind|||REQUIRED|||-NONE-|||0
+A 4 5|||R:NOM:FORM|||kesklinna|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOM:FORM|||sind|||REQUIRED|||-NONE-|||1
+A 4 5|||R:NOM:FORM|||kesklinna|||REQUIRED|||-NONE-|||1
+A 2 5|||R:WO|||sind kesklinna kutsuda|||REQUIRED|||-NONE-|||1
+
+S Seal on turg .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Ma tahan mina seal laupäeval .
+A 2 2|||M:LEX|||sinna|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||minna|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||sel|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||minna|||REQUIRED|||-NONE-|||1
+A 3 4|||R:SPELL|||sel|||REQUIRED|||-NONE-|||1
+
+S Me ostsime kingitus .
+A 1 2|||R:VERB:FORM|||ostame|||REQUIRED|||-NONE-|||0
+A 2 3|||R:NOM:FORM|||kingitusi||kingituse|||REQUIRED|||-NONE-|||0
+
+S Pärast me lähme kinos , kus vaatame huvitav film , ja pärast kino me lähme kohvikus , kus me suhtleme .
+A 3 4|||R:NOM:FORM|||kinno|||REQUIRED|||-NONE-|||0
+A 7 8|||R:NOM:FORM|||huvitavat|||REQUIRED|||-NONE-|||0
+A 8 9|||R:NOM:FORM|||filmi|||REQUIRED|||-NONE-|||0
+A 15 16|||R:NOM:FORM|||kohvikusse|||REQUIRED|||-NONE-|||0
+A 1 2|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 3 4|||R:NOM:FORM|||kinno|||REQUIRED|||-NONE-|||1
+A 7 8|||R:NOM:FORM|||huvitavat|||REQUIRED|||-NONE-|||1
+A 8 9|||R:NOM:FORM|||filmi|||REQUIRED|||-NONE-|||1
+A 12 13|||R:LEX|||seda|||REQUIRED|||-NONE-|||1
+A 13 14|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 15 16|||R:NOM:FORM|||kohvikusse|||REQUIRED|||-NONE-|||1
+A 18 20|||R:LEX|||saame suhelda|||REQUIRED|||-NONE-|||1
+A 1 3|||R:WO|||lähme me|||REQUIRED|||-NONE-|||2
+A 3 4|||R:NOM:FORM|||kinno|||REQUIRED|||-NONE-|||2
+A 7 8|||R:NOM:FORM|||huvitavat|||REQUIRED|||-NONE-|||2
+A 8 9|||R:NOM:FORM|||filmi|||REQUIRED|||-NONE-|||2
+A 13 15|||R:WO|||lähme me|||REQUIRED|||-NONE-|||2
+A 15 16|||R:NOM:FORM|||kohvikusse|||REQUIRED|||-NONE-|||2
+
+S Helista mulle või kirjuta , et sa nõus .
+A 5 6|||R:LEX|||kui||kas|||REQUIRED|||-NONE-|||0
+A 7 7|||M:LEX|||oled|||REQUIRED|||-NONE-|||0
+A 5 6|||R:LEX|||kui||kas|||REQUIRED|||-NONE-|||1
+A 6 7|||R:LEX|||oled|||REQUIRED|||-NONE-|||1

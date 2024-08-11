@@ -1,0 +1,116 @@
+
+S Tere !
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S lugupeetud ametnikud !
+A 0 1|||R:CASE|||Lugupeetud|||REQUIRED|||-NONE-|||0
+
+S Eelmisel aastal Te sõlmisite lepingu , mille kohustused on linna tänavate ja parkide hooldamine .
+A 2 4|||R:WO|||sõlmisite Te|||REQUIRED|||-NONE-|||0
+
+S Mina , nagu linnaelanik , arvan , et firma ei täidetud oma kohustused .
+A 1 2|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 2 3|||R:LEX|||kui|||REQUIRED|||-NONE-|||0
+A 4 5|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 10 11|||R:VERB:FORM|||täitnud|||REQUIRED|||-NONE-|||0
+A 12 13|||R:NOM:FORM|||kohustusi|||REQUIRED|||-NONE-|||0
+
+S Ma ei ole nende tööga rahul jargmistel põhjustel .
+A 6 7|||R:SPELL|||järgmistel|||REQUIRED|||-NONE-|||0
+A 8 9|||R:PUNCT|||:|||REQUIRED|||-NONE-|||0
+
+S 1. Talvel firma töötajad algavad kõnniteed puhastamine ainult kell 9.00.
+A 4 5|||R:LEX|||alustavad|||REQUIRED|||-NONE-|||0
+A 2 5|||R:WO|||alustavad firma töötajad|||REQUIRED|||-NONE-|||0
+A 5 6|||R:NOM:FORM|||kõnniteede|||REQUIRED|||-NONE-|||0
+A 6 7|||R:NOM:FORM|||puhastamisega||puhastamist|||REQUIRED|||-NONE-|||0
+A 7 8|||R:LEX|||alles|||REQUIRED|||-NONE-|||0
+
+S See on väga hilja .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Inimesed käivad tööl või lapsed koolis on sunnitud minna uppudes põlveni lumes või porises .
+A 6 6|||M:LEX|||ja||ning|||REQUIRED|||-NONE-|||0
+A 6 6|||M:LEX|||nad|||REQUIRED|||-NONE-|||0
+A 8 9|||R:VERB:FORM|||minema|||REQUIRED|||-NONE-|||0
+A 9 9|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 10 11|||R:NOM:FORM|||põlvini|||REQUIRED|||-NONE-|||0
+A 11 12|||R:NOM:FORM|||lumme|||REQUIRED|||-NONE-|||0
+A 13 14|||R:NOM:FORM:SPELL|||porisse|||REQUIRED|||-NONE-|||0
+
+S See mitte ainult ebamugav ja raske aga veel on väga ohtlik , sellepärast lume all peitakse jää .
+A 1 1|||M:LEX|||pole|||REQUIRED|||-NONE-|||0
+A 6 6|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 7 8|||R:LEX|||ka|||REQUIRED|||-NONE-|||0
+A 7 9|||R:WO|||on ka|||REQUIRED|||-NONE-|||0
+A 13 13|||M:LEX|||et|||REQUIRED|||-NONE-|||0
+A 15 15|||M:LEX|||on|||REQUIRED|||-NONE-|||0
+A 15 16|||R:LEX:SPELL|||peidus|||REQUIRED|||-NONE-|||0
+A 1 1|||M:LEX|||pole|||REQUIRED|||-NONE-|||1
+A 6 6|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 7 8|||R:LEX|||ka|||REQUIRED|||-NONE-|||1
+A 7 9|||R:WO|||on ka|||REQUIRED|||-NONE-|||1
+A 13 13|||M:LEX|||et|||REQUIRED|||-NONE-|||1
+A 15 16|||R:LEX:SPELL|||peitub|||REQUIRED|||-NONE-|||1
+
+S 2. Varem töötanud firma kõik korjanud linna tänavadel lumi veedas linna väljaspoole .
+A 4 5|||R:LEX|||kogu|||REQUIRED|||-NONE-|||0
+A 5 6|||R:NOM:FORM|||korjas|||REQUIRED|||-NONE-|||0
+A 7 8|||R:NOM:FORM:SPELL|||tänavatelt|||REQUIRED|||-NONE-|||0
+A 8 9|||R:NOM:FORM|||lume|||REQUIRED|||-NONE-|||0
+A 9 9|||M:LEX|||ja|||REQUIRED|||-NONE-|||0
+A 9 10|||R:SPELL|||vedas|||REQUIRED|||-NONE-|||0
+A 4 9|||R:WO|||korjas linna tänavatelt kogu lume|||REQUIRED|||-NONE-|||0
+A 10 11|||R:NOM:FORM|||linnast|||REQUIRED|||-NONE-|||0
+A 4 5|||R:LEX|||kogu|||REQUIRED|||-NONE-|||1
+A 5 6|||R:NOM:FORM|||korjas|||REQUIRED|||-NONE-|||1
+A 6 8|||R:WS:NOM:FORM:SPELL|||linnatänavatelt|||REQUIRED|||-NONE-|||1
+A 8 8|||M:LEX|||kokku|||REQUIRED|||-NONE-|||1
+A 8 9|||R:NOM:FORM|||lume|||REQUIRED|||-NONE-|||1
+A 9 9|||M:LEX|||ja|||REQUIRED|||-NONE-|||1
+A 9 10|||R:SPELL|||vedas|||REQUIRED|||-NONE-|||1
+A 4 9|||R:WO|||korjas linnatänavatelt kokku kogu lume|||REQUIRED|||-NONE-|||1
+A 10 11|||R:NOM:FORM|||linnast|||REQUIRED|||-NONE-|||1
+A 11 12|||R:LEX|||välja|||REQUIRED|||-NONE-|||1
+
+S Aga uus firma kogub teda ühile hunnikule ( võin öelda ühele mäele ) linna piiril .
+A 4 5|||R:LEX|||seda|||REQUIRED|||-NONE-|||0
+A 5 6|||R:NOM:FORM:SPELL|||ühte|||REQUIRED|||-NONE-|||0
+A 6 7|||R:NOM:FORM|||hunnikusse|||REQUIRED|||-NONE-|||0
+A 10 11|||R:NOM:FORM|||ühte|||REQUIRED|||-NONE-|||0
+A 11 12|||R:NOM:FORM|||mäkke|||REQUIRED|||-NONE-|||0
+
+S Seda teha ei tohi .
+A 1 4|||R:WO|||ei tohi teha|||REQUIRED|||-NONE-|||0
+
+S Lapsed ronivad ja jooksevad sellel mäes aga see on samuti väga ohtlik .
+A 5 6|||R:NOM:FORM|||mäel|||REQUIRED|||-NONE-|||0
+A 6 6|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+
+S Olen kindel , et sarnased ja teised pretensioonid on ka teistel linnaelanikudel .
+A 11 12|||R:SPELL|||linnaelanikel||linnaelanikkudel|||REQUIRED|||-NONE-|||0
+
+S Ning neid on palju .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Aga firma töötab linnas ainult kolm kuud .
+A 5 6|||R:NOM:FORM|||kolmandat|||REQUIRED|||-NONE-|||0
+A 4 5|||R:LEX|||alles|||REQUIRED|||-NONE-|||1
+A 5 6|||R:NOM:FORM|||kolmandat|||REQUIRED|||-NONE-|||1
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||2
+
+S Sellepärast mul on ettepanek .
+A 1 3|||R:WO|||on mul|||REQUIRED|||-NONE-|||0
+
+S Korraldada koosolekut , kus linnaelanikud võiksid kohtuda firma esindajatega ja arutleda tekkitud probleemid .
+A 1 2|||R:NOM:FORM|||koosolek|||REQUIRED|||-NONE-|||0
+A 10 11|||R:LEX|||arutada|||REQUIRED|||-NONE-|||0
+A 11 12|||R:NOM:FORM:SPELL|||tekkinud|||REQUIRED|||-NONE-|||0
+A 12 13|||R:NOM:FORM|||probleeme|||REQUIRED|||-NONE-|||0
+
+S Loodan Teie kiire vastust .
+A 1 2|||R:NOM:FORM|||Teilt|||REQUIRED|||-NONE-|||0
+A 2 3|||R:NOM:FORM|||kiiret|||REQUIRED|||-NONE-|||0
+
+S Lugupidamisega , Sergei --- +372--- ---@mail.ee
+A 1 2|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0

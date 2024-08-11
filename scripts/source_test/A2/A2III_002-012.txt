@@ -1,0 +1,54 @@
+
+S Tere minu kallis sõber !
+A 1 1|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+
+S Minu vaja sinu abi .
+A 0 1|||R:NOM:FORM|||Minul||Mul|||REQUIRED|||-NONE-|||0
+A 1 1|||M:LEX|||on|||REQUIRED|||-NONE-|||0
+
+S Mul kodumasin on katki .
+A 0 1|||R:NOM:FORM|||Mu|||REQUIRED|||-NONE-|||0
+A 1 3|||R:WO|||on kodumasin|||REQUIRED|||-NONE-|||1
+
+S Kodumasin on suur ja valge ja vana .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+A 3 4|||U:LEX|||,|||REQUIRED|||-NONE-|||1
+
+S Ma kutsun sinu enda juurde teisipäeval kell 15.00 .
+A 2 3|||R:NOM:FORM|||sind|||REQUIRED|||-NONE-|||0
+
+S See kodumasin katki eile .
+A 2 2|||M:LEX|||läks|||REQUIRED|||-NONE-|||0
+A 2 2|||M:LEX|||läks|||REQUIRED|||-NONE-|||1
+A 2 4|||R:WO|||eile katki|||REQUIRED|||-NONE-|||1
+
+S Ma laksin kodu ja vaatas et kodumasin on katki .
+A 1 2|||R:SPELL|||läksin|||REQUIRED|||-NONE-|||0
+A 2 3|||R:NOM:FORM|||koju|||REQUIRED|||-NONE-|||0
+A 4 5|||R:VERB:FORM|||vaatasin|||REQUIRED|||-NONE-|||0
+A 5 5|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+
+S Ma abi sinu eest annan või töötan sinule .
+A 2 3|||R:NOM:FORM|||sinule||sulle|||REQUIRED|||-NONE-|||0
+A 3 4|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+A 1 5|||R:WO|||annan sinule abi||annan sulle abi|||REQUIRED|||-NONE-|||0
+A 7 8|||R:NOM:FORM|||sinu|||REQUIRED|||-NONE-|||0
+A 8 8|||M:LEX|||heaks|||REQUIRED|||-NONE-|||0
+A 1 5|||R:WO|||annan sinu abi eest||annan sulle abi eest|||REQUIRED|||-NONE-|||1
+A 5 5|||M:LEX|||tasu|||REQUIRED|||-NONE-|||1
+A 7 8|||R:NOM:FORM|||sinu|||REQUIRED|||-NONE-|||1
+A 8 8|||M:LEX|||heaks|||REQUIRED|||-NONE-|||1
+
+S Ma saan korisdada sinu kodu võib olla peseda põrand .
+A 2 3|||R:SPELL|||koristada|||REQUIRED|||-NONE-|||0
+A 5 5|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 5 7|||R:WS|||võib-olla||võibolla|||REQUIRED|||-NONE-|||0
+A 7 8|||R:VERB:FORM|||pesta|||REQUIRED|||-NONE-|||0
+A 8 9|||R:NOM:FORM|||põrandaid||põrandat|||REQUIRED|||-NONE-|||0
+
+S Tulen minu juurde teisipaeval .
+A 0 1|||R:VERB:FORM|||Tule|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||teisipäeval|||REQUIRED|||-NONE-|||0
+
+S Sinu sõber Olga
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0

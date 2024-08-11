@@ -1,0 +1,152 @@
+
+S Tere , Tõnis .
+A 3 4|||R:PUNCT|||!|||REQUIRED|||-NONE-|||0
+A 3 4|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+
+S Kuidas läheb ?
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Minul kõik on korras , aga ainult tööl on mure .
+A 1 3|||R:WO|||on kõik|||REQUIRED|||-NONE-|||0
+A 5 6|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+A 0 1|||R:LEX|||Mul|||REQUIRED|||-NONE-|||1
+A 1 3|||R:WO|||on kõik|||REQUIRED|||-NONE-|||1
+A 5 6|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 7 7|||M:LEX|||et|||REQUIRED|||-NONE-|||1
+
+S Sa tead , et mina töötan laos ja tihti kasutan elektritõstukit .
+A 8 10|||R:WO|||kasutan tihti|||REQUIRED|||-NONE-|||0
+A 4 5|||R:NOM:FORM|||ma|||REQUIRED|||-NONE-|||1
+A 8 10|||R:WO|||kasutan tihti|||REQUIRED|||-NONE-|||1
+
+S Tõstuki seisukord on kahtlane .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Ta on vanem , kui 10 aastat .
+A 0 1|||R:LEX|||See|||REQUIRED|||-NONE-|||0
+A 3 4|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 3 4|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+
+S Kogu aeg midagi läheb katki ja mina ei saa teha tööd normaalselt .
+A 2 4|||R:WO|||läheb midagi|||REQUIRED|||-NONE-|||0
+A 9 12|||R:WO|||normaalselt tööd teha|||REQUIRED|||-NONE-|||0
+A 2 4|||R:WO|||läheb midagi|||REQUIRED|||-NONE-|||1
+A 6 7|||R:LEX|||ma|||REQUIRED|||-NONE-|||1
+A 9 12|||R:WO|||normaalselt tööd teha|||REQUIRED|||-NONE-|||1
+
+S Pean kasutada käsiroklat , millega üldse ei ole nii mugav .
+A 1 2|||R:VERB:FORM|||kasutama|||REQUIRED|||-NONE-|||0
+A 5 8|||R:WO|||ei ole üldse|||REQUIRED|||-NONE-|||0
+A 10 10|||M:LEX|||töötada|||REQUIRED|||-NONE-|||0
+A 1 2|||R:VERB:FORM|||kasutama|||REQUIRED|||-NONE-|||1
+A 4 5|||R:NOM:FORM|||mis|||REQUIRED|||-NONE-|||1
+A 5 8|||R:WO|||ei ole üldse|||REQUIRED|||-NONE-|||1
+
+S Kõrge rohkem mina kardan , et sõidukil sõidu ajal juhtub midagi piduriga , aga see on väga ohtlik minu jaoks ja teiste jaoks ka .
+A 0 1|||R:LEX|||Kõige|||REQUIRED|||-NONE-|||0
+A 2 3|||R:NOM:FORM|||ma|||REQUIRED|||-NONE-|||0
+A 2 4|||R:WO|||kardan ma|||REQUIRED|||-NONE-|||0
+A 7 10|||R:WO|||juhtub sõidu ajal|||REQUIRED|||-NONE-|||0
+A 19 20|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+A 21 24|||R:WO|||ka teiste jaoks|||REQUIRED|||-NONE-|||0
+A 0 1|||R:LEX|||Kõige|||REQUIRED|||-NONE-|||1
+A 2 3|||R:LEX|||ma|||REQUIRED|||-NONE-|||1
+A 2 4|||R:WO|||kardan ma|||REQUIRED|||-NONE-|||1
+A 7 10|||R:WO|||juhtub sõidu ajal|||REQUIRED|||-NONE-|||1
+A 18 18|||M:LEX|||nii|||REQUIRED|||-NONE-|||1
+A 20 21|||R:LEX|||kui|||REQUIRED|||-NONE-|||1
+A 21 24|||R:WO|||ka teiste jaoks|||REQUIRED|||-NONE-|||1
+A 2 3|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||2
+A 7 10|||R:WO|||juhtub sõidu ajal|||REQUIRED|||-NONE-|||2
+A 19 20|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||2
+A 16 24|||R:WO|||minu ja ka teiste jaoks väga ohtlik|||REQUIRED|||-NONE-|||2
+
+S Mina räägisin sellest oma ülemustega .
+A 1 2|||R:SPELL|||rääkisin|||REQUIRED|||-NONE-|||0
+A 0 1|||R:LEX|||Ma|||REQUIRED|||-NONE-|||1
+A 1 2|||R:SPELL|||rääkisin|||REQUIRED|||-NONE-|||1
+A 1 2|||R:SPELL|||rääkisin|||REQUIRED|||-NONE-|||2
+A 0 2|||U:LEX|||Rääkisin|||REQUIRED|||-NONE-|||2
+
+S Head uudiseid minu jaks nendel pole .
+A 0 1|||R:NOM:FORM|||Häid|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||jaoks|||REQUIRED|||-NONE-|||0
+A 2 5|||R:WO|||nendel minu jaoks|||REQUIRED|||-NONE-|||0
+A 0 1|||R:NOM:FORM|||Häid|||REQUIRED|||-NONE-|||1
+A 3 4|||R:SPELL|||jaoks|||REQUIRED|||-NONE-|||1
+A 4 5|||R:NOM:FORM|||neil|||REQUIRED|||-NONE-|||1
+A 2 5|||R:WO|||neil minu jaoks|||REQUIRED|||-NONE-|||1
+
+S Ütlevad , et uus tõstuk maksab nii palju ja meil firmal pole seda võimalust .
+A 9 10|||R:NOM:FORM|||meie|||REQUIRED|||-NONE-|||0
+
+S Hästi , et remondi jaoks on raha .
+A 0 1|||R:LEX|||Hea|||REQUIRED|||-NONE-|||0
+A 5 7|||R:WO|||raha on|||REQUIRED|||-NONE-|||0
+
+S Remondivad ainult siis , kui midagi läheb katki ja mina ei jõua tööd teha .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Ma arvan , et hea lahendus teha hoolduseid .
+A 6 6|||M:LEX|||oleks|||REQUIRED|||-NONE-|||0
+
+S Võib olla remondimees näeb problemi enem , kui tõstuk jälle seisab , ja parandab neid .
+A 0 2|||R:WS|||Võib-olla||Võibolla|||REQUIRED|||-NONE-|||0
+A 2 4|||R:WO|||näeb remondimees|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||probleemi|||REQUIRED|||-NONE-|||0
+A 5 6|||R:LEX:SPELL|||enne|||REQUIRED|||-NONE-|||0
+A 14 15|||R:NOM:FORM|||selle|||REQUIRED|||-NONE-|||0
+A 0 2|||R:WS|||Võib-olla||Võibolla|||REQUIRED|||-NONE-|||1
+A 2 4|||R:WO|||näeb remondimees|||REQUIRED|||-NONE-|||1
+A 4 5|||R:SPELL|||probleemi|||REQUIRED|||-NONE-|||1
+A 5 6|||R:LEX:SPELL|||enne|||REQUIRED|||-NONE-|||1
+A 10 11|||R:LEX|||seisma jääb|||REQUIRED|||-NONE-|||1
+A 14 15|||R:NOM:FORM|||selle|||REQUIRED|||-NONE-|||1
+
+S Miks ma uuesti rääkin sellest sinuga ?
+A 3 4|||R:SPELL|||räägin|||REQUIRED|||-NONE-|||0
+A 3 6|||R:WO|||sinuga sellest räägin|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||räägin|||REQUIRED|||-NONE-|||1
+A 2 6|||R:WO|||sinuga sellest uuesti räägin|||REQUIRED|||-NONE-|||1
+
+S Tean , et sina ka töötad laos ja teil on palju sõidukit ja kõik töötab hästi .
+A 3 5|||R:WO|||ka sina|||REQUIRED|||-NONE-|||0
+A 11 12|||R:NOM:FORM|||sõidukeid|||REQUIRED|||-NONE-|||0
+A 3 5|||R:WO|||ka sina|||REQUIRED|||-NONE-|||1
+A 7 8|||U:LEX|||,|||REQUIRED|||-NONE-|||1
+A 11 12|||R:NOM:FORM|||sõidukeid|||REQUIRED|||-NONE-|||1
+
+S Tahan teada , kuidas see võimalik .
+A 6 6|||M:LEX|||on|||REQUIRED|||-NONE-|||0
+
+S Võib olla sa tead kust kohast võimalik osta masinaid odavam või soovitad remondikoda hea hindega .
+A 0 2|||R:WS|||Võib-olla||Võibolla|||REQUIRED|||-NONE-|||0
+A 4 4|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 6 6|||M:LEX|||on|||REQUIRED|||-NONE-|||0
+A 9 10|||R:LEX|||odavamalt|||REQUIRED|||-NONE-|||0
+A 10 10|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 14 15|||R:LEX|||hinnaga|||REQUIRED|||-NONE-|||0
+A 12 15|||R:WO|||hea hinnaga remondikoda|||REQUIRED|||-NONE-|||0
+A 0 2|||R:WS|||Võib-olla||Võibolla|||REQUIRED|||-NONE-|||1
+A 2 4|||R:WO|||tead sa|||REQUIRED|||-NONE-|||1
+A 4 4|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 6 6|||M:LEX|||on|||REQUIRED|||-NONE-|||1
+A 9 10|||R:NOM:FORM|||odavamalt|||REQUIRED|||-NONE-|||1
+A 7 10|||R:WO|||masinaid odavamalt osta|||REQUIRED|||-NONE-|||1
+A 10 10|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 11 11|||M:LEX|||oskad|||REQUIRED|||-NONE-|||1
+A 11 12|||R:VERB:FORM|||soovitada|||REQUIRED|||-NONE-|||1
+A 14 15|||R:LEX|||hinnaga|||REQUIRED|||-NONE-|||1
+A 12 15|||R:WO|||hea hinnaga remondikoda|||REQUIRED|||-NONE-|||1
+
+S Kõige parem abi , kui sa kutsud mind teie juurde tööle laooperaatoriks !
+A 3 3|||M:LEX|||on|||REQUIRED|||-NONE-|||0
+A 3 3|||M:LEX|||on see|||REQUIRED|||-NONE-|||1
+
+S Ootan sinu vastust .
+A 3 4|||R:PUNCT|||!|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||1
+
+S Kõige head Jevgeni
+A 0 1|||R:NOM:FORM|||Kõike|||REQUIRED|||-NONE-|||0
+A 2 2|||M:PUNCT|||!|||REQUIRED|||-NONE-|||0

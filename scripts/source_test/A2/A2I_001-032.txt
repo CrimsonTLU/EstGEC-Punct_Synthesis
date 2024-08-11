@@ -1,0 +1,45 @@
+S Tere , Igor !
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Ma sooviksin külastada sinuga ühte huvitavat linna .
+A 2 4|||R:WO|||sinuga külastada|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||1
+
+S See on Tallinn .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Me võime minna Vanalinna ja vadata huvitavat kohtid .
+A 3 4|||R:CASE|||vanalinna|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||vaadata|||REQUIRED|||-NONE-|||0
+A 6 7|||R:NOM:FORM|||huvitavaid|||REQUIRED|||-NONE-|||0
+A 7 8|||R:SPELL|||kohti|||REQUIRED|||-NONE-|||0
+
+S Me saame süüa Eesti toitid ka .
+A 3 4|||R:CASE|||eesti|||REQUIRED|||-NONE-|||0
+A 4 5|||R:NOM:FORM:SPELL|||toite|||REQUIRED|||-NONE-|||0
+A 2 6|||R:WO|||ka süüa eesti toite||ka eesti toite süüa|||REQUIRED|||-NONE-|||0
+A 4 5|||R:NOM:FORM:SPELL|||toite|||REQUIRED|||-NONE-|||1
+A 2 6|||R:WO|||ka süüa Eesti toite||ka Eesti toite süüa|||REQUIRED|||-NONE-|||1
+A 4 5|||R:NOM:FORM:SPELL|||toitusid|||REQUIRED|||-NONE-|||2
+A 2 6|||R:WO|||ka süüa Eesti toitusid||ka Eesti toitusid süüa|||REQUIRED|||-NONE-|||2
+
+S Ma külastan sulle 1. Marts 2018 .
+A 1 2|||R:LEX|||võõrustan|||REQUIRED|||-NONE-|||0
+A 2 3|||R:NOM:FORM|||sind|||REQUIRED|||-NONE-|||0
+A 4 5|||R:NOM:FORM:SPELL:CASE|||märtsil|||REQUIRED|||-NONE-|||0
+A 1 2|||R:LEX|||kutsun||ootan|||REQUIRED|||-NONE-|||1
+A 2 3|||R:NOM:FORM|||sind|||REQUIRED|||-NONE-|||1
+A 3 3|||M:LEX|||külla|||REQUIRED|||-NONE-|||1
+A 4 5|||R:NOM:FORM:SPELL:CASE|||märtsil|||REQUIRED|||-NONE-|||1
+
+S See on neljapäev .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Sa võid broneerida toa hotellis või jääda minu kodus .
+A 7 7|||M:LEX|||ööbima|||REQUIRED|||-NONE-|||0
+A 8 9|||R:NOM:FORM|||koju|||REQUIRED|||-NONE-|||0
+A 6 7|||R:LEX|||ööbida|||REQUIRED|||-NONE-|||1
+A 8 9|||R:LEX|||juurde||poole|||REQUIRED|||-NONE-|||2
+
+S Tallinnas .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0

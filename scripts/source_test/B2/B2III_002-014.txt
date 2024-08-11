@@ -1,0 +1,124 @@
+
+S Tere , Liis !
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S See kirjutab Polina .
+A 0 1|||R:NOM:FORM|||Seda|||REQUIRED|||-NONE-|||0
+
+S Kuidas sul lähed ?
+A 2 3|||R:VERB:FORM|||läheb|||REQUIRED|||-NONE-|||0
+
+S Mul on uudis .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Ma ostsin eile uue korteri ja tahan kutsuda sind külastada mind .
+A 9 10|||R:VERB:FORM|||külastama|||REQUIRED|||-NONE-|||0
+A 10 11|||R:LEX|||ennast|||REQUIRED|||-NONE-|||0
+A 9 11|||R:WO|||ennast külastama|||REQUIRED|||-NONE-|||0
+A 7 9|||R:WO|||sind kutsuda|||REQUIRED|||-NONE-|||1
+A 9 10|||R:LEX:VERB:FORM|||külla|||REQUIRED|||-NONE-|||1
+A 10 11|||R:LEX|||omale|||REQUIRED|||-NONE-|||1
+A 9 11|||R:WO|||omale külla|||REQUIRED|||-NONE-|||1
+
+S Aga mul on üks pakkumine .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Hiljuti ma korrastasin oma raamaturiiuleid ja leidsin raamatuid ja ajakirju , mida mulle rohkem ei vaja ja tahan need ära anda .
+A 1 3|||R:WO|||korrastasin ma|||REQUIRED|||-NONE-|||0
+A 12 13|||R:NOM:FORM|||ma|||REQUIRED|||-NONE-|||0
+A 0 3|||R:WO|||Ma korrastasin hiljuti|||REQUIRED|||-NONE-|||1
+A 12 13|||R:NOM:FORM|||ma|||REQUIRED|||-NONE-|||1
+A 16 16|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 16 17|||R:LEX|||mistõttu|||REQUIRED|||-NONE-|||1
+
+S Sa tead , et ma väga armastan lugeda .
+A 5 7|||R:WO|||armastan väga|||REQUIRED|||-NONE-|||0
+
+S Mul on väga palju huvitavaid raamatuid .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Erinevad romaanid , detektiived , muinasjuttud ja palju ajakirju .
+A 3 4|||R:LEX:SPELL|||krimiromaanid||kriminullid|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||muinasjutud|||REQUIRED|||-NONE-|||0
+A 3 4|||R:LEX:SPELL|||detektiivikad|||REQUIRED|||-NONE-|||1
+A 5 6|||R:SPELL|||muinasjutud|||REQUIRED|||-NONE-|||1
+
+S Kui sa soovid midagi , siis kirjuta mulle ja ma toon neid ise sulle .
+A 2 4|||R:WO|||midagi soovid|||REQUIRED|||-NONE-|||0
+A 11 12|||R:NOM:FORM|||need|||REQUIRED|||-NONE-|||0
+A 11 12|||R:NOM:FORM|||need|||REQUIRED|||-NONE-|||1
+
+S Kui ei taha , siis sa võid küsida oma lähedaselt , võib olla keegi tahab .
+A 9 10|||R:NOM:FORM|||lähedastelt|||REQUIRED|||-NONE-|||0
+A 11 13|||R:WS|||võib-olla||võibolla|||REQUIRED|||-NONE-|||0
+
+S Ei taha neid prügi viia , sest et selled raamad väga huvitavad .
+A 3 4|||R:LEX|||prügikasti||prügimäele|||REQUIRED|||-NONE-|||0
+A 8 9|||R:NOM:FORM|||need|||REQUIRED|||-NONE-|||0
+A 9 10|||R:SPELL|||raamatud|||REQUIRED|||-NONE-|||0
+A 10 10|||M:LEX|||on|||REQUIRED|||-NONE-|||0
+A 3 4|||R:LEX|||ära|||REQUIRED|||-NONE-|||1
+A 4 5|||R:LEX|||visata|||REQUIRED|||-NONE-|||1
+A 7 8|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 8 9|||R:NOM:FORM|||need|||REQUIRED|||-NONE-|||1
+A 9 10|||R:SPELL|||raamatud|||REQUIRED|||-NONE-|||1
+A 10 10|||M:LEX|||on|||REQUIRED|||-NONE-|||1
+
+S Raamat see on hea sõber .
+A 1 1|||M:PUNCT|||-|||REQUIRED|||-NONE-|||0
+A 1 2|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+
+S Kui keegi ei soovi neid , siis ei tea , mida nendega teha .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+A 7 7|||M:LEX|||ma|||REQUIRED|||-NONE-|||1
+
+S Võib olla sa tead ?
+A 0 2|||R:WS|||Võib-olla||Võibolla|||REQUIRED|||-NONE-|||0
+
+S Kuhu ma võin raamatuid ja ajakirju viia , et nad oli kasulikud .
+A 9 10|||R:LEX|||need|||REQUIRED|||-NONE-|||0
+A 10 11|||R:VERB:FORM|||oleksid|||REQUIRED|||-NONE-|||0
+A 12 13|||R:PUNCT|||?|||REQUIRED|||-NONE-|||0
+
+S Võib olla raamatukogusse ?
+A 0 2|||R:WS|||Võib-olla||Võibolla|||REQUIRED|||-NONE-|||0
+
+S Ei tea täpselt , aga mõtlen , et meie linnas raamatukogu ei võtta nii vanad raamat .
+A 5 6|||R:LEX|||arvan||usun|||REQUIRED|||-NONE-|||0
+A 9 10|||R:NOM:FORM|||linna|||REQUIRED|||-NONE-|||0
+A 12 13|||R:VERB:FORM|||võta|||REQUIRED|||-NONE-|||0
+A 14 15|||R:NOM:FORM|||vanu|||REQUIRED|||-NONE-|||0
+A 15 16|||R:NOM:FORM|||raamatuid|||REQUIRED|||-NONE-|||0
+A 5 6|||R:LEX|||arvan||usun|||REQUIRED|||-NONE-|||1
+A 9 10|||R:NOM:FORM|||linna|||REQUIRED|||-NONE-|||1
+A 12 12|||M:LEX|||taha||soovi|||REQUIRED|||-NONE-|||1
+A 12 12|||M:LEX|||vastu|||REQUIRED|||-NONE-|||1
+A 14 15|||R:NOM:FORM|||vanu|||REQUIRED|||-NONE-|||1
+A 15 16|||R:NOM:FORM|||raamatuid|||REQUIRED|||-NONE-|||1
+A 12 16|||R:WO|||nii vanu raamatuid vastu võtta|||REQUIRED|||-NONE-|||1
+
+S Sa võid küsida oma linnas ?
+A 0 0|||M:LEX|||Kas sa|||REQUIRED|||-NONE-|||0
+A 1 2|||R:LEX|||saaksid|||REQUIRED|||-NONE-|||0
+A 4 5|||R:NOM:FORM|||linnast|||REQUIRED|||-NONE-|||0
+
+S Raamad väga head ja ma annan kõik tasuta .
+A 0 1|||R:SPELL|||Raamatud|||REQUIRED|||-NONE-|||0
+A 1 1|||M:LEX|||on|||REQUIRED|||-NONE-|||0
+A 8 8|||M:LEX|||ära|||REQUIRED|||-NONE-|||0
+
+S Suur aitäh , et sa kirjutasid mulle .
+A 7 8|||R:PUNCT|||!|||REQUIRED|||-NONE-|||0
+A 5 7|||R:WO|||mulle kirjutasid|||REQUIRED|||-NONE-|||1
+A 7 8|||R:PUNCT|||!|||REQUIRED|||-NONE-|||1
+
+S Ootan sinu vastust .
+A 3 4|||R:PUNCT|||!|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||1
+
+S Ja soovin edu .
+A 3 4|||R:PUNCT|||!|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||1
+
+S Sinu hea tuttav Polina .
+A 4 5|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0

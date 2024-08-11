@@ -1,0 +1,148 @@
+
+S Eelmisel nädalal olen osalenud globaliseerumiskonverentsil , kus olulisemad teemad olid " Kodumaalt lahkumise põhjused ja võimalikud tagajärjed " ning " Tehnoloogia kiire areng kui kaugsuhtluse võimaldaja " .
+A 2 4|||R:VERB:FORM|||osalesin|||REQUIRED|||-NONE-|||0
+
+S Tänapäevadel antud teemad on väga aktuaalsed , eriti Eestis , mis asub oma tehnoloogia innovatsioonidega paljude riikide ees .
+A 0 1|||R:NOM:FORM|||Tänapäeval|||REQUIRED|||-NONE-|||0
+A 1 4|||R:WO|||on antud teemad|||REQUIRED|||-NONE-|||0
+A 15 16|||R:NOM:FORM|||paljudest|||REQUIRED|||-NONE-|||0
+A 16 17|||R:NOM:FORM|||riikidest|||REQUIRED|||-NONE-|||0
+A 0 1|||R:NOM:FORM|||Tänapäeval|||REQUIRED|||-NONE-|||1
+A 1 2|||R:LEX|||need|||REQUIRED|||-NONE-|||1
+A 1 4|||R:WO|||on need teemad|||REQUIRED|||-NONE-|||1
+A 11 12|||R:LEX|||on|||REQUIRED|||-NONE-|||1
+A 13 14|||R:LEX|||tehnoloogiliste|||REQUIRED|||-NONE-|||1
+A 15 16|||R:NOM:FORM|||paljudest|||REQUIRED|||-NONE-|||1
+A 16 17|||R:NOM:FORM|||riikidest|||REQUIRED|||-NONE-|||1
+
+S Kahjuks kodumaalt lahkumine on arenenud siin ka .
+A 1 4|||R:WO|||on kodumaalt lahkumine|||REQUIRED|||-NONE-|||0
+A 4 5|||R:LEX|||kiirenenud||sagenenud|||REQUIRED|||-NONE-|||0
+A 5 7|||R:WO|||ka siin|||REQUIRED|||-NONE-|||0
+
+S Peamised põhjused kodumaalt lahkumiseks on parema elukvaliteedi otsimine .
+A 0 1|||R:NOM:FORM|||Peamine|||REQUIRED|||-NONE-|||0
+A 1 2|||R:NOM:FORM|||põhjus|||REQUIRED|||-NONE-|||0
+A 0 1|||R:NOM:FORM|||Peamine|||REQUIRED|||-NONE-|||1
+A 1 2|||R:NOM:FORM|||põhjus|||REQUIRED|||-NONE-|||1
+A 1 4|||R:WO:NOM:FORM|||kodumaalt lahkumise põhjus|||REQUIRED|||-NONE-|||1
+
+S Praegu on suhteliselt raske leida hästi makstud tööd , seetõttu Eestis on suurenenud töötute arv .
+A 10 12|||R:WO|||on Eestis|||REQUIRED|||-NONE-|||0
+A 6 7|||R:LEX|||tasustatud|||REQUIRED|||-NONE-|||1
+A 10 12|||R:WO|||on Eestis|||REQUIRED|||-NONE-|||1
+A 6 7|||R:LEX|||tasustatud|||REQUIRED|||-NONE-|||2
+A 9 10|||R:LEX|||mistõttu|||REQUIRED|||-NONE-|||2
+A 10 15|||R:WO|||on töötute arv Eestis suurenenud|||REQUIRED|||-NONE-|||2
+
+S Kui võrrelda palkasid Soomes ja Eestis , siis saab näha , et sama töö eest arst Soomes saab mitu korda rohkem raha kui Eestis .
+A 15 18|||R:WO|||saab arst Soomes|||REQUIRED|||-NONE-|||0
+A 8 9|||R:LEX|||võib||on|||REQUIRED|||-NONE-|||1
+A 15 18|||R:WO|||saab arst Soomes|||REQUIRED|||-NONE-|||1
+
+S Samuti Soomes on suur sotsiaalne toetus , korraldatakse tasuta koolitusi soome keele õppimiseks .
+A 1 3|||R:WO|||on Soomes|||REQUIRED|||-NONE-|||0
+A 1 3|||R:WO|||on Soomes|||REQUIRED|||-NONE-|||1
+A 6 7|||M:LEX|||ja|||REQUIRED|||-NONE-|||1
+A 1 3|||R:WO|||on Soomes|||REQUIRED|||-NONE-|||2
+A 6 7|||M:LEX|||ja|||REQUIRED|||-NONE-|||2
+A 9 12|||R:WO|||soome keele koolitusi|||REQUIRED|||-NONE-|||2
+A 12 13|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||2
+
+S Inimesed tunnevad ennast riigi kaitse all , mida ei saa öelda kodumaa kohta .
+A 11 11|||M:LEX|||meie|||REQUIRED|||-NONE-|||0
+
+S Lahkumise tagajärjed on riigile tõsised ja peamine on vananenud ühiskond , kus on palju pensionääre ja vähe lapsi .
+A 14 15|||R:SPELL|||pensionäre|||REQUIRED|||-NONE-|||0
+
+S Sellisel riigil on raske tulevik : pensioonivanus kasvab , üks töötaja peab toetama palju pensionääre , noored leiavad endale parema elukohti lahkudes kodumaalt .
+A 6 7|||R:SPELL|||pensionivanus|||REQUIRED|||-NONE-|||0
+A 14 15|||R:SPELL|||pensionäre|||REQUIRED|||-NONE-|||0
+A 20 21|||R:NOM:FORM|||elukoha|||REQUIRED|||-NONE-|||0
+A 19 23|||R:WO|||kodumaalt lahkudes parema elukoha|||REQUIRED|||-NONE-|||0
+A 6 7|||R:LEX:SPELL|||pensioniiga|||REQUIRED|||-NONE-|||1
+A 14 15|||R:SPELL|||pensionäre|||REQUIRED|||-NONE-|||1
+A 20 21|||R:NOM:FORM|||elukoha|||REQUIRED|||-NONE-|||1
+A 19 23|||R:WO|||kodumaalt lahkudes parema elukoha|||REQUIRED|||-NONE-|||1
+
+S Järelduseks , riigil on vaja luua programmi töökohtade arvu suurenemiseks , mis aitab parandada olukorda .
+A 0 1|||R:LEX|||Järelikult|||REQUIRED|||-NONE-|||0
+A 1 2|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 2 4|||R:WO|||on riigil|||REQUIRED|||-NONE-|||0
+A 6 7|||R:NOM:FORM|||programm|||REQUIRED|||-NONE-|||0
+A 9 10|||R:LEX|||suurendamiseks|||REQUIRED|||-NONE-|||0
+A 13 15|||R:WO|||olukorda parandada|||REQUIRED|||-NONE-|||0
+A 0 1|||R:NOM:FORM|||Järeldus|||REQUIRED|||-NONE-|||1
+A 1 2|||R:PUNCT|||:|||REQUIRED|||-NONE-|||1
+A 6 7|||R:NOM:FORM|||programm|||REQUIRED|||-NONE-|||1
+A 9 10|||R:LEX|||suurendamiseks|||REQUIRED|||-NONE-|||1
+A 12 13|||R:VERB:FORM|||aitaks|||REQUIRED|||-NONE-|||1
+A 13 15|||R:WO|||olukorda parandada|||REQUIRED|||-NONE-|||1
+
+S Teiselt poolt tehnoloogia kiire areng annab inimestele palju võimalusi .
+A 2 6|||R:WO|||annab tehnoloogia kiire areng|||REQUIRED|||-NONE-|||0
+
+S Üks nendest on kaugsuhtlus .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Ergsaks näideks on veebiõpe , mis võimaldab saada teadmisi igal kohal , kus on internetiside .
+A 0 1|||R:NOM:FORM:SPELL|||Ergas|||REQUIRED|||-NONE-|||0
+A 1 2|||R:NOM:FORM:SPELL|||näide|||REQUIRED|||-NONE-|||0
+A 9 10|||R:NOM:FORM|||igas|||REQUIRED|||-NONE-|||0
+A 10 11|||R:NOM:FORM|||kohas|||REQUIRED|||-NONE-|||0
+A 0 1|||R:SPELL|||Erksaks|||REQUIRED|||-NONE-|||1
+A 1 2|||R:SPELL|||näiteks|||REQUIRED|||-NONE-|||1
+A 9 10|||R:NOM:FORM|||igas|||REQUIRED|||-NONE-|||1
+A 10 11|||R:NOM:FORM|||kohas|||REQUIRED|||-NONE-|||1
+A 0 1|||R:LEX:SPELL|||Konkreetne||Hea||Ilmekas||Asjakohane|||REQUIRED|||-NONE-|||2
+A 1 2|||R:NOM:FORM:SPELL|||näide|||REQUIRED|||-NONE-|||2
+A 9 10|||R:NOM:FORM|||igas|||REQUIRED|||-NONE-|||2
+A 10 11|||R:NOM:FORM|||kohas|||REQUIRED|||-NONE-|||2
+
+S Loengud saavad läbi viia Skype'i teel , küsimuste tekkimisel õpilased kirjutavad õpetajale e-posti kaudu .
+A 0 1|||R:NOM:FORM|||Loenguid|||REQUIRED|||-NONE-|||0
+A 1 2|||R:VERB:FORM|||saab|||REQUIRED|||-NONE-|||0
+A 9 11|||R:WO|||kirjutavad õpilased|||REQUIRED|||-NONE-|||0
+A 0 1|||R:NOM:FORM|||Loenguid|||REQUIRED|||-NONE-|||1
+A 1 2|||R:VERB:FORM|||saab|||REQUIRED|||-NONE-|||1
+A 2 4|||R:LEX|||korraldada||pidada|||REQUIRED|||-NONE-|||1
+A 9 11|||R:WO|||kirjutavad õpilased|||REQUIRED|||-NONE-|||1
+A 11 12|||R:NOM:FORM|||õpetaja|||REQUIRED|||-NONE-|||1
+A 12 13|||R:NOM:FORM|||e-postile|||REQUIRED|||-NONE-|||1
+A 13 14|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 0 1|||R:NOM:FORM|||Loenguid|||REQUIRED|||-NONE-|||2
+A 1 2|||R:VERB:FORM|||saab|||REQUIRED|||-NONE-|||2
+A 2 4|||R:LEX|||korraldada||pidada|||REQUIRED|||-NONE-|||2
+A 4 5|||R:NOM:FORM|||Skype'is|||REQUIRED|||-NONE-|||2
+A 5 6|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||2
+A 9 11|||R:WO|||kirjutavad õpilased|||REQUIRED|||-NONE-|||2
+A 13 14|||R:LEX|||teel||vahendusel|||REQUIRED|||-NONE-|||2
+
+S Samuti kõik materjalid on kättesaadavad sõltumatu ajast .
+A 1 4|||R:WO|||on kõik materjalid|||REQUIRED|||-NONE-|||0
+A 5 6|||R:LEX|||sõltumata|||REQUIRED|||-NONE-|||0
+A 5 7|||R:WO|||ajast sõltumata|||REQUIRED|||-NONE-|||0
+A 1 4|||R:WO|||on kõik materjalid|||REQUIRED|||-NONE-|||1
+A 5 6|||R:LEX|||sõltumata|||REQUIRED|||-NONE-|||1
+
+S Üha rohkem inimesi kasutavad sellist õppimise viisi , mida näitab selle mugavust ja tõhusust .
+A 8 9|||R:NOM:FORM|||mis|||REQUIRED|||-NONE-|||0
+
+S Kokkuvõttes saan üelda , et riik peab toetuma oma elanikuid ja luua vastavaid elutingimusi , et ei tekiks soov kodumaalt lahkuda .
+A 2 3|||R:SPELL|||öelda|||REQUIRED|||-NONE-|||0
+A 7 8|||R:LEX|||toetama|||REQUIRED|||-NONE-|||0
+A 9 10|||R:NOM:FORM:SPELL|||elanikke|||REQUIRED|||-NONE-|||0
+A 11 12|||R:VERB:FORM|||looma|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||öelda|||REQUIRED|||-NONE-|||1
+A 7 8|||R:LEX|||toetama|||REQUIRED|||-NONE-|||1
+A 9 10|||R:NOM:FORM:SPELL|||elanikke|||REQUIRED|||-NONE-|||1
+A 11 12|||R:VERB:FORM|||looma|||REQUIRED|||-NONE-|||1
+A 12 13|||R:NOM:FORM|||vastavad|||REQUIRED|||-NONE-|||1
+A 13 14|||R:NOM:FORM|||elutingimused|||REQUIRED|||-NONE-|||1
+
+S Öeldes tehnoloogia arenguks olen kindel , et see lihtsustab meie elu ja tema kättes on meie tulevik .
+A 0 1|||R:LEX|||Rääkides|||REQUIRED|||-NONE-|||0
+A 2 3|||R:NOM:FORM|||arengust|||REQUIRED|||-NONE-|||0
+A 3 3|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 12 13|||R:LEX|||selle|||REQUIRED|||-NONE-|||0
+A 13 14|||R:SPELL|||kätes|||REQUIRED|||-NONE-|||0

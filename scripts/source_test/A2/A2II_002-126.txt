@@ -1,0 +1,60 @@
+
+S Tere !
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Ma olen müüa , minu nimi on Olga !
+A 2 3|||R:SPELL|||müüja|||REQUIRED|||-NONE-|||0
+A 8 9|||R:PUNCT|||.|||REQUIRED|||-NONE-|||0
+
+S Ma soovitan teil väga hea autot .
+A 2 3|||R:NOM:FORM|||teile|||REQUIRED|||-NONE-|||0
+A 4 5|||R:NOM:FORM|||head|||REQUIRED|||-NONE-|||0
+
+S See auto on " suzuki " .
+A 3 4|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 4 5|||R:CASE|||Suzuki|||REQUIRED|||-NONE-|||0
+A 5 6|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Ta on kiire , ilus ja mugav , värv on hall .
+A 0 1|||R:LEX|||See|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||1
+
+S Autol väga hea hind ka !
+A 1 1|||M:LEX|||on|||REQUIRED|||-NONE-|||0
+A 1 5|||R:WO|||ka väga hea hind|||REQUIRED|||-NONE-|||0
+
+S Auto hind on 10 000 eurot .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Ma sõitsin sellel autol ainult 2 aastat .
+A 2 3|||R:NOM:FORM|||selle|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOM:FORM|||autoga|||REQUIRED|||-NONE-|||0
+A 1 2|||R:VERB:FORM|||olen sõitnud|||REQUIRED|||-NONE-|||1
+A 2 3|||R:NOM:FORM|||selle|||REQUIRED|||-NONE-|||1
+A 3 4|||R:NOM:FORM|||autoga|||REQUIRED|||-NONE-|||1
+A 1 2|||R:VERB:FORM|||olen sõitnud|||REQUIRED|||-NONE-|||2
+A 2 3|||R:NOM:FORM|||selle|||REQUIRED|||-NONE-|||2
+A 3 4|||R:NOM:FORM|||autoga|||REQUIRED|||-NONE-|||2
+A 1 7|||R:WO|||olen selle autoga sõitnud ainult 2 aastat|||REQUIRED|||-NONE-|||2
+
+S Mulle meeldib see auto , aga ma ostsin uut autot .
+A 8 9|||R:NOM:FORM|||uue|||REQUIRED|||-NONE-|||0
+A 9 10|||R:NOM:FORM|||auto|||REQUIRED|||-NONE-|||0
+
+S Te saate näha autot 5. aprillil 2018 aastat .
+A 2 4|||R:WO|||autot näha|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||2018.|||REQUIRED|||-NONE-|||0
+A 7 8|||R:NOM:FORM|||aastal|||REQUIRED|||-NONE-|||0
+A 2 4|||R:WO|||autot näha|||REQUIRED|||-NONE-|||1
+A 6 7|||R:SPELL|||2018.|||REQUIRED|||-NONE-|||1
+A 7 8|||R:NOM:FORM|||aastal|||REQUIRED|||-NONE-|||1
+A 4 8|||R:WO|||2018. aasta 5. aprillil|||REQUIRED|||-NONE-|||1
+A 2 4|||R:WO|||autot näha|||REQUIRED|||-NONE-|||2
+A 7 8|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||2
+
+S Narvas , Rakvere --- .
+A 1 2|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Tel . --- ( Olga )
+A 1 2|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||1

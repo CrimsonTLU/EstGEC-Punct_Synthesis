@@ -1,0 +1,58 @@
+
+S Me kaisime reisil sõbradega koos viimasel nadalavahetusel .
+A 1 2|||R:SPELL|||käisime|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||sõpradega|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||nädalavahetusel|||REQUIRED|||-NONE-|||0
+A 2 7|||R:WO|||viimasel nädalavahetusel sõpradega koos reisil|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||käisime|||REQUIRED|||-NONE-|||1
+A 3 4|||R:SPELL|||sõpradega|||REQUIRED|||-NONE-|||1
+A 6 7|||R:SPELL|||nädalavahetusel|||REQUIRED|||-NONE-|||1
+A 2 7|||R:WO|||sõpradega viimasel nädalavahetusel koos reisil|||REQUIRED|||-NONE-|||1
+A 1 2|||R:SPELL|||käisime|||REQUIRED|||-NONE-|||2
+A 3 4|||R:SPELL|||sõpradega|||REQUIRED|||-NONE-|||2
+A 6 7|||R:SPELL|||nädalavahetusel|||REQUIRED|||-NONE-|||2
+A 2 7|||R:WO|||viimasel nädalavahetusel koos sõpradega reisil|||REQUIRED|||-NONE-|||2
+
+S Ma vaatasin uus koht Eestis .
+A 2 3|||R:NOM:FORM|||uut|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOM:FORM|||kohta|||REQUIRED|||-NONE-|||0
+A 2 5|||R:WO|||Eestis uut kohta|||REQUIRED|||-NONE-|||0
+
+S See oli väike linn Saula Tallina lähedal , siis seal asub mets ja kolm järvi
+A 5 6|||R:SPELL|||Tallinna|||REQUIRED|||-NONE-|||0
+A 8 9|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+A 14 15|||R:NOM:FORM|||järve|||REQUIRED|||-NONE-|||0
+A 15 15|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+
+S On minu arvates nad oli nagu Eesti lipp : sinine , must ja valge .
+A 0 2|||U:LEX|||Minu|||REQUIRED|||-NONE-|||0
+A 3 4|||R:LEX|||need|||REQUIRED|||-NONE-|||0
+A 4 5|||R:VERB:FORM|||olid|||REQUIRED|||-NONE-|||0
+A 3 5|||R:WO|||olid need|||REQUIRED|||-NONE-|||0
+A 0 2|||U:LEX|||Minu|||REQUIRED|||-NONE-|||1
+A 4 5|||R:VERB:FORM|||olid|||REQUIRED|||-NONE-|||1
+A 3 5|||R:WO|||olid nad|||REQUIRED|||-NONE-|||1
+
+S Nadalavahetusel oli väga ilus ilm , päike paistasib aga puud oli heledat , sest see ei ole suvel .
+A 0 1|||R:SPELL|||Nädalavahetusel|||REQUIRED|||-NONE-|||0
+A 7 8|||R:SPELL|||paistis|||REQUIRED|||-NONE-|||0
+A 8 8|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 10 11|||R:VERB:FORM|||olid|||REQUIRED|||-NONE-|||0
+A 11 12|||R:NOM:FORM|||heledad|||REQUIRED|||-NONE-|||0
+A 14 15|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+A 17 18|||R:NOM:FORM|||suvi|||REQUIRED|||-NONE-|||0
+A 0 1|||R:SPELL|||Nädalavahetusel|||REQUIRED|||-NONE-|||1
+A 7 8|||R:SPELL|||paistis|||REQUIRED|||-NONE-|||1
+A 8 8|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 10 11|||R:VERB:FORM|||olid|||REQUIRED|||-NONE-|||1
+A 11 12|||R:LEX|||raagus|||REQUIRED|||-NONE-|||1
+A 14 15|||R:LEX|||praegu|||REQUIRED|||-NONE-|||1
+A 17 18|||R:NOM:FORM|||suvi|||REQUIRED|||-NONE-|||1
+
+S Meile meeldivad see reis teha .
+A 1 2|||R:VERB:FORM|||meeldis|||REQUIRED|||-NONE-|||0
+A 4 5|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+A 1 2|||R:VERB:FORM|||meeldis|||REQUIRED|||-NONE-|||1
+A 2 3|||R:NOM:FORM|||sellel|||REQUIRED|||-NONE-|||1
+A 3 4|||R:NOM:FORM|||reisil|||REQUIRED|||-NONE-|||1
+A 4 5|||R:LEX|||käia|||REQUIRED|||-NONE-|||1

@@ -1,0 +1,151 @@
+
+S Praegu maailmas kõikides arenenud riikides on üks ja samasugune probleem - urbaniseerimine ehk linnastumine .
+A 1 6|||R:WO|||on maailmas kõikides arenenud riikides|||REQUIRED|||-NONE-|||0
+A 8 9|||R:LEX|||sama|||REQUIRED|||-NONE-|||0
+A 11 12|||R:LEX|||urbaniseerumine|||REQUIRED|||-NONE-|||0
+A 1 6|||R:WO|||on maailmas kõikides arenenud riikides|||REQUIRED|||-NONE-|||1
+A 6 7|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 7 8|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 11 12|||R:LEX|||urbaniseerumine|||REQUIRED|||-NONE-|||1
+
+S See tähendab , et rohkem inimesi eelistavad kolida linnadele või ääremaadele .
+A 8 9|||R:SPELL|||linnadesse|||REQUIRED|||-NONE-|||0
+
+S Viimasel esmaspäeval mul oli suurepärane võimalus osaleda linnastumisteemalisel seminaril , kus esinesid selle teema spetsialistid .
+A 2 4|||R:WO|||oli mul|||REQUIRED|||-NONE-|||0
+
+S Mina otsustasin jagada Teiega sellist kogemust .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Esiteks , selleks et aru saada sellest probleemist on vaja teada , miks elu linnades meeldib inimestele rohkem kui maadel .
+A 4 8|||R:WO|||sellest probleemist aru saada|||REQUIRED|||-NONE-|||0
+A 8 8|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 13 17|||R:WO|||meeldib inimestele elu linnades|||REQUIRED|||-NONE-|||0
+A 19 20|||R:NOM:FORM|||maal|||REQUIRED|||-NONE-|||0
+
+S Seminaril me proovisime võrrelda elu kolme punkti järgi .
+A 1 3|||R:WO|||proovisime me|||REQUIRED|||-NONE-|||0
+
+S Esimene punkt olid teenused .
+A 2 3|||R:LEX|||puudutas|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOM:FORM|||teenuseid|||REQUIRED|||-NONE-|||0
+A 2 3|||R:VERB:FORM|||oli|||REQUIRED|||-NONE-|||1
+
+S See ei ole saladus , et linnas on väga palju teenusi ja see teeb inimeste elu lihtsaks .
+A 10 11|||R:NOM:FORM|||teenuseid|||REQUIRED|||-NONE-|||0
+
+S Näiteks , kui mina olen väsinud ja mul on nälg siis mul on võimalus minna kohvikusse , kui maal mul tuleks ise toitu teha , mis on mõnikord raske .
+A 1 2|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 10 10|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 17 18|||R:LEX|||kuid|||REQUIRED|||-NONE-|||0
+A 1 2|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+A 10 10|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 11 13|||R:WO|||on mul|||REQUIRED|||-NONE-|||1
+A 17 18|||R:LEX|||kuid|||REQUIRED|||-NONE-|||1
+A 19 20|||R:WO|||tuleks mul|||REQUIRED|||-NONE-|||1
+
+S Teine punkt oli kultuurielu .
+A 2 3|||R:LEX|||käsitles||puudutas|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||1
+
+S Nagu me saame märkata Eestis on teatrid ja kinoteatrid ainult suurtes linnades .
+A 3 4|||R:SPELL|||märgata|||REQUIRED|||-NONE-|||0
+A 4 4|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 4 6|||R:WO|||on Eestis|||REQUIRED|||-NONE-|||0
+
+S Need asutused teevad iga inimese elu huvitavaks ja need , kes elavad maal , tunnevad nende puudust ja seepärast otsustavad elada linnades või ääremaadel .
+A 15 16|||R:NOM:FORM|||nendest|||REQUIRED|||-NONE-|||0
+
+S Ja kolmas kui ka kõige oluline punkt olid töökohad .
+A 2 2|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 2 3|||R:LEX|||kuid|||REQUIRED|||-NONE-|||0
+A 5 6|||R:NOM:FORM|||olulisem|||REQUIRED|||-NONE-|||0
+A 7 8|||R:LEX|||puudutas||käsitles|||REQUIRED|||-NONE-|||0
+A 8 9|||R:NOM:FORM|||töökohti|||REQUIRED|||-NONE-|||0
+A 2 2|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 2 3|||R:LEX|||kuid|||REQUIRED|||-NONE-|||1
+A 5 6|||R:NOM:FORM|||olulisem|||REQUIRED|||-NONE-|||1
+
+S Töö on see , mis annab meile raha selleks et me elaksime .
+A 9 9|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 8 8|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 10 11|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 11 12|||R:VERB:FORM|||elada|||REQUIRED|||-NONE-|||1
+
+S Seepärast tööpuudus on väga suur probleem , mille pärast inimesed mõnikord kolivad linnadesse , selleks et töökoha leida .
+A 1 3|||R:WO|||on tööpuudus|||REQUIRED|||-NONE-|||0
+A 16 17|||R:NOM:FORM|||töökohta|||REQUIRED|||-NONE-|||0
+A 1 3|||R:WO|||on tööpuudus|||REQUIRED|||-NONE-|||1
+A 11 13|||R:WO|||linnadesse kolivad|||REQUIRED|||-NONE-|||1
+A 16 17|||R:NOM:FORM|||töökohta|||REQUIRED|||-NONE-|||1
+
+S Linnades on tehased ja teised asutused , kust igaüks võib leida oma kohta , kuna maadel võib töötada põllumajanduses , kus , kahjuks , poole piisavaid töökohti .
+A 12 13|||R:NOM:FORM|||koha|||REQUIRED|||-NONE-|||0
+A 14 15|||R:LEX|||kuid|||REQUIRED|||-NONE-|||0
+A 15 16|||R:NOM:FORM|||maal|||REQUIRED|||-NONE-|||0
+A 21 22|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 23 24|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 24 25|||R:SPELL|||pole|||REQUIRED|||-NONE-|||0
+A 22 25|||R:WO|||pole kahjuks|||REQUIRED|||-NONE-|||0
+A 25 26|||R:LEX|||piisavalt|||REQUIRED|||-NONE-|||0
+
+S Kui see probleem on arusaadev , siis teine küsimus on kuidas riik sõib tagada kõigi piirkondade ühtlase arengu võimalusi .
+A 4 5|||R:SPELL|||arusaadav|||REQUIRED|||-NONE-|||0
+A 10 10|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 12 13|||R:SPELL|||võib|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||arusaadav|||REQUIRED|||-NONE-|||1
+A 10 10|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 12 13|||R:SPELL|||võib|||REQUIRED|||-NONE-|||1
+A 14 15|||R:NOM:FORM|||kõigile|||REQUIRED|||-NONE-|||1
+A 15 16|||R:NOM:FORM|||piirkondadele|||REQUIRED|||-NONE-|||1
+A 16 17|||R:LEX|||võrdseid|||REQUIRED|||-NONE-|||1
+A 17 19|||R:WS|||arenguvõimalusi|||REQUIRED|||-NONE-|||1
+
+S Seminaril teadlased ütlesid , et kõigepealt riik peab toetama ja stimuleerima inimesi , selleks et nad avaksid oma firmaid maadel .
+A 1 3|||R:WO|||ütlesid teadlased|||REQUIRED|||-NONE-|||0
+A 6 8|||R:WO|||peab riik|||REQUIRED|||-NONE-|||0
+A 18 19|||R:SPELL|||firmasid|||REQUIRED|||-NONE-|||0
+A 19 20|||R:NOM:FORM|||maal|||REQUIRED|||-NONE-|||0
+
+S See võib aidata ka kohalikele elanikele , sest need firmad annavad uusi teenusi ning uusi töökohti .
+A 4 5|||R:NOM:FORM|||kohalikke|||REQUIRED|||-NONE-|||0
+A 5 6|||R:NOM:FORM|||elanikke|||REQUIRED|||-NONE-|||0
+A 10 11|||R:LEX|||pakuvad|||REQUIRED|||-NONE-|||0
+A 12 13|||R:SPELL|||teenuseid|||REQUIRED|||-NONE-|||0
+A 14 14|||M:LEX|||pakuvad|||REQUIRED|||-NONE-|||0
+A 4 5|||R:NOM:FORM|||kohalikke|||REQUIRED|||-NONE-|||1
+A 5 6|||R:NOM:FORM|||elanikke|||REQUIRED|||-NONE-|||1
+A 10 11|||R:LEX|||pakuvad|||REQUIRED|||-NONE-|||1
+A 12 13|||R:SPELL|||teenuseid|||REQUIRED|||-NONE-|||1
+
+S Selles olukorras , kui keegi ei taha avada midagi maadel , võib riik ise avada oma tehaseid või vaabrikuid .
+A 9 10|||R:NOM:FORM|||maal|||REQUIRED|||-NONE-|||0
+A 13 13|||M:LEX|||seal|||REQUIRED|||-NONE-|||0
+A 18 19|||R:SPELL|||vabrikuid|||REQUIRED|||-NONE-|||0
+A 9 10|||R:NOM:FORM|||maal|||REQUIRED|||-NONE-|||1
+A 7 10|||R:WO|||midagi maal avada|||REQUIRED|||-NONE-|||1
+A 18 19|||R:SPELL|||vabrikuid|||REQUIRED|||-NONE-|||1
+A 14 19|||R:WO|||oma tehaseid või vabrikuid avada|||REQUIRED|||-NONE-|||1
+
+S See lahendus on kasulik nii riigile , kui ka elanikutele .
+A 6 7|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 9 10|||R:SPELL|||elanikele||elanikkudele|||REQUIRED|||-NONE-|||0
+
+S Viimane võimalus on põllumajanduse toetamine , mis võib aidata moodustada rohkem töökohti maadel .
+A 9 10|||R:LEX|||luua|||REQUIRED|||-NONE-|||0
+A 12 13|||R:NOM:FORM|||maal|||REQUIRED|||-NONE-|||0
+A 9 13|||R:WO|||maal rohkem töökohti luua|||REQUIRED|||-NONE-|||0
+
+S Lõpus tahaksin öelda , et see oli väga huvi seminar ja mina arvan , et iga riik peab pöörduda tähelepanu linnastumise probleemidele , sest see on tõeline oht kõigi piirkondade ühtlase arengule .
+A 8 9|||R:LEX|||huvitav|||REQUIRED|||-NONE-|||0
+A 18 19|||R:LEX|||pöörama|||REQUIRED|||-NONE-|||0
+A 30 31|||R:NOM:FORM|||ühtlasele|||REQUIRED|||-NONE-|||0
+
+S Selleks et seda peatuda on vaja teha võrdsaid tingimused nii linnades ja ääremaadel , kui ka maadel .
+A 1 1|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 3 4|||R:LEX|||peatada|||REQUIRED|||-NONE-|||0
+A 4 4|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 6 7|||R:LEX|||luua|||REQUIRED|||-NONE-|||0
+A 7 8|||R:SPELL|||võrdsed|||REQUIRED|||-NONE-|||0
+A 13 14|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 16 17|||R:NOM:FORM|||maal|||REQUIRED|||-NONE-|||0

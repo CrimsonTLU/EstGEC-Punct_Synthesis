@@ -1,0 +1,71 @@
+
+S Austatud hr. --- !
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Nagu varsti meie kooli ootab sünnipäevapidu , milleks plaanitakse välja anda asutust tutvustav raamat , ma tahaksin kirjutada oma töökogemuse , kollektiivi ja kooli elus osalemise kohta .
+A 0 2|||U:LEX|||Varsti|||REQUIRED|||-NONE-|||0
+A 2 5|||R:WO|||ootab meie kooli|||REQUIRED|||-NONE-|||0
+A 15 15|||M:LEX|||ja||ning|||REQUIRED|||-NONE-|||0
+A 23 25|||R:WS|||koolielus|||REQUIRED|||-NONE-|||0
+A 1 1|||M:LEX|||teate|||REQUIRED|||-NONE-|||1
+A 1 1|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 1 5|||R:WO|||ootab varsti meie kooli|||REQUIRED|||-NONE-|||1
+A 15 15|||M:LEX|||ja||ning|||REQUIRED|||-NONE-|||1
+A 23 25|||R:WS|||koolielus|||REQUIRED|||-NONE-|||1
+A 0 1|||R:LEX|||Et||Kuna|||REQUIRED|||-NONE-|||2
+A 2 5|||R:WO|||ootab meie kooli|||REQUIRED|||-NONE-|||2
+A 15 17|||R:WO|||tahaksin ma|||REQUIRED|||-NONE-|||2
+A 23 25|||R:WS|||koolielus|||REQUIRED|||-NONE-|||2
+
+S Ma töötan meie koolis juba 7 aastat huvijuhina ning korraldan erinevaid proekte , reisi ja üritusi .
+A 11 12|||R:SPELL|||projekte|||REQUIRED|||-NONE-|||0
+A 13 14|||R:NOM:FORM|||reise|||REQUIRED|||-NONE-|||0
+A 3 8|||R:WO:NOM:FORM|||kooli huvijuhina juba 7 aastat|||REQUIRED|||-NONE-|||1
+A 11 12|||R:SPELL|||projekte|||REQUIRED|||-NONE-|||1
+A 13 14|||R:NOM:FORM|||reise|||REQUIRED|||-NONE-|||1
+
+S Millal ma tulin kooli tööle huvijuhi ametisse , siis sellele ametikohale oli mitu vabatahtlikke ja konkursi jaoks oli vaja välja mõtelda kõige huvitavam üritust .
+A 0 1|||R:LEX|||Kui|||REQUIRED|||-NONE-|||0
+A 9 12|||R:WO|||oli sellele ametikohale|||REQUIRED|||-NONE-|||0
+A 13 14|||R:LEX:NOM:FORM|||kandidaati|||REQUIRED|||-NONE-|||0
+A 23 24|||R:NOM:FORM|||üritus|||REQUIRED|||-NONE-|||0
+
+S Ma korraldasin spordivõistlusi , mille meeskondades olid nii õpilased kui ka õpetajad .
+A 2 3|||R:NOM:FORM|||spordivõistluse|||REQUIRED|||-NONE-|||0
+
+S Kõigele see üritus väga meeldis ja direktor nimetas mind sellesse ametisse .
+A 0 1|||R:NOM:FORM|||Kõigile|||REQUIRED|||-NONE-|||0
+A 1 5|||R:WO|||meeldis see üritus väga|||REQUIRED|||-NONE-|||0
+
+S Meie asutuses on väga sõbralik õpetajate kollektiiv ning õpilased ka on väga aktiivsed ja vastutustundlikud , mis loob head tööõhkkonda , kus kõik oma asjadega tegelevad , aga üritustel kõik koos töötavad .
+A 9 11|||R:WO|||on ka|||REQUIRED|||-NONE-|||0
+A 18 19|||R:NOM:FORM|||hea|||REQUIRED|||-NONE-|||0
+A 19 20|||R:NOM:FORM|||tööõhkkonna|||REQUIRED|||-NONE-|||0
+A 23 26|||R:WO|||tegelevad oma asjadega|||REQUIRED|||-NONE-|||0
+A 29 32|||R:WO|||töötavad kõik koos|||REQUIRED|||-NONE-|||0
+
+S Minu arvates , 10-15 aasta pärast meie kool oleks veel rohkem aktiivsete ja sõbralikute inimestega , kui tänapäeval .
+A 2 3|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 7 8|||R:NOM:FORM|||koolis|||REQUIRED|||-NONE-|||0
+A 8 9|||R:VERB:FORM|||on|||REQUIRED|||-NONE-|||0
+A 3 9|||R:WO|||on meie koolis 10-15 aasta pärast|||REQUIRED|||-NONE-|||0
+A 11 12|||R:NOM:FORM|||aktiivseid|||REQUIRED|||-NONE-|||0
+A 13 14|||R:NOM:FORM:SPELL|||sõbralikke|||REQUIRED|||-NONE-|||0
+A 14 15|||R:NOM:FORM|||inimesi|||REQUIRED|||-NONE-|||0
+A 15 16|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Ka loodan et ma jään töötada sellises koolis , kuna töö korraldamine siin mulle väga meeldib .
+A 0 2|||R:WO|||Loodan ka|||REQUIRED|||-NONE-|||0
+A 2 2|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 5 6|||R:VERB:FORM|||töötama|||REQUIRED|||-NONE-|||0
+A 6 7|||R:LEX|||sellesse|||REQUIRED|||-NONE-|||0
+A 7 8|||R:NOM:FORM|||kooli|||REQUIRED|||-NONE-|||0
+A 5 8|||R:WO|||sellesse kooli töötama|||REQUIRED|||-NONE-|||0
+A 12 16|||R:WO|||meedlib mulle siin väga|||REQUIRED|||-NONE-|||0
+
+S Soovin meie koolile edaspidiseid saavutusi ja häid tulemisi !
+A 3 4|||R:NOM:FORM|||edaspidiseks|||REQUIRED|||-NONE-|||0
+A 7 8|||R:SPELL|||tulemusi|||REQUIRED|||-NONE-|||0
+
+S Lugupidamisega Viktor --- , kooli huvijuht
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0

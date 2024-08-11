@@ -1,0 +1,57 @@
+S Kallis Anna ,
+A 2 3|||R:PUNCT|||!|||REQUIRED|||-NONE-|||0
+
+S Ma kutsun sind minna minuga külastada ühte huvitavat linna , nimega Reykjavik .
+A 3 4|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+A 4 5|||R:LEX|||endaga|||REQUIRED|||-NONE-|||0
+A 5 6|||R:VERB:FORM|||külastama|||REQUIRED|||-NONE-|||0
+A 9 10|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S See on pealinn Islandil .
+A 2 4|||R:WO:NOM:FORM|||Islandi pealinn|||REQUIRED|||-NONE-|||0
+
+S Me saame Reykjavikile reisime sellel suvil , sest see on parim ilm aastas seal .
+A 2 3|||R:NOM:FORM|||Reykjaviki|||REQUIRED|||-NONE-|||0
+A 3 4|||R:VERB:FORM|||reisida|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||suvel|||REQUIRED|||-NONE-|||0
+A 8 9|||R:LEX|||siis|||REQUIRED|||-NONE-|||0
+A 10 14|||R:WO|||seal parim ilm aastas|||REQUIRED|||-NONE-|||0
+A 2 3|||R:NOM:FORM|||Reykjaviki|||REQUIRED|||-NONE-|||1
+A 3 4|||R:VERB:FORM|||reisida|||REQUIRED|||-NONE-|||1
+A 5 6|||R:SPELL|||suvel|||REQUIRED|||-NONE-|||1
+A 8 9|||R:LEX|||siis|||REQUIRED|||-NONE-|||1
+A 10 14|||R:WO:NOM:FORM|||seal aasta parim ilm|||REQUIRED|||-NONE-|||1
+
+S Kui oleme kohal , me sõidame riigiparkis , jäämäele , ning külastame mingi muuseum linnas .
+A 4 6|||R:WO|||sõidame me|||REQUIRED|||-NONE-|||0
+A 6 7|||R:LEX:NOM:FORM|||rahvusparki|||REQUIRED|||-NONE-|||0
+A 9 10|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 12 13|||R:NOM:FORM|||mingit|||REQUIRED|||-NONE-|||0
+A 13 14|||R:NOM:FORM|||muuseumi|||REQUIRED|||-NONE-|||0
+A 12 15|||R:WO|||linnas mingit muuseumi|||REQUIRED|||-NONE-|||0
+
+S Peale , provime Islandi toitud .
+A 1 1|||M:LEX|||seda|||REQUIRED|||-NONE-|||0
+A 1 2|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||proovime|||REQUIRED|||-NONE-|||0
+A 4 5|||R:NOM:FORM:SPELL|||toite||toitusid|||REQUIRED|||-NONE-|||0
+A 1 1|||M:LEX|||selle|||REQUIRED|||-NONE-|||1
+A 1 2|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+A 2 3|||R:SPELL|||proovime|||REQUIRED|||-NONE-|||1
+A 4 5|||R:NOM:FORM:SPELL|||toite||toitusid|||REQUIRED|||-NONE-|||1
+
+S Kui sa tahad minna minuga , võid helistada mulle siis me räägime veel .
+A 4 4|||M:LEX|||Islandile|||REQUIRED|||-NONE-|||0
+A 3 5|||R:WO|||minuga Islandile minna|||REQUIRED|||-NONE-|||0
+A 7 9|||R:WO|||mulle helistada|||REQUIRED|||-NONE-|||0
+A 9 9|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 10 11|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+A 12 13|||R:LEX|||pikemalt||rohkem|||REQUIRED|||-NONE-|||0
+A 3 4|||R:LEX|||tulla|||REQUIRED|||-NONE-|||1
+A 3 5|||R:WO|||minuga tulla|||REQUIRED|||-NONE-|||1
+A 7 9|||R:WO|||mulle helistada|||REQUIRED|||-NONE-|||1
+A 9 9|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 10 11|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+
+S Parimate soovidega , Eeva
+A 2 3|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0

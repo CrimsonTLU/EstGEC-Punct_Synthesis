@@ -1,0 +1,101 @@
+
+S Tere , lugupeetud omavalistuse liiged !
+A 3 4|||R:SPELL|||omavalitsuse|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||liikmed|||REQUIRED|||-NONE-|||0
+
+S Eelmisel aastal meie omavalitsus sõlmis tänavate ja parkide hooldamiseks lepingu uue teenusefirmaga nimega " Uus täht " .
+A 2 5|||R:WO|||sõlmis meie omavalitsus|||REQUIRED|||-NONE-|||0
+A 13 14|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 15 16|||R:CASE|||Täht|||REQUIRED|||-NONE-|||0
+A 16 17|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Mina olen maja omanik ja elan Piiri tänaval ( maja number --- ) , kus firma " Uus täht " on renoveerinud teed .
+A 2 4|||R:WS|||majaomanik|||REQUIRED|||-NONE-|||0
+A 9 10|||R:NOM:FORM|||majas|||REQUIRED|||-NONE-|||0
+A 16 17|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 18 19|||R:CASE|||Täht|||REQUIRED|||-NONE-|||0
+A 19 20|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 22 23|||R:NOM:FORM|||teid|||REQUIRED|||-NONE-|||0
+A 2 4|||R:WS|||majaomanik|||REQUIRED|||-NONE-|||1
+A 9 10|||R:NOM:FORM|||majas|||REQUIRED|||-NONE-|||1
+A 16 17|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+A 18 19|||R:CASE|||Täht|||REQUIRED|||-NONE-|||1
+A 19 20|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+A 20 22|||R:WO|||teed renoveerinud|||REQUIRED|||-NONE-|||1
+
+S Ma ei ole selle firma tööga rahul üldse .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+A 6 8|||R:WO|||üldse rahul|||REQUIRED|||-NONE-|||1
+
+S Teekate kvaliteet on nii madal , et esimese vihma pärast sai tee vigu ja minu auto ratas oli parandatud .
+A 0 1|||R:NOM:FORM|||Teekatte|||REQUIRED|||-NONE-|||0
+A 7 8|||R:NOM:FORM|||esimest|||REQUIRED|||-NONE-|||0
+A 7 10|||R:WO|||pärast esimest vihma|||REQUIRED|||-NONE-|||0
+A 12 13|||R:NOM:FORM|||viga|||REQUIRED|||-NONE-|||0
+A 16 17|||R:NOM:FORM|||ratast|||REQUIRED|||-NONE-|||0
+A 18 18|||M:LEX|||vaja|||REQUIRED|||-NONE-|||0
+A 18 19|||R:VERB:FORM|||parandada|||REQUIRED|||-NONE-|||0
+
+S Õnneks , mul on kasko kindlustus , aga omavastutus minu paketis on 200 eurot , mida ma pean maksma oma taskust igal juhul .
+A 1 2|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 2 4|||R:WO|||on mul|||REQUIRED|||-NONE-|||0
+A 4 6|||R:WS|||kaskokindlustus|||REQUIRED|||-NONE-|||0
+A 9 12|||R:WO|||on minu paketis|||REQUIRED|||-NONE-|||0
+A 15 16|||R:NOM:FORM|||mille|||REQUIRED|||-NONE-|||0
+A 1 2|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+A 2 4|||R:WO|||on mul|||REQUIRED|||-NONE-|||1
+A 4 6|||R:WS|||kaskokindlustus|||REQUIRED|||-NONE-|||1
+A 15 16|||R:NOM:FORM|||mille|||REQUIRED|||-NONE-|||1
+
+S Mina pöördasin kohe firma " Uus täht " poole ja sain vastus , et see on täiesti minu süüdi : mina ei olnud piisavalt ettevaatlik .
+A 1 2|||R:SPELL|||pöördusin|||REQUIRED|||-NONE-|||0
+A 4 5|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 6 7|||R:CASE|||Täht|||REQUIRED|||-NONE-|||0
+A 7 8|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 11 12|||R:NOM:FORM|||vastuse|||REQUIRED|||-NONE-|||0
+A 18 19|||R:LEX|||süü|||REQUIRED|||-NONE-|||0
+
+S See on aga vale !
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Mul on autojuhiluba juba 20 aastat ja ma ei olnud mitte kordagi liiklusõnnestuses .
+A 12 13|||R:SPELL|||liiklusõnnetuses|||REQUIRED|||-NONE-|||0
+A 8 9|||R:VERB:FORM|||pole|||REQUIRED|||-NONE-|||0
+A 9 13|||R:WO|||mitte kordagi liiklusõnnetuses olnud|||REQUIRED|||-NONE-|||0
+
+S Lisan , et teised autoomanikud on ka ei ole selle firma tööga .
+A 5 6|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+A 6 9|||R:WO|||ei ole ka|||REQUIRED|||-NONE-|||0
+A 12 12|||M:LEX|||rahul|||REQUIRED|||-NONE-|||0
+
+S Nad on valmis seda tõdema .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Minu arvates , olukorra võiks lahendada sellisel viisil .
+A 2 3|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 3 5|||R:WO|||võiks olukorra|||REQUIRED|||-NONE-|||0
+A 5 8|||R:WO|||sellisel viisil lahendada|||REQUIRED|||-NONE-|||0
+A 2 3|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+A 3 5|||R:WO|||võiks olukorra|||REQUIRED|||-NONE-|||1
+
+S Firma " Uus täht " viib mulle tagasi 200 eurot , mida ma kaotasin nende töö parast , omavalitsus aga sõlmib sellel aastal teise firma uue lepungu .
+A 1 2|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 3 4|||R:CASE|||Täht|||REQUIRED|||-NONE-|||0
+A 4 5|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 5 6|||R:LEX|||annab|||REQUIRED|||-NONE-|||0
+A 11 12|||R:NOM:FORM|||mille|||REQUIRED|||-NONE-|||0
+A 16 17|||R:SPELL|||pärast|||REQUIRED|||-NONE-|||0
+A 24 25|||R:NOM:FORM|||firmaga|||REQUIRED|||-NONE-|||0
+A 26 27|||R:SPELL|||lepingu|||REQUIRED|||-NONE-|||0
+
+S Mina pakun firma " Suitsupääsuke " .
+A 2 3|||R:NOM:FORM|||firmat|||REQUIRED|||-NONE-|||0
+A 3 4|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 5 6|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 0 1|||R:NOM:FORM|||Ma|||REQUIRED|||-NONE-|||1
+A 2 2|||R:LEX|||välja|||REQUIRED|||-NONE-|||1
+A 3 4|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+A 5 6|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+
+S Lugupidamisega , NS.
+A 1 2|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0

@@ -1,0 +1,204 @@
+
+S Iga päev ma käin koolis ja pärast ma tulin koju .
+A 2 4|||R:WO|||käin ma|||REQUIRED|||-NONE-|||0
+A 8 9|||R:VERB:FORM|||tulen|||REQUIRED|||-NONE-|||0
+A 7 9|||R:WO|||tulen ma|||REQUIRED|||-NONE-|||0
+A 2 4|||R:WO|||käin ma|||REQUIRED|||-NONE-|||1
+A 7 8|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 8 9|||R:VERB:FORM|||tulen|||REQUIRED|||-NONE-|||1
+A 6 9|||R:WO|||tulen pärast|||REQUIRED|||-NONE-|||1
+
+S Kodus ma loen erinevaid raamatuid .
+A 1 3|||R:WO|||loen ma|||REQUIRED|||-NONE-|||0
+A 1 2|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+
+S mõnikord ma loen raamatud , kus räägitakse inimestega ja tema armastus .
+A 0 1|||R:CASE|||Mõnikord|||REQUIRED|||-NONE-|||0
+A 1 3|||R:WO|||loen ma|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOM:FORM|||raamatuid|||REQUIRED|||-NONE-|||0
+A 7 8|||R:NOM:FORM|||inimestest|||REQUIRED|||-NONE-|||0
+A 9 10|||R:NOM:FORM|||nende|||REQUIRED|||-NONE-|||0
+A 10 11|||R:NOM:FORM|||armastusest|||REQUIRED|||-NONE-|||0
+A 0 1|||R:CASE|||Mõnikord|||REQUIRED|||-NONE-|||1
+A 3 4|||R:NOM:FORM|||raamatuid|||REQUIRED|||-NONE-|||1
+A 7 8|||R:NOM:FORM|||inimesest|||REQUIRED|||-NONE-|||1
+A 10 11|||R:NOM:FORM|||armastusest|||REQUIRED|||-NONE-|||1
+A 0 1|||R:CASE|||Mõnikord|||REQUIRED|||-NONE-|||2
+A 3 4|||R:NOM:FORM|||raamatuid|||REQUIRED|||-NONE-|||2
+A 7 8|||R:NOM:FORM|||inimestest|||REQUIRED|||-NONE-|||2
+A 9 10|||R:NOM:FORM|||nende|||REQUIRED|||-NONE-|||2
+A 10 11|||R:NOM:FORM|||armastustest|||REQUIRED|||-NONE-|||2
+
+S Ma otsin raamatud raamatukogus või internetis .
+A 2 3|||R:NOM:FORM|||raamatuid|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOM:FORM|||raamatukogust|||REQUIRED|||-NONE-|||0
+A 5 6|||R:NOM:FORM|||internetist|||REQUIRED|||-NONE-|||0
+
+S Aga ma ei tihti loen raamatud , sest tavaliselt see on ajalehed , et minu ema leidis nende tööl ja andis mulle .
+A 4 5|||R:VERB:FORM|||loe|||REQUIRED|||-NONE-|||0
+A 5 6|||R:NOM:FORM|||raamatuid|||REQUIRED|||-NONE-|||0
+A 3 6|||R:WO|||loe tihti raamatuid||loe raamatuid tihti|||REQUIRED|||-NONE-|||0
+A 9 10|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+A 10 11|||R:LEX|||loen|||REQUIRED|||-NONE-|||0
+A 11 12|||R:NOM:FORM|||ajalehti|||REQUIRED|||-NONE-|||0
+A 13 14|||R:LEX|||mis||mille|||REQUIRED|||-NONE-|||0
+A 17 18|||R:NOM:FORM|||enda|||REQUIRED|||-NONE-|||0
+A 18 19|||R:NOM:FORM|||töölt|||REQUIRED|||-NONE-|||0
+A 16 22|||R:WO|||enda töölt leidis ja mulle andis|||REQUIRED|||-NONE-|||0
+A 4 5|||R:VERB:FORM|||loe|||REQUIRED|||-NONE-|||1
+A 5 6|||R:NOM:FORM|||raamatuid|||REQUIRED|||-NONE-|||1
+A 3 6|||R:WO|||loe tihti raamatuid||loe raamatuid tihti|||REQUIRED|||-NONE-|||1
+A 9 10|||R:NOM:FORM|||need|||REQUIRED|||-NONE-|||1
+A 9 11|||R:WO|||on need|||REQUIRED|||-NONE-|||1
+A 13 14|||R:LEX|||mis||mille|||REQUIRED|||-NONE-|||1
+A 17 18|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 16 22|||R:WO|||töölt leidis ja mulle andis|||REQUIRED|||-NONE-|||1
+
+S Veel ma leian uus info minu koolis tunnis .
+A 1 3|||R:WO|||leian ma|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOM:FORM|||uut|||REQUIRED|||-NONE-|||0
+A 4 5|||R:NOM:FORM|||infot|||REQUIRED|||-NONE-|||0
+A 5 6|||R:LEX|||enda|||REQUIRED|||-NONE-|||0
+A 7 8|||R:NOM:FORM|||tundidest|||REQUIRED|||-NONE-|||0
+A 1 3|||R:WO|||leian ma|||REQUIRED|||-NONE-|||1
+A 3 4|||R:NOM:FORM|||uut|||REQUIRED|||-NONE-|||1
+A 4 5|||R:NOM:FORM|||infot|||REQUIRED|||-NONE-|||1
+A 5 6|||R:LEX|||enda|||REQUIRED|||-NONE-|||1
+A 7 8|||R:WS:NOM:FORM|||koolitunnist||koolitundidest|||REQUIRED|||-NONE-|||1
+A 2 3|||R:LEX|||saan|||REQUIRED|||-NONE-|||2
+A 1 3|||R:WO|||saan ma|||REQUIRED|||-NONE-|||2
+A 3 4|||R:NOM:FORM|||uut|||REQUIRED|||-NONE-|||2
+A 4 5|||R:NOM:FORM|||infot|||REQUIRED|||-NONE-|||2
+A 5 6|||R:LEX|||enda|||REQUIRED|||-NONE-|||2
+A 7 8|||R:WS:NOM:FORM|||koolitundidest|||REQUIRED|||-NONE-|||2
+
+S Koolis õpetajad teatavad palju infot ja pärast annavad teda .
+A 2 3|||R:LEX|||teavad|||REQUIRED|||-NONE-|||0
+A 1 3|||R:WO|||teavad õpetajad|||REQUIRED|||-NONE-|||0
+A 8 9|||R:LEX|||seda|||REQUIRED|||-NONE-|||0
+A 6 9|||R:WO|||annavad seda pärast|||REQUIRED|||-NONE-|||0
+A 9 9|||M:LEX|||meile|||REQUIRED|||-NONE-|||0
+A 2 3|||R:LEX|||teavad|||REQUIRED|||-NONE-|||1
+A 1 3|||R:WO|||teavad õpetajad|||REQUIRED|||-NONE-|||1
+A 6 7|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 7 8|||R:LEX|||jagavad|||REQUIRED|||-NONE-|||1
+A 8 9|||R:LEX|||seda|||REQUIRED|||-NONE-|||1
+A 2 3|||R:LEX|||teavad|||REQUIRED|||-NONE-|||2
+A 0 3|||R:WO|||Õpetajad teavad koolis|||REQUIRED|||-NONE-|||2
+A 6 7|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||2
+A 8 9|||R:LEX|||seda|||REQUIRED|||-NONE-|||2
+A 9 9|||M:LEX|||meile||edasi|||REQUIRED|||-NONE-|||2
+
+S Kui ma lähen kuigi ma näen palju ajalehed ja tahan nende lugema , sest ma istun ja loen nende .
+A 3 4|||R:LEX|||kuhugi|||REQUIRED|||-NONE-|||0
+A 4 5|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+A 5 5|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 7 8|||R:NOM:FORM|||ajalehti|||REQUIRED|||-NONE-|||0
+A 10 11|||R:NOM:FORM|||neid|||REQUIRED|||-NONE-|||0
+A 11 12|||R:VERB:FORM|||lugeda|||REQUIRED|||-NONE-|||0
+A 13 14|||R:LEX|||siis|||REQUIRED|||-NONE-|||0
+A 18 19|||R:NOM:FORM|||neid|||REQUIRED|||-NONE-|||0
+A 3 4|||R:LEX|||kuhugi|||REQUIRED|||-NONE-|||1
+A 2 4|||R:WO|||kuhugi lähen|||REQUIRED|||-NONE-|||1
+A 4 4|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 7 8|||R:NOM:FORM|||ajalehti|||REQUIRED|||-NONE-|||1
+A 10 11|||R:NOM:FORM|||neid|||REQUIRED|||-NONE-|||1
+A 11 12|||R:VERB:FORM|||lugeda|||REQUIRED|||-NONE-|||1
+A 13 14|||R:LEX|||siis|||REQUIRED|||-NONE-|||1
+A 18 19|||R:NOM:FORM|||neid|||REQUIRED|||-NONE-|||1
+A 3 4|||R:LEX|||kuhugi|||REQUIRED|||-NONE-|||2
+A 2 4|||R:WO|||kuhugi lähen|||REQUIRED|||-NONE-|||2
+A 4 5|||R:LEX|||ja|||REQUIRED|||-NONE-|||2
+A 7 8|||R:NOM:FORM|||ajalehti|||REQUIRED|||-NONE-|||2
+A 10 11|||R:NOM:FORM|||neid|||REQUIRED|||-NONE-|||2
+A 11 12|||R:VERB:FORM|||lugeda|||REQUIRED|||-NONE-|||2
+A 13 14|||R:LEX|||siis|||REQUIRED|||-NONE-|||2
+A 18 19|||R:NOM:FORM|||neid|||REQUIRED|||-NONE-|||2
+
+S Minul kodus on palju ernevaid ajalehti , ajakirju ja raamatuid , sest ma loen väga tihti ja palju .
+A 1 3|||R:WO|||on kodus|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||erinevaid|||REQUIRED|||-NONE-|||0
+
+S Kui ma kõik lugesin ma istun internetisse ja loen seal .
+A 3 3|||M:LEX|||ära||läbi|||REQUIRED|||-NONE-|||0
+A 3 4|||R:VERB:FORM|||loen|||REQUIRED|||-NONE-|||0
+A 4 4|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 4 6|||R:WO|||istun ma|||REQUIRED|||-NONE-|||0
+A 6 7|||R:NOM:FORM|||internetis|||REQUIRED|||-NONE-|||0
+A 2 2|||M:LEX|||need|||REQUIRED|||-NONE-|||1
+A 3 3|||M:LEX|||ära||läbi|||REQUIRED|||-NONE-|||1
+A 3 4|||R:VERB:FORM|||loen|||REQUIRED|||-NONE-|||1
+A 4 4|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 4 5|||R:LEX|||siis|||REQUIRED|||-NONE-|||1
+A 5 6|||R:LEX|||lähen|||REQUIRED|||-NONE-|||1
+A 6 7|||R:NOM:FORM|||internetti|||REQUIRED|||-NONE-|||1
+A 2 2|||M:LEX|||olen|||REQUIRED|||-NONE-|||2
+A 3 3|||M:LEX|||ära||läbi|||REQUIRED|||-NONE-|||2
+A 3 4|||R:VERB:FORM|||lugenud|||REQUIRED|||-NONE-|||2
+A 4 4|||M:PUNCT|||,|||REQUIRED|||-NONE-|||2
+A 4 6|||R:WO|||istun ma|||REQUIRED|||-NONE-|||2
+A 6 7|||R:NOM:FORM|||internetis|||REQUIRED|||-NONE-|||2
+
+S Internetis saab leida palju infot .
+A 0 1|||R:NOM:FORM|||Internetist|||REQUIRED|||-NONE-|||0
+A 0 1|||R:NOM:FORM|||Internetist|||REQUIRED|||-NONE-|||1
+A 2 5|||R:WO|||palju infot leida|||REQUIRED|||-NONE-|||1
+A 1 2|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||2
+A 2 3|||R:LEX|||leidub|||REQUIRED|||-NONE-|||2
+
+S Näiteks : kui ma ei teadnud info , ma saab leida teda internetis .
+A 1 2|||R:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 5 6|||R:VERB:FORM|||tea|||REQUIRED|||-NONE-|||0
+A 6 7|||R:NOM:FORM|||infot|||REQUIRED|||-NONE-|||0
+A 9 10|||R:VERB:FORM|||saan|||REQUIRED|||-NONE-|||0
+A 8 10|||R:WO|||saan ma|||REQUIRED|||-NONE-|||0
+A 11 12|||R:LEX|||seda|||REQUIRED|||-NONE-|||0
+A 12 13|||R:NOM:FORM|||internetist|||REQUIRED|||-NONE-|||0
+A 10 13|||R:WO|||seda internetist leida||seda leida internetist|||REQUIRED|||-NONE-|||0
+A 1 2|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+A 5 6|||R:VERB:FORM|||tea|||REQUIRED|||-NONE-|||1
+A 6 7|||R:NOM:FORM|||infot|||REQUIRED|||-NONE-|||1
+A 9 10|||R:VERB:FORM|||saan|||REQUIRED|||-NONE-|||1
+A 8 10|||R:WO|||saan ma|||REQUIRED|||-NONE-|||1
+A 11 12|||R:LEX|||seda|||REQUIRED|||-NONE-|||1
+A 12 13|||R:NOM:FORM|||internetist|||REQUIRED|||-NONE-|||1
+A 5 6|||R:VERB:FORM|||tea|||REQUIRED|||-NONE-|||2
+A 6 7|||R:NOM:FORM|||infot|||REQUIRED|||-NONE-|||2
+A 9 10|||R:VERB:FORM|||saan|||REQUIRED|||-NONE-|||2
+A 8 10|||R:WO|||saan ma|||REQUIRED|||-NONE-|||2
+A 11 12|||R:LEX|||seda|||REQUIRED|||-NONE-|||2
+A 12 13|||R:NOM:FORM|||internetist|||REQUIRED|||-NONE-|||2
+A 10 13|||R:WO|||seda internetist leida||seda leida internetist|||REQUIRED|||-NONE-|||2
+
+S Õpetaja palub meil tunnis kirjutada , kust ma iga päev uudiseid ja infot saan ja see on minu vastust .
+A 2 3|||R:NOM:FORM|||mul||minul|||REQUIRED|||-NONE-|||0
+A 14 14|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 18 19|||R:NOM:FORM|||vastus|||REQUIRED|||-NONE-|||0
+A 1 2|||R:VERB:FORM|||palus|||REQUIRED|||-NONE-|||1
+A 7 8|||R:NOM:FORM|||me|||REQUIRED|||-NONE-|||1
+A 13 14|||R:VERB:FORM|||saame|||REQUIRED|||-NONE-|||1
+A 14 14|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 18 19|||R:NOM:FORM|||vastus|||REQUIRED|||-NONE-|||1
+
+S Ja ma mõtlen , et õpetaja paneb mulle väga hea hind , sest ma kirjutan palju infot ja vastan kõikidel .
+A 10 11|||R:SPELL|||hinde|||REQUIRED|||-NONE-|||0
+A 19 20|||R:NOM:FORM|||kõikidele|||REQUIRED|||-NONE-|||0
+A 20 20|||M:LEX|||küsimustele|||REQUIRED|||-NONE-|||0
+A 2 3|||R:LEX|||arvan|||REQUIRED|||-NONE-|||1
+A 10 11|||R:SPELL|||hinde|||REQUIRED|||-NONE-|||1
+A 19 20|||R:NOM:FORM|||kõikidele|||REQUIRED|||-NONE-|||1
+A 20 20|||M:LEX|||küsimustele|||REQUIRED|||-NONE-|||1
+
+S Veel minu vanemad räägivad , et ma on tark inimene ja tean väga palju .
+A 1 4|||R:WO|||räägivad minu vanemad|||REQUIRED|||-NONE-|||0
+A 7 8|||R:VERB:FORM|||olen|||REQUIRED|||-NONE-|||0
+A 0 1|||R:CASE|||veel|||REQUIRED|||-NONE-|||1
+A 1 2|||R:CASE|||Minu|||REQUIRED|||-NONE-|||1
+A 0 4|||R:WO|||Minu vanemad räägivad veel|||REQUIRED|||-NONE-|||1
+A 7 8|||R:VERB:FORM|||olen|||REQUIRED|||-NONE-|||1
+A 0 1|||R:LEX|||Lisaks||Muuseas|||REQUIRED|||-NONE-|||2
+A 1 4|||R:WO|||räägivad minu vanemad|||REQUIRED|||-NONE-|||2
+A 7 8|||R:VERB:FORM|||olen|||REQUIRED|||-NONE-|||2
+
+S Teie õpilane Polina
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0

@@ -1,0 +1,23 @@
+
+S Ma soovin müüa oma autot .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S See auto on helesinine värvi ja suur .
+A 3 4|||R:NOM:FORM|||helesinist|||REQUIRED|||-NONE-|||0
+
+S Tema moodel on Audi .
+A 0 1|||R:LEX|||Selle|||REQUIRED|||-NONE-|||0
+A 1 2|||R:LEX:SPELL|||mark|||REQUIRED|||-NONE-|||0
+
+S Auto hind on kaks tuhat viis saada eurot .
+A 5 7|||R:WS:SPELL|||viissada|||REQUIRED|||-NONE-|||0
+
+S Ma elan Narvas .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Minu telefoni number on --- .
+A 1 3|||R:WS|||telefoninumber|||REQUIRED|||-NONE-|||0
+
+S Helistage mulle kolmapäeval , neljapäeval kella kaheksast kuni viieteistkümneni ja me kohtume .
+A 3 4|||M:LEX|||või|||REQUIRED|||-NONE-|||0
+A 10 11|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0

@@ -1,0 +1,100 @@
+
+S Tere Tõnis !
+A 1 1|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+
+S Kuidas laheb ?
+A 1 2|||R:SPELL|||läheb|||REQUIRED|||-NONE-|||0
+
+S Kuidas sinu terve on ?
+A 2 3|||R:LEX|||tervis|||REQUIRED|||-NONE-|||0
+A 2 3|||R:LEX|||tervis|||REQUIRED|||-NONE-|||1
+A 1 4|||R:WO|||on sinu tervis|||REQUIRED|||-NONE-|||1
+
+S Ma tahan minna Petergburisse bussiga .
+A 3 4|||R:SPELL|||Peterburisse|||REQUIRED|||-NONE-|||0
+A 3 5|||R:WO|||bussiga Peterburisse|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOM:FORM:SPELL|||Peterburi|||REQUIRED|||-NONE-|||1
+A 3 5|||R:WO|||bussiga Peterburi|||REQUIRED|||-NONE-|||1
+A 3 4|||R:NOM:FORM:SPELL|||Peterburi|||REQUIRED|||-NONE-|||2
+A 2 5|||R:WO|||bussiga Peterburi minna|||REQUIRED|||-NONE-|||2
+
+S Minna ma kassa .
+A 0 1|||R:LEX:VERB:FORM|||Tule|||REQUIRED|||-NONE-|||0
+A 1 2|||R:NOM:FORM|||minuga|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||kaasa|||REQUIRED|||-NONE-|||0
+
+S Kas Sa tahad ?
+A 1 2|||R:CASE|||sa|||REQUIRED|||-NONE-|||0
+A 3 3|||M:LEX|||tulla|||REQUIRED|||-NONE-|||0
+A 1 2|||R:CASE|||sa|||REQUIRED|||-NONE-|||1
+A 2 3|||R:VERB:FORM|||tahaksid|||REQUIRED|||-NONE-|||1
+A 1 2|||R:CASE|||sa|||REQUIRED|||-NONE-|||2
+
+S Ma tahan minna laupaeval .
+A 3 4|||R:SPELL|||laupäeval|||REQUIRED|||-NONE-|||0
+
+S Ma arvan , et sul on vaba aeg .
+A 7 8|||R:NOM:FORM|||aega|||REQUIRED|||-NONE-|||0
+A 1 2|||R:LEX|||loodan|||REQUIRED|||-NONE-|||1
+A 7 8|||R:NOM:FORM|||aega|||REQUIRED|||-NONE-|||1
+
+S Me jalutamas kaime Nevski tänaval .
+A 1 2|||R:VERB:FORM|||jalutama|||REQUIRED|||-NONE-|||0
+A 2 3|||R:LEX|||lähme|||REQUIRED|||-NONE-|||0
+A 4 5|||R:NOM:FORM|||tänavale|||REQUIRED|||-NONE-|||0
+A 1 5|||R:WO|||lähme Nevski tänavale jalutama|||REQUIRED|||-NONE-|||0
+A 1 2|||R:VERB:FORM|||jalutame|||REQUIRED|||-NONE-|||1
+A 2 3|||U:LEX|||-NONE|||REQUIRED|||-NONE-|||1
+A 2 3|||R:SPELL|||käime|||REQUIRED|||-NONE-|||2
+A 1 3|||R:WO|||käime jalutamas|||REQUIRED|||-NONE-|||2
+
+S Ma tahan minna kauplusse ja ostan tossid .
+A 5 6|||R:VERB:FORM|||osta|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||tossud|||REQUIRED|||-NONE-|||0
+
+S Seal me voime osta teise ajaased , tehnikad , maitsev toidu ja muu .
+A 0 1|||R:LEX|||Sealt|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||võime|||REQUIRED|||-NONE-|||0
+A 1 3|||R:WO|||võime me|||REQUIRED|||-NONE-|||0
+A 4 4|||M:LEX|||ka|||REQUIRED|||-NONE-|||0
+A 4 5|||R:NOM:FORM|||teisi|||REQUIRED|||-NONE-|||0
+A 5 6|||R:NOM:FORM:SPELL|||asju|||REQUIRED|||-NONE-|||0
+A 6 7|||R:PUNCT|||:|||REQUIRED|||-NONE-|||0
+A 7 8|||R:NOM:FORM|||tehnikat|||REQUIRED|||-NONE-|||0
+A 9 10|||R:NOM:FORM|||maitsvat|||REQUIRED|||-NONE-|||0
+A 10 11|||R:NOM:FORM|||toitu|||REQUIRED|||-NONE-|||0
+A 12 13|||R:NOM:FORM|||muud|||REQUIRED|||-NONE-|||0
+A 0 1|||R:LEX|||Sealt|||REQUIRED|||-NONE-|||1
+A 2 3|||R:LEX:SPELL|||saame|||REQUIRED|||-NONE-|||1
+A 1 3|||R:WO|||saame me|||REQUIRED|||-NONE-|||1
+A 4 4|||M:LEX|||ka|||REQUIRED|||-NONE-|||1
+A 4 5|||R:NOM:FORM|||teisi|||REQUIRED|||-NONE-|||1
+A 5 6|||R:NOM:FORM:SPELL|||asju|||REQUIRED|||-NONE-|||1
+A 7 8|||R:NOM:FORM|||tehnikat|||REQUIRED|||-NONE-|||1
+A 9 10|||R:NOM:FORM|||maitsvat|||REQUIRED|||-NONE-|||1
+A 10 11|||R:NOM:FORM|||toitu|||REQUIRED|||-NONE-|||1
+A 12 13|||R:NOM:FORM|||muud|||REQUIRED|||-NONE-|||1
+A 0 1|||R:LEX|||Sealt|||REQUIRED|||-NONE-|||2
+A 2 3|||R:SPELL|||võime|||REQUIRED|||-NONE-|||2
+A 0 3|||R:WO|||Me võime sealt|||REQUIRED|||-NONE-|||2
+A 4 5|||R:NOM:FORM|||teisigi|||REQUIRED|||-NONE-|||2
+A 5 6|||R:NOM:FORM:SPELL|||asju|||REQUIRED|||-NONE-|||2
+A 6 7|||R:PUNCT|||:|||REQUIRED|||-NONE-|||2
+A 7 8|||R:NOM:FORM|||tehnikat|||REQUIRED|||-NONE-|||2
+A 9 10|||R:NOM:FORM|||maitsvat|||REQUIRED|||-NONE-|||2
+A 10 11|||R:NOM:FORM|||toitu|||REQUIRED|||-NONE-|||2
+A 12 13|||R:NOM:FORM|||muud|||REQUIRED|||-NONE-|||2
+
+S Ma tahan minna teatrisse .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+A 3 3|||M:LEX|||ka|||REQUIRED|||-NONE-|||1
+A 2 4|||R:WO|||teatrisse minna|||REQUIRED|||-NONE-|||2
+A 0 1|||R:LEX|||Lisaks|||REQUIRED|||-NONE-|||2
+
+S Hoida oma tervist !
+A 0 1|||R:VERB:FORM|||Hoia|||REQUIRED|||-NONE-|||0
+
+S Helista kinglasti .
+A 1 2|||R:SPELL|||kindlasti|||REQUIRED|||-NONE-|||0
+A 2 3|||R:PUNCT|||!|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||kindlasti|||REQUIRED|||-NONE-|||1

@@ -1,0 +1,90 @@
+
+S Mina väga tahan endale kassi .
+A 1 3|||R:WO|||tahan väga|||REQUIRED|||-NONE-|||0
+A 5 6|||R:PUNCT|||!|||REQUIRED|||-NONE-|||0
+A 0 1|||R:NOM:FORM|||Ma|||REQUIRED|||-NONE-|||1
+A 1 3|||R:WO|||tahan väga|||REQUIRED|||-NONE-|||1
+A 5 5|||M:LEX|||saada||võtta|||REQUIRED|||-NONE-|||1
+
+S Ma väga armastan neid , sest kassid on väekesed , armsad ja karvased .
+A 8 9|||R:SPELL|||väikesed||väiksed|||REQUIRED|||-NONE-|||0
+A 1 4|||R:WO|||armastan neid väga|||REQUIRED|||-NONE-|||1
+A 8 9|||R:SPELL|||väikesed||väiksed|||REQUIRED|||-NONE-|||1
+
+S Nad on väga kohusetundlikud ja julged loomad .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Nad saavad ise õues jalutada ja isegi sind kaista !
+A 8 9|||R:SPELL|||kaitsta|||REQUIRED|||-NONE-|||0
+
+S Mu sõbranna juba sai kassi kingituseks , aga mina nii palju kuud palun seda vanematelt ja ei saa .
+A 4 6|||R:WO|||kingituseks kassi|||REQUIRED|||-NONE-|||0
+A 11 12|||R:NOM:FORM|||kuid|||REQUIRED|||-NONE-|||0
+A 9 15|||R:WO|||palun seda vanematelt nii palju kuid|||REQUIRED|||-NONE-|||0
+A 2 4|||R:WO|||sai juba|||REQUIRED|||-NONE-|||1
+A 4 6|||R:WO|||kingituseks kassi|||REQUIRED|||-NONE-|||1
+A 9 9|||M:LEX|||olen|||REQUIRED|||-NONE-|||1
+A 10 11|||R:LEX|||mitu|||REQUIRED|||-NONE-|||1
+A 12 13|||R:VERB:FORM|||palunud|||REQUIRED|||-NONE-|||1
+A 12 15|||R:WO|||seda vanematelt palunud|||REQUIRED|||-NONE-|||1
+A 15 17|||R:LEX|||ega|||REQUIRED|||-NONE-|||1
+A 17 18|||R:VERB:FORM|||ole saanud|||REQUIRED|||-NONE-|||1
+A 4 6|||R:WO|||kingituseks kassi|||REQUIRED|||-NONE-|||2
+A 9 9|||M:LEX|||olen|||REQUIRED|||-NONE-|||2
+A 10 11|||R:LEX|||mitu|||REQUIRED|||-NONE-|||2
+A 12 13|||R:VERB:FORM|||palunud|||REQUIRED|||-NONE-|||2
+A 9 15|||R:WO|||seda nii mitu kuud vanematelt palunud|||REQUIRED|||-NONE-|||2
+A 15 16|||R:LEX|||ega|||REQUIRED|||-NONE-|||2
+A 17 18|||R:VERB:FORM|||ole saanud|||REQUIRED|||-NONE-|||2
+
+S Mu vanemad ütlevad , et meil on juba koer ja kass meile ei ole vaja .
+A 10 11|||R:NOM:FORM|||kassi|||REQUIRED|||-NONE-|||0
+A 11 13|||R:WO|||ei ole meile|||REQUIRED|||-NONE-|||0
+A 10 11|||R:NOM:FORM|||kassi|||REQUIRED|||-NONE-|||1
+A 11 12|||R:NOM:FORM|||meil|||REQUIRED|||-NONE-|||1
+A 10 14|||R:WO|||meil ei ole kassi|||REQUIRED|||-NONE-|||1
+A 10 11|||R:NOM:FORM|||kassi|||REQUIRED|||-NONE-|||2
+A 11 12|||R:NOM:FORM|||meil|||REQUIRED|||-NONE-|||2
+A 11 15|||R:WO|||ei ole meil vaja||meil vaja ei ole|||REQUIRED|||-NONE-|||2
+
+S Mulle tundub , et meie koer ei ole kassi vastu .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+A 5 6|||R:NOM:FORM|||koeral|||REQUIRED|||-NONE-|||1
+A 8 8|||M:LEX|||midagi|||REQUIRED|||-NONE-|||1
+
+S Aga eile ma leidsin teadet kassist .
+A 2 4|||R:WO|||leidsin ma|||REQUIRED|||-NONE-|||0
+A 4 5|||R:NOM:FORM|||teate|||REQUIRED|||-NONE-|||0
+A 1 4|||R:WO|||ma leidsin eile|||REQUIRED|||-NONE-|||1
+A 4 5|||R:NOM:FORM|||teate|||REQUIRED|||-NONE-|||1
+
+S Seal oli kirjutatud , et inemestel on juba kass , aga veel viis kassi neil ei ole vaja ja nad annavad neid ära .
+A 5 5|||M:LEX|||neil|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||inimestel|||REQUIRED|||-NONE-|||0
+A 12 13|||R:NOM:FORM|||viit|||REQUIRED|||-NONE-|||0
+A 14 17|||R:WO|||ei ole neil|||REQUIRED|||-NONE-|||0
+A 21 22|||R:NOM:FORM|||need|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||inimestel|||REQUIRED|||-NONE-|||1
+A 10 11|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 12 13|||R:NOM:FORM|||viit|||REQUIRED|||-NONE-|||1
+A 15 18|||R:WO|||vaja ei ole|||REQUIRED|||-NONE-|||1
+
+S Mina väga rõõmustasin ja ütlesin seda oma emale .
+A 1 3|||R:WO|||rõõmustasin väga|||REQUIRED|||-NONE-|||0
+A 0 1|||R:NOM:FORM|||Ma|||REQUIRED|||-NONE-|||1
+A 1 3|||R:WO|||rõõmustasin väga|||REQUIRED|||-NONE-|||1
+
+S Nad arutlesid seda isaga ja ütlesid mulle , et me võttame endale kassi !
+A 1 2|||R:LEX|||arutasid|||REQUIRED|||-NONE-|||0
+A 10 11|||R:SPELL|||võtame|||REQUIRED|||-NONE-|||0
+A 10 11|||R:SPELL|||võtame|||REQUIRED|||-NONE-|||1
+
+S Mina olin nii rõõmus selle tõttu .
+A 0 1|||R:NOM:FORM|||Ma|||REQUIRED|||-NONE-|||0
+A 5 6|||R:LEX|||pärast||üle|||REQUIRED|||-NONE-|||0
+A 2 6|||R:WO|||selle pärast nii rõõmus||selle üle nii rõõmus|||REQUIRED|||-NONE-|||0
+A 6 7|||R:PUNCT|||!|||REQUIRED|||-NONE-|||0
+A 2 6|||R:WO|||selle tõttu nii rõõmus|||REQUIRED|||-NONE-|||1
+
+S Sellega lõpetan .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0

@@ -1,0 +1,98 @@
+
+S Ma käisin rookgruppi kontserdile paari kuued tagasi .
+A 2 3|||R:NOM:FORM:SPELL|||rokigrupi|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOM:FORM|||kontserdil|||REQUIRED|||-NONE-|||0
+A 4 5|||R:NOM:FORM|||paar|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||kuud|||REQUIRED|||-NONE-|||0
+A 2 3|||R:NOM:FORM:SPELL|||rokigrupi|||REQUIRED|||-NONE-|||1
+A 3 4|||R:NOM:FORM|||kontserdil|||REQUIRED|||-NONE-|||1
+A 4 5|||R:NOM:FORM|||paar|||REQUIRED|||-NONE-|||1
+A 5 6|||R:SPELL|||kuud|||REQUIRED|||-NONE-|||1
+A 2 7|||R:WO|||paar kuud tagasi rokigrupi kontserdil|||REQUIRED|||-NONE-|||1
+
+S Mulle väga meeldib see moodi muusika , sellepärast mina käisin seal .
+A 3 5|||R:WS:NOM:FORM|||sedamoodi|||REQUIRED|||-NONE-|||0
+A 8 9|||R:NOM:FORM|||ma|||REQUIRED|||-NONE-|||0
+A 9 11|||R:WO|||seal käisin|||REQUIRED|||-NONE-|||0
+A 1 3|||R:WO|||meeldib väga|||REQUIRED|||-NONE-|||1
+A 3 5|||R:WS:NOM:FORM|||sedamoodi|||REQUIRED|||-NONE-|||1
+A 8 9|||R:NOM:FORM|||ma|||REQUIRED|||-NONE-|||1
+A 10 11|||R:VERB:FORM|||käisingi|||REQUIRED|||-NONE-|||1
+A 9 11|||R:WO|||seal käisingi|||REQUIRED|||-NONE-|||1
+A 3 5|||R:WS:NOM:FORM|||sedamoodi|||REQUIRED|||-NONE-|||2
+A 1 6|||R:WO|||meeldib sedamoodi muusika väga|||REQUIRED|||-NONE-|||2
+A 8 9|||R:NOM:FORM|||ma|||REQUIRED|||-NONE-|||2
+A 9 11|||R:WO|||seal käisin|||REQUIRED|||-NONE-|||2
+
+S Ma olin seal minu poega Pauliga .
+A 3 4|||R:LEX|||oma||enda|||REQUIRED|||-NONE-|||0
+A 4 5|||R:NOM:FORM|||poja|||REQUIRED|||-NONE-|||0
+
+S Kontsert toimus Saku Suurhallis .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+A 3 4|||R:CASE|||suurhallis|||REQUIRED|||-NONE-|||1
+
+S Vahemalt kontsert oli väga hea , aga heli oli nattukene halb ja raudne .
+A 0 1|||R:SPELL|||Vähemalt|||REQUIRED|||-NONE-|||0
+A 1 3|||R:WO|||oli kontsert|||REQUIRED|||-NONE-|||0
+A 9 10|||R:SPELL|||natukene|||REQUIRED|||-NONE-|||0
+A 0 1|||R:SPELL|||Vähemalt|||REQUIRED|||-NONE-|||1
+A 1 3|||R:WO|||oli kontsert|||REQUIRED|||-NONE-|||1
+A 9 10|||R:SPELL|||natukene|||REQUIRED|||-NONE-|||1
+A 12 13|||R:LEX|||metalne|||REQUIRED|||-NONE-|||1
+
+S Kui kontsert lõppus me sõitsime linna keskusse bussiga .
+A 2 3|||R:SPELL|||lõppes|||REQUIRED|||-NONE-|||0
+A 3 3|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 3 5|||R:WO|||sõitsime me|||REQUIRED|||-NONE-|||0
+A 5 8|||R:WO|||bussiga linna keskusse|||REQUIRED|||-NONE-|||0
+
+S Pärast Paul läks tema sõbradega kohtuda aga mina tahtsin pubisse minema .
+A 1 3|||R:WO|||läks Paul|||REQUIRED|||-NONE-|||0
+A 3 4|||R:LEX|||oma||enda|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||sõpradega|||REQUIRED|||-NONE-|||0
+A 5 6|||R:VERB:FORM|||kohtuma|||REQUIRED|||-NONE-|||0
+A 6 6|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 10 11|||R:VERB:FORM|||minna|||REQUIRED|||-NONE-|||0
+
+S Siis ma kaisin pubisse ja ostsin seal õlut ja midagi süüja .
+A 2 3|||R:SPELL|||käisin|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOM:FORM|||pubis|||REQUIRED|||-NONE-|||0
+A 10 11|||R:SPELL|||süüa|||REQUIRED|||-NONE-|||0
+A 2 3|||R:LEX:SPELL|||läksin|||REQUIRED|||-NONE-|||1
+A 6 7|||R:LEX|||sealt|||REQUIRED|||-NONE-|||1
+A 10 11|||R:SPELL|||süüa|||REQUIRED|||-NONE-|||1
+A 2 3|||R:SPELL|||käisin|||REQUIRED|||-NONE-|||2
+A 1 3|||R:WO|||käisin ma|||REQUIRED|||-NONE-|||2
+A 3 4|||R:NOM:FORM|||pubis|||REQUIRED|||-NONE-|||2
+A 6 7|||R:LEX|||sealt|||REQUIRED|||-NONE-|||2
+A 10 11|||R:SPELL|||süüa|||REQUIRED|||-NONE-|||2
+
+S Pärast seda ma sõidsin koju taxiga .
+A 3 4|||R:SPELL|||sõitsin|||REQUIRED|||-NONE-|||0
+A 2 4|||R:WO|||sõitsin ma|||REQUIRED|||-NONE-|||0
+A 5 6|||R:LEX|||taksoga|||REQUIRED|||-NONE-|||0
+A 4 6|||R:WO|||taksoga koju|||REQUIRED|||-NONE-|||0
+
+S Mina ei tea praegu millal ma lähen kontserdile jargmisena .
+A 0 1|||R:NOM:FORM|||Ma|||REQUIRED|||-NONE-|||0
+A 4 4|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 8 9|||R:SPELL|||järgmisena|||REQUIRED|||-NONE-|||0
+A 6 9|||R:WO|||järgmisena kontserdile lähen|||REQUIRED|||-NONE-|||0
+A 4 4|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 8 9|||R:SPELL|||järgmisena|||REQUIRED|||-NONE-|||1
+A 6 9|||R:WO|||järgmisena kontserdile lähen|||REQUIRED|||-NONE-|||1
+
+S Kui huvitav kontserdi toimub Tallinnas siis ma lähen seal .
+A 2 3|||R:NOM:FORM|||kontsert|||REQUIRED|||-NONE-|||0
+A 1 5|||R:WO|||Tallinnas toimub huvitav kontsert|||REQUIRED|||-NONE-|||0
+A 5 5|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 8 9|||R:LEX|||sinna|||REQUIRED|||-NONE-|||0
+
+S Mulle meeldib erinevaid muusikaid moodi .
+A 2 3|||R:NOM:FORM|||erinevat|||REQUIRED|||-NONE-|||0
+A 3 5|||R:WO:NOM:FORM|||moodi muusika|||REQUIRED|||-NONE-|||0
+A 1 2|||R:VERB:FORM|||meeldivad|||REQUIRED|||-NONE-|||1
+A 2 3|||R:NOM:FORM|||erinevad|||REQUIRED|||-NONE-|||1
+A 3 4|||R:LEX:NOM:FORM|||muusikastiilid|||REQUIRED|||-NONE-|||1
+A 4 5|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1

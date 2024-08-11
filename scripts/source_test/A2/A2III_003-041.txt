@@ -1,0 +1,42 @@
+
+S Tere !
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Eile panin mu spordiriiete kodumasinas .
+A 2 3|||R:LEX|||oma|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOM:FORM|||spordiriided|||REQUIRED|||-NONE-|||0
+A 4 5|||R:LEX:NOM:FORM|||pesumasinasse|||REQUIRED|||-NONE-|||0
+A 2 3|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 3 4|||R:NOM:FORM|||spordiriided|||REQUIRED|||-NONE-|||1
+A 4 5|||R:LEX:NOM:FORM|||pesumasinasse|||REQUIRED|||-NONE-|||1
+
+S Vist oli liiga palju , seepärast nüüd kodumasin on katki .
+A 0 2|||M:LEX|||Neid oli vist||Riideid oli vist|||REQUIRED|||-NONE-|||0
+A 7 8|||R:LEX|||pesumasin|||REQUIRED|||-NONE-|||0
+A 6 9|||R:WO|||on pesumasin nüüd||on nüüd pesumasin|||REQUIRED|||-NONE-|||0
+A 2 2|||M:LEX|||neid||riideid|||REQUIRED|||-NONE-|||1
+A 6 9|||R:WO|||on kodumasin nüüd||on nüüd kodumasin|||REQUIRED|||-NONE-|||1
+
+S Ma ei oska remontida , nii tule mulle külla !
+A 3 3|||M:LEX|||seda|||REQUIRED|||-NONE-|||0
+A 6 7|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+A 3 3|||M:LEX|||seda|||REQUIRED|||-NONE-|||1
+A 6 6|||M:LEX|||et|||REQUIRED|||-NONE-|||1
+A 8 9|||R:LEX|||appi|||REQUIRED|||-NONE-|||1
+A 6 6|||M:LEX|||et|||REQUIRED|||-NONE-|||2
+
+S Kas sa saad tulla täna õhtul ?
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Kahekesi tõstame kodumasinat autos .
+A 2 3|||R:LEX:NOM:FORM|||pesumasina|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOM:FORM|||autosse|||REQUIRED|||-NONE-|||0
+A 0 2|||R:WO|||Tõstame kahekesi|||REQUIRED|||-NONE-|||1
+A 2 3|||R:LEX:NOM:FORM|||pesumasina|||REQUIRED|||-NONE-|||1
+A 3 4|||R:NOM:FORM|||autosse|||REQUIRED|||-NONE-|||1
+A 2 3|||R:NOM:FORM|||kodumasina|||REQUIRED|||-NONE-|||2
+A 3 4|||R:NOM:FORM|||autosse|||REQUIRED|||-NONE-|||2
+
+S Homme see masin läheb poodi tagasi !
+A 1 4|||R:WO|||läheb see masin|||REQUIRED|||-NONE-|||0
+A 0 4|||R:WO|||See masin läheb homme|||REQUIRED|||-NONE-|||1

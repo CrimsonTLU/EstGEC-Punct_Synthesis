@@ -1,0 +1,106 @@
+
+S Maailmas üha rohkem räägitakse globaliseerumisest , mis tähendab rahvusvahelist , kõikehõlmavat ühinemist .
+A 1 4|||R:WO|||räägitakse üha rohkem|||REQUIRED|||-NONE-|||0
+
+S Globaliseerumise mõistesse kuulub tehnoloogia , immigreerimine , hariduse , kultuuri , tervishoiu küsimused ja palju muud .
+A 2 3|||R:VERB:FORM|||kuuluvad|||REQUIRED|||-NONE-|||0
+
+S See kõik pakub inimkonnale suurepäraseid võimalusi , kuid tuleb tõdida , et globaliseerimisel on samuti negatiivseid tagajärgi .
+A 9 10|||R:SPELL|||tõdeda|||REQUIRED|||-NONE-|||0
+A 12 13|||R:SPELL|||globaliseerumisel|||REQUIRED|||-NONE-|||0
+
+S Kõigepealt tuleb mainida migreerimist , kodumaalt lahkumist .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Miks kolitakse välismaale ?
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Vastus ei ole keeruline : noored otsivad võimalusi tööd leida ja haridust omandada .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Nemad ei näe perspektiivseid ega mainekaid lahendusi oma kodumaal , seega otsivad neid mujalt .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Sellise nähtuse tagajärjed paistavd üsna tõsised olevat : kodumaa kannatab spetsialistide nappusest ja elanikonna vananemisest .
+A 3 4|||R:SPELL|||paistavad|||REQUIRED|||-NONE-|||0
+A 11 12|||R:NOM:FORM|||nappuse|||REQUIRED|||-NONE-|||0
+A 13 14|||R:SPELL|||elanikkonna|||REQUIRED|||-NONE-|||0
+A 14 15|||R:NOM:FORM|||vananemise|||REQUIRED|||-NONE-|||0
+A 15 15|||M:LEX|||käes|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||paistavad|||REQUIRED|||-NONE-|||1
+A 4 7|||R:WO|||olevat üsna tõsised|||REQUIRED|||-NONE-|||1
+A 11 12|||R:NOM:FORM|||nappuse|||REQUIRED|||-NONE-|||1
+A 13 14|||R:SPELL|||elanikkonna|||REQUIRED|||-NONE-|||1
+A 14 15|||R:NOM:FORM|||vananemise|||REQUIRED|||-NONE-|||1
+A 15 15|||M:LEX|||käes|||REQUIRED|||-NONE-|||1
+
+S Peale selle , see nähtus toob kaasa elanikonna vähenemist ja riigi " väljasuremist " .
+A 2 3|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 3 6|||R:WO|||toob see nähtus|||REQUIRED|||-NONE-|||0
+A 7 8|||R:SPELL|||elanikkonna|||REQUIRED|||-NONE-|||0
+A 8 9|||R:NOM:FORM|||vähenemise|||REQUIRED|||-NONE-|||0
+A 12 13|||R:NOM:FORM|||väljasuremise|||REQUIRED|||-NONE-|||0
+
+S Migreerimisega käib alati kaasa tehnoloogiline areng .
+A 0 1|||R:NOM:FORM|||Migreerimisega|||REQUIRED|||-NONE-|||0
+
+S Kui tegemist on globaliseerumisega , eriti suurt tähelepanu pööratakse tehnoloogia kiirele arengule .
+A 5 9|||R:WO|||pööratakse eriti suurt tähelepanu|||REQUIRED|||-NONE-|||0
+
+S Tehnoloogiad on nüüd igas elu valdkonnas : kodus , kontoris , kaupluses , koolis ja haiglas .
+A 4 6|||R:WS|||eluvaldkonnas|||REQUIRED|||-NONE-|||0
+
+S Tänu kaasaegsele tehnoloogiale , on muutunud ühiskonna üldine ettekujutis sellest , mis on suhtlemine .
+A 3 4|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 8 9|||R:SPELL|||ettekujutus|||REQUIRED|||-NONE-|||0
+
+S Areng võimaldab näha , kuulda ja vestelda nendega , kes on kaugel .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Peale tavasuhtlemisele , seda kasutatakse , näiteks , isegi loengute ja tööintervjuude läbiviimiseks .
+A 1 2|||R:NOM:FORM|||tavasuhtlemise|||REQUIRED|||-NONE-|||0
+A 2 3|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 3 5|||R:WO|||kasutatakse seda|||REQUIRED|||-NONE-|||0
+A 5 6|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 7 8|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Tehnoloogiad on muutunud maailma kiiremaks ja kergemaks , kuid ka sellel on oma puudusi .
+A 3 4|||R:LEX|||infovahetuse||suhtlemise|||REQUIRED|||-NONE-|||0
+A 2 3|||R:LEX|||muutnud|||REQUIRED|||-NONE-|||1
+A 4 5|||R:LEX|||kiiretempolisemaks|||REQUIRED|||-NONE-|||1
+A 6 7|||R:LEX|||mugavamaks|||REQUIRED|||-NONE-|||1
+A 2 3|||R:LEX|||muutnud|||REQUIRED|||-NONE-|||2
+
+S Digisuhtluse ja anonüümsuse tõttu kaob ära isiksus ja ohutus , turvalisus .
+A 0 1|||R:NOM:FORM|||Digisuhtlusega|||REQUIRED|||-NONE-|||0
+A 1 2|||R:LEX|||kaasneva|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||1
+
+S Ükski tehnoloogia kasutaja ei ole kaitstud selliste ohtude eest , rääkimata lastest .
+A 5 9|||R:WO|||selliste ohtude eest kaitstud|||REQUIRED|||-NONE-|||0
+
+S Kõik esiletoodud aspektid vajavad erilist tähelepanu grobaliseerumise pooldajatelt , sest ilma selleta võivad tuua rohkem kahju kui kasu .
+A 6 7|||R:SPELL|||globaliseerumise|||REQUIRED|||-NONE-|||0
+A 4 8|||R:WO|||globaliseerumise pooldajatelt erilist tähelepanu|||REQUIRED|||-NONE-|||0
+A 12 13|||R:VERB:FORM|||võib|||REQUIRED|||-NONE-|||0
+A 13 13|||M:LEX|||globaliseerumine|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||globaliseerumise|||REQUIRED|||-NONE-|||1
+A 12 13|||R:VERB:FORM|||võib|||REQUIRED|||-NONE-|||1
+A 13 13|||M:LEX|||globaliseerumine|||REQUIRED|||-NONE-|||1
+
+S Kokkuvõtteks , globaliseerimine toob esile üsna tõsiseid küsimusi ja probleeme , nagu kodumaalt lahkumine ja suhtlustehnoloogia ohud .
+A 2 3|||R:SPELL|||globaliseerumine|||REQUIRED|||-NONE-|||0
+A 10 11|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Esiletoodud võimalikud tagajärjed panevad mõtlema ja vajavad tegutsemist .
+A 6 7|||R:LEX|||nõuavad|||REQUIRED|||-NONE-|||0
+
+S Võin oletada , et migreerimise nähtus võib olla võidetud tänu hariduselu ja riigi tööturu muutmisele ja laienemisele .
+A 5 6|||R:NOM:FORM|||nähtusest|||REQUIRED|||-NONE-|||0
+A 7 8|||R:LEX|||saada|||REQUIRED|||-NONE-|||0
+A 8 9|||R:LEX|||võitu|||REQUIRED|||-NONE-|||0
+
+S Mis aga puutub kaugsuhtlusesse , potensiaalseid ohte võib ennetada õigeaegse kontrolli abil .
+A 5 5|||M:LEX|||siis|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||potentsiaalseid|||REQUIRED|||-NONE-|||0
+A 5 8|||R:WO|||võib potentsiaalseid ohte|||REQUIRED|||-NONE-|||0

@@ -1,0 +1,50 @@
+
+S Kallis sõbranna !
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Ma eile pesen pesu ja mul pesumasin läks katki .
+A 2 3|||R:VERB:FORM|||pesin|||REQUIRED|||-NONE-|||0
+A 1 3|||R:WO|||pesin eile|||REQUIRED|||-NONE-|||0
+A 5 6|||R:NOM:FORM|||mu|||REQUIRED|||-NONE-|||0
+A 2 3|||R:VERB:FORM|||pesin|||REQUIRED|||-NONE-|||1
+A 1 3|||R:WO|||pesin eile|||REQUIRED|||-NONE-|||1
+A 6 8|||R:WO|||läks pesumasin|||REQUIRED|||-NONE-|||1
+
+S Ma otsin teid kolm aastat tagasi .
+A 1 2|||R:SPELL|||ostsin|||REQUIRED|||-NONE-|||0
+A 2 3|||R:LEX|||selle|||REQUIRED|||-NONE-|||0
+
+S Ma tahan kutsuda küüla .
+A 2 2|||M:LEX|||sind|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||külla|||REQUIRED|||-NONE-|||0
+A 2 4|||R:WO|||külla kutsuda|||REQUIRED|||-NONE-|||0
+
+S Võib olla sa vaabaol ja parandad .
+A 0 2|||R:WS|||Võib-olla||Võibolla|||REQUIRED|||-NONE-|||0
+A 3 4|||R:WS:SPELL|||oled vaba|||REQUIRED|||-NONE-|||0
+A 6 6|||M:LEX|||selle ära||pesumasina ära|||REQUIRED|||-NONE-|||0
+A 0 2|||R:WS|||Võib-olla||Võibolla|||REQUIRED|||-NONE-|||1
+A 3 4|||R:WS:SPELL|||oled vaba|||REQUIRED|||-NONE-|||1
+A 2 4|||R:WO|||oled sa vaba|||REQUIRED|||-NONE-|||1
+A 6 6|||M:LEX|||selle ära||pesumasina ära|||REQUIRED|||-NONE-|||1
+
+S Tuleb homme .
+A 0 1|||R:VERB:FORM|||Tule|||REQUIRED|||-NONE-|||0
+A 2 3|||R:PUNCT|||!|||REQUIRED|||-NONE-|||0
+
+S Kui sa mulle abistad , ma annan sulle kingitus .
+A 2 3|||R:NOM:FORM|||mind|||REQUIRED|||-NONE-|||0
+A 5 7|||R:WO|||annan ma|||REQUIRED|||-NONE-|||0
+A 8 9|||R:NOM:FORM|||kingituse|||REQUIRED|||-NONE-|||0
+
+S Mida sa tahad andma ?
+A 3 4|||R:LEX:VERB:FORM|||saada|||REQUIRED|||-NONE-|||0
+
+S Oota sind homme !
+A 0 1|||R:VERB:FORM|||Ootan|||REQUIRED|||-NONE-|||0
+
+S Kohtumiseni !
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Alisa
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0

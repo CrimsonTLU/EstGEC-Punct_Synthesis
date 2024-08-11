@@ -1,0 +1,62 @@
+
+S Tere minu kallis sõbranna Eeva ,
+A 1 1|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 5 6|||R:PUNCT|||!|||REQUIRED|||-NONE-|||0
+A 1 1|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 5 6|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+
+S Sa tead et ma ei ole Istanbulis mitte kunagi olnud .
+A 2 2|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 9 10|||R:LEX|||käinud|||REQUIRED|||-NONE-|||0
+A 2 2|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 9 10|||R:LEX|||käinud|||REQUIRED|||-NONE-|||1
+A 6 10|||R:WO|||mitte kunagi Istanbulis käinud|||REQUIRED|||-NONE-|||1
+A 0 1|||R:LEX|||Kas|||REQUIRED|||-NONE-|||2
+A 2 2|||M:PUNCT|||,|||REQUIRED|||-NONE-|||2
+A 9 10|||R:LEX|||käinud|||REQUIRED|||-NONE-|||2
+A 6 10|||R:WO|||mitte kunagi Istanbulis käinud|||REQUIRED|||-NONE-|||2
+A 10 11|||M:PUNCT|||?|||REQUIRED|||-NONE-|||2
+
+S Ma tahaks sinuga Istanbulisse minna .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+A 3 4|||R:NOM:FORM|||Istanbuli|||REQUIRED|||-NONE-|||1
+
+S Meie saaks minna märtsis .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+A 0 1|||R:NOM:FORM|||Me|||REQUIRED|||-NONE-|||1
+
+S Istanbuis ilm on väga hea märtsis .
+A 0 1|||R:SPELL|||Istanbulis|||REQUIRED|||-NONE-|||0
+A 1 3|||R:WO|||on ilm|||REQUIRED|||-NONE-|||0
+A 3 6|||R:WO|||märtsis väga hea|||REQUIRED|||-NONE-|||0
+
+S Ma tahan palju asja teha seal .
+A 3 4|||R:NOM:FORM|||asju|||REQUIRED|||-NONE-|||0
+A 2 6|||R:WO|||seal palju asju teha|||REQUIRED|||-NONE-|||0
+
+S Ma tahan Aja Sofia kirki ja Topali Lossi näha .
+A 2 3|||R:LEX|||Hagia|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||Sophia|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||kirikut|||REQUIRED|||-NONE-|||0
+A 7 8|||R:CASE|||lossi|||REQUIRED|||-NONE-|||0
+A 2 9|||R:WO|||näha Hagia Sophia kirikut ja Topali lossi|||REQUIRED|||-NONE-|||0
+A 2 3|||R:LEX|||Hagia|||REQUIRED|||-NONE-|||1
+A 3 4|||R:SPELL|||Sophia|||REQUIRED|||-NONE-|||1
+A 4 5|||R:SPELL|||kirikut|||REQUIRED|||-NONE-|||1
+A 7 8|||R:CASE|||lossi|||REQUIRED|||-NONE-|||1
+
+S Kui ilm on soe , me saaks Bosforisse laevaga minna .
+A 5 7|||R:WO|||saaks me|||REQUIRED|||-NONE-|||0
+A 7 8|||R:SPELL|||Bosporusse|||REQUIRED|||-NONE-|||0
+A 7 9|||R:WO|||laevaga Bosporusse|||REQUIRED|||-NONE-|||0
+
+S Ma loodan , et minu plaan sulle meeldib .
+A 6 8|||R:WO|||meeldib sulle|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||1
+
+S Kõik head ,
+A 0 1|||R:NOM:FORM|||Kõike|||REQUIRED|||-NONE-|||0
+A 2 3|||R:PUNCT|||!|||REQUIRED|||-NONE-|||0
+
+S sinu sõbranna Anna
+A 0 1|||R:CASE|||Sinu|||REQUIRED|||-NONE-|||0

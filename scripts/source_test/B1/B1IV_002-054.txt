@@ -1,0 +1,72 @@
+
+S Ma loen tihti ajalehed , mis ma saan tasuta .
+A 3 4|||R:NOM:FORM|||ajalehti|||REQUIRED|||-NONE-|||0
+A 5 6|||R:NOM:FORM|||mida|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOM:FORM|||ajalehti|||REQUIRED|||-NONE-|||1
+A 5 6|||R:NOM:FORM|||mida|||REQUIRED|||-NONE-|||1
+A 7 9|||R:WO|||tasuta saan|||REQUIRED|||-NONE-|||1
+
+S Ma loen kõik teemad , aga huvitab mind rohkem , mida rägitakse kinnost ja teatrist .
+A 2 3|||R:NOM:FORM|||kõiki|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOM:FORM|||teemasid|||REQUIRED|||-NONE-|||0
+A 6 8|||R:WO|||mind huvitab|||REQUIRED|||-NONE-|||0
+A 11 12|||R:SPELL|||räägitakse|||REQUIRED|||-NONE-|||0
+A 12 13|||R:SPELL|||kinost|||REQUIRED|||-NONE-|||0
+
+S Veel ma loen ajaleht " Narva " .
+A 1 3|||R:WO|||loen ma|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOM:FORM|||ajalehte|||REQUIRED|||-NONE-|||0
+A 4 5|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 6 7|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 0 3|||R:WO|||Ma loen veel|||REQUIRED|||-NONE-|||1
+A 3 4|||R:NOM:FORM|||ajalehte|||REQUIRED|||-NONE-|||1
+A 4 5|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+A 6 7|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+
+S See ajalehes kirjutatakse minu linnast , töölt , palgast .
+A 0 1|||R:NOM:FORM|||Selles|||REQUIRED|||-NONE-|||0
+A 6 7|||R:NOM:FORM|||tööst|||REQUIRED|||-NONE-|||0
+A 0 1|||R:NOM:FORM|||Selles|||REQUIRED|||-NONE-|||1
+A 6 7|||R:NOM:FORM|||tööst|||REQUIRED|||-NONE-|||1
+A 7 8|||M:LEX|||ja|||REQUIRED|||-NONE-|||1
+
+S Internetist ma loen ka uudised .
+A 4 5|||R:NOM:FORM|||uudiseid|||REQUIRED|||-NONE-|||0
+A 0 5|||R:WO|||Ma loen uudiseid ka internetist||Uudiseid loen ma ka internetist|||REQUIRED|||-NONE-|||0
+
+S Kõige rohkem loen kodulehel mail.ru .
+A 3 4|||R:NOM:FORM|||kodulehte|||REQUIRED|||-NONE-|||0
+A 3 3|||M:LEX|||neid|||REQUIRED|||-NONE-|||1
+
+S Seal on kõik koos uudised , mis huvitavad mind .
+A 2 4|||R:WO|||koos kõik|||REQUIRED|||-NONE-|||0
+A 7 9|||R:WO|||mind huvitavad|||REQUIRED|||-NONE-|||0
+
+S Veel mulle meeldib lugeda laste ajakirju .
+A 1 3|||R:WO|||meeldib mulle|||REQUIRED|||-NONE-|||0
+A 1 3|||R:WO|||meeldib mulle|||REQUIRED|||-NONE-|||1
+A 4 6|||R:WS|||lasteajakirju|||REQUIRED|||-NONE-|||1
+A 0 3|||R:WO|||Mulle meeldib veel|||REQUIRED|||-NONE-|||2
+A 4 6|||R:WS|||lasteajakirju|||REQUIRED|||-NONE-|||2
+
+S Veel ma vaatan telerit , seal ka uudised .
+A 1 3|||R:WO|||vaatan ma|||REQUIRED|||-NONE-|||0
+A 5 7|||R:WO|||ka seal|||REQUIRED|||-NONE-|||0
+A 7 7|||M:LEX|||on|||REQUIRED|||-NONE-|||0
+A 0 3|||R:WO|||Ma vaatan veel|||REQUIRED|||-NONE-|||1
+A 6 6|||M:LEX|||on|||REQUIRED|||-NONE-|||1
+A 1 3|||R:WO|||vaatan ma|||REQUIRED|||-NONE-|||2
+A 6 6|||M:LEX|||on|||REQUIRED|||-NONE-|||2
+
+S Mulle ei meeldi politika uudiseid .
+A 3 5|||R:WS:NOM:FORM:SPELL|||poliitikauudised|||REQUIRED|||-NONE-|||0
+A 3 3|||M:LEX|||vaadata|||REQUIRED|||-NONE-|||1
+A 3 5|||R:WS:SPELL|||poliitikauudiseid|||REQUIRED|||-NONE-|||1
+A 3 5|||R:WS:SPELL|||poliitikauudiseid|||REQUIRED|||-NONE-|||2
+A 5 5|||M:LEX|||vaadata|||REQUIRED|||-NONE-|||2
+
+S See on ebahuvitav minu jaoks .
+A 2 5|||R:WO|||minu jaoks ebahuvitav|||REQUIRED|||-NONE-|||0
+A 1 2|||R:VERB:FORM|||pole|||REQUIRED|||-NONE-|||1
+A 2 3|||R:LEX|||huvitav|||REQUIRED|||-NONE-|||1
+A 2 5|||R:WO|||minu jaoks huvitav|||REQUIRED|||-NONE-|||1

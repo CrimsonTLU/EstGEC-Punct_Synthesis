@@ -1,0 +1,26 @@
+
+S Ma käisin kaks aastat tagasi Montenegros .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Ma käisin koos perega .
+A 2 2|||M:LEX|||seal|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||1
+
+S Me üürisime maja .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S See oli väga tore aeg !
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Me päevitasime , ujusime meres , mängisime lastega rannas , käisime Tivatis .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Ilm oli väga ilus , soe mere .
+A 6 7|||R:NOM:FORM|||meri|||REQUIRED|||-NONE-|||0
+A 5 7|||R:WO|||meri soe|||REQUIRED|||-NONE-|||0
+
+S Meil oli väga hea tuju .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Mulle väga meeldis minu viimane reis !
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0

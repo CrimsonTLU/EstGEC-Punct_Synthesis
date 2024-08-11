@@ -1,0 +1,138 @@
+
+S Minu lemmikloom on koer .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Lapsepõlves mul ei olnud loomi üldse ja ma unistan koerast .
+A 1 4|||R:WO|||ei olnud mul|||REQUIRED|||-NONE-|||0
+A 4 6|||R:WO|||üldse loomi|||REQUIRED|||-NONE-|||0
+A 8 9|||R:VERB:FORM|||unistasin|||REQUIRED|||-NONE-|||0
+
+S Minu sõbral olnud erinevad koduloomad .
+A 2 2|||M:LEX|||on|||REQUIRED|||-NONE-|||0
+A 2 2|||M:LEX|||on|||REQUIRED|||-NONE-|||1
+A 3 4|||R:NOM:FORM|||erinevaid|||REQUIRED|||-NONE-|||1
+A 4 5|||R:NOM:FORM|||koduloomi|||REQUIRED|||-NONE-|||1
+
+S Aga ühes sõbras oli koer .
+A 1 2|||R:NOM:FORM|||üheks|||REQUIRED|||-NONE-|||0
+A 2 3|||R:NOM:FORM|||sõbraks|||REQUIRED|||-NONE-|||0
+A 1 2|||R:NOM:FORM|||üks|||REQUIRED|||-NONE-|||1
+A 2 3|||R:NOM:FORM|||sõber|||REQUIRED|||-NONE-|||1
+
+S Sageli me jalutasime temast .
+A 3 4|||R:NOM:FORM|||temaga|||REQUIRED|||-NONE-|||0
+A 0 4|||R:WO|||Me jalutasime temaga sageli|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOM:FORM|||temaga|||REQUIRED|||-NONE-|||1
+
+S Ta üldse ei joosta ära .
+A 3 4|||R:VERB:FORM|||jooksnud|||REQUIRED|||-NONE-|||0
+A 1 4|||R:WO|||ei jooksnud üldse|||REQUIRED|||-NONE-|||0
+
+S See koer armastas mängida lapsega .
+A 3 5|||R:WO|||lapsega mängida|||REQUIRED|||-NONE-|||0
+A 4 5|||R:NOM:FORM|||lastega|||REQUIRED|||-NONE-|||1
+A 3 5|||R:WO|||lastega mängida|||REQUIRED|||-NONE-|||1
+
+S Sõbra koer jäi mälestus .
+A 1 2|||R:NOM:FORM|||koerast|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOM:FORM|||mälestustesse|||REQUIRED|||-NONE-|||1
+A 2 3|||R:LEX|||jättis|||REQUIRED|||-NONE-|||2
+A 3 4|||R:NOM:FORM|||mälestuse|||REQUIRED|||-NONE-|||2
+
+S Veel mina palju lugesin koerast .
+A 1 2|||R:NOM:FORM|||ma|||REQUIRED|||-NONE-|||0
+A 4 5|||R:NOM:FORM|||koertest|||REQUIRED|||-NONE-|||0
+A 1 5|||R:WO|||lugesin ma koertest palju||lugesin ma palju koertest|||REQUIRED|||-NONE-|||0
+A 1 2|||R:NOM:FORM|||ma|||REQUIRED|||-NONE-|||1
+A 3 4|||R:VERB:FORM|||olen lugenud|||REQUIRED|||-NONE-|||1
+A 4 5|||R:NOM:FORM|||koertest|||REQUIRED|||-NONE-|||1
+A 1 5|||R:WO|||olen ma koertest palju lugenud|||REQUIRED|||-NONE-|||1
+A 3 4|||R:VERB:FORM|||olen lugenud|||REQUIRED|||-NONE-|||2
+A 4 5|||R:NOM:FORM|||koertest|||REQUIRED|||-NONE-|||2
+A 0 5|||R:WO|||Mina olen koertest veel palju lugenud|||REQUIRED|||-NONE-|||2
+
+S Ja minu arvamus nad on targad , sõbralikud ja tähelepanelikud .
+A 2 3|||R:LEX|||arvates|||REQUIRED|||-NONE-|||0
+A 3 5|||R:WO|||on nad|||REQUIRED|||-NONE-|||0
+
+S Sellepärast ma taha ainult koera .
+A 2 3|||R:VERB:FORM|||tahan|||REQUIRED|||-NONE-|||0
+A 1 3|||R:WO|||tahan ma|||REQUIRED|||-NONE-|||0
+
+S Ma tean , et koerast hoolitsema ei ole kerge .
+A 4 5|||R:NOM:FORM|||koera|||REQUIRED|||-NONE-|||0
+A 5 5|||M:LEX|||eest|||REQUIRED|||-NONE-|||0
+A 5 6|||R:LEX|||hoolitsemine||hoolitseda|||REQUIRED|||-NONE-|||0
+A 4 5|||R:NOM:FORM|||koera|||REQUIRED|||-NONE-|||1
+A 5 5|||M:LEX|||eest|||REQUIRED|||-NONE-|||1
+A 5 6|||R:LEX|||hoolitseda|||REQUIRED|||-NONE-|||1
+A 5 9|||R:WO|||ei ole kerge hoolitseda|||REQUIRED|||-NONE-|||1
+
+S Temale on vaja hea ja kvaliteetne söök .
+A 0 1|||R:NOM:FORM|||Tal||Temal|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOM:FORM|||head|||REQUIRED|||-NONE-|||0
+A 5 6|||R:NOM:FORM|||kvaliteetset|||REQUIRED|||-NONE-|||0
+A 6 7|||R:NOM:FORM|||sööki|||REQUIRED|||-NONE-|||0
+A 0 1|||R:NOM:FORM|||Ta||Tema|||REQUIRED|||-NONE-|||1
+A 1 2|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 2 3|||R:LEX|||vajab|||REQUIRED|||-NONE-|||1
+A 3 4|||R:NOM:FORM|||head|||REQUIRED|||-NONE-|||1
+A 5 6|||R:NOM:FORM|||kvaliteetset|||REQUIRED|||-NONE-|||1
+A 6 7|||R:NOM:FORM|||sööki|||REQUIRED|||-NONE-|||1
+A 3 3|||M:LEX|||osta||pakkuda||tuua||anda|||REQUIRED|||-NONE-|||2
+A 3 4|||R:NOM:FORM|||head|||REQUIRED|||-NONE-|||2
+A 5 6|||R:NOM:FORM|||kvaliteetset|||REQUIRED|||-NONE-|||2
+A 6 7|||R:NOM:FORM|||sööki|||REQUIRED|||-NONE-|||2
+
+S On vaja temaga veterinaarisse käia .
+A 0 3|||R:WO|||Temaga on vaja|||REQUIRED|||-NONE-|||0
+A 3 4|||M:LEX|||veterinaari juures|||REQUIRED|||-NONE-|||0
+A 3 5|||R:WO|||käia veterinaari juures|||REQUIRED|||-NONE-|||0
+A 0 3|||R:WO|||Temaga on vaja|||REQUIRED|||-NONE-|||1
+A 3 4|||M:LEX|||veterinaari juures|||REQUIRED|||-NONE-|||1
+A 3 4|||M:LEX|||veterinaari juures|||REQUIRED|||-NONE-|||2
+
+S Veel koeraga on vaja palju jalutada .
+A 1 3|||R:WO|||on koeraga|||REQUIRED|||-NONE-|||0
+A 0 3|||R:WO|||Koeraga on veel|||REQUIRED|||-NONE-|||1
+A 0 1|||R:LEX|||Lisaks|||REQUIRED|||-NONE-|||2
+A 1 3|||R:WO|||on koeraga|||REQUIRED|||-NONE-|||2
+
+S Kui palju ei jaluta temaga , siis ta jäi kurjaks või haigeks .
+A 3 4|||R:VERB:FORM|||jalutata|||REQUIRED|||-NONE-|||0
+A 1 5|||R:WO|||temaga palju ei jalutata|||REQUIRED|||-NONE-|||0
+A 8 9|||R:VERB:FORM|||jääb|||REQUIRED|||-NONE-|||0
+A 7 9|||R:WO|||jääb ta|||REQUIRED|||-NONE-|||0
+A 3 4|||R:VERB:FORM|||jalutata|||REQUIRED|||-NONE-|||1
+A 1 5|||R:WO|||temaga palju ei jalutata|||REQUIRED|||-NONE-|||1
+A 8 9|||R:LEX:VERB:FORM|||saab||muutub|||REQUIRED|||-NONE-|||1
+A 7 9|||R:WO|||saab ta||muutub ta|||REQUIRED|||-NONE-|||1
+A 11 11|||M:LEX|||jääb|||REQUIRED|||-NONE-|||1
+A 1 5|||R:WO|||temaga palju ei jaluta|||REQUIRED|||-NONE-|||2
+A 8 9|||R:LEX:VERB:FORM|||muutub|||REQUIRED|||-NONE-|||2
+A 7 9|||R:WO|||muutub ta|||REQUIRED|||-NONE-|||2
+
+S Ma arvan et koera on vaja osta veel kutsikas .
+A 2 2|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOM:FORM|||koer|||REQUIRED|||-NONE-|||0
+A 8 9|||R:NOM:FORM|||kutsikana|||REQUIRED|||-NONE-|||0
+
+S Parem , kui võib osta sõbral , sellepärast et ma tean sellised inimesed .
+A 3 4|||R:LEX|||saab|||REQUIRED|||-NONE-|||0
+A 5 6|||R:NOM:FORM|||sõbralt|||REQUIRED|||-NONE-|||0
+A 11 12|||R:LEX:NOM:FORM|||seda|||REQUIRED|||-NONE-|||0
+A 12 13|||R:NOM:FORM|||inimest|||REQUIRED|||-NONE-|||0
+A 3 4|||R:LEX|||saab|||REQUIRED|||-NONE-|||1
+A 5 5|||M:LEX|||mõnelt|||REQUIRED|||-NONE-|||1
+A 5 6|||R:NOM:FORM|||sõbralt|||REQUIRED|||-NONE-|||1
+A 11 12|||R:LEX:NOM:FORM|||neid|||REQUIRED|||-NONE-|||1
+A 12 13|||R:NOM:FORM|||inimesi|||REQUIRED|||-NONE-|||1
+
+S Mul ei ole praegu koduloomi .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Ma loodan et tulevikus ma võtan ainult koera .
+A 2 2|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 3 6|||R:WO|||ma võtan tulevikus|||REQUIRED|||-NONE-|||0
+A 2 2|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 4 6|||R:WO|||võtan ma|||REQUIRED|||-NONE-|||1

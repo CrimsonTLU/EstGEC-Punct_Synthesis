@@ -1,0 +1,71 @@
+
+S Lugupeetud hooldamise juhataja
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+A 1 3|||R:WS|||hooldamisjuhataja|||REQUIRED|||-NONE-|||1
+A 1 3|||R:LEX|||hooldusjuht|||REQUIRED|||-NONE-|||2
+
+S Mul on kaebus .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Ma tahan pöörduda Teie poole .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Nagu te teate , eelmisel aastal te sõlmisite tänavate ja parkide hooldamiseks lepingu uue teenusepakkujaga .
+A 4 4|||M:LEX|||siis|||REQUIRED|||-NONE-|||0
+A 4 8|||R:WO|||siis sõlmisite te eelmisel aastal|||REQUIRED|||-NONE-|||0
+
+S Ma ei ole üldse firma " Tee ja auto " tööga rahul .
+A 5 6|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 8 9|||R:CASE|||Auto|||REQUIRED|||-NONE-|||0
+A 9 10|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 5 6|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+A 8 9|||R:CASE|||Auto|||REQUIRED|||-NONE-|||1
+A 9 10|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+A 3 11|||R:WO|||firma Tee ja Auto tööga üldse|||REQUIRED|||-NONE-|||1
+
+S Minu pöördumise põhjus on selles , et talvel oli palju lund .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Parkimiskohad olid täis lumis , mis segas elanikutele , kellel on oma autod .
+A 3 4|||R:NOM:FORM:SPELL|||lund|||REQUIRED|||-NONE-|||0
+A 2 4|||R:WO|||lund täis|||REQUIRED|||-NONE-|||0
+A 7 8|||R:NOM:FORM:SPELL|||elanikke|||REQUIRED|||-NONE-|||0
+
+S Firma " Tee ja auto " korristab lund väga harva .
+A 1 2|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 4 5|||R:CASE|||Auto|||REQUIRED|||-NONE-|||0
+A 5 6|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 6 7|||R:VERB:FORM:SPELL|||koristas|||REQUIRED|||-NONE-|||0
+A 1 2|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+A 4 5|||R:CASE|||Auto|||REQUIRED|||-NONE-|||1
+A 5 6|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+A 6 7|||R:SPELL|||koristab|||REQUIRED|||-NONE-|||1
+
+S Minu arvates , te peate sellele oma tähelepanu pöörduma .
+A 2 3|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 3 5|||R:WO|||peate te|||REQUIRED|||-NONE-|||0
+A 8 9|||R:LEX|||pöörama|||REQUIRED|||-NONE-|||0
+A 2 3|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+A 3 5|||R:WO|||peate te|||REQUIRED|||-NONE-|||1
+A 6 7|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 8 9|||R:LEX|||pöörama|||REQUIRED|||-NONE-|||1
+
+S Kes jälgib , kuidas firma teeb oma tööd ?
+A 5 8|||R:WO|||oma tööd teeb|||REQUIRED|||-NONE-|||0
+
+S Kuidas on võimalik olukorra lahendada ?
+A 3 4|||R:NOM:FORM|||olukorda||olukord|||REQUIRED|||-NONE-|||0
+
+S Ma loodan , et kohalik omavalitsus määrab inimest , kes saab kontrollida firma " Tee ja auto " tööd iga päev .
+A 7 8|||R:NOM:FORM|||inimese|||REQUIRED|||-NONE-|||0
+A 13 14|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 16 17|||R:CASE|||Auto|||REQUIRED|||-NONE-|||0
+A 17 18|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 11 21|||R:WO|||firma Tee ja Auto tööd iga päev kontrollida|||REQUIRED|||-NONE-|||0
+
+S Loodan , et teete midagi .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Lugupidamisega , Kadri --- , linnaelanik tel . ---
+A 1 2|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 7 8|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0

@@ -1,0 +1,33 @@
+
+S Ma soovin müüa oma autot .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S See auto on Volvo .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S See auto maksab 10 000 eurot .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Autot näha saab internetis või helistab telefoni teel --- .
+A 1 3|||R:WO|||saab näha|||REQUIRED|||-NONE-|||0
+A 5 6|||R:VERB:FORM|||helistage|||REQUIRED|||-NONE-|||0
+A 1 3|||R:WO|||saab näha|||REQUIRED|||-NONE-|||1
+A 5 6|||R:VERB:FORM|||helistades|||REQUIRED|||-NONE-|||1
+A 6 7|||R:NOM:FORM|||telefonil||telefonile|||REQUIRED|||-NONE-|||1
+A 7 8|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+
+S Me kohtume ja räägime autot hinda .
+A 0 2|||U:LEX|||Kohtume|||REQUIRED|||-NONE-|||0
+A 4 5|||R:NOM:FORM|||auto|||REQUIRED|||-NONE-|||0
+A 5 6|||R:NOM:FORM|||hinnast|||REQUIRED|||-NONE-|||0
+A 0 1|||M:LEX|||Seejärel me||Siis me|||REQUIRED|||-NONE-|||1
+A 4 5|||R:NOM:FORM|||auto|||REQUIRED|||-NONE-|||1
+A 5 6|||R:NOM:FORM|||hinnast|||REQUIRED|||-NONE-|||1
+A 4 5|||R:NOM:FORM|||auto|||REQUIRED|||-NONE-|||2
+A 5 6|||R:NOM:FORM|||hinnast|||REQUIRED|||-NONE-|||2
+
+S Helistage õhtul iga päev .
+A 1 2|||R:NOM:FORM|||õhtutel||õhtuti|||REQUIRED|||-NONE-|||0
+A 2 3|||R:LEX|||mistahes||mis tahes|||REQUIRED|||-NONE-|||1
+A 3 4|||R:NOM:FORM|||päeval|||REQUIRED|||-NONE-|||1
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||2

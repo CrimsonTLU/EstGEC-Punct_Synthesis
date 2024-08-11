@@ -1,0 +1,108 @@
+
+S Hiljuti 16. augustil ma käisin kontserdil Narvas .
+A 1 1|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 3 3|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 3 5|||R:WO|||käisin ma|||REQUIRED|||-NONE-|||0
+A 1 1|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 3 3|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 3 5|||R:WO|||käisin ma|||REQUIRED|||-NONE-|||1
+A 5 7|||R:WO|||Narvas kontserdil|||REQUIRED|||-NONE-|||1
+A 1 1|||M:PUNCT|||,|||REQUIRED|||-NONE-|||2
+A 3 3|||M:PUNCT|||,|||REQUIRED|||-NONE-|||2
+A 0 5|||R:WO|||Ma käisin hiljuti , 16. augustil ,|||REQUIRED|||-NONE-|||2
+A 5 7|||R:WO|||Narvas kontserdil|||REQUIRED|||-NONE-|||2
+
+S See kontsert toimus Rugodivi kontserdimajas ja seal oli minu lemmik laulja Anne Veski .
+A 9 11|||R:WS|||lemmiklaulja|||REQUIRED|||-NONE-|||0
+A 7 8|||R:LEX|||esines|||REQUIRED|||-NONE-|||1
+A 9 11|||R:WS|||lemmiklaulja|||REQUIRED|||-NONE-|||1
+
+S Ma väga kaua tahtsin käia selle kontserdil .
+A 1 4|||R:WO|||tahtsin väga kaua|||REQUIRED|||-NONE-|||0
+A 4 5|||R:LEX|||minna|||REQUIRED|||-NONE-|||0
+A 5 6|||R:NOM:FORM|||sellele|||REQUIRED|||-NONE-|||0
+A 6 7|||R:NOM:FORM|||kontserdile|||REQUIRED|||-NONE-|||0
+A 4 7|||R:WO|||sellele kontserdile minna|||REQUIRED|||-NONE-|||0
+A 3 4|||R:VERB:FORM|||olen tahtnud|||REQUIRED|||-NONE-|||1
+A 1 4|||R:WO|||olen väga kaua tahtnud|||REQUIRED|||-NONE-|||1
+A 4 5|||R:LEX|||minna|||REQUIRED|||-NONE-|||1
+A 5 6|||R:NOM:FORM|||sellele|||REQUIRED|||-NONE-|||1
+A 6 7|||R:NOM:FORM|||kontserdile|||REQUIRED|||-NONE-|||1
+A 4 7|||R:WO|||sellele kontserdile minna|||REQUIRED|||-NONE-|||1
+A 2 3|||R:LEX|||ammu|||REQUIRED|||-NONE-|||2
+A 3 4|||R:VERB:FORM|||olen tahtnud|||REQUIRED|||-NONE-|||2
+A 1 4|||R:WO|||olen väga ammu tahtnud|||REQUIRED|||-NONE-|||2
+A 5 6|||R:NOM:FORM|||sellele|||REQUIRED|||-NONE-|||2
+A 6 7|||R:NOM:FORM|||kontserdile|||REQUIRED|||-NONE-|||2
+A 4 7|||R:WO|||sellele kontserdile minna|||REQUIRED|||-NONE-|||2
+
+S Kontserdil ma käisin koos abikaasa ja sõpradega .
+A 0 3|||R:WO|||Ma käisin kontserdil|||REQUIRED|||-NONE-|||0
+A 1 3|||R:WO|||käisin ma|||REQUIRED|||-NONE-|||1
+
+S Mulle väga meeldis see kontsert sellepärast , et see oli väga huvitav , lõõgastav ja lõbustav kontsert .
+A 15 16|||R:LEX|||lõbus|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||1
+
+S Me koos veetsime aega väga tore .
+A 1 3|||R:WO|||veetsime koos|||REQUIRED|||-NONE-|||0
+A 5 6|||R:NOM:FORM|||toredalt|||REQUIRED|||-NONE-|||0
+A 3 6|||R:WO|||väga toredalt aega|||REQUIRED|||-NONE-|||0
+A 1 3|||R:WO|||veetsime koos|||REQUIRED|||-NONE-|||1
+A 4 4|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 4 4|||M:LEX|||oli|||REQUIRED|||-NONE-|||1
+
+S Me palju laulsime ja tantsisime , ja pärast kontserti me olime väga väsitav , sest me otsisime käia kohvikus ja juua kuum tee vaarikamoosiga .
+A 1 5|||R:WO|||laulsime ja tantsisime palju|||REQUIRED|||-NONE-|||0
+A 5 6|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 9 11|||R:WO|||olime me|||REQUIRED|||-NONE-|||0
+A 12 13|||R:LEX|||väsinud|||REQUIRED|||-NONE-|||0
+A 14 15|||R:LEX|||siis||seepärast||seetõttu|||REQUIRED|||-NONE-|||0
+A 16 17|||R:LEX|||otsustasime|||REQUIRED|||-NONE-|||0
+A 21 22|||R:NOM:FORM|||kuuma|||REQUIRED|||-NONE-|||0
+A 22 23|||R:NOM:FORM|||teed|||REQUIRED|||-NONE-|||0
+A 1 5|||R:WO|||laulsime ja tantsisime palju|||REQUIRED|||-NONE-|||1
+A 5 6|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+A 9 10|||U:LEX|||-NONE|||REQUIRED|||-NONE-|||1
+A 12 13|||R:LEX|||väsinud|||REQUIRED|||-NONE-|||1
+A 14 15|||R:LEX|||siis||seepärast||seetõttu|||REQUIRED|||-NONE-|||1
+A 16 17|||R:LEX|||otsustasime|||REQUIRED|||-NONE-|||1
+A 15 17|||R:WO|||otsustasime me|||REQUIRED|||-NONE-|||1
+A 21 22|||R:NOM:FORM|||kuuma|||REQUIRED|||-NONE-|||1
+A 22 23|||R:NOM:FORM|||teed|||REQUIRED|||-NONE-|||1
+
+S Veel me tellisime suur pitza kana ja ananasiga .
+A 0 3|||R:WO|||Me tellisime veel|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOM:FORM|||suure|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||pitsa|||REQUIRED|||-NONE-|||0
+A 7 8|||R:SPELL|||ananassiga|||REQUIRED|||-NONE-|||0
+A 1 3|||R:WO|||tellisime me|||REQUIRED|||-NONE-|||1
+A 3 4|||R:NOM:FORM|||suure|||REQUIRED|||-NONE-|||1
+A 4 5|||R:SPELL|||pitsa|||REQUIRED|||-NONE-|||1
+A 7 8|||R:SPELL|||ananassiga|||REQUIRED|||-NONE-|||1
+
+S See oli väga maitsev .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Pärast kohvikust me käsime kodus .
+A 1 2|||R:SPELL|||kohvikut|||REQUIRED|||-NONE-|||0
+A 3 4|||R:LEX:SPELL|||läksime|||REQUIRED|||-NONE-|||0
+A 2 4|||R:WO|||läksime me|||REQUIRED|||-NONE-|||0
+A 4 5|||R:NOM:FORM|||koju|||REQUIRED|||-NONE-|||0
+A 0 2|||U:LEX|||Kohvikust|||REQUIRED|||-NONE-|||1
+A 3 4|||R:LEX:SPELL|||läksime|||REQUIRED|||-NONE-|||1
+A 2 4|||R:WO|||läksime me|||REQUIRED|||-NONE-|||1
+A 4 5|||R:NOM:FORM|||koju|||REQUIRED|||-NONE-|||1
+
+S Järgmisena ma tahan käia Tallinnas kontserdile vene laulja Valeria .
+A 1 3|||R:WO|||tahan ma|||REQUIRED|||-NONE-|||0
+A 5 6|||R:NOM:FORM|||kontserdil|||REQUIRED|||-NONE-|||0
+A 5 9|||R:WO|||vene laulja Valeria kontserdil|||REQUIRED|||-NONE-|||0
+A 1 3|||R:WO|||tahan ma|||REQUIRED|||-NONE-|||1
+A 3 4|||R:LEX|||minna|||REQUIRED|||-NONE-|||1
+A 4 5|||R:NOM:FORM|||Tallinnasse|||REQUIRED|||-NONE-|||1
+A 5 9|||R:WO|||vene laulja Valeria kontserdile|||REQUIRED|||-NONE-|||1
+
+S Mulle väga meeldis see kontsert .
+A 5 6|||R:PUNCT|||!|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||1

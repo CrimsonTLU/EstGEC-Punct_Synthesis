@@ -1,0 +1,76 @@
+
+S 26. aprillil nägin Alinast .
+A 3 4|||R:NOM:FORM|||Alinat|||REQUIRED|||-NONE-|||0
+
+S Alina on mu parim sõber , ta õpib Narva Soldino Gümnaasiumis , aga varem ta õpis Narva 6. koolis .
+A 10 11|||R:CASE|||gümnaasiumis|||REQUIRED|||-NONE-|||0
+A 15 16|||R:SPELL|||õppis|||REQUIRED|||-NONE-|||0
+A 14 16|||R:WO|||õppis ta|||REQUIRED|||-NONE-|||0
+A 5 7|||R:PUNCT|||. Ta|||REQUIRED|||-NONE-|||1
+A 10 11|||R:CASE|||gümnaasiumis|||REQUIRED|||-NONE-|||1
+A 15 16|||R:SPELL|||õppis|||REQUIRED|||-NONE-|||1
+A 14 16|||R:WO|||õppis ta|||REQUIRED|||-NONE-|||1
+A 15 16|||R:SPELL|||õppis|||REQUIRED|||-NONE-|||2
+A 14 16|||R:WO|||õppis ta|||REQUIRED|||-NONE-|||2
+A 18 19|||R:CASE|||Koolis|||REQUIRED|||-NONE-|||2
+
+S Me õppisime koos 7 aastat .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Kooli ajal oli ta väga sõbralik , seltsiv , lahke ja lõbus .
+A 0 2|||R:WS|||Kooliajal|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||1
+
+S Tihti me jalutasime , käisime kinos , veetsime vaba aeg koos ja naersime .
+A 9 10|||R:NOM:FORM|||aega|||REQUIRED|||-NONE-|||0
+A 8 11|||R:WO|||koos vaba aega|||REQUIRED|||-NONE-|||0
+
+S Praegu me jalutame ka , aga harva , sest mul ei ole vaba aega .
+A 1 2|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+A 0 4|||R:WO|||Me jalutame ka praegu|||REQUIRED|||-NONE-|||1
+A 2 2|||M:LEX|||käime|||REQUIRED|||-NONE-|||2
+A 2 3|||R:VERB:FORM|||jalutamas|||REQUIRED|||-NONE-|||2
+A 0 4|||R:WO|||Me käime ka praegu jalutamas|||REQUIRED|||-NONE-|||2
+
+S Tahan öelda , et Alina ei muutu iseloomult .
+A 6 7|||R:VERB:FORM|||ole muutunud|||REQUIRED|||-NONE-|||0
+A 6 8|||R:WO|||ole iseloomult muutunud|||REQUIRED|||-NONE-|||0
+
+S Kui ta õpis minu koolis , siis ta tegeleb maadlusega .
+A 2 3|||R:SPELL|||õppis|||REQUIRED|||-NONE-|||0
+A 8 9|||R:VERB:FORM|||tegeles|||REQUIRED|||-NONE-|||0
+A 7 9|||R:WO|||tegeles ta|||REQUIRED|||-NONE-|||0
+
+S Praegu ta tegeleb maadlusega ka ja veel ta õpib kitarri mängima .
+A 0 5|||R:WO|||Ka praegu tegeleb ta maadlusega|||REQUIRED|||-NONE-|||0
+A 7 9|||R:WO|||õpib ta|||REQUIRED|||-NONE-|||0
+A 0 5|||R:WO|||Ta tegeleb ka praegu maadlusega|||REQUIRED|||-NONE-|||1
+A 7 8|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 4 9|||R:WO|||ja õpib veel ka|||REQUIRED|||-NONE-|||1
+
+S Alina näeb välja väga ilusasti .
+A 4 5|||R:LEX|||ilus|||REQUIRED|||-NONE-|||0
+A 2 5|||R:WO|||väga ilus välja|||REQUIRED|||-NONE-|||0
+
+S Ta on keskmist kasvu , tal on ilusad suured pruunid ilmekad silmad , tumedad pikked juuksed ja sirge väike nina .
+A 14 15|||R:SPELL|||pikad|||REQUIRED|||-NONE-|||0
+
+S Alina riietub väga moodsalt .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Tal on alati kallis riide .
+A 3 4|||R:NOM:FORM|||kallid|||REQUIRED|||-NONE-|||0
+A 4 5|||R:NOM:FORM|||riided|||REQUIRED|||-NONE-|||0
+
+S Kas sa nägid oma kunagist klassikaaslast ?
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Sellega ma lõpetan .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Ootan Sinu vastust .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+A 1 2|||R:CASE|||sinu|||REQUIRED|||-NONE-|||1
+
+S Julia
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0

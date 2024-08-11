@@ -1,0 +1,92 @@
+
+S Meedia roll teavitajana , harijana ja ka meelelahutajana
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Meedia roll ühiskonnas on viimaste aastate jooksul suurenes .
+A 7 8|||R:VERB:FORM|||suurenenud|||REQUIRED|||-NONE-|||0
+
+S Tänu nutiseadmetele ja sotsiaalvõrgustikkele , mille abil sai meedia kiiresti oma sihtgrupini jõuda , on inimestel võimalus kiiresti , n-ö online režiimis , reageerida erinevatele asjadele , sh ka uudised .
+A 3 4|||R:SPELL|||sotsiaalvõrgustikele|||REQUIRED|||-NONE-|||0
+A 20 22|||R:WS|||online-režiimis|||REQUIRED|||-NONE-|||0
+A 22 23|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 29 30|||R:NOM:FORM|||uudistele|||REQUIRED|||-NONE-|||0
+
+S Rääkides sotsiaalmeediast ja täpsemalt sotsiaavõrgustikest , saab öelda , et sotsiaalvõrgustikud on tänapäeva üks populaarsematest meedia kanalitest , kus saab leida nii värsked uudised , põnevad mängud , anekdootid ja muu meelelahutus .
+A 4 5|||R:SPELL|||sotsiaalvõrgustikest|||REQUIRED|||-NONE-|||0
+A 15 17|||R:WS|||meediakanalitest|||REQUIRED|||-NONE-|||0
+A 18 19|||R:LEX|||kust|||REQUIRED|||-NONE-|||0
+A 22 23|||R:NOM:FORM|||värskeid|||REQUIRED|||-NONE-|||0
+A 23 24|||R:NOM:FORM|||uudiseid|||REQUIRED|||-NONE-|||0
+A 25 26|||R:NOM:FORM|||põnevaid|||REQUIRED|||-NONE-|||0
+A 26 27|||R:NOM:FORM|||mänge|||REQUIRED|||-NONE-|||0
+A 28 29|||R:NOM:FORM|||anekdoote|||REQUIRED|||-NONE-|||0
+A 30 31|||R:NOM:FORM|||muud|||REQUIRED|||-NONE-|||0
+A 31 32|||R:NOM:FORM|||meelelahutust|||REQUIRED|||-NONE-|||0
+
+S Samuti on sotsiaalmeedia ka mingil määral n-ö virtuaalne koolituskeskus .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Rääkides sellest , siis on tendents , et aina rohkem inimesi võtavad enda nõustajaks sotsiaalvõrgustikud , sh " Facebook " , " youtube.com " , " instagram " jms .
+A 0 1|||R:CASE|||rääkides|||REQUIRED|||-NONE-|||0
+A 1 2|||R:CASE|||Sellest|||REQUIRED|||-NONE-|||0
+A 0 2|||R:WO|||Sellest rääkides|||REQUIRED|||-NONE-|||0
+A 2 3|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 3 4|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+A 17 18|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 19 20|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 21 22|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 23 24|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 25 26|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 26 27|||R:CASE|||Instagram|||REQUIRED|||-NONE-|||0
+A 27 28|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S " Youtube.com " on näiteks sotsiaalmeediaplatvorm , mis tänapäeval üks populaarsematest ning mille abil kujunesid isegi erinevate kanalite ja blogerite populaarsuse indikaatorid , nt kanali jälgijate arv , n-n laikide arv jne .
+A 0 1|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 2 3|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 8 8|||M:LEX|||on|||REQUIRED|||-NONE-|||0
+A 11 11|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 19 20|||R:LEX|||blogijate|||REQUIRED|||-NONE-|||0
+A 28 29|||R:SPELL|||nn|||REQUIRED|||-NONE-|||0
+
+S Antud platvormil saab vaadata ja kuulata erinevat tüüpi ettekandeid ja uudised .
+A 10 11|||R:NOM:FORM|||uudiseid|||REQUIRED|||-NONE-|||0
+
+S Terve platvorm on ehitatud selleks , et inimestel oleks mugav videoid vaadata ning soovi korral ka oma video üles laadida .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Videote teemadeks on kõik , mis võib inimest huvitada , nt saab leida nõuandeid toiduvalmistamise kohta , online koolitusi haritud õppejõududelt jne .
+A 17 19|||R:WS|||online-koolitusi|||REQUIRED|||-NONE-|||0
+
+S " Youtube.com " on üks tänapäeva populaarsematest sotsiaalmeedia kanalitest , kuid mitte ainus .
+A 0 1|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 2 3|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 7 9|||R:WS|||sotsiaalmeediakanalitest|||REQUIRED|||-NONE-|||0
+
+S Sotsiaalmeedia kanaleid on palju .
+A 0 2|||R:WS|||Sotsiaalmeediakanaleid|||REQUIRED|||-NONE-|||0
+
+S Samuti on palju ka sotsiaavõrgustike .
+A 4 5|||R:SPELL|||sotsiaalvõrgustikke|||REQUIRED|||-NONE-|||0
+
+S Rääkides aga traditsioonilistest meediakanalitest , siis saab öelda , et nende efektiivsus ja populaarsus langeb .
+A 5 6|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Seda näitavad paljud uuringud .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Raadio , TV , ajalehed ja teised on jäänud kasutamiseks meie vanamate generatsioonile .
+A 11 12|||R:SPELL|||vanemate|||REQUIRED|||-NONE-|||0
+
+S Põhjuseid on selleks palju , nt ajasäästmine , rahasäästmine jne .
+A 6 7|||R:WS|||aja säästmine|||REQUIRED|||-NONE-|||0
+A 8 9|||R:WS|||raha säästmine|||REQUIRED|||-NONE-|||0
+
+S Meedia on tänapäeval väga populaarne .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Kõige rohkem on populaarne sotsiaalvõrgustikud , kus kasutajad saavad kiiresti kätte nii meelelahutust , teavitusi kui ka koolitust endale huvitaval teemal .
+A 1 2|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOM:FORM|||populaarsemad|||REQUIRED|||-NONE-|||0
+A 2 4|||R:WO|||populaarsemad on|||REQUIRED|||-NONE-|||0
+A 6 7|||R:LEX|||kust|||REQUIRED|||-NONE-|||0
+A 17 18|||R:NOM:FORM|||koolitusi|||REQUIRED|||-NONE-|||0

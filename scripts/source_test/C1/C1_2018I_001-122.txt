@@ -1,0 +1,95 @@
+
+S Mina osalesin mitu päeva tagasi ühiskondliku sallivuse ümarlaual .
+A 1 5|||R:WO:NOM:FORM|||Mitu päeva tagasi osalesin ma|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||1
+
+S Kus rääggiti olulistest ühikondikest teemadest .
+A 1 2|||R:SPELL|||räägiti|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||ühiskondlikest|||REQUIRED|||-NONE-|||0
+A 0 1|||R:LEX|||Seal|||REQUIRED|||-NONE-|||1
+A 1 2|||R:SPELL|||räägiti|||REQUIRED|||-NONE-|||1
+A 3 4|||R:SPELL|||ühiskondlikest|||REQUIRED|||-NONE-|||1
+
+S Kuuldu põhjal ma kirjutan nendest olulistest teemadest millest räägiti ümmarlauas .
+A 2 4|||R:WO|||kirjutan ma|||REQUIRED|||-NONE-|||0
+A 7 7|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 9 10|||R:SPELL|||ümarlauas|||REQUIRED|||-NONE-|||0
+A 8 10|||R:WO|||ümarlauas räägiti|||REQUIRED|||-NONE-|||0
+
+S Esiteks räägiti lugupidamisest teiste kultuuride vastu .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Mina arvan , et teisse riiki tulles elama peab alati austama teiste rahvust , kultuuri ja kombeid , sest see on põhimõtteliselt miks see rahvus üldse on olemas ja toimib .
+A 4 5|||R:SPELL|||teise|||REQUIRED|||-NONE-|||0
+A 6 8|||R:WO|||elama tulles|||REQUIRED|||-NONE-|||0
+A 22 22|||M:LEX|||põhjus|||REQUIRED|||-NONE-|||0
+A 22 22|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 26 28|||R:WO|||olemas on|||REQUIRED|||-NONE-|||0
+
+S Võib olla , et ilma mingi kombeta seda riiki või rahvust üldse ei oleks olemas .
+A 6 7|||R:LEX|||kombestikuta|||REQUIRED|||-NONE-|||0
+A 7 15|||R:WO|||ei oleks seda riiki või rahvust üldse olemas|||REQUIRED|||-NONE-|||0
+A 5 6|||R:NOM:FORM|||mingite|||REQUIRED|||-NONE-|||1
+A 6 7|||R:NOM:FORM|||kommeteta|||REQUIRED|||-NONE-|||1
+A 7 15|||R:WO|||ei oleks seda riiki või rahvust üldse olemas|||REQUIRED|||-NONE-|||1
+
+S See tähendab , et austamine on kõige vähem tegu mida me saame teha selle riigi kasvuks .
+A 7 8|||R:LEX|||väiksem|||REQUIRED|||-NONE-|||0
+A 9 9|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 12 16|||R:WO|||selle riigi kasvuks teha|||REQUIRED|||-NONE-|||0
+
+S Väga tähtis oskus teises riigis olles on osata nende keelt või vähemalt proovida seda õppida .
+A 2 3|||M:LEX|||-NONE|||REQUIRED|||-NONE-|||0
+A 3 7|||R:WO|||on teises riigis olles|||REQUIRED|||-NONE-|||0
+
+S See on minu arvates väga tähtis aspekt kultuuri lugupidamisel .
+A 7 8|||R:NOM:FORM|||kultuurist|||REQUIRED|||-NONE-|||0
+
+S Tulles teisse riigi sa ei tohi ka ise unustad kust sa pärined , sest oma identiteedi hoidmine on oluline .
+A 1 2|||R:SPELL|||teise|||REQUIRED|||-NONE-|||0
+A 2 3|||R:NOM:FORM|||riiki|||REQUIRED|||-NONE-|||0
+A 3 6|||R:WO|||ei tohi sa|||REQUIRED|||-NONE-|||0
+A 8 9|||R:VERB:FORM|||unustada|||REQUIRED|||-NONE-|||0
+A 9 9|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+
+S Tavaliselt saad sa oma kultuuri ka võõrriigis näidata ja tavaliselt seda austatakse .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Samas sa ei tohi teisi segada oma kultuuri toomisega , sest austus peab alati olema mõlemal poolel , ning siis nad võtavad su vastu just kui enda .
+A 1 4|||R:WO|||ei tohi sa|||REQUIRED|||-NONE-|||0
+A 8 8|||R:WO|||võõrriiki||võõrsile|||REQUIRED|||-NONE-|||0
+A 15 17|||R:LEX|||mõlemapoolne|||REQUIRED|||-NONE-|||0
+A 20 24|||R:WO|||võtavad nad vastu su|||REQUIRED|||-NONE-|||0
+A 1 4|||R:WO|||ei tohi sa|||REQUIRED|||-NONE-|||1
+A 20 24|||R:WO|||võtavad nad vastu su|||REQUIRED|||-NONE-|||1
+
+S Kuigi oma rahvusliku omapära hoidmine on raske seda alati tuleks teha kas või enda pärast .
+A 7 7|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 7 10|||R:WO|||tuleks seda alati|||REQUIRED|||-NONE-|||0
+
+S Kõik inimesed pärivad kusagilt oma kultuuriga ja kommetega .
+A 5 6|||R:NOM:FORM|||kultuuri|||REQUIRED|||-NONE-|||0
+A 7 8|||R:NOM:FORM|||kombed|||REQUIRED|||-NONE-|||0
+A 2 3|||R:LEX|||pärinevad|||REQUIRED|||-NONE-|||1
+A 5 6|||R:NOM:FORM|||kultuuri|||REQUIRED|||-NONE-|||1
+A 2 3|||R:LEX|||pärinevad|||REQUIRED|||-NONE-|||2
+
+S Tulles teisse riiki peavad mõlemad poled austama üks teist .
+A 1 2|||R:SPELL|||teise|||REQUIRED|||-NONE-|||0
+A 3 3|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||pooled|||REQUIRED|||-NONE-|||0
+A 7 9|||R:WS|||üksteist|||REQUIRED|||-NONE-|||0
+A 6 9|||R:WO|||üksteist austama|||REQUIRED|||-NONE-|||0
+
+S Kui üks pooltest ei jälgi reegleid , siis toimuvad konfliktid .
+A 4 5|||R:LEX|||järgi|||REQUIRED|||-NONE-|||0
+
+S Vastuolude mitte tekkimiseks austame üks teist ja räägime sellest probleemist rohkem .
+A 1 3|||R:WS|||mittetekkimiseks|||REQUIRED|||-NONE-|||0
+A 4 6|||R:WS|||üksteist|||REQUIRED|||-NONE-|||0
+
+S See ongi põhjus miks maailmas sõjad tekkivad .
+A 3 3|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 6 7|||R:LEX:SPELL|||toimuvad|||REQUIRED|||-NONE-|||0
+A 3 3|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 6 7|||R:SPELL|||tekivad|||REQUIRED|||-NONE-|||1

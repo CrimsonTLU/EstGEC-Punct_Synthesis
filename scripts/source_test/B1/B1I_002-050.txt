@@ -1,0 +1,82 @@
+
+S Ma tahaksin endale saada väikset kassi .
+A 4 5|||R:SPELL|||väikest|||REQUIRED|||-NONE-|||0
+
+S Mul praegu kodus ei ole lemmikloomi ja mul on natuke igav õhtuti , kui ma tulen töölt koju tagasi .
+A 1 5|||R:WO|||ei ole praegu kodus|||REQUIRED|||-NONE-|||0
+A 17 19|||R:WO|||tagasi koju|||REQUIRED|||-NONE-|||0
+A 1 5|||R:WO|||ei ole praegu kodus|||REQUIRED|||-NONE-|||1
+A 9 12|||R:WO|||õhtuti natuke igav|||REQUIRED|||-NONE-|||1
+A 15 19|||R:WO|||töölt koju tagasi tulen|||REQUIRED|||-NONE-|||1
+
+S Ma tahan võtta seda kassi minu sõbranna käest , sest et sinul on suur kohune musta värvi kass , kellel on praegu neli ilusat kassikutsikat .
+A 3 4|||R:NOM:FORM|||selle|||REQUIRED|||-NONE-|||0
+A 5 6|||R:LEX|||oma|||REQUIRED|||-NONE-|||0
+A 10 11|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+A 11 12|||R:LEX|||tal||temal|||REQUIRED|||-NONE-|||0
+A 14 15|||R:SPELL|||kahune|||REQUIRED|||-NONE-|||0
+A 24 25|||R:LEX|||kassipoega|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOM:FORM|||selle|||REQUIRED|||-NONE-|||1
+A 5 6|||R:LEX|||oma|||REQUIRED|||-NONE-|||1
+A 11 12|||R:LEX|||tal||temal|||REQUIRED|||-NONE-|||1
+A 14 15|||R:SPELL|||kahune|||REQUIRED|||-NONE-|||1
+A 24 25|||R:LEX|||kassipoega|||REQUIRED|||-NONE-|||1
+A 3 4|||R:NOM:FORM|||selle|||REQUIRED|||-NONE-|||2
+A 5 6|||R:LEX|||oma|||REQUIRED|||-NONE-|||2
+A 11 12|||R:LEX|||tal||temal|||REQUIRED|||-NONE-|||2
+A 14 15|||R:LEX|||kohev|||REQUIRED|||-NONE-|||2
+A 24 25|||R:LEX|||kassipoega|||REQUIRED|||-NONE-|||2
+
+S Ma arvan , et kassil peab olema korteris oma koht ja kassitoit , mida vaja osta poest .
+A 14 14|||M:LEX|||on|||REQUIRED|||-NONE-|||0
+A 14 14|||M:LEX|||on|||REQUIRED|||-NONE-|||1
+A 15 17|||R:WO|||poest osta|||REQUIRED|||-NONE-|||1
+A 11 12|||R:NOM:FORM|||kassitoitu|||REQUIRED|||-NONE-|||2
+A 14 14|||M:LEX|||on|||REQUIRED|||-NONE-|||2
+A 15 17|||R:WO|||poest osta|||REQUIRED|||-NONE-|||2
+
+S Kassiga on vaja mängida ja osta temale kassimänguasjad .
+A 7 8|||R:NOM:FORM|||kassimänguasju|||REQUIRED|||-NONE-|||0
+A 6 7|||R:NOM:FORM|||talle|||REQUIRED|||-NONE-|||1
+A 7 8|||R:NOM:FORM|||kassimänguasju|||REQUIRED|||-NONE-|||1
+
+S Loomad toovad meie ellu palju rõõmu aga ka hoolt ja muret .
+A 6 6|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+
+S Kassiga on vaja käia kindlasti üks kord aastas loomaarsti juures vaktsineerida .
+A 2 5|||R:WO|||kindlasti vaja käia|||REQUIRED|||-NONE-|||0
+A 10 11|||R:VERB:FORM|||vaktsineerimas|||REQUIRED|||-NONE-|||0
+A 3 5|||R:WO|||kindlasti käia|||REQUIRED|||-NONE-|||1
+A 10 11|||R:VERB:FORM|||vaktsineerimas|||REQUIRED|||-NONE-|||1
+
+S Kass võib uksi , mööblit , kingi ja muud kraapida ja närida , seepärast on väga vaja hea mõtelda , kas võta või ei kassi korterisse .
+A 15 17|||R:WO|||vaja väga|||REQUIRED|||-NONE-|||0
+A 17 18|||R:LEX|||hoolega|||REQUIRED|||-NONE-|||0
+A 18 19|||R:VERB:FORM|||mõelda|||REQUIRED|||-NONE-|||0
+A 21 22|||R:VERB:FORM|||võtta|||REQUIRED|||-NONE-|||0
+A 23 24|||R:LEX|||mitte|||REQUIRED|||-NONE-|||0
+A 21 26|||R:WO|||kassi korterisse võtta või mitte||võtta kassi korterisse või mitte|||REQUIRED|||-NONE-|||0
+A 15 17|||R:WO|||vaja väga|||REQUIRED|||-NONE-|||1
+A 17 18|||R:LEX|||hästi|||REQUIRED|||-NONE-|||1
+A 18 18|||M:LEX|||läbi||järele|||REQUIRED|||-NONE-|||1
+A 21 22|||R:VERB:FORM|||võtta|||REQUIRED|||-NONE-|||1
+A 23 24|||R:LEX|||mitte|||REQUIRED|||-NONE-|||1
+A 21 26|||R:WO|||kassi korterisse võtta või mitte||võtta kassi korterisse või mitte|||REQUIRED|||-NONE-|||1
+A 15 17|||R:WO|||vaja väga|||REQUIRED|||-NONE-|||2
+A 17 18|||R:LEX|||hästi|||REQUIRED|||-NONE-|||2
+A 18 18|||M:LEX|||läbi||järele|||REQUIRED|||-NONE-|||2
+A 18 19|||R:VERB:FORM|||mõelda|||REQUIRED|||-NONE-|||2
+A 24 25|||R:NOM:FORM|||kass|||REQUIRED|||-NONE-|||2
+A 21 26|||R:WO|||kass korterisse võtta või ei||võtta kass korterisse või ei|||REQUIRED|||-NONE-|||2
+
+S Ma võtan kassi kindlasti .
+A 2 4|||R:WO|||kindlasti kassi|||REQUIRED|||-NONE-|||0
+
+S Ma olen kassiga hoolida ja ta saab oota mind ukse taga , kui ma tulen koju töölt tagasi .
+A 3 4|||R:LEX|||hooliv|||REQUIRED|||-NONE-|||0
+A 7 8|||R:VERB:FORM|||oodata|||REQUIRED|||-NONE-|||0
+A 7 11|||R:WO|||mind ukse taga oodata|||REQUIRED|||-NONE-|||0
+A 15 18|||R:WO|||töölt koju tagasi||töölt tagasi koju|||REQUIRED|||-NONE-|||0
+A 3 4|||R:LEX|||hooliv|||REQUIRED|||-NONE-|||1
+A 7 8|||R:VERB:FORM|||oodata|||REQUIRED|||-NONE-|||1
+A 14 18|||R:WO|||töölt koju tagasi tulen|||REQUIRED|||-NONE-|||1

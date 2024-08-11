@@ -1,0 +1,86 @@
+
+S Lugupeetud kolleegid ,
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Eelmisel nädalal ma osalesin linnastumisteemalisel seminaril .
+A 2 4|||R:WO|||osalesin ma|||REQUIRED|||-NONE-|||0
+
+S Teemad , mida me arutlesime , olid " Teenused , kultuurielu ning töökohad linnades ja ääremaadel " ja " Riigi kõigi piirkondade ühtlase arengu tagamise võimalused " .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Seminar oli väga põnev ja ma tahaksin selle kohta oma arvamust teiega jagada .
+A 7 13|||R:WO|||teiega selle kohta oma arvamust jagada|||REQUIRED|||-NONE-|||0
+
+S Kahjuks Eestis on praegu niisugune situatsioon , et peaaegu kõik toimub ainult pealinnas .
+A 1 3|||R:WO|||on Eestis|||REQUIRED|||-NONE-|||0
+
+S Tallinnas on suurim teenuste valik , kõige " värvilisem " kultuurielu ning muidugi kõige rohkem töökohtu .
+A 7 8|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 8 9|||R:LEX|||värvikam|||REQUIRED|||-NONE-|||0
+A 9 10|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 15 16|||R:SPELL|||töökohti|||REQUIRED|||-NONE-|||0
+
+S Probleem on selles , et teistest linnadest kolivad inimesed Tallinnasse ja teised linnad muutuvad tühjaks .
+A 5 9|||R:WO|||inimesed kolivad teistest linnadest|||REQUIRED|||-NONE-|||0
+
+S Nad ei saa nii arendada .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+A 4 5|||R:LEX|||areneda|||REQUIRED|||-NONE-|||1
+
+S Aga teistes linnades on arendamiseks palju resurssi ja võimalusi ja hiljem terve riik saaks sealt ka sama palju tulusid saada .
+A 6 7|||R:SPELL|||ressurssi|||REQUIRED|||-NONE-|||0
+A 11 14|||R:WO|||saaks terve riik|||REQUIRED|||-NONE-|||0
+
+S Mina ise olen pärit Narvast .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Mul on kurb näha , et ettevõtjad ja isegi noored , kes on seal sündinud , ei ole huvitatud linna elu parandamises .
+A 21 22|||R:NOM:FORM|||parandamisest|||REQUIRED|||-NONE-|||0
+
+S Noored ei taha sinna jätta , sest nad ei tunne , et saaksid end selles linnas hästi väljendada .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+A 4 5|||R:LEX|||jääda|||REQUIRED|||-NONE-|||1
+
+S Ma mõtlen , et esimeseks sammuks lahenamise suunas saab olla erinevate ettevõtluste filiaalide avastamine .
+A 6 6|||M:LEX|||probleemi|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||lahendamise|||REQUIRED|||-NONE-|||0
+A 11 12|||R:LEX|||ettevõtete|||REQUIRED|||-NONE-|||0
+A 13 14|||R:LEX|||avamine|||REQUIRED|||-NONE-|||0
+
+S Tore , et Narvas on Tartu Ülikooli kolledž , ja , et Tartusse üks ministeerium kolis .
+A 10 11|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 13 16|||R:WO|||kolis üks ministeerium|||REQUIRED|||-NONE-|||0
+
+S Me saame rohkem teha !
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Ääremaadel inimesed ei ela nagu linnades muidugi , aga seal saab ka uusi meelelahutuskeskusi rajada , uusi huvikooli ehitada .
+A 1 7|||R:WO|||ei ela inimesed muidugi nagu linnades|||REQUIRED|||-NONE-|||0
+A 9 12|||R:WO|||ka seal saab|||REQUIRED|||-NONE-|||0
+A 17 18|||R:NOM:FORM|||huvikoole|||REQUIRED|||-NONE-|||0
+A 1 7|||R:WO|||ei ela inimesed muidugi nagu linnades|||REQUIRED|||-NONE-|||1
+A 9 12|||R:WO|||ka seal saab|||REQUIRED|||-NONE-|||1
+A 17 18|||R:NOM:FORM|||huvikoole|||REQUIRED|||-NONE-|||1
+A 15 16|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+A 15 16|||M:LEX|||ja|||REQUIRED|||-NONE-|||1
+
+S Me oleme kõik ühe riigi elanikud ja peame üksteise eest hoolitsema .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Need ei ole kulud , need on investeeringud !
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Ääremaadel peab ka hästi transport arenenud olema , et inimestel oleks alati võimalus linnadesse minna .
+A 3 7|||R:WO|||transport hästi arenenud olema|||REQUIRED|||-NONE-|||0
+
+S Mida te ise mõtlete selliste teemade kohta ?
+A 3 7|||R:WO|||selliste teemade kohta mõtlete|||REQUIRED|||-NONE-|||0
+
+S Kas olete minuga nõus ?
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Jään teie vastust ootama .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Parimate soovidega , Kadri ---
+A 2 3|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0

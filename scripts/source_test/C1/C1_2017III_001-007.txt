@@ -1,0 +1,80 @@
+
+S Eelmisel nädalal toimus Tallinnas meediafoorum " MEDEX " kuhu olid kutsutud oma alade spetsialistid Eestist ja Euroopa Liidu liikmesriikidest .
+A 5 6|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 7 8|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 8 8|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+
+S Foorumis arutati mõju , mis meedia avaldab selle tarbijatele ning meedia rolli informatsiooni edastamises ja meelelahutuses .
+A 4 5|||R:NOM:FORM|||mida|||REQUIRED|||-NONE-|||0
+A 9 9|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 2 5|||R:WO|||, mis mõju|||REQUIRED|||-NONE-|||1
+
+S Oxfordi ülikooli professor John Smith pidas loengut sellest , kuidas meedia kujundab inimestes väärtushinnanguid ja selle moraalsetest tagajärjetest .
+A 6 7|||R:NOM:FORM|||loengu|||REQUIRED|||-NONE-|||0
+A 14 14|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 17 18|||R:SPELL|||tagajärgedest|||REQUIRED|||-NONE-|||0
+
+S Tema sõnul inimene tarbib meediat umbes 50% oma ajast , kas tahtlikult või passiivselt .
+A 2 4|||R:WO|||tarbib inimene|||REQUIRED|||-NONE-|||0
+
+S Sellel informatsioonil , mis on inimese ajus terve see aeg , on väga suur tõenäosus sinna ka päriseks jääda , kujundades inimese maailmapildi .
+A 5 10|||R:WO|||terve see aeg inimese ajus|||REQUIRED|||-NONE-|||0
+A 22 23|||R:NOM:FORM|||maailmapilti|||REQUIRED|||-NONE-|||0
+A 8 9|||R:NOM:FORM|||selle|||REQUIRED|||-NONE-|||1
+A 9 10|||R:NOM:FORM|||aja|||REQUIRED|||-NONE-|||1
+A 5 10|||R:WO|||terve selle aja inimese ajus|||REQUIRED|||-NONE-|||1
+A 22 23|||R:NOM:FORM|||maailmapilti|||REQUIRED|||-NONE-|||1
+
+S Teise ettekandja sõnul kõige vulnerabiilsemad on just lapsed , kelle väärtushinnangud on veel formeerumise staadiumil .
+A 4 5|||R:LEX|||haavatavamad|||REQUIRED|||-NONE-|||0
+A 3 6|||R:WO|||on kõige haavatavamad|||REQUIRED|||-NONE-|||0
+A 13 14|||R:LEX|||kujunemise|||REQUIRED|||-NONE-|||0
+A 14 15|||R:NOM:FORM|||staadiumis|||REQUIRED|||-NONE-|||0
+
+S See meediakeskkond , kus nad kasvavad , mõjutab neid kõige rohkem .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Näiteks , kodudes , kus vaadatakse pidevalt vägivaldseid filme ja lastakse lastel mängida vägivaldseid arvutimänge , on suurem tõenäosus , et lapsed kasvavad ülesse vägivaldseteks .
+A 1 2|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 23 24|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Foorumil arutati ka seda , kui oluline on tänapäeval televisioon , ajakirjandus ja internetiuudised selleks , et edastada elanikutele informatsiooni .
+A 6 7|||R:NOM:FORM|||olulised|||REQUIRED|||-NONE-|||0
+A 18 19|||R:SPELL|||elanikele|||REQUIRED|||-NONE-|||0
+
+S Paljud ettekandjad tõid esile seda , et tänapäeva inimene on sõltuvuses informatsioonist .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Mõned on nõus terve päev vaadata telesaateid , et oma informatsioonijanu rahuldada , paljud jätavad televiisorit või raadiot öösel mängima , sest nad ei ole harjunud enam omaette olla .
+A 5 6|||R:VERB:FORM|||vaatama|||REQUIRED|||-NONE-|||0
+A 5 7|||R:WO|||telesaateid vaatama|||REQUIRED|||-NONE-|||0
+A 15 16|||R:NOM:FORM|||televiisori|||REQUIRED|||-NONE-|||0
+A 17 18|||R:NOM:FORM|||raadio|||REQUIRED|||-NONE-|||0
+A 28 29|||R:VERB:FORM|||olema|||REQUIRED|||-NONE-|||0
+
+S Selline massiline meedia kasutamine aitab edastada inimestele olulist teave , kuid annab mõndadele võimaluse ka inimesi manipuleerida .
+A 8 9|||R:NOM:FORM|||teavet|||REQUIRED|||-NONE-|||0
+
+S Suured uudisteportaalid võivad muuta uudistes mõned detailid ning tulemuseks võib muuta kogu sündmuse tervikpilt .
+A 5 6|||R:NOM:FORM|||mõnesid|||REQUIRED|||-NONE-|||0
+A 6 7|||R:NOM:FORM|||detaile|||REQUIRED|||-NONE-|||0
+A 10 11|||R:LEX|||muutuda|||REQUIRED|||-NONE-|||0
+
+S Domineeriv arvamus oli , et suurte uudisteportaalide jaoks on ainult oluline see , et neid loeks kõige rohkem inimesi , mitte edastatava teabe õigsus .
+A 9 11|||R:WO|||oluline ainult|||REQUIRED|||-NONE-|||0
+
+S Meelelahutuseks kasutatakse tänapäeval meediat kõige rohkem .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Selleks on tänapäeval päris mitu võimalust ka : meelelahutussaated , arvutimängud , sotsiaalmeedia ja nii edasi .
+A 3 7|||R:WO|||ka päris mitu võimalust|||REQUIRED|||-NONE-|||0
+
+S Paljude foorumi osalejate arvates on see olukord hea , kui sellega mitte liialdada .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Meedia on vaidlemata väga oluline tänapäevase maailma jaoks , kuid sellega kaasnevad ka teatud probleemid ja ohud .
+A 2 8|||R:WO|||tänapäevase maailma jaoks vaidlemata väga oluline|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||1
+
+S Tänapäeval tuleb kindlasti olla meediamaailmas ettevaatlik ja veenduda , ennem kui uskuda .
+A 9 10|||R:LEX|||enne|||REQUIRED|||-NONE-|||0

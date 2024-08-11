@@ -1,0 +1,93 @@
+
+S Hea õpetaja !
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Ma väga armastan lugeda .
+A 1 3|||R:WO|||armastan väga|||REQUIRED|||-NONE-|||0
+A 1 3|||R:WO|||armastan väga|||REQUIRED|||-NONE-|||1
+A 4 5|||R:PUNCT|||!|||REQUIRED|||-NONE-|||1
+A 4 5|||R:PUNCT|||!|||REQUIRED|||-NONE-|||2
+
+S Ma loen ajalehti ju ajakirju : " Põhjarannik " , " Õhtu Tallinn " , " Moe " , " Suvila " , " Minu kodu " .
+A 3 4|||R:LEX|||ja|||REQUIRED|||-NONE-|||0
+A 5 6|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 6 7|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 8 9|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 10 11|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 13 14|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 15 16|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 17 18|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 19 20|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 21 22|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 23 24|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 25 26|||R:CASE|||Kodu|||REQUIRED|||-NONE-|||0
+A 26 27|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Ajalehedes ja ajakirjudes mind huvitavad teemad : " Loodus " , " lapsetervis , suvila , kino , teater , moe , loomad , tervislik toit , sport .
+A 0 1|||R:SPELL|||Ajalehtedes|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||ajakirjades|||REQUIRED|||-NONE-|||0
+A 3 5|||R:WO|||huvitavad mind|||REQUIRED|||-NONE-|||0
+A 5 5|||M:LEX|||järgmised|||REQUIRED|||-NONE-|||0
+A 7 8|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 8 9|||R:CASE|||loodus|||REQUIRED|||-NONE-|||0
+A 9 10|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 11 12|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 12 13|||R:WS|||lapse tervis|||REQUIRED|||-NONE-|||0
+A 20 21|||R:NOM:FORM|||mood|||REQUIRED|||-NONE-|||0
+A 0 1|||R:SPELL|||Ajalehtedes|||REQUIRED|||-NONE-|||1
+A 2 3|||R:SPELL|||ajakirjades|||REQUIRED|||-NONE-|||1
+A 3 5|||R:WO|||huvitavad mind|||REQUIRED|||-NONE-|||1
+A 5 6|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 6 7|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+A 7 8|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+A 8 9|||R:CASE|||loodus|||REQUIRED|||-NONE-|||1
+A 9 10|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+A 11 12|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+A 12 13|||R:WS:NOM:FORM|||laste tervis|||REQUIRED|||-NONE-|||1
+A 20 21|||R:NOM:FORM|||mood|||REQUIRED|||-NONE-|||1
+
+S Veel ma otsin infot internetis kodulehtedes " Delfiee " , " Keeletee " , " Loodus Eestis " , " Selveree " , " Turne " , " Seti.ee " , " Prisma ee " .
+A 1 3|||R:WO|||otsin ma|||REQUIRED|||-NONE-|||0
+A 4 5|||R:NOM:FORM|||internetist|||REQUIRED|||-NONE-|||0
+A 5 6|||R:NOM:FORM|||kodulehtedelt|||REQUIRED|||-NONE-|||0
+A 6 7|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 7 8|||R:SPELL|||Delfi.ee|||REQUIRED|||-NONE-|||0
+A 8 9|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 10 11|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 12 13|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 14 15|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 17 18|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 19 20|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 20 21|||R:SPELL|||Selver.ee|||REQUIRED|||-NONE-|||0
+A 21 22|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 23 24|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 25 26|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 27 28|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 29 30|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 31 32|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 32 34|||R:WS:SPELL|||Prisma.ee|||REQUIRED|||-NONE-|||0
+A 34 35|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Kui mul on vaja kirjutada erinevaid proektid , ma pööran ema juurde , vanaema juurde , sõbranna juurde , loen erinevaid raamatuid , vaatan telerit , kuulan raadiot .
+A 6 7|||R:NOM:FORM:SPELL|||projekte|||REQUIRED|||-NONE-|||0
+A 9 10|||R:LEX|||pöördun|||REQUIRED|||-NONE-|||0
+A 8 10|||R:WO|||pöördun ma|||REQUIRED|||-NONE-|||0
+A 11 12|||R:LEX|||poole|||REQUIRED|||-NONE-|||0
+A 14 15|||R:LEX|||poole|||REQUIRED|||-NONE-|||0
+A 17 18|||R:LEX|||poole|||REQUIRED|||-NONE-|||0
+
+S Veel ma pööran teie juurde .
+A 2 3|||R:LEX|||pöördun|||REQUIRED|||-NONE-|||0
+A 1 3|||R:WO|||pöördun ma|||REQUIRED|||-NONE-|||0
+A 4 5|||R:LEX|||poole|||REQUIRED|||-NONE-|||0
+A 2 3|||R:LEX|||pöördun|||REQUIRED|||-NONE-|||1
+A 0 3|||R:WO|||Ma pöördun veel|||REQUIRED|||-NONE-|||1
+A 4 5|||R:LEX|||poole|||REQUIRED|||-NONE-|||1
+
+S Õpilane Alisa --- .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+A 3 4|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+
+S 11. november 2018 .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+A 3 4|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1

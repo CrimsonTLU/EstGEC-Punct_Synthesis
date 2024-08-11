@@ -1,0 +1,52 @@
+
+S Tere Viktor !
+A 1 1|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+
+S Mul on kodumasin läks katki
+A 3 4|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+A 5 5|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+A 3 3|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 3 3|||M:LEX|||mis|||REQUIRED|||-NONE-|||1
+A 5 5|||M:PUNCT|||.|||REQUIRED|||-NONE-|||1
+A 1 2|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||2
+A 2 4|||R:WO|||läks kodumasin|||REQUIRED|||-NONE-|||2
+A 5 5|||M:PUNCT|||.|||REQUIRED|||-NONE-|||2
+
+S Seda on vaja remontida teade appi talle remontida
+A 4 4|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 4 5|||R:LEX|||tulge||tule|||REQUIRED|||-NONE-|||0
+A 6 7|||R:LEX|||mulle|||REQUIRED|||-NONE-|||0
+A 5 7|||R:WO|||mulle appi|||REQUIRED|||-NONE-|||0
+A 7 8|||R:VERB:FORM|||remontima|||REQUIRED|||-NONE-|||0
+A 8 8|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+A 4 4|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 4 5|||R:LEX|||tulge||tule|||REQUIRED|||-NONE-|||1
+A 5 5|||M:LEX|||mulle|||REQUIRED|||-NONE-|||1
+A 6 7|||R:LEX|||seda|||REQUIRED|||-NONE-|||1
+A 7 8|||R:VERB:FORM|||remontima|||REQUIRED|||-NONE-|||1
+A 8 8|||M:PUNCT|||.|||REQUIRED|||-NONE-|||1
+
+S Minu sõbrale abi eest helesta siin on laupäev kelle 18.00
+A 3 4|||R:LEX|||saamiseks|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||helista|||REQUIRED|||-NONE-|||0
+A 0 5|||R:WO|||Helista abi saamiseks minu sõbrale|||REQUIRED|||-NONE-|||0
+A 5 5|||M:LEX|||ja|||REQUIRED|||-NONE-|||0
+A 6 7|||R:VERB:FORM|||olge|||REQUIRED|||-NONE-|||0
+A 5 7|||R:WO|||olge siin|||REQUIRED|||-NONE-|||0
+A 7 8|||R:NOM:FORM|||laupäeval|||REQUIRED|||-NONE-|||0
+A 8 9|||R:SPELL|||kell|||REQUIRED|||-NONE-|||0
+A 10 10|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+A 0 1|||M:LEX|||Aitäh minu|||REQUIRED|||-NONE-|||1
+A 4 5|||R:SPELL|||helista|||REQUIRED|||-NONE-|||1
+A 4 5|||M:PUNCT|||! Helista|||REQUIRED|||-NONE-|||1
+A 5 5|||M:LEX|||, kui|||REQUIRED|||-NONE-|||1
+A 6 7|||R:VERB:FORM|||oled|||REQUIRED|||-NONE-|||1
+A 5 7|||R:WO|||oled siin|||REQUIRED|||-NONE-|||1
+A 7 8|||R:NOM:FORM|||laupäeval|||REQUIRED|||-NONE-|||1
+A 8 9|||R:SPELL|||kell|||REQUIRED|||-NONE-|||1
+A 10 10|||M:PUNCT|||.|||REQUIRED|||-NONE-|||1
+
+S Sinu sober Vadim .
+A 1 2|||R:SPELL|||sõber|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||sõber|||REQUIRED|||-NONE-|||1
+A 3 4|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1

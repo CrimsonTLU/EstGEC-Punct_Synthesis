@@ -1,0 +1,42 @@
+
+S Minu viimane reis oli Valgevenemaal .
+A 4 5|||R:NOM:FORM:SPELL|||Valgevenesse|||REQUIRED|||-NONE-|||0
+
+S Reisil ma käisin Vitebskis .
+A 0 3|||R:WO|||Ma käisin reisil|||REQUIRED|||-NONE-|||0
+A 1 3|||R:WO|||käisin ma|||REQUIRED|||-NONE-|||1
+
+S Ma sõitsin reisil koos tütrega .
+A 2 3|||R:NOM:FORM|||reisile|||REQUIRED|||-NONE-|||0
+
+S Vitebskis me kuulasime kontserti .
+A 1 2|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+A 1 3|||R:WO|||kuulasime me|||REQUIRED|||-NONE-|||1
+A 0 3|||R:WO|||Me kuulasime Vitebskis|||REQUIRED|||-NONE-|||2
+
+S Oli A. Morozovi õhtu .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Veel me reisisime Polotskis , me käisime muuseuumis .
+A 1 3|||R:WO|||reisisime me|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOM:FORM|||Polotskisse|||REQUIRED|||-NONE-|||0
+A 5 6|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+A 7 8|||R:SPELL|||muuseumis|||REQUIRED|||-NONE-|||0
+A 2 3|||R:LEX|||käisime|||REQUIRED|||-NONE-|||1
+A 1 3|||R:WO|||käisime me|||REQUIRED|||-NONE-|||1
+A 4 5|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+A 5 6|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 6 7|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 7 8|||R:SPELL|||muuseumis|||REQUIRED|||-NONE-|||1
+
+S Seal oli huvitav .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Valgevenemaal me olime viis päevad .
+A 0 1|||R:SPELL|||Valgevenes|||REQUIRED|||-NONE-|||0
+A 0 3|||R:WO|||Me olime Valgevenes|||REQUIRED|||-NONE-|||0
+A 4 5|||R:NOM:FORM|||päeva|||REQUIRED|||-NONE-|||0
+
+S Meile meeldis .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+A 2 3|||R:PUNCT|||!|||REQUIRED|||-NONE-|||1

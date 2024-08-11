@@ -1,0 +1,85 @@
+
+S Personalijuhile kiri .
+A 0 2|||R:WO|||Kiri personalijuhile|||REQUIRED|||-NONE-|||0
+
+S Tere , Tõnis , kirjutan teile seda lühike kiri , et tahaksin saata oma mõtteid oma asutuse kohta uue raamatu jaoks .
+A 3 4|||R:PUNCT|||!|||REQUIRED|||-NONE-|||0
+A 4 5|||R:CASE|||Kirjutan|||REQUIRED|||-NONE-|||0
+A 5 6|||R:CASE|||Teile|||REQUIRED|||-NONE-|||0
+A 6 7|||R:NOM:FORM|||selle|||REQUIRED|||-NONE-|||0
+A 7 8|||R:NOM:FORM|||lühikese|||REQUIRED|||-NONE-|||0
+A 8 9|||R:NOM:FORM|||kirja|||REQUIRED|||-NONE-|||0
+A 10 11|||R:LEX|||sest|||REQUIRED|||-NONE-|||0
+A 12 21|||R:WO|||uue raamatu jaoks oma asutuse kohta oma mõtteid saata|||REQUIRED|||-NONE-|||0
+A 3 4|||R:PUNCT|||!|||REQUIRED|||-NONE-|||1
+A 6 7|||R:NOM:FORM|||selle|||REQUIRED|||-NONE-|||1
+A 7 8|||R:NOM:FORM|||lühikese|||REQUIRED|||-NONE-|||1
+A 8 9|||R:NOM:FORM|||kirja|||REQUIRED|||-NONE-|||1
+A 10 11|||R:LEX|||sest|||REQUIRED|||-NONE-|||1
+A 12 21|||R:WO|||uue raamatu jaoks oma asutuse kohta oma mõtteid saata|||REQUIRED|||-NONE-|||1
+
+S Mul on huvi rääkida , kuidas mina üldse sattusin sellesse asutusse töötama .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Minul olid probleemid eelmises töökohas kollektiiviga ja mul pole võimalusi uut kohta leida , aga üks minu sõber soovitan minna sinna ja vestelda direktoriga , seda ma tegin ja praegu mul on nii hästi amet .
+A 2 5|||R:WO|||eelmises töökohas probleemid kollektiiviga|||REQUIRED|||-NONE-|||0
+A 8 9|||R:VERB:FORM|||polnud|||REQUIRED|||-NONE-|||0
+A 9 10|||R:NOM:FORM|||võimalust|||REQUIRED|||-NONE-|||0
+A 18 19|||R:VERB:FORM|||soovitas|||REQUIRED|||-NONE-|||0
+A 19 20|||R:LEX|||tulla|||REQUIRED|||-NONE-|||0
+A 20 21|||R:LEX|||siia|||REQUIRED|||-NONE-|||0
+A 30 32|||R:WO|||on mul|||REQUIRED|||-NONE-|||0
+A 33 34|||R:LEX|||hea|||REQUIRED|||-NONE-|||0
+
+S Meie kollektiivis on ainult elurõõmsad ja abivalmsad inimesed , mulle sajaprotsendiliselt meeldib see asi .
+A 6 7|||R:SPELL|||abivalmid|||REQUIRED|||-NONE-|||0
+
+S Tööõhkkond on ka muidugi , parem , kui teistes kohtades kus ma töötasin .
+A 4 5|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 6 7|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 10 10|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+
+S Mulle meeldib , arvatavasti , kõik mida meil on , siin ka väikesed probleemid on ka olemas , aga neid me parandame kõik koos .
+A 2 3|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 4 5|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 6 6|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 6 7|||R:NOM:FORM|||mis|||REQUIRED|||-NONE-|||0
+A 11 12|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+A 11 17|||R:WO|||on ka väikesed probleemid olemas|||REQUIRED|||-NONE-|||0
+A 19 20|||R:NOM:FORM|||need|||REQUIRED|||-NONE-|||0
+A 21 22|||R:LEX|||lahendame|||REQUIRED|||-NONE-|||0
+A 20 22|||R:WO|||lahendame me|||REQUIRED|||-NONE-|||0
+
+S Usun , et 10-15 aasta pärast võivad olla siin ainult head muutused , võimalikult ehitati kõrval ilust parki , võib olla palk saab rohkem , ei tea , aga soovin ainult head .
+A 11 12|||R:LEX|||muudatused|||REQUIRED|||-NONE-|||0
+A 13 14|||R:LEX|||võimalik|||REQUIRED|||-NONE-|||0
+A 14 14|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 14 14|||M:LEX|||et|||REQUIRED|||-NONE-|||0
+A 14 15|||R:VERB:FORM|||ehitatakse|||REQUIRED|||-NONE-|||0
+A 15 16|||R:LEX|||kõrvale|||REQUIRED|||-NONE-|||0
+A 14 16|||R:WO|||kõrvale ehitatakse|||REQUIRED|||-NONE-|||0
+A 16 17|||R:NOM:FORM:SPELL|||ilus|||REQUIRED|||-NONE-|||0
+A 17 18|||R:NOM:FORM|||park|||REQUIRED|||-NONE-|||0
+A 19 21|||R:WS|||võib-olla||võibolla|||REQUIRED|||-NONE-|||0
+A 21 22|||R:NOM:FORM|||palka|||REQUIRED|||-NONE-|||0
+A 21 24|||R:WO|||saab rohkem palka|||REQUIRED|||-NONE-|||0
+A 11 12|||R:LEX|||muudatused|||REQUIRED|||-NONE-|||1
+A 19 21|||R:LEX|||võib-olla||võibolla|||REQUIRED|||-NONE-|||1
+A 14 15|||R:VERB:FORM|||ehitatakse|||REQUIRED|||-NONE-|||1
+A 15 16|||R:LEX|||kõrvale|||REQUIRED|||-NONE-|||1
+A 14 16|||R:WO|||kõrvale ehitatakse|||REQUIRED|||-NONE-|||1
+A 16 17|||R:NOM:FORM:SPELL|||ilus|||REQUIRED|||-NONE-|||1
+A 17 18|||R:NOM:FORM|||park|||REQUIRED|||-NONE-|||1
+A 19 21|||R:WS|||võib-olla||võibolla|||REQUIRED|||-NONE-|||1
+A 21 22|||R:NOM:FORM|||palka|||REQUIRED|||-NONE-|||1
+A 21 24|||R:WO|||saab rohkem palka|||REQUIRED|||-NONE-|||1
+
+S Sellega ma lõpetan , ootan teie vastust , kas oli minu kiri kasulik või mitte ?
+A 3 4|||R:PUNCT|||.|||REQUIRED|||-NONE-|||0
+A 5 6|||R:CASE|||Teie|||REQUIRED|||-NONE-|||0
+A 9 12|||R:WO|||minu kiri oli|||REQUIRED|||-NONE-|||0
+A 3 4|||R:PUNCT|||.|||REQUIRED|||-NONE-|||1
+A 9 12|||R:WO|||minu kiri oli|||REQUIRED|||-NONE-|||1
+
+S Viktor .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0

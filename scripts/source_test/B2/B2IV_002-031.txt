@@ -1,0 +1,199 @@
+
+S Lugupeetud Kadri --- !
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Eile mul oli hea meel , et meie asutuse sünnipäevaks plaanitakse välja anda asutust tutvustav raamat , sest töötajatel on palju erinevad loost , mis on seotud meie asutusega .
+A 1 3|||R:WO|||oli mul|||REQUIRED|||-NONE-|||0
+A 21 22|||R:NOM:FORM|||erinevaid|||REQUIRED|||-NONE-|||0
+A 22 23|||R:NOM:FORM|||lugusid|||REQUIRED|||-NONE-|||0
+A 1 3|||R:WO|||oli mul|||REQUIRED|||-NONE-|||1
+A 21 22|||R:NOM:FORM|||erinevaid|||REQUIRED|||-NONE-|||1
+A 22 23|||R:NOM:FORM|||lugusid|||REQUIRED|||-NONE-|||1
+A 26 29|||R:WO|||meie asutusega seotud|||REQUIRED|||-NONE-|||1
+
+S Ma ka tahan oma mõtteid asutuse kohta saata .
+A 1 3|||R:WO|||tahan ka|||REQUIRED|||-NONE-|||0
+A 1 3|||R:WO|||tahan ka|||REQUIRED|||-NONE-|||1
+A 3 8|||R:WO|||saata oma mõtteid asutuse kohta|||REQUIRED|||-NONE-|||1
+
+S Pärast põhikooli lõpetamist otsisin töö Narvas , ajalehes oli näinud , et meie linnas avatakse uus raamatukogu , pärast paar nädalat ma juba töötasin meie raamatukogus " Ühiskond " .
+A 4 5|||R:NOM:FORM|||tööd|||REQUIRED|||-NONE-|||0
+A 7 8|||R:NOM:FORM|||ajalehest|||REQUIRED|||-NONE-|||0
+A 8 9|||R:VERB:FORM|||olin|||REQUIRED|||-NONE-|||0
+A 19 20|||R:NOM:FORM|||paari|||REQUIRED|||-NONE-|||0
+A 21 24|||R:WO|||töötasin ma juba|||REQUIRED|||-NONE-|||0
+A 26 27|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 28 29|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Paljud arvavad , et raamatupidaja töö on kergem kui teised tööd , aga see poole nii .
+A 4 5|||R:LEX|||raamatukoguhoidja|||REQUIRED|||-NONE-|||0
+A 14 15|||R:SPELL|||pole|||REQUIRED|||-NONE-|||0
+
+S Ühelt poolt see töö on kerge , sest sa ainult pead istuma ja anna raamatuid , teiselt poolt sa pead teama missugused raamatud on raamatukogus , millest need on , teatama missugused raamatud sobivad näiteks noortele , nõu anda ja sa veel pead arvutis oskama töötada .
+A 2 5|||R:WO|||on see töö|||REQUIRED|||-NONE-|||0
+A 9 11|||R:WO|||pead ainult|||REQUIRED|||-NONE-|||0
+A 13 14|||R:VERB:FORM|||andma|||REQUIRED|||-NONE-|||0
+A 18 20|||R:WO|||pead sa|||REQUIRED|||-NONE-|||0
+A 20 21|||R:SPELL|||teadma|||REQUIRED|||-NONE-|||0
+A 21 21|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 30 31|||R:LEX|||teadma|||REQUIRED|||-NONE-|||0
+A 38 39|||R:VERB:FORM|||andma|||REQUIRED|||-NONE-|||0
+A 41 43|||R:WO|||pead veel|||REQUIRED|||-NONE-|||0
+A 43 44|||R:NOM:FORM|||arvutiga|||REQUIRED|||-NONE-|||0
+A 43 45|||R:WO|||oskama arvutiga|||REQUIRED|||-NONE-|||0
+
+S See on väga oluline veel missugune inimene sa oled , sest me töötame kollektiivis , ja inimesed on väga sarnased , aga meie kolletiivis töötavad ainult sõbralikud , abivalmised inimesed ja me oleme kõik sõbrad .
+A 0 5|||R:WO|||Väga oluline on veel see|||REQUIRED|||-NONE-|||0
+A 5 5|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 14 15|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 23 24|||R:SPELL|||kollektiivis|||REQUIRED|||-NONE-|||0
+A 28 29|||R:SPELL|||abivalmid|||REQUIRED|||-NONE-|||0
+A 0 5|||R:WO|||Väga oluline on veel see|||REQUIRED|||-NONE-|||1
+A 5 5|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 14 15|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+A 23 24|||R:SPELL|||kollektiivis|||REQUIRED|||-NONE-|||1
+A 27 28|||M:LEX|||ning|||REQUIRED|||-NONE-|||1
+A 28 29|||R:SPELL|||abivalmid|||REQUIRED|||-NONE-|||1
+
+S Meie tööõhkonnas töötavad ainult head inimesed , kellele on väga olulised kõik inimesed kes töötavad meie raamatukogus .
+A 1 2|||R:LEX|||töökeskkonnas|||REQUIRED|||-NONE-|||0
+A 13 13|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 0 1|||R:NOM:FORM|||Meil|||REQUIRED|||-NONE-|||1
+A 1 2|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 13 13|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 0 1|||R:NOM:FORM|||Meil|||REQUIRED|||-NONE-|||2
+A 1 2|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||2
+A 12 13|||R:LEX|||teised||kolleegid|||REQUIRED|||-NONE-|||2
+A 13 13|||M:PUNCT|||,|||REQUIRED|||-NONE-|||2
+
+S Sel aastal meil on ainult kolmas sünnipäev , aga ma olen kindel , et meie raamatukogu võib töötada rohkem kui 30 aastat .
+A 2 4|||R:WO|||on meil|||REQUIRED|||-NONE-|||0
+A 4 5|||R:LEX|||alles|||REQUIRED|||-NONE-|||0
+A 2 4|||R:WO|||on meil|||REQUIRED|||-NONE-|||1
+A 4 5|||R:LEX|||alles|||REQUIRED|||-NONE-|||1
+A 17 18|||R:LEX|||kesta||püsida|||REQUIRED|||-NONE-|||1
+
+S Praegu meie asutuses on kõik ideaalne meie raamatukogu hoone on uus , kolme korruseline , meil on kõik uus raamatud nii eesti keeles , kui ka vene keeles ja inglise keeles , meil on ka e-leht kus võib ka raamatuid lugema ja vaadata missugused raamatud on , veel vanad raamatud ja sõnastikud ( 100 aastat vana ) , meil toimuvad ka erinevad näitused , ja kirjanikke kokkutulekud .
+A 1 4|||R:WO|||on meie asutuses|||REQUIRED|||-NONE-|||0
+A 6 6|||M:PUNCT|||:|||REQUIRED|||-NONE-|||0
+A 7 9|||R:WS|||raamatukoguhoone|||REQUIRED|||-NONE-|||0
+A 11 12|||M:LEX|||ja|||REQUIRED|||-NONE-|||0
+A 12 14|||R:WS|||kolmekorruseline|||REQUIRED|||-NONE-|||0
+A 17 17|||M:LEX|||ka|||REQUIRED|||-NONE-|||0
+A 18 19|||R:NOM:FORM|||uued|||REQUIRED|||-NONE-|||0
+A 23 24|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 35 36|||R:LEX|||veebileht|||REQUIRED|||-NONE-|||0
+A 36 36|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 36 37|||R:LEX|||kust|||REQUIRED|||-NONE-|||0
+A 40 41|||R:VERB:FORM|||lugeda|||REQUIRED|||-NONE-|||0
+A 43 43|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 43 44|||R:NOM:FORM|||missuguseid|||REQUIRED|||-NONE-|||0
+A 44 45|||R:NOM:FORM|||raamatuid|||REQUIRED|||-NONE-|||0
+A 45 45|||M:LEX|||meil|||REQUIRED|||-NONE-|||0
+A 46 47|||R:PUNCT|||. Veel|||REQUIRED|||-NONE-|||0
+A 48 48|||M:LEX|||on|||REQUIRED|||-NONE-|||0
+A 48 48|||M:LEX|||meil|||REQUIRED|||-NONE-|||0
+A 48 49|||R:NOM:FORM|||vanu|||REQUIRED|||-NONE-|||0
+A 49 50|||R:NOM:FORM|||raamatuid|||REQUIRED|||-NONE-|||0
+A 51 52|||R:NOM:FORM|||sõnastikke|||REQUIRED|||-NONE-|||0
+A 55 56|||R:NOM:FORM|||vanad|||REQUIRED|||-NONE-|||0
+A 57 58|||R:PUNCT|||. Meil|||REQUIRED|||-NONE-|||0
+A 63 64|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 65 66|||R:NOM:FORM|||kirjanike|||REQUIRED|||-NONE-|||0
+A 1 4|||R:WO|||on meie asutuses|||REQUIRED|||-NONE-|||1
+A 6 6|||M:PUNCT|||:|||REQUIRED|||-NONE-|||1
+A 7 9|||R:WS|||raamatukoguhoone|||REQUIRED|||-NONE-|||1
+A 12 14|||R:WS|||kolmekorruseline|||REQUIRED|||-NONE-|||1
+A 14 15|||R:PUNCT|||;|||REQUIRED|||-NONE-|||1
+A 17 17|||M:LEX|||ka|||REQUIRED|||-NONE-|||1
+A 18 19|||R:NOM:FORM|||uued|||REQUIRED|||-NONE-|||1
+A 23 24|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+A 31 32|||R:PUNCT|||;|||REQUIRED|||-NONE-|||1
+A 35 36|||R:LEX|||veebileht|||REQUIRED|||-NONE-|||1
+A 36 36|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 36 37|||R:LEX|||kust|||REQUIRED|||-NONE-|||1
+A 38 39|||R:LEX|||samuti|||REQUIRED|||-NONE-|||1
+A 40 41|||R:VERB:FORM|||lugeda|||REQUIRED|||-NONE-|||1
+A 43 43|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 43 44|||R:NOM:FORM|||missuguseid|||REQUIRED|||-NONE-|||1
+A 44 45|||R:NOM:FORM|||raamatuid|||REQUIRED|||-NONE-|||1
+A 45 45|||M:LEX|||meil|||REQUIRED|||-NONE-|||1
+A 46 47|||R:PUNCT|||;|||REQUIRED|||-NONE-|||1
+A 48 48|||M:LEX|||on|||REQUIRED|||-NONE-|||1
+A 48 48|||M:LEX|||meil|||REQUIRED|||-NONE-|||1
+A 47 48|||R:WO|||meil on veel|||REQUIRED|||-NONE-|||1
+A 48 49|||R:NOM:FORM|||vanu|||REQUIRED|||-NONE-|||1
+A 49 50|||R:NOM:FORM|||raamatuid|||REQUIRED|||-NONE-|||1
+A 51 52|||R:NOM:FORM|||sõnastikke|||REQUIRED|||-NONE-|||1
+A 55 56|||R:NOM:FORM|||vanad|||REQUIRED|||-NONE-|||1
+A 57 58|||R:PUNCT|||;|||REQUIRED|||-NONE-|||1
+A 63 64|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+A 65 66|||R:NOM:FORM|||kirjanike|||REQUIRED|||-NONE-|||1
+A 1 4|||R:WO|||on meie asutuses|||REQUIRED|||-NONE-|||2
+A 6 6|||M:PUNCT|||. Meie|||REQUIRED|||-NONE-|||2
+A 7 9|||R:WS|||raamatukoguhoone|||REQUIRED|||-NONE-|||2
+A 11 12|||M:LEX|||ja|||REQUIRED|||-NONE-|||2
+A 12 14|||R:WS|||kolmekorruseline|||REQUIRED|||-NONE-|||2
+A 14 15|||R:PUNCT|||. Meil|||REQUIRED|||-NONE-|||2
+A 18 19|||R:NOM:FORM|||uued|||REQUIRED|||-NONE-|||2
+A 23 24|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||2
+A 31 32|||R:PUNCT|||. Meil|||REQUIRED|||-NONE-|||2
+A 35 36|||R:LEX|||veebileht|||REQUIRED|||-NONE-|||2
+A 36 36|||M:PUNCT|||,|||REQUIRED|||-NONE-|||2
+A 36 37|||R:LEX|||kust|||REQUIRED|||-NONE-|||2
+A 40 41|||R:VERB:FORM|||lugeda|||REQUIRED|||-NONE-|||2
+A 43 43|||M:PUNCT|||,|||REQUIRED|||-NONE-|||2
+A 43 44|||R:NOM:FORM|||missuguseid|||REQUIRED|||-NONE-|||2
+A 44 45|||R:NOM:FORM|||raamatuid|||REQUIRED|||-NONE-|||2
+A 45 45|||M:LEX|||meil|||REQUIRED|||-NONE-|||2
+A 46 47|||R:PUNCT|||. Veel|||REQUIRED|||-NONE-|||2
+A 48 48|||M:LEX|||on|||REQUIRED|||-NONE-|||2
+A 48 48|||M:LEX|||meil|||REQUIRED|||-NONE-|||2
+A 48 49|||R:NOM:FORM|||vanu|||REQUIRED|||-NONE-|||2
+A 49 50|||R:NOM:FORM|||raamatuid|||REQUIRED|||-NONE-|||2
+A 51 52|||R:NOM:FORM|||sõnastikke|||REQUIRED|||-NONE-|||2
+A 55 56|||R:NOM:FORM|||vanad|||REQUIRED|||-NONE-|||2
+A 57 58|||R:PUNCT|||. Meil|||REQUIRED|||-NONE-|||2
+A 63 64|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||2
+A 65 66|||R:NOM:FORM|||kirjanike|||REQUIRED|||-NONE-|||2
+
+S Tahan , et meie raamatukogus kõik jäätsid nii , nagu praegu ja 10-15 aastat pärast ka , ja meie ühiskonnas loetakse rohkem raamatuid .
+A 6 7|||R:VERB:FORM:SPELL|||jääks|||REQUIRED|||-NONE-|||0
+A 5 7|||R:WO|||jääks kõik|||REQUIRED|||-NONE-|||0
+A 8 9|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 13 14|||R:NOM:FORM|||aasta|||REQUIRED|||-NONE-|||0
+A 20 21|||R:VERB:FORM|||loetaks|||REQUIRED|||-NONE-|||0
+A 6 7|||R:VERB:FORM:SPELL|||jääks|||REQUIRED|||-NONE-|||1
+A 8 9|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+A 13 14|||R:NOM:FORM|||aasta|||REQUIRED|||-NONE-|||1
+A 5 16|||R:WO|||jääks ka 10-15 aasta pärast kõik nii nagu praegu|||REQUIRED|||-NONE-|||1
+A 16 17|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+A 20 21|||R:VERB:FORM|||loetaks|||REQUIRED|||-NONE-|||1
+
+S Niisugused on minu mõtteid meie asutuse kohta , võin öelda et minu arvamus oli vajalik .
+A 3 4|||R:NOM:FORM|||mõtted|||REQUIRED|||-NONE-|||0
+A 10 10|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOM:FORM|||mõtted|||REQUIRED|||-NONE-|||1
+A 7 8|||M:LEX|||ja|||REQUIRED|||-NONE-|||1
+A 8 10|||R:LEX|||loodan|||REQUIRED|||-NONE-|||1
+A 10 10|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 14 15|||R:LEX|||kasulik||asjalik||asjakohane|||REQUIRED|||-NONE-|||1
+
+S Aitäh , et ma töötan meie raamatukogus , sest ta on vajalik tänapäevase inimestele !
+A 4 4|||M:LEX|||saan|||REQUIRED|||-NONE-|||0
+A 4 5|||R:LEX|||töötada|||REQUIRED|||-NONE-|||0
+A 9 10|||R:LEX|||see|||REQUIRED|||-NONE-|||0
+A 12 13|||R:NOM:FORM|||tänapäeva|||REQUIRED|||-NONE-|||0
+A 13 14|||R:NOM:FORM|||inimesele|||REQUIRED|||-NONE-|||0
+A 4 4|||M:LEX|||saan|||REQUIRED|||-NONE-|||1
+A 4 5|||R:LEX|||töötada|||REQUIRED|||-NONE-|||1
+A 9 10|||R:LEX|||see|||REQUIRED|||-NONE-|||1
+A 12 13|||R:NOM:FORM|||tänapäevastele|||REQUIRED|||-NONE-|||1
+A 4 4|||M:LEX|||saan|||REQUIRED|||-NONE-|||2
+A 4 5|||R:LEX|||töötada|||REQUIRED|||-NONE-|||2
+A 9 10|||R:LEX|||see|||REQUIRED|||-NONE-|||2
+A 12 13|||R:NOM:FORM|||tänapäeva|||REQUIRED|||-NONE-|||2
+
+S Lugupidamisega , Polina --- .
+A 1 2|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 4 5|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0

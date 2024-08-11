@@ -1,0 +1,123 @@
+
+S Väga huvitav ja põnev konverents oli eelmisel nädalal meie kultuurimajas .
+A 0 10|||R:WO|||Eelmisel nädalal oli meie kultuurimajas väga huvitav ja põnev konverents|||REQUIRED|||-NONE-|||0
+
+S Erinevate ühistute , ühingute , seltside ning ka liidude liikmed esindasid oma ettekandeid , mille teemadeks olid heategevus , kultuurivaldkond , loodushoid , päästetööd .
+A 8 9|||R:SPELL|||liitude|||REQUIRED|||-NONE-|||0
+A 10 11|||R:LEX|||esinesid|||REQUIRED|||-NONE-|||0
+A 12 13|||R:NOM:FORM|||ettekannetega|||REQUIRED|||-NONE-|||0
+
+S Kuuldud ideede ja väljakutsete põhjal võib öelda , et meie riigis ikka jäid inimesed , kes suudavad vabatahtlikult aidata inimesi .
+A 12 13|||R:LEX|||on|||REQUIRED|||-NONE-|||0
+A 13 14|||R:NOM:FORM|||inimesi|||REQUIRED|||-NONE-|||0
+A 19 19|||M:LEX|||teisi|||REQUIRED|||-NONE-|||0
+A 12 13|||R:LEX|||on|||REQUIRED|||-NONE-|||1
+A 13 14|||R:NOM:FORM|||inimesi|||REQUIRED|||-NONE-|||1
+A 18 18|||M:LEX|||teisi|||REQUIRED|||-NONE-|||1
+A 19 20|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+
+S Ma ei kujutanud endale ette , et meie inimesed nii väärtustavad loodust ja hoolitsevad selle eest .
+A 10 10|||M:LEX|||väga|||REQUIRED|||-NONE-|||0
+A 10 10|||M:LEX|||väga|||REQUIRED|||-NONE-|||1
+A 9 12|||R:WO|||väärtustavad loodust nii väga|||REQUIRED|||-NONE-|||1
+
+S Sain teada , et meil on olemas selline " loodus hoiduselts " , kes kaks korda kuus korraldab talguid ja kõik vabatahtlikud võivad seal osaleda .
+A 9 11|||R:WS:SPELL|||loodushoiuselts|||REQUIRED|||-NONE-|||0
+A 9 11|||R:WS:SPELL|||loodushoiuselts|||REQUIRED|||-NONE-|||1
+A 13 14|||R:LEX|||mis|||REQUIRED|||-NONE-|||1
+A 23 24|||R:LEX|||neis|||REQUIRED|||-NONE-|||1
+A 8 9|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||2
+A 9 11|||R:WS:SPELL|||loodushoiuselts|||REQUIRED|||-NONE-|||2
+A 11 12|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||2
+A 14 18|||R:WO|||korraldab kaks korda kuus|||REQUIRED|||-NONE-|||2
+A 23 24|||R:LEX|||neis|||REQUIRED|||-NONE-|||2
+
+S Üllatuseks oli see , et neid vabatahtlikuid on üsna palju ja nende arv kasvab iga korraga .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+A 0 1|||R:NOM:FORM|||Üllatus|||REQUIRED|||-NONE-|||1
+A 0 1|||R:LEX|||Üllatav|||REQUIRED|||-NONE-|||2
+
+S Heategevuse kohta võin öelda , et meil eksisteerib kodanikuühistu " Lootus " , kes tegeleb sellega , et aitab meie lastekodu .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Nad sõidavad üle Eesti ( nendel on kuulutused sotsiaalvõrgudes , meedias ) ja korjavad kokku inimestelt ( mida nendel juba ei ole vaja ) riided , mänguasjad , erinevad lastetarbed ja annavad lastekoju lastele .
+A 8 9|||R:SPELL|||sotsiaalvõrkudes|||REQUIRED|||-NONE-|||0
+A 14 16|||R:WO|||inimestelt kokku|||REQUIRED|||-NONE-|||0
+A 19 20|||R:LEX|||enam|||REQUIRED|||-NONE-|||0
+A 16 30|||R:WO|||riided , mänguasjad , erinevad lastetarbed ( mida nendel enam ei ole vaja )|||REQUIRED|||-NONE-|||0
+A 32 33|||R:NOM:FORM|||lastekodu|||REQUIRED|||-NONE-|||0
+A 8 9|||R:LEX:SPELL|||sotsiaalvõrgustikes||suhtlusvõrgustikes|||REQUIRED|||-NONE-|||1
+A 14 16|||R:WO|||inimestelt kokku|||REQUIRED|||-NONE-|||1
+A 16 17|||R:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 19 20|||R:LEX|||enam|||REQUIRED|||-NONE-|||1
+A 20 23|||R:WO|||vaja ei ole|||REQUIRED|||-NONE-|||1
+A 23 24|||R:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 27 28|||M:LEX|||ning|||REQUIRED|||-NONE-|||1
+A 16 30|||R:WO|||riided , mänguasjad ning erinevad lastetarbed , mida nendel enam vaja ei ole ,|||REQUIRED|||-NONE-|||1
+A 32 33|||R:NOM:FORM|||lastekodu|||REQUIRED|||-NONE-|||1
+
+S Veel see ühistu tahab teha toidupanka meie kohalikus toidukaupluses .
+A 0 4|||R:WO|||See ühistu tahab veel|||REQUIRED|||-NONE-|||0
+A 5 6|||R:NOM:FORM|||toidupanga|||REQUIRED|||-NONE-|||0
+A 0 4|||R:WO|||See ühistu tahab veel|||REQUIRED|||-NONE-|||1
+A 5 6|||R:NOM:FORM|||toidupanga|||REQUIRED|||-NONE-|||1
+A 7 8|||R:NOM:FORM|||kohalikku|||REQUIRED|||-NONE-|||1
+A 8 9|||R:NOM:FORM|||toidukauplusesse|||REQUIRED|||-NONE-|||1
+
+S Igaüks meist võiks sinna toitu panna ja pärast ühistuteliikmed saaksid toitu jagada inimeste vahel , kes seda vajavad ja kes ei saa endale rahapuudusel kõike vajalikku lubada .
+A 8 9|||R:WS|||ühistute liikmed|||REQUIRED|||-NONE-|||0
+A 8 10|||R:WO|||saaksid ühistute liikmed|||REQUIRED|||-NONE-|||0
+A 8 9|||R:WS|||ühistute liikmed|||REQUIRED|||-NONE-|||1
+A 8 10|||R:WO|||saaksid ühistute liikmed|||REQUIRED|||-NONE-|||1
+A 10 11|||R:NOM:FORM|||toidu|||REQUIRED|||-NONE-|||1
+
+S Kui see inimene ei raiska raha toidu peale , siis ta võiks endale midagi " lubada " , mida ta ammu tahtis .
+A 21 22|||R:VERB:FORM|||on tahtnud|||REQUIRED|||-NONE-|||0
+A 20 22|||R:WO|||on ammu tahtnud|||REQUIRED|||-NONE-|||0
+A 10 12|||R:WO|||võiks ta|||REQUIRED|||-NONE-|||1
+A 14 15|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+A 16 17|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+A 12 17|||R:WO|||lubada endale midagi|||REQUIRED|||-NONE-|||1
+A 21 22|||R:VERB:FORM|||on tahtnud|||REQUIRED|||-NONE-|||1
+A 20 22|||R:WO|||on ammu tahtnud|||REQUIRED|||-NONE-|||1
+
+S Kultuurivaldkonnaga seotud ühing " Saame kultuursemaks " on meie uus ühing .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Ja üks nende põnevatest ideest on see , et nad tahavad teha teatri , kinohinnad soodsamaks ja praegu otsivad sponsorit .
+A 4 5|||R:NOM:FORM|||ideedest|||REQUIRED|||-NONE-|||0
+A 13 13|||M:PUNCT|||-|||REQUIRED|||-NONE-|||0
+A 13 14|||M:LEX|||ja|||REQUIRED|||-NONE-|||0
+A 19 19|||M:LEX|||nad|||REQUIRED|||-NONE-|||0
+
+S Veel üks nende ideedest see , et meie pargis nad juba panid riiuli , kuhu igaüks võib oma vanalemmikraamatu tuua vaba kasutamiseks .
+A 4 4|||M:LEX|||oli|||REQUIRED|||-NONE-|||0
+A 8 9|||R:NOM:FORM|||parki|||REQUIRED|||-NONE-|||0
+A 7 12|||R:WO|||nad panid juba meie parki|||REQUIRED|||-NONE-|||0
+A 18 19|||R:WS|||vana lemmikraamatu|||REQUIRED|||-NONE-|||0
+A 20 21|||R:NOM:FORM|||vabalt|||REQUIRED|||-NONE-|||0
+A 4 4|||M:LEX|||oli|||REQUIRED|||-NONE-|||1
+A 0 4|||R:WO|||Üks nende ideedest oli veel|||REQUIRED|||-NONE-|||1
+A 8 9|||R:NOM:FORM|||parki|||REQUIRED|||-NONE-|||1
+A 7 12|||R:WO|||nad panid juba meie parki|||REQUIRED|||-NONE-|||1
+A 18 19|||R:WS|||vana lemmikraamatu|||REQUIRED|||-NONE-|||1
+A 17 20|||R:WO|||tuua oma vana lemmikraamatu|||REQUIRED|||-NONE-|||1
+A 20 21|||R:NOM:FORM|||vabalt|||REQUIRED|||-NONE-|||1
+
+S See idee juba töötab ja meie linnaelanikud päris hästi osalevad selles projektis .
+A 7 12|||R:WO|||osalevad selles projektis päris hästi|||REQUIRED|||-NONE-|||0
+A 7 10|||R:WO|||osalevad päris hästi|||REQUIRED|||-NONE-|||1
+
+S Tore , et meie tänapäevainimesed loevad raamatuid !
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+A 4 5|||R:WS|||tänapäeva inimesed|||REQUIRED|||-NONE-|||1
+A 3 4|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||2
+A 4 5|||R:WS|||tänapäeva inimesed|||REQUIRED|||-NONE-|||2
+
+S On olemas meil ka päästetööde liit - nende liikmed on vabatahtlikud , kes aitavad tuuletõrjujatel , päästjatel inimesi päästa .
+A 0 3|||R:WO|||Meil on olemas|||REQUIRED|||-NONE-|||0
+A 14 15|||R:SPELL|||tuletõrjujatel|||REQUIRED|||-NONE-|||0
+A 15 16|||M:LEX|||ja|||REQUIRED|||-NONE-|||0
+
+S Tore teada , et meil eksisteerivad sellised suurepärased kodanikuühendused !
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0

@@ -1,0 +1,17 @@
+
+S Ma soovin müüa oma autot .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+A 3 4|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+
+S On punane Renault ainult kaks aastat vana , väga hea auto .
+A 0 1|||M:LEX|||See on|||REQUIRED|||-NONE-|||0
+A 1 7|||R:WO|||ainult kaks aastat vana punane Renault|||REQUIRED|||-NONE-|||0
+A 0 1|||M:LEX|||See on|||REQUIRED|||-NONE-|||1
+A 3 3|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+
+S Auto hind on kuus tuhat eurot .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Te saate näha autot esmaspäeval , kolmapäeval ja reedel Viimsis , või teisipäeval Mustamäel .
+A 2 4|||R:WO|||autot näha|||REQUIRED|||-NONE-|||0
+A 10 11|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0

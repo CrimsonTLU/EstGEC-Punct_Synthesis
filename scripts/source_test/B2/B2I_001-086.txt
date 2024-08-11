@@ -1,0 +1,83 @@
+
+S Tere Mari , kirjutan sulle , sest minu tuttavatest ainult sina saad aidata mulle .
+A 1 1|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 2 4|||R:PUNCT|||! Kirjutan|||REQUIRED|||-NONE-|||0
+A 9 12|||R:WO|||saad ainult sina|||REQUIRED|||-NONE-|||0
+A 13 14|||R:NOM:FORM|||mind|||REQUIRED|||-NONE-|||0
+A 12 14|||R:WO|||mind aidata|||REQUIRED|||-NONE-|||0
+A 1 1|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 2 4|||U:PUNCT|||Kirjutan|||REQUIRED|||-NONE-|||1
+A 9 12|||R:WO|||saad ainult sina|||REQUIRED|||-NONE-|||1
+A 13 14|||R:NOM:FORM|||mind|||REQUIRED|||-NONE-|||1
+A 12 14|||R:WO|||mind aidata|||REQUIRED|||-NONE-|||1
+
+S Minu direktor palus mind koostada ühe diagrammi , programmis , millega ma ei ole kunagi töötanud .
+A 3 4|||R:NOM:FORM|||mul|||REQUIRED|||-NONE-|||0
+A 7 8|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Tean et sina tead seda programmi hästi ja sul on praegu palju vaba aega .
+A 1 1|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 1 1|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 3 4|||R:LEX|||tunned|||REQUIRED|||-NONE-|||1
+
+S Oleks väga hea kui me kohtuksime minu või sinu juures ja sa õppetaksid mind sellega hakkama saada .
+A 3 3|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 12 13|||R:SPELL|||õpetaksid|||REQUIRED|||-NONE-|||0
+A 16 17|||R:VERB:FORM|||saama|||REQUIRED|||-NONE-|||0
+A 3 3|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 5 10|||R:WO|||minu või sinu juures kohtuksime|||REQUIRED|||-NONE-|||1
+A 12 13|||R:SPELL|||õpetaksid|||REQUIRED|||-NONE-|||1
+A 16 17|||R:VERB:FORM|||saama|||REQUIRED|||-NONE-|||1
+
+S Probleem veel koosneb sellest , et see diagramm on mul vaja ülehomseks ja kui ma ei jõua selleks ajaks , ma ei saa boonuse ja minu reputatsioon saab kahju .
+A 2 3|||R:LEX|||seisneb|||REQUIRED|||-NONE-|||0
+A 1 3|||R:WO|||seisneb veel|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOM:FORM|||selles|||REQUIRED|||-NONE-|||0
+A 6 7|||R:NOM:FORM|||seda|||REQUIRED|||-NONE-|||0
+A 7 8|||R:NOM:FORM|||diagrammi|||REQUIRED|||-NONE-|||0
+A 15 19|||R:WO|||selleks ajaks ei jõua|||REQUIRED|||-NONE-|||0
+A 20 20|||M:LEX|||siis|||REQUIRED|||-NONE-|||0
+A 20 23|||R:WO|||ei saa ma|||REQUIRED|||-NONE-|||0
+A 23 24|||R:NOM:FORM|||boonust|||REQUIRED|||-NONE-|||0
+A 2 3|||R:LEX|||seisneb|||REQUIRED|||-NONE-|||1
+A 1 3|||R:WO|||seisneb veel|||REQUIRED|||-NONE-|||1
+A 3 4|||R:NOM:FORM|||selles|||REQUIRED|||-NONE-|||1
+A 6 7|||R:NOM:FORM|||seda|||REQUIRED|||-NONE-|||1
+A 7 8|||R:NOM:FORM|||diagrammi|||REQUIRED|||-NONE-|||1
+A 12 12|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 20 20|||M:LEX|||siis|||REQUIRED|||-NONE-|||1
+A 23 24|||R:NOM:FORM|||boonust|||REQUIRED|||-NONE-|||1
+A 28 29|||R:LEX|||kahjustada|||REQUIRED|||-NONE-|||1
+
+S Diagramm ei ole suur , kuid ma ei saa aru kuidas programm , millega mind paluti töötada , töötab .
+A 10 10|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 14 15|||R:NOM:FORM|||mul|||REQUIRED|||-NONE-|||0
+
+S Kuna aitamine võtab natuke aja sinu poolt , ma võin sulle pakkuda piletid kontserdile , millele sa väga tahtsid minna .
+A 4 5|||R:NOM:FORM|||aega|||REQUIRED|||-NONE-|||0
+A 3 7|||R:WO|||sinu poolt natuke aega|||REQUIRED|||-NONE-|||0
+A 8 11|||R:WO|||võin ma sulle|||REQUIRED|||-NONE-|||0
+A 12 13|||R:NOM:FORM|||pileteid|||REQUIRED|||-NONE-|||0
+A 17 19|||R:WO|||tahtsid väga|||REQUIRED|||-NONE-|||0
+A 4 5|||R:NOM:FORM|||aega|||REQUIRED|||-NONE-|||1
+A 4 6|||R:WO|||sinu aega|||REQUIRED|||-NONE-|||1
+A 6 7|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 8 9|||R:LEX|||siis|||REQUIRED|||-NONE-|||1
+A 12 13|||R:NOM:FORM|||pileteid|||REQUIRED|||-NONE-|||1
+A 18 20|||R:WO|||minna tahtsid|||REQUIRED|||-NONE-|||1
+A 4 5|||R:NOM:FORM|||aega|||REQUIRED|||-NONE-|||2
+A 5 6|||R:NOM:FORM|||sinult|||REQUIRED|||-NONE-|||2
+A 3 6|||R:WO|||sinult natuke aega|||REQUIRED|||-NONE-|||2
+A 6 7|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||2
+A 8 11|||R:WO|||võin ma sulle|||REQUIRED|||-NONE-|||2
+A 12 13|||R:NOM:FORM|||pileteid|||REQUIRED|||-NONE-|||2
+A 18 20|||R:WO|||minna tahtsid|||REQUIRED|||-NONE-|||2
+
+S Me võiksime minna koos , kuna minu abikaasa kontserdi ajal sõidab välismaale .
+A 8 11|||R:WO|||sõidab kontserdi ajal|||REQUIRED|||-NONE-|||0
+A 9 10|||R:NOM:FORM|||ajaks|||REQUIRED|||-NONE-|||1
+A 8 11|||R:WO|||sõidab kontserdi ajaks|||REQUIRED|||-NONE-|||1
+
+S Ootan sinu vastust ja loodan , et sa oled vaba täna õhtul või homme .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+A 9 14|||R:WO|||täna õhtul või homme vaba|||REQUIRED|||-NONE-|||1

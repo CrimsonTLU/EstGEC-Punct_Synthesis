@@ -1,0 +1,60 @@
+
+S Lugupeetud lugemisefännid !
+A 1 2|||R:SPELL|||lugemisfännid|||REQUIRED|||-NONE-|||0
+
+S Pöördun Teie poole niisuguses olukorras : hiljuti korrastasin oma ramaturiiuleid ja leidsin palju raamatuid ja ajakirju , mida mul enam ei vaja .
+A 9 10|||R:SPELL|||raamaturiiuleid|||REQUIRED|||-NONE-|||0
+A 18 19|||R:NOM:FORM|||ma|||REQUIRED|||-NONE-|||0
+A 9 10|||R:SPELL|||raamaturiiuleid|||REQUIRED|||-NONE-|||1
+A 21 21|||M:LEX|||ole|||REQUIRED|||-NONE-|||1
+
+S Nüüd tahan need ära anda .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Kes leiaks keegi , kes tahaks neid endale võtta ?
+A 0 1|||R:LEX|||Kas|||REQUIRED|||-NONE-|||0
+A 1 2|||R:VERB:FORM|||leidub||leiduks|||REQUIRED|||-NONE-|||0
+A 0 1|||R:LEX|||Kas|||REQUIRED|||-NONE-|||1
+A 2 3|||R:NOM:FORM|||kedagi|||REQUIRED|||-NONE-|||1
+
+S Kõik raamatud ja ajakirjad on korras .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Nende hulgas on laste muinasjutud , 2-3 romaani ja hästi palju detektiive ( raseduse ajal olin nendest huvitatud ja seepärast paljud neist on ostetud , ära loetud ja riiulile pandud ) .
+A 11 12|||R:LEX|||detektiivromaane||kriminaalromaane|||REQUIRED|||-NONE-|||0
+
+S Ajakirjad on mul erinevates teemades .
+A 3 4|||R:NOM:FORM|||erinevatel|||REQUIRED|||-NONE-|||0
+A 4 5|||R:NOM:FORM|||teemadel|||REQUIRED|||-NONE-|||0
+
+S On moeajakirju ( " Cosmopolitan " , " Ilu ja tervis " , " Žanna " ) , loodusest ja teadusest on terve kast " National Geographic " ajakirju , on veel palju lasteajakirju nagu " Murzilka " ja " Naznaika " .
+A 3 4|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 5 6|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 7 8|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 10 11|||R:CASE|||Tervis|||REQUIRED|||-NONE-|||0
+A 11 12|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 13 14|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 15 16|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 24 25|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 26 27|||R:NOM:FORM|||Geographicu|||REQUIRED|||-NONE-|||0
+A 27 28|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 30 32|||R:WO|||veel on|||REQUIRED|||-NONE-|||0
+A 35 36|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 37 38|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 39 40|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 41 42|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Kui keegi tahab midagi endale saada , kirjutage mulle meili või leidke mind Facebook'ist ( seal on veel postitus raamatute fotodega ) , vastan kindlasti !
+A 9 10|||R:NOM:FORM|||meil||meilile|||REQUIRED|||-NONE-|||0
+A 19 21|||R:WO:NOM:FORM|||fotodega raamatutest|||REQUIRED|||-NONE-|||0
+A 13 14|||R:SPELL|||Facebookist|||REQUIRED|||-NONE-|||0
+
+S P.S. kas keegi teab , mida teha nende raamatute ja ajakirjadega , mida keegi ei soovi ?
+A 1 2|||R:CASE|||Kas|||REQUIRED|||-NONE-|||0
+
+S Oleks väga tänulik kui vastaksite !
+A 0 1|||R:VERB:FORM|||Oleksin|||REQUIRED|||-NONE-|||0
+A 3 3|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+
+S Lugupidamisega Mari ---
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0

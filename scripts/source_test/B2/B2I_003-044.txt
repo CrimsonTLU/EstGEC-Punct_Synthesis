@@ -1,0 +1,91 @@
+
+S Tere päevast !
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Ma , olen Alisa --- .
+A 1 2|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Ma töötan Narva lasteaias , vanuses rühmas .
+A 4 5|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 5 6|||R:LEX|||vanemas|||REQUIRED|||-NONE-|||0
+
+S Sellel nädalal meil on uus teema : " Eesti Vabariiki sünnipäev " , ja mul on plaanis koos lastega lugeda A.H.Tammsaare raamatut .
+A 2 4|||R:WO|||on meil|||REQUIRED|||-NONE-|||0
+A 6 7|||R:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 9 10|||R:NOM:FORM|||Vabariigi|||REQUIRED|||-NONE-|||0
+A 20 21|||R:WS|||A. H. Tammsaare|||REQUIRED|||-NONE-|||0
+
+S Aga mul on väike probleem .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Lasteaias puudub eesti keel õpetaja , kes hästi räägib eesti keeles .
+A 3 4|||R:NOM:FORM|||keele|||REQUIRED|||-NONE-|||0
+A 8 9|||R:VERB:FORM|||räägiks|||REQUIRED|||-NONE-|||0
+A 7 9|||R:WO|||räägiks hästi|||REQUIRED|||-NONE-|||0
+
+S Mina tahan , et sellel päeval lapsed kuulavad hea ja tore eesti keel .
+A 7 8|||R:LEX:VERB:FORM|||kuuleksid|||REQUIRED|||-NONE-|||0
+A 6 8|||R:WO|||kuuleksid lapsed|||REQUIRED|||-NONE-|||0
+A 8 9|||R:NOM:FORM|||head|||REQUIRED|||-NONE-|||0
+A 10 11|||R:NOM:FORM|||toredat|||REQUIRED|||-NONE-|||0
+A 12 13|||R:NOM:FORM|||keelt|||REQUIRED|||-NONE-|||0
+
+S Ma tahan küsida , kas teil on võimalus abistada mulle selles probleemis ?
+A 5 6|||R:NOM:FORM|||te|||REQUIRED|||-NONE-|||0
+A 6 7|||R:LEX:VERB:FORM|||saaksite|||REQUIRED|||-NONE-|||0
+A 7 8|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+A 9 10|||R:NOM:FORM|||mind|||REQUIRED|||-NONE-|||0
+A 10 11|||R:NOM:FORM|||selle|||REQUIRED|||-NONE-|||0
+A 11 12|||R:NOM:FORM|||probleemiga|||REQUIRED|||-NONE-|||0
+A 8 12|||R:WO|||mind selle probleemiga abistada|||REQUIRED|||-NONE-|||0
+A 7 8|||R:LEX|||võimalik|||REQUIRED|||-NONE-|||1
+A 9 10|||R:NOM:FORM|||mind|||REQUIRED|||-NONE-|||1
+A 10 11|||R:NOM:FORM|||selle|||REQUIRED|||-NONE-|||1
+A 11 12|||R:NOM:FORM|||probleemiga|||REQUIRED|||-NONE-|||1
+A 8 12|||R:WO|||mind selle probleemiga abistada|||REQUIRED|||-NONE-|||1
+
+S Kas teil on oma plaani sellel päeval ?
+A 3 4|||R:NOM:FORM|||omi|||REQUIRED|||-NONE-|||0
+A 4 5|||R:NOM:FORM|||plaane|||REQUIRED|||-NONE-|||0
+A 5 6|||R:NOM:FORM|||selleks|||REQUIRED|||-NONE-|||0
+A 6 7|||R:NOM:FORM|||päevaks|||REQUIRED|||-NONE-|||0
+
+S Lugemispäev toimub reedel , kaheksandal veebruaril , kell kaks .
+A 3 4|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 6 7|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Palun , kirjutage mulle reedeni , sest kui teil ei ole võimalusi abistada , ma pean lahendada probleemi teisepoolest .
+A 1 2|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 4 5|||R:NOM:FORM|||reedeks|||REQUIRED|||-NONE-|||0
+A 11 12|||R:NOM:FORM|||võimalust|||REQUIRED|||-NONE-|||0
+A 12 12|||M:LEX|||mind|||REQUIRED|||-NONE-|||0
+A 14 16|||R:WO|||pean ma|||REQUIRED|||-NONE-|||0
+A 16 17|||R:VERB:FORM|||lahendama|||REQUIRED|||-NONE-|||0
+A 18 19|||R:LEX|||teisiti||teistmoodi|||REQUIRED|||-NONE-|||0
+A 16 19|||R:WO|||probleemi teisiti||teistmoodi lahendama|||REQUIRED|||-NONE-|||0
+
+S Ma tahan lisada , et sellel päeval meil on suur tasuta lõunasööki pakkumine .
+A 7 9|||R:WO|||on meil|||REQUIRED|||-NONE-|||0
+A 11 12|||R:NOM:FORM|||lõunasöögi|||REQUIRED|||-NONE-|||0
+
+S Teil on võimalus koos õpetajaga süüa .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Samuti ma tahan suhelda teiga ja pakkuda töökoht lasteaias , eesti keele õpetajana .
+A 1 3|||R:WO|||tahan ma|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||teiega|||REQUIRED|||-NONE-|||0
+A 3 5|||R:WO|||teiega suhelda|||REQUIRED|||-NONE-|||0
+A 7 8|||R:NOM:FORM|||töökohta|||REQUIRED|||-NONE-|||0
+A 9 10|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Ma ootan teie kiri !
+A 3 4|||R:NOM:FORM|||kirja|||REQUIRED|||-NONE-|||0
+
+S Usun , et head inimesed ja toredad õpetajad tahavad osaleda integratsiooni programmis .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Ootan teid meie lasteaias !
+A 3 4|||R:NOM:FORM|||lasteaeda|||REQUIRED|||-NONE-|||0
+
+S Lugupidamisega , Alisa ---
+A 1 2|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0

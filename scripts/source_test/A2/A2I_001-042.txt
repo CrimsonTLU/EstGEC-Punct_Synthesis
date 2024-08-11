@@ -1,0 +1,49 @@
+
+S Tere kalis Olga !
+A 1 1|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||kallis|||REQUIRED|||-NONE-|||0
+
+S Ma soovin külastada ühte huvitavat linna .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S See on Narva .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S lähme koos .
+A 0 1|||R:CASE|||Lähme|||REQUIRED|||-NONE-|||0
+A 2 3|||R:PUNCT|||!|||REQUIRED|||-NONE-|||0
+A 0 1|||R:CASE|||Lähme|||REQUIRED|||-NONE-|||1
+
+S See on huvitav linn .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Ma sõidan seles laupäeval autoga .
+A 2 2|||M:LEX|||sinna|||REQUIRED|||-NONE-|||0
+A 2 3|||R:NOM:FORM:SPELL|||sellel|||REQUIRED|||-NONE-|||0
+A 2 3|||R:NOM:FORM:SPELL|||sellel|||REQUIRED|||-NONE-|||1
+
+S Seal on väga ilus promenad jalutamine seal .
+A 4 5|||R:SPELL|||promenaad|||REQUIRED|||-NONE-|||0
+A 5 6|||R:NOM:FORM|||jalutamiseks|||REQUIRED|||-NONE-|||0
+A 6 7|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||promenaad|||REQUIRED|||-NONE-|||1
+A 2 6|||R:WO|||jalutamiseks väga ilus promenaad|||REQUIRED|||-NONE-|||1
+A 6 7|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+
+S Käisime koos Astrikeskusse sind tihti olevad kontserti .
+A 0 1|||R:LEX|||Lähme|||REQUIRED|||-NONE-|||0
+A 2 3|||R:WS|||Astri keskusse|||REQUIRED|||-NONE-|||0
+A 3 3|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 3 4|||R:LEX|||seal|||REQUIRED|||-NONE-|||0
+A 5 6|||R:VERB:FORM|||on|||REQUIRED|||-NONE-|||0
+A 4 6|||R:WO|||on tihti|||REQUIRED|||-NONE-|||0
+A 6 7|||R:NOM:FORM|||kontserdid|||REQUIRED|||-NONE-|||0
+
+S Üks kord ma kohtusin Ilona Kaldre .
+A 5 6|||R:NOM:FORM|||Kaldrega|||REQUIRED|||-NONE-|||0
+A 2 4|||R:WO|||kohtusin ma|||REQUIRED|||-NONE-|||1
+A 5 6|||R:NOM:FORM|||Kaldrega|||REQUIRED|||-NONE-|||1
+A 0 2|||R:WS|||Ükskord|||REQUIRED|||-NONE-|||2
+A 2 4|||R:WO|||kohtusin ma|||REQUIRED|||-NONE-|||2
+A 4 4|||M:LEX|||seal|||REQUIRED|||-NONE-|||2
+A 5 6|||R:NOM:FORM|||Kaldrega|||REQUIRED|||-NONE-|||2

@@ -1,0 +1,45 @@
+
+S Kevadel ma kaisin Kaanari saartel .
+A 2 3|||R:SPELL|||käisin|||REQUIRED|||-NONE-|||0
+A 1 3|||R:WO|||käisin ma|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||Kanaari|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||käisin|||REQUIRED|||-NONE-|||1
+A 0 3|||R:WO|||Ma käisin kevadel|||REQUIRED|||-NONE-|||1
+A 3 4|||R:SPELL|||Kanaari|||REQUIRED|||-NONE-|||1
+
+S Ma kaisin lennukuga .
+A 1 2|||R:SPELL|||käisin|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||lennukiga|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||käisin|||REQUIRED|||-NONE-|||1
+A 2 2|||M:LEX|||seal|||REQUIRED|||-NONE-|||1
+A 2 3|||R:SPELL|||lennukiga|||REQUIRED|||-NONE-|||1
+
+S Ma elasin viietärnuhotellis .
+A 2 3|||R:SPELL|||viietärnihotellis|||REQUIRED|||-NONE-|||0
+
+S Ma magisin , sõin ja kaisin rannas .
+A 1 2|||R:SPELL|||magasin|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||käisin|||REQUIRED|||-NONE-|||0
+
+S Ma kaisin seal iga aasta .
+A 1 2|||R:VERB:FORM:SPELL|||käin|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOM:FORM|||igal|||REQUIRED|||-NONE-|||0
+A 4 5|||R:NOM:FORM|||aastal|||REQUIRED|||-NONE-|||0
+A 1 2|||R:VERB:FORM:SPELL|||käin|||REQUIRED|||-NONE-|||1
+
+S Mulle väga meeldib seal .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S loodus on väga ilus .
+A 0 1|||R:CASE|||Loodus|||REQUIRED|||-NONE-|||0
+A 0 0|||M:LEX|||Sealne|||REQUIRED|||-NONE-|||1
+
+S Päike päistas .
+A 1 2|||R:SPELL|||paistis|||REQUIRED|||-NONE-|||0
+
+S ilm oli palav .
+A 0 1|||R:CASE|||Ilm|||REQUIRED|||-NONE-|||0
+
+S Reis läks maksma umbes 1000 euro inimesekohta .
+A 5 6|||R:NOM:FORM|||eurot|||REQUIRED|||-NONE-|||0
+A 6 7|||R:WS|||inimese kohta|||REQUIRED|||-NONE-|||0

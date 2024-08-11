@@ -1,0 +1,71 @@
+
+S Tema nimi on Anton .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Me oleme üheaastased .
+A 2 3|||R:LEX|||üheealised||ühevanused|||REQUIRED|||-NONE-|||0
+A 2 3|||R:LEX|||samaealised||samavanused|||REQUIRED|||-NONE-|||1
+A 2 3|||R:LEX|||sama vanad|||REQUIRED|||-NONE-|||2
+
+S Ta töötab müüjana .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Tema töökoht asub Astri keskus .
+A 4 5|||R:NOM:FORM|||keskuses|||REQUIRED|||-NONE-|||0
+
+S Temal on oma poodi , ta müüjal jaladnõud .
+A 3 4|||R:NOM:FORM|||pood|||REQUIRED|||-NONE-|||0
+A 6 7|||R:LEX|||müüb|||REQUIRED|||-NONE-|||0
+A 7 8|||R:NOM:FORM:SPELL|||jalanõusid|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOM:FORM|||pood|||REQUIRED|||-NONE-|||1
+A 5 5|||M:LEX|||kus|||REQUIRED|||-NONE-|||1
+A 6 7|||R:LEX|||müüb|||REQUIRED|||-NONE-|||1
+A 7 8|||R:NOM:FORM:SPELL|||jalanõusid|||REQUIRED|||-NONE-|||1
+
+S Ta on ülemus ja müüja ühes näoks .
+A 6 7|||R:LEX:NOM:FORM|||isikus|||REQUIRED|||-NONE-|||0
+
+S Me õppisime koos viis aastat .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Kooli ajal ta oli väga rahulik ja positiivne poiss .
+A 2 4|||R:WO|||oli ta|||REQUIRED|||-NONE-|||0
+
+S Ta tegelis spordiga .
+A 1 2|||R:SPELL|||tegeles|||REQUIRED|||-NONE-|||0
+
+S Praegu ta peaegu ei muutunud , ta on rahulik ja positiivne mees , ainult vanem ja pikkem .
+A 2 3|||R:SPELL|||peaaegu|||REQUIRED|||-NONE-|||0
+A 4 4|||M:LEX|||olegi|||REQUIRED|||-NONE-|||0
+A 1 5|||R:WO|||ei olegi ta peaaegu muutunud|||REQUIRED|||-NONE-|||0
+A 16 17|||R:SPELL|||pikem|||REQUIRED|||-NONE-|||0
+A 0 1|||R:LEX|||Praeguseks|||REQUIRED|||-NONE-|||1
+A 2 3|||R:SPELL|||peaaegu|||REQUIRED|||-NONE-|||1
+A 4 4|||M:LEX|||ole|||REQUIRED|||-NONE-|||1
+A 1 5|||R:WO|||ei ole ta peaaegu muutunud|||REQUIRED|||-NONE-|||1
+A 16 17|||R:SPELL|||pikem|||REQUIRED|||-NONE-|||1
+
+S Naga ma juba kirjutas temal on oma äri ja ta tahab avada teine kauplus .
+A 0 1|||R:SPELL|||Nagu|||REQUIRED|||-NONE-|||0
+A 3 4|||R:VERB:FORM|||kirjutasin|||REQUIRED|||-NONE-|||0
+A 4 4|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 4 6|||R:WO|||on temal|||REQUIRED|||-NONE-|||0
+A 12 13|||R:NOM:FORM|||teise|||REQUIRED|||-NONE-|||0
+A 13 14|||R:NOM:FORM|||kaupluse|||REQUIRED|||-NONE-|||0
+
+S Temal on üks laps , tema nimi on Aleksei .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+A 5 6|||R:LEX|||kelle|||REQUIRED|||-NONE-|||1
+A 4 5|||M:LEX|||ja|||REQUIRED|||-NONE-|||2
+
+S Õhtul Anton käib spordisaali ja tihti ta reisib erinevatel maadel .
+A 1 3|||R:WO|||käib Anton|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOM:FORM|||spordisaalis|||REQUIRED|||-NONE-|||0
+A 6 8|||R:WO|||reisib ta|||REQUIRED|||-NONE-|||0
+A 8 9|||R:NOM:FORM|||erinevatesse|||REQUIRED|||-NONE-|||0
+A 9 10|||R:NOM:FORM|||maadesse|||REQUIRED|||-NONE-|||0
+A 1 3|||R:WO|||käib Anton|||REQUIRED|||-NONE-|||1
+A 3 4|||R:NOM:FORM|||spordisaalis|||REQUIRED|||-NONE-|||1
+A 5 8|||R:WO|||ta reisib tihti|||REQUIRED|||-NONE-|||1
+A 8 9|||R:NOM:FORM|||erinevatesse|||REQUIRED|||-NONE-|||1
+A 9 10|||R:NOM:FORM|||maadesse|||REQUIRED|||-NONE-|||1

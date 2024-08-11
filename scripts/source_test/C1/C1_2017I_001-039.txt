@@ -1,0 +1,124 @@
+
+S Õnnetusjuhtumite põhjused ja ennetustegevuse viisid
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Veebruarikuu alguses käisin ma Päästeameti poolt korraldatud teabepäeval .
+A 5 6|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Sellised kampaaniad on loodud just selleks , et inimesed oleksid teadlikud sellest , miks õnnetusjutumite arv Eesti on järjest tõusnud ja kuidas õnnetusi vältida .
+A 11 12|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+A 14 15|||R:SPELL|||õnnetusjuhtumite|||REQUIRED|||-NONE-|||0
+A 16 17|||R:NOM:FORM|||Eestis|||REQUIRED|||-NONE-|||0
+A 14 18|||R:WO|||on Eestis õnnetusjuhtumite arv|||REQUIRED|||-NONE-|||0
+
+S Üha rohkem päästjad juhivad tähelepanu sellele , et liigne alkohooli tarbimine kahjustab tervist ning häirib teiste inimeste rahuloleku .
+A 2 4|||R:WO|||juhivad päästjad|||REQUIRED|||-NONE-|||0
+A 9 10|||R:SPELL|||alkoholi|||REQUIRED|||-NONE-|||0
+A 17 18|||R:NOM:FORM|||rahulolekut|||REQUIRED|||-NONE-|||0
+
+S Tavaliselt joobeseisundis olevad inimesed hakkavad teostama seadusega keelatud asju või ohustavad nii enda kui ka kaasmaalaste elu .
+A 1 5|||R:WO|||hakkavad joobeseisundis olevad inimesed|||REQUIRED|||-NONE-|||0
+A 5 6|||R:LEX|||tegema|||REQUIRED|||-NONE-|||0
+A 1 5|||R:WO|||hakkavad joobeseisundis olevad inimesed|||REQUIRED|||-NONE-|||1
+A 5 6|||R:LEX|||tegema|||REQUIRED|||-NONE-|||1
+A 9 10|||R:LEX|||ning|||REQUIRED|||-NONE-|||1
+A 11 11|||M:LEX|||seeläbi|||REQUIRED|||-NONE-|||1
+
+S Isegi väike alkohooli kogus muudab inimese käitumist ja inimene ei suuda end kontrollida .
+A 2 4|||R:WS:SPELL|||alkoholikogus|||REQUIRED|||-NONE-|||0
+
+S Kõige ohtlikum olukord juhtub siis kui joonud inimeste arv on suur .
+A 3 4|||R:LEX|||tekib|||REQUIRED|||-NONE-|||0
+A 5 5|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+
+S Sellised gruppid ei mõista , mida nad teevad ja võib juhtuda nii , et nad tahtmata teostavada kuritegu , kas kedagi tappevad või midagi lõhuvad .
+A 1 2|||R:SPELL|||grupid|||REQUIRED|||-NONE-|||0
+A 8 8|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 16 17|||R:LEX:SPELL|||teevad|||REQUIRED|||-NONE-|||0
+A 15 17|||R:WO|||teevad tahtmata|||REQUIRED|||-NONE-|||0
+A 17 18|||R:NOM:FORM|||kuriteo|||REQUIRED|||-NONE-|||0
+A 20 21|||R:NOM:FORM|||kellegi|||REQUIRED|||-NONE-|||0
+A 21 22|||R:SPELL|||tapavad|||REQUIRED|||-NONE-|||0
+A 20 22|||R:WO|||tapavad kellegi|||REQUIRED|||-NONE-|||0
+A 23 25|||R:WO|||lõhuvad midagi|||REQUIRED|||-NONE-|||0
+
+S Kindlasti joobesolevatele inimestele on keelatud rooli taga istuda , seega igas gruppis peab olema vähemalt üks kaine autojuht .
+A 1 2|||R:WS|||joobes olevatele|||REQUIRED|||-NONE-|||0
+A 1 4|||R:WO|||on joobes olevatele inimestele|||REQUIRED|||-NONE-|||0
+A 11 12|||R:SPELL|||grupis|||REQUIRED|||-NONE-|||0
+A 10 13|||R:WO|||peab igas grupis|||REQUIRED|||-NONE-|||0
+
+S Päästeameti töötajad soovitasid alati kontrollida juba joodud alkohooli arvu ja mitte juua rohkem kui organismile ettenähtud .
+A 7 8|||R:SPELL|||alkoholi|||REQUIRED|||-NONE-|||0
+A 8 9|||R:LEX|||kogust|||REQUIRED|||-NONE-|||0
+A 15 16|||R:WS|||ette nähtud|||REQUIRED|||-NONE-|||0
+
+S Alati peab olema ka kaine inimene , kes oskab hinnata olukorda ja viivitamatult parandada , kui olukord läheb kontrolli alt .
+A 9 11|||R:WO|||olukorda hinnata|||REQUIRED|||-NONE-|||0
+A 12 12|||M:LEX|||seda|||REQUIRED|||-NONE-|||0
+A 20 20|||M:LEX|||välja|||REQUIRED|||-NONE-|||0
+A 9 11|||R:WO|||olukorda hinnata|||REQUIRED|||-NONE-|||1
+A 12 12|||M:LEX|||seda|||REQUIRED|||-NONE-|||1
+A 17 18|||R:LEX|||peaks|||REQUIRED|||-NONE-|||1
+A 20 20|||M:LEX|||väljuma|||REQUIRED|||-NONE-|||1
+
+S Ei tohi jääda alkohoolijoobes oleva inimest üksi , sest oksendamisel ta võib lämbuda .
+A 2 3|||R:LEX|||jätta|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||alkoholijoobes|||REQUIRED|||-NONE-|||0
+A 4 5|||R:NOM:FORM|||olevat|||REQUIRED|||-NONE-|||0
+A 10 12|||R:WO|||võib ta|||REQUIRED|||-NONE-|||0
+A 2 3|||R:LEX|||jätta|||REQUIRED|||-NONE-|||1
+A 3 4|||R:SPELL|||alkoholijoobes|||REQUIRED|||-NONE-|||1
+A 4 5|||R:VERB:FORM|||olevat|||REQUIRED|||-NONE-|||1
+A 0 7|||R:WO|||Alkoholijoobes olevat inimest ei tohi üksi jätta|||REQUIRED|||-NONE-|||1
+A 10 12|||R:WO|||võib ta|||REQUIRED|||-NONE-|||1
+
+S Juhul kui mõni inimene jäänud õue üksi , siis sellest tuleb teavitada politsei
+A 1 1|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 4 4|||M:LEX|||on|||REQUIRED|||-NONE-|||0
+A 9 11|||R:WO|||tuleb sellest|||REQUIRED|||-NONE-|||0
+A 12 13|||R:NOM:FORM|||politseid|||REQUIRED|||-NONE-|||0
+A 13 13|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+
+S Veel üheks põhjuseks , miks õnnetusjuhtumid toimuvad on ohutusnõuete eiramine .
+A 5 7|||R:WO|||toimuvad õnnetusjuhtumid|||REQUIRED|||-NONE-|||0
+A 7 7|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+
+S Tihti päästjad saabuvad kutsele , kus põleb maja või korter .
+A 1 3|||R:WO|||saabuvad päästjad|||REQUIRED|||-NONE-|||0
+A 3 4|||R:LEX|||väljakutsele|||REQUIRED|||-NONE-|||0
+
+S Põhjuseks on voodis suitsetamine või suitsuanduri puudus .
+A 6 7|||R:LEX|||puudumine|||REQUIRED|||-NONE-|||0
+
+S Suitsuandur võib tõesti päästa elu , sest signaal on kõva ja aitab inimesele kiiresti ärgata .
+A 7 7|||M:LEX|||selle|||REQUIRED|||-NONE-|||0
+A 9 10|||R:LEX|||vali|||REQUIRED|||-NONE-|||0
+A 12 13|||R:NOM:FORM|||inimesel|||REQUIRED|||-NONE-|||0
+A 7 7|||M:LEX|||selle|||REQUIRED|||-NONE-|||1
+A 8 9|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 9 10|||R:LEX|||vali|||REQUIRED|||-NONE-|||1
+A 7 10|||R:WO|||selle vali signaal|||REQUIRED|||-NONE-|||1
+A 10 11|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 12 13|||R:NOM:FORM|||inimesel|||REQUIRED|||-NONE-|||1
+
+S Päästeameti viimane kontroll näitas , et enamikutel eesti peredel suitsuandur eksisteerib kuid ei tööta korrektselt ( kas puuduvad patareid või asub vales kohas ) .
+A 6 7|||R:SPELL|||enamikel|||REQUIRED|||-NONE-|||0
+A 11 11|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 20 20|||M:LEX|||see|||REQUIRED|||-NONE-|||0
+
+S Suitsuanduri koht on eluruumis , mitte köögis ning päästjad lisavad , et kodus peab olema ka tulekustuti , et kiiresti reageerida tulekahju korral .
+A 7 7|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 19 23|||R:WO|||tulekahju korral kiiresti reageerida|||REQUIRED|||-NONE-|||0
+
+S Kokkuvõtteks saan kirjutada , et päästjad pöörasid oma tähelepanu kahele suurele probleemidele : ohutusnõuete rikkumisele ja liigse alkohooli tarvitamisele .
+A 11 12|||R:NOM:FORM|||probleemile|||REQUIRED|||-NONE-|||0
+A 17 18|||R:SPELL|||alkoholi|||REQUIRED|||-NONE-|||0
+
+S Ma arvan , et just selliseid probleeme peame me üheskoos lahendada ja inimestele meenutada , kuidas tuleb käituda erinevates olukordades :
+A 10 11|||R:VERB:FORM|||lahendama|||REQUIRED|||-NONE-|||0
+A 13 14|||R:VERB:FORM|||meenutama|||REQUIRED|||-NONE-|||0
+A 20 21|||R:PUNCT|||.|||REQUIRED|||-NONE-|||0
+
+S Minuga olid nõus ka teabepäeva korraldajad .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0

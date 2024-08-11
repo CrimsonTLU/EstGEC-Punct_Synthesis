@@ -1,0 +1,48 @@
+
+S Tere minu sõber !
+A 1 1|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+
+S Palun aitage mulle .
+A 1 2|||R:VERB:FORM:SPELL|||aita|||REQUIRED|||-NONE-|||0
+A 2 3|||R:NOM:FORM|||mind|||REQUIRED|||-NONE-|||0
+A 3 4|||R:PUNCT|||!|||REQUIRED|||-NONE-|||0
+A 1 2|||R:VERB:FORM:SPELL|||aita|||REQUIRED|||-NONE-|||1
+A 2 3|||R:NOM:FORM|||mind|||REQUIRED|||-NONE-|||1
+
+S Ma tahan minna huvitavat linna on Eestis .
+A 3 4|||R:NOM:FORM|||huvitavasse|||REQUIRED|||-NONE-|||0
+A 5 6|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOM:FORM|||huvitavasse|||REQUIRED|||-NONE-|||1
+A 5 6|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 4 7|||R:WO:NOM:FORM|||Eesti linna|||REQUIRED|||-NONE-|||1
+
+S Ma tahan minna musiemisse , teatrisse huvitavat poodile .
+A 3 4|||R:SPELL|||muuseumi||muuseumisse|||REQUIRED|||-NONE-|||0
+A 6 6|||M:LEX|||ja|||REQUIRED|||-NONE-|||0
+A 6 7|||R:NOM:FORM|||huvitavatesse|||REQUIRED|||-NONE-|||0
+A 7 8|||R:NOM:FORM:SPELL|||poodidesse|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||muuseumi||muuseumisse|||REQUIRED|||-NONE-|||1
+A 6 6|||M:LEX|||ja|||REQUIRED|||-NONE-|||1
+A 6 7|||R:NOM:FORM|||huvitavasse|||REQUIRED|||-NONE-|||1
+A 7 8|||R:NOM:FORM:SPELL|||poodi|||REQUIRED|||-NONE-|||1
+
+S Seale ma tahan teha palju fotokat , tuttavaks huvitavad inimestega ja proovima magus toid .
+A 0 1|||R:SPELL|||Seal|||REQUIRED|||-NONE-|||0
+A 1 3|||R:WO|||tahan ma|||REQUIRED|||-NONE-|||0
+A 5 6|||R:LEX|||fotosid|||REQUIRED|||-NONE-|||0
+A 7 7|||M:LEX|||saada|||REQUIRED|||-NONE-|||0
+A 8 9|||R:NOM:FORM|||huvitavate|||REQUIRED|||-NONE-|||0
+A 11 12|||R:VERB:FORM|||proovida|||REQUIRED|||-NONE-|||0
+A 12 13|||R:NOM:FORM|||magusaid|||REQUIRED|||-NONE-|||0
+A 13 14|||R:NOM:FORM:SPELL|||toite|||REQUIRED|||-NONE-|||0
+A 0 1|||R:SPELL|||Seal|||REQUIRED|||-NONE-|||1
+A 1 3|||R:WO|||tahan ma|||REQUIRED|||-NONE-|||1
+A 5 6|||R:LEX|||fotosid|||REQUIRED|||-NONE-|||1
+A 7 7|||M:LEX|||saada|||REQUIRED|||-NONE-|||1
+A 8 9|||R:NOM:FORM|||huvitavate|||REQUIRED|||-NONE-|||1
+A 11 12|||R:VERB:FORM|||proovida|||REQUIRED|||-NONE-|||1
+A 12 14|||R:WS:NOM:FORM|||magustoite|||REQUIRED|||-NONE-|||1
+
+S Palun soovitage mulle huvitavat linna .
+A 5 6|||R:PUNCT|||!|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||1

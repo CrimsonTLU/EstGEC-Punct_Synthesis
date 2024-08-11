@@ -1,0 +1,25 @@
+
+S Minu viimane reis oli oktoobril .
+A 4 5|||R:NOM:FORM|||oktoobris|||REQUIRED|||-NONE-|||0
+
+S Me reisisime koos perega Hispaaniasse , linn Alicante .
+A 5 6|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 6 7|||R:NOM:FORM|||linna|||REQUIRED|||-NONE-|||0
+A 6 8|||R:WO|||Alicante linna|||REQUIRED|||-NONE-|||0
+
+S Me käisime lennukiga .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+A 1 2|||R:LEX|||läksime||lendasime||reisisime|||REQUIRED|||-NONE-|||1
+A 2 2|||M:LEX|||seal|||REQUIRED|||-NONE-|||2
+
+S Seal me puhkasime , päevitasime , ujusime , mängisime mere äres , sõime ja jõime .
+A 10 11|||R:SPELL|||ääres|||REQUIRED|||-NONE-|||0
+
+S Söök oli väga maitsev .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Mulle meeldib see reis väga .
+A 1 2|||R:VERB:FORM|||meeldis|||REQUIRED|||-NONE-|||0
+
+S Tahaks Hispaaniasse minna veel kord .
+A 1 5|||R:WO|||veel kord Hispaaniasse minna|||REQUIRED|||-NONE-|||0

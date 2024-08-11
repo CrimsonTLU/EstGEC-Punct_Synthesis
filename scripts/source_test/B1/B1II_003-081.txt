@@ -1,0 +1,82 @@
+
+S Minu klassikaaslane on praegu suur ülemus .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Ta töötab oma firmas .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Me oppisime koos rohkem kui 10 aastat .
+A 1 2|||R:SPELL|||õppisime|||REQUIRED|||-NONE-|||0
+
+S See oli väga huvitavad ja lõõbusavad aastat .
+A 0 1|||R:NOM:FORM|||Need|||REQUIRED|||-NONE-|||0
+A 1 2|||R:VERB:FORM|||olid|||REQUIRED|||-NONE-|||0
+A 5 6|||R:LEX:SPELL|||lõbusad|||REQUIRED|||-NONE-|||0
+A 6 7|||R:NOM:FORM|||aastad|||REQUIRED|||-NONE-|||0
+
+S Kooli ajal ta oli väga sõbralik ja viisakas õpilane .
+A 0 1|||R:WS|||Kooliajal|||REQUIRED|||-NONE-|||0
+A 2 4|||R:WO|||oli ta|||REQUIRED|||-NONE-|||0
+A 2 4|||R:WO|||oli ta|||REQUIRED|||-NONE-|||1
+
+S Temale kõik armastavad .
+A 0 1|||R:NOM:FORM|||Teda|||REQUIRED|||-NONE-|||0
+A 2 3|||R:VERB:FORM|||armastasid|||REQUIRED|||-NONE-|||0
+A 1 3|||R:WO|||armastasid kõik|||REQUIRED|||-NONE-|||0
+
+S Kui õpilased nii õpetajad .
+A 0 3|||R:WO|||Nii õpilased kui|||REQUIRED|||-NONE-|||0
+A 3 3|||M:LEX|||ka|||REQUIRED|||-NONE-|||0
+
+S Praegu ta näitab väga soliidne .
+A 2 3|||R:LEX|||näib|||REQUIRED|||-NONE-|||0
+A 1 3|||R:WO|||näib ta|||REQUIRED|||-NONE-|||0
+
+S Ma arvan , et ta on väga töökas ja range inimees .
+A 10 11|||R:SPELL|||inimene|||REQUIRED|||-NONE-|||0
+
+S Kuid ma arvan , et ta jäi ka viisakas nagu oli kooliajal .
+A 6 7|||R:VERB:FORM|||on jäänud|||REQUIRED|||-NONE-|||0
+A 8 9|||R:NOM:FORM|||viisakaks|||REQUIRED|||-NONE-|||0
+A 9 9|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 6 7|||R:VERB:FORM|||on jäänud|||REQUIRED|||-NONE-|||1
+A 7 8|||R:LEX|||sama|||REQUIRED|||-NONE-|||1
+A 8 9|||R:NOM:FORM|||viisakaks|||REQUIRED|||-NONE-|||1
+A 9 9|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 6 7|||R:VERB:FORM|||on jäänud|||REQUIRED|||-NONE-|||2
+A 8 9|||R:NOM:FORM|||viisakaks|||REQUIRED|||-NONE-|||2
+A 10 11|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||2
+
+S Temal on suur firma tänapäeval .
+A 4 5|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+A 0 1|||R:NOM:FORM|||Tal|||REQUIRED|||-NONE-|||1
+A 4 5|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 0 1|||R:NOM:FORM|||Tal|||REQUIRED|||-NONE-|||2
+A 4 5|||R:LEX|||praegu|||REQUIRED|||-NONE-|||2
+A 2 5|||R:WO|||praegu suur firma|||REQUIRED|||-NONE-|||2
+
+S Ta müüb , hooldab , remontib ehitustehnikat .
+A 5 6|||R:SPELL|||remondib|||REQUIRED|||-NONE-|||0
+
+S Traktorid , buldoseerid , ekskavatoorid jne .
+A 0 1|||R:NOM:FORM|||Traktoreid|||REQUIRED|||-NONE-|||0
+A 2 3|||R:NOM:FORM:SPELL|||buldoosereid|||REQUIRED|||-NONE-|||0
+A 4 5|||R:NOM:FORM:SPELL|||ekskavaatoreid|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||buldooserid|||REQUIRED|||-NONE-|||1
+A 4 5|||R:SPELL|||ekskavaatorid|||REQUIRED|||-NONE-|||1
+
+S Temal on suur kollektiiv .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+A 0 1|||R:NOM:FORM|||Tal|||REQUIRED|||-NONE-|||1
+
+S Aga tööd on palju , sest Eestis palju ehitusobjekte .
+A 7 7|||M:LEX|||on|||REQUIRED|||-NONE-|||0
+
+S Ma olen väga rahuldav , et kohtusin minu klaasikaaslast .
+A 3 4|||R:LEX|||rahul|||REQUIRED|||-NONE-|||0
+A 6 7|||R:LEX|||kohtasin|||REQUIRED|||-NONE-|||0
+A 7 8|||R:LEX|||oma|||REQUIRED|||-NONE-|||0
+A 8 9|||R:SPELL|||klassikaaslast|||REQUIRED|||-NONE-|||0
+
+S Sinu sõber Igor .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0

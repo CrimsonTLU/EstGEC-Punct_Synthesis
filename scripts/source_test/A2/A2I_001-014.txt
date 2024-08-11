@@ -1,0 +1,59 @@
+
+S Tere Mari .
+A 1 1|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 2 3|||R:PUNCT|||!|||REQUIRED|||-NONE-|||0
+A 1 1|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 2 3|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+
+S Ma tahan kutsuda sulle jalutame Vanalinn mööda .
+A 3 4|||R:NOM:FORM|||sind|||REQUIRED|||-NONE-|||0
+A 2 4|||R:WO|||sind kutsuda|||REQUIRED|||-NONE-|||0
+A 4 5|||R:VERB:FORM|||jalutama|||REQUIRED|||-NONE-|||0
+A 5 6|||R:NOM:FORM:CASE|||vanalinna|||REQUIRED|||-NONE-|||0
+A 4 6|||R:WO|||vanalinna jalutama|||REQUIRED|||-NONE-|||0
+A 6 7|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOM:FORM|||sind|||REQUIRED|||-NONE-|||1
+A 2 4|||R:WO|||sind kutsuda|||REQUIRED|||-NONE-|||1
+A 4 5|||R:VERB:FORM|||jalutama|||REQUIRED|||-NONE-|||1
+A 5 6|||R:NOM:FORM:CASE|||vanalinna|||REQUIRED|||-NONE-|||1
+A 4 7|||R:WO|||mööda vanalinna jalutama|||REQUIRED|||-NONE-|||1
+A 3 4|||R:NOM:FORM|||sind|||REQUIRED|||-NONE-|||2
+A 4 5|||R:VERB:FORM|||jalutama|||REQUIRED|||-NONE-|||2
+A 5 6|||R:NOM:FORM:CASE|||vanalinna|||REQUIRED|||-NONE-|||2
+A 6 7|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||2
+
+S Me kohtume kaubamajas kell kuus .
+A 0 2|||U:LEX|||Kohtume|||REQUIRED|||-NONE-|||0
+
+S Me käime vaatame vana linn .
+A 0 1|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+A 1 2|||R:LEX|||Lähme|||REQUIRED|||-NONE-|||0
+A 3 5|||R:WS:NOM:FORM|||vanalinna|||REQUIRED|||-NONE-|||0
+A 1 2|||R:LEX|||lähme|||REQUIRED|||-NONE-|||1
+A 3 5|||R:WS:NOM:FORM|||vanalinna|||REQUIRED|||-NONE-|||1
+A 0 2|||U:LEX|||Käime|||REQUIRED|||-NONE-|||2
+A 3 5|||R:WS:NOM:FORM|||vanalinna|||REQUIRED|||-NONE-|||2
+
+S See vaga ilus linn .
+A 1 1|||M:LEX|||on|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||väga|||REQUIRED|||-NONE-|||0
+
+S Seal palju kohvikud , muuseumusid kino .
+A 1 1|||M:LEX|||on|||REQUIRED|||-NONE-|||0
+A 2 3|||R:NOM:FORM|||kohvikuid|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||muuseume||muuseumisid|||REQUIRED|||-NONE-|||0
+A 5 5|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+
+S Me kaime kohvikus ja joome kohvi .
+A 0 1|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+A 1 2|||R:LEX|||Lähme|||REQUIRED|||-NONE-|||0
+A 2 3|||R:NOM:FORM|||kohvikusse|||REQUIRED|||-NONE-|||0
+A 1 2|||R:LEX|||lähme|||REQUIRED|||-NONE-|||1
+A 2 3|||R:NOM:FORM|||kohvikusse|||REQUIRED|||-NONE-|||1
+A 1 2|||R:SPELL|||käime|||REQUIRED|||-NONE-|||2
+
+S Ma ootan sind .
+A 3 4|||R:PUNCT|||!|||REQUIRED|||-NONE-|||0
+
+S Head aega .
+A 2 3|||R:PUNCT|||!|||REQUIRED|||-NONE-|||0

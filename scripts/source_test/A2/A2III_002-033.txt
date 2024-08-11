@@ -1,0 +1,38 @@
+
+S Viktor , kas sa käid minu juurde , mulle pesumasin on läks katki .
+A 4 5|||R:LEX|||tuled||tuleksid|||REQUIRED|||-NONE-|||0
+A 8 9|||R:NOM:FORM|||mu|||REQUIRED|||-NONE-|||0
+A 10 11|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+A 4 5|||R:LEX|||tuled||tuleksid|||REQUIRED|||-NONE-|||1
+A 8 9|||R:NOM:FORM|||mul|||REQUIRED|||-NONE-|||1
+A 10 11|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 9 13|||R:WO|||läks pesumasin katki|||REQUIRED|||-NONE-|||1
+
+S Minna minu juurde ülehomme , õhtul .
+A 0 1|||R:LEX|||Tule|||REQUIRED|||-NONE-|||0
+A 4 5|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Ma kohtun sind maja juures ja annan võtta ära vanni toas .
+A 2 3|||R:NOM:FORM|||sinuga|||REQUIRED|||-NONE-|||0
+A 3 3|||M:LEX|||oma|||REQUIRED|||-NONE-|||0
+A 6 7|||R:LEX|||aitan|||REQUIRED|||-NONE-|||0
+A 7 7|||M:LEX|||pesumasina|||REQUIRED|||-NONE-|||0
+A 9 11|||R:WS:NOM:FORM|||vannitoast|||REQUIRED|||-NONE-|||0
+A 7 10|||R:WO|||vannitoast ära võtta|||REQUIRED|||-NONE-|||0
+A 1 2|||R:LEX|||ootan|||REQUIRED|||-NONE-|||1
+A 3 3|||M:LEX|||oma|||REQUIRED|||-NONE-|||1
+A 6 7|||R:LEX|||lasen|||REQUIRED|||-NONE-|||1
+A 7 7|||M:LEX|||sul selle|||REQUIRED|||-NONE-|||1
+A 7 8|||R:LEX|||viia|||REQUIRED|||-NONE-|||1
+A 9 11|||R:WS:NOM:FORM|||vannitoast|||REQUIRED|||-NONE-|||1
+A 7 11|||R:WO|||vannitoast ära viia|||REQUIRED|||-NONE-|||1
+
+S Ma on väga oodan sind .
+A 1 2|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||ootan|||REQUIRED|||-NONE-|||0
+A 5 6|||R:PUNCT|||!|||REQUIRED|||-NONE-|||0
+A 1 2|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 3 4|||R:SPELL|||ootan|||REQUIRED|||-NONE-|||1
+
+S Sinu Marina .
+A 2 3|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0

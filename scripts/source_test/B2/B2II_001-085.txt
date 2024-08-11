@@ -1,0 +1,102 @@
+
+S Tere , lugupeedud Kadri --- .
+A 2 3|||R:SPELL|||lugupeetud|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||lugupeetud|||REQUIRED|||-NONE-|||1
+A 5 6|||R:PUNCT|||!|||REQUIRED|||-NONE-|||1
+A 2 3|||R:SPELL|||lugupeetud|||REQUIRED|||-NONE-|||2
+A 5 6|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||2
+
+S Mina olen Juta --- .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Ma elan Kundas oma majas Pargi --- .
+A 5 5|||M:LEX|||aadressil|||REQUIRED|||-NONE-|||0
+
+S Eelmisel aastal meie linnas oli vahetanud tänavate ja parkide hooldus firma .
+A 4 5|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+A 5 6|||R:LEX|||vahetus|||REQUIRED|||-NONE-|||0
+A 2 6|||R:WO|||vahetus meie linnas|||REQUIRED|||-NONE-|||0
+A 9 11|||R:WS|||hooldusfirma|||REQUIRED|||-NONE-|||0
+
+S Mina ei ole rahul uue firma " Puhas loodus " tööga .
+A 6 7|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 8 9|||R:CASE|||Loodus|||REQUIRED|||-NONE-|||0
+A 9 10|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S See firma töötab meie linnas juba pool aasta .
+A 7 8|||R:NOM:FORM|||aastat|||REQUIRED|||-NONE-|||0
+
+S Nad hakkasid oma tegevus oktoobrist 2017 a .
+A 1 2|||R:LEX|||alustasid|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOM:FORM|||tegevust|||REQUIRED|||-NONE-|||0
+A 6 6|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+A 4 7|||R:WO|||2017 . a oktoobrist|||REQUIRED|||-NONE-|||0
+
+S See aastas sadas palju lund .
+A 0 1|||R:NOM:FORM|||Sellel||Sel|||REQUIRED|||-NONE-|||0
+A 1 2|||R:NOM:FORM|||aastal|||REQUIRED|||-NONE-|||0
+
+S Firma peab puhastada kõik teed .
+A 2 3|||R:VERB:FORM|||puhastama|||REQUIRED|||-NONE-|||0
+A 2 5|||R:WO|||kõik teed puhastama|||REQUIRED|||-NONE-|||0
+
+S Nad teevad seda , aga traktorijuhid lükkavad lumi kokku minu värava ees .
+A 7 8|||R:NOM:FORM|||lume|||REQUIRED|||-NONE-|||0
+A 11 12|||R:NOM:FORM|||ette|||REQUIRED|||-NONE-|||0
+
+S Pärast seda mina pean puhastada oma trotuariosa .
+A 2 4|||R:WO|||pean mina|||REQUIRED|||-NONE-|||0
+A 4 5|||R:VERB:FORM|||puhastama|||REQUIRED|||-NONE-|||0
+A 6 7|||R:LEX|||kõnniteeosa|||REQUIRED|||-NONE-|||0
+
+S Mina olen vana inimene ja minu jaoks see on väga raske .
+A 7 9|||R:WO|||on see|||REQUIRED|||-NONE-|||0
+A 0 1|||R:NOM:FORM|||Ma|||REQUIRED|||-NONE-|||1
+A 7 9|||R:WO|||on see|||REQUIRED|||-NONE-|||1
+
+S Ma provisin rääkida traaktorijuhiga , aga tema ei kuule mind .
+A 1 2|||R:SPELL|||proovisin|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||traktorijuhiga|||REQUIRED|||-NONE-|||0
+A 8 9|||R:LEX|||kuula|||REQUIRED|||-NONE-|||0
+
+S Linnas räägitakse , et see probleem ei ole ainult mul .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Minu naabrinaine tütar Liis käib lasteaeda .
+A 1 2|||R:NOM:FORM|||naabrinaise|||REQUIRED|||-NONE-|||0
+A 5 6|||R:NOM:FORM|||lasteaias|||REQUIRED|||-NONE-|||0
+
+S Tema ema ütles ka , kui hommikuti kell pool kaheksa nad tulevad lasteaeda juurde , seal ei ole veel trotuaar puhas .
+A 5 5|||M:LEX|||et|||REQUIRED|||-NONE-|||0
+A 11 12|||R:LEX|||lähevad|||REQUIRED|||-NONE-|||0
+A 6 12|||R:WO|||nad lähevad hommikuti kell pool kaheksa|||REQUIRED|||-NONE-|||0
+A 12 13|||R:NOM:FORM|||lasteaia|||REQUIRED|||-NONE-|||0
+A 15 15|||M:LEX|||siis|||REQUIRED|||-NONE-|||0
+A 15 18|||R:WO|||siis ei ole seal|||REQUIRED|||-NONE-|||0
+A 19 20|||R:LEX|||kõnnitee|||REQUIRED|||-NONE-|||0
+A 5 5|||M:LEX|||et|||REQUIRED|||-NONE-|||1
+A 11 12|||R:LEX|||lähevad|||REQUIRED|||-NONE-|||1
+A 12 13|||R:NOM:FORM|||lasteaia|||REQUIRED|||-NONE-|||1
+A 6 14|||R:WO|||nad hommikuti kell pool kaheksa lasteaia juurde lähevad|||REQUIRED|||-NONE-|||1
+A 15 18|||R:WO|||ei ole seal|||REQUIRED|||-NONE-|||1
+A 19 20|||R:LEX|||kõnnitee|||REQUIRED|||-NONE-|||1
+
+S Minu arvates , on vaja vahetada traktorijuhi , kui tema ei oska korralikult oma töö teha .
+A 2 3|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 6 7|||R:NOM:FORM|||traktorijuhti|||REQUIRED|||-NONE-|||0
+A 14 15|||R:NOM:FORM|||tööd|||REQUIRED|||-NONE-|||0
+A 2 3|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+A 6 7|||R:NOM:FORM|||traktorijuhti|||REQUIRED|||-NONE-|||1
+A 9 10|||R:NOM:FORM|||ta|||REQUIRED|||-NONE-|||1
+A 14 15|||R:NOM:FORM|||tööd|||REQUIRED|||-NONE-|||1
+
+S Palun rääkige see firma juhatajaga .
+A 2 3|||R:NOM:FORM|||selle|||REQUIRED|||-NONE-|||0
+
+S Mina ootan Teie vastu .
+A 3 4|||R:NOM:FORM|||vastust|||REQUIRED|||-NONE-|||0
+A 0 1|||R:NOM:FORM|||Ma|||REQUIRED|||-NONE-|||1
+A 3 4|||R:NOM:FORM|||vastust|||REQUIRED|||-NONE-|||1
+
+S Juta --- 15.02.2018a
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0

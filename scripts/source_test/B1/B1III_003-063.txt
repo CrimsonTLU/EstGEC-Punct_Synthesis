@@ -1,0 +1,88 @@
+
+S Tere , Eeva !
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Ma tahan kirjutada kontserdist , kus ma hiljuti käisin .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Eelmisel nädalavahetusel ma käisin koos perega kontserdi peal Dima Bilan juures , sellepärast et minu abikaasa ostsib neli piletit .
+A 2 4|||R:WO|||käisin ma|||REQUIRED|||-NONE-|||0
+A 6 7|||R:NOM:FORM|||kontserdil|||REQUIRED|||-NONE-|||0
+A 7 8|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+A 9 10|||R:NOM:FORM|||Bilani|||REQUIRED|||-NONE-|||0
+A 6 10|||R:WO|||Dima Bilani kontserdil|||REQUIRED|||-NONE-|||0
+A 10 11|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+A 16 17|||R:SPELL|||ostis|||REQUIRED|||-NONE-|||0
+
+S Mulle meeldib popp-muusika .
+A 2 4|||R:SPELL|||popmuusika|||REQUIRED|||-NONE-|||0
+
+S Me käisime konserdil koos perega : mina , abikaasa ja kaks poega .
+A 2 3|||R:SPELL|||kontserdil|||REQUIRED|||-NONE-|||0
+
+S Me kuulasime popp-muusikat .
+A 2 4|||R:SPELL|||popmuusikat|||REQUIRED|||-NONE-|||0
+
+S Mulle väga meeldis selle konsert .
+A 3 4|||R:NOM:FORM|||see|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||kontsert|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOM:FORM|||see|||REQUIRED|||-NONE-|||1
+A 4 5|||R:SPELL|||kontsert|||REQUIRED|||-NONE-|||1
+A 5 6|||R:PUNCT|||!|||REQUIRED|||-NONE-|||1
+
+S Kontserd oli väga vahva .
+A 0 1|||R:SPELL|||Kontsert|||REQUIRED|||-NONE-|||0
+A 0 1|||R:SPELL|||Kontsert|||REQUIRED|||-NONE-|||1
+A 4 5|||R:PUNCT|||!|||REQUIRED|||-NONE-|||1
+
+S Pärast kontserdi me läksime restoranisse .
+A 1 2|||R:NOM:FORM:SPELL|||kontserti|||REQUIRED|||-NONE-|||0
+A 2 4|||R:WO|||läksime me|||REQUIRED|||-NONE-|||0
+A 1 2|||R:NOM:FORM:SPELL|||kontserti|||REQUIRED|||-NONE-|||1
+A 2 4|||R:WO|||läksime me|||REQUIRED|||-NONE-|||1
+A 4 5|||R:NOM:FORM|||restorani|||REQUIRED|||-NONE-|||1
+A 1 2|||R:NOM:FORM:SPELL|||kontserti|||REQUIRED|||-NONE-|||2
+A 2 3|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||2
+A 4 5|||R:NOM:FORM|||restorani|||REQUIRED|||-NONE-|||2
+
+S Me sõime ja jõime .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Seejärel me jalutasime linna mööda ja tegime nälja ja rääkisime elust .
+A 1 3|||R:WO|||jalutasime me|||REQUIRED|||-NONE-|||0
+A 3 5|||R:WO|||mööda linna|||REQUIRED|||-NONE-|||0
+A 7 8|||R:SPELL|||nalja|||REQUIRED|||-NONE-|||0
+A 1 2|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 3 5|||R:WO|||mööda linna|||REQUIRED|||-NONE-|||1
+A 5 6|||U:LEX|||,|||REQUIRED|||-NONE-|||1
+A 7 8|||R:SPELL|||nalja|||REQUIRED|||-NONE-|||1
+
+S Tulevikus ma tahan kontserdile jažž-muusika minna .
+A 1 3|||R:WO|||tahan ma|||REQUIRED|||-NONE-|||0
+A 4 6|||R:SPELL|||džässmuusika||jazz-muusika|||REQUIRED|||-NONE-|||0
+A 3 5|||R:WO|||džässmuusika kontserdile||jazz-muusika kontserdile|||REQUIRED|||-NONE-|||0
+A 1 3|||R:WO|||tahan ma|||REQUIRED|||-NONE-|||1
+A 4 6|||R:SPELL|||džässmuusika||jazz-muusika|||REQUIRED|||-NONE-|||1
+A 3 6|||R:WO|||minna džässmuusika kontserdile||minna jazz-muusika kontserdile|||REQUIRED|||-NONE-|||1
+
+S Mulle meeldib jažž-muusika .
+A 2 4|||R:WS:SPELL|||džässmuusika||jazz-muusika|||REQUIRED|||-NONE-|||0
+
+S Veel mulle meeldib klaverit kuulata .
+A 1 3|||R:WO|||meeldib mulle|||REQUIRED|||-NONE-|||0
+A 0 3|||R:WO|||Mulle meeldib veel|||REQUIRED|||-NONE-|||1
+A 1 3|||R:WO|||meeldib mulle|||REQUIRED|||-NONE-|||2
+A 3 4|||R:LEX|||klaverimängu|||REQUIRED|||-NONE-|||2
+A 3 5|||R:WO|||kuulata klaverimängu|||REQUIRED|||-NONE-|||2
+
+S Muide , ma kuulsin , et järgmisel laupäeval on kontsert " Soordi " .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+A 9 13|||R:WO|||" Soordi " kontsert|||REQUIRED|||-NONE-|||1
+
+S Ma kindlasti käin koos perega sellel konserdil .
+A 1 3|||R:WO|||käin kindlasti|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||kontserdil|||REQUIRED|||-NONE-|||0
+A 2 3|||R:LEX|||lähen|||REQUIRED|||-NONE-|||1
+A 1 3|||R:WO|||lähen kindlasti|||REQUIRED|||-NONE-|||1
+A 5 6|||R:NOM:FORM|||sellele|||REQUIRED|||-NONE-|||1
+A 6 7|||R:NOM:FORM|||kontserdile|||REQUIRED|||-NONE-|||1

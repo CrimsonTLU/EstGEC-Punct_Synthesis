@@ -1,0 +1,20 @@
+
+S Ma soovitan müüa oma autot .
+A 1 2|||R:LEX|||soovin|||REQUIRED|||-NONE-|||0
+
+S See on väga ilus , kiiresti ja mugav punane auto .
+A 5 6|||R:LEX|||kiire|||REQUIRED|||-NONE-|||0
+
+S See auto sobib naisele .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+A 3 4|||R:NOM:FORM|||naistele|||REQUIRED|||-NONE-|||1
+
+S Auto on kuus aastat vana .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Auto hind on tuhat kaks sada kolmkümmend eurot .
+A 4 6|||R:WS|||kakssada|||REQUIRED|||-NONE-|||0
+
+S Saab autot näha esimesel augustil Viru keskuse kõrval parklal .
+A 0 2|||R:WO|||Autot saab|||REQUIRED|||-NONE-|||0
+A 8 9|||R:NOM:FORM|||parklas|||REQUIRED|||-NONE-|||0

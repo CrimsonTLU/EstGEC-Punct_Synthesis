@@ -1,0 +1,89 @@
+
+S Sügise muusika .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+A 2 3|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+
+S Seoses sellega et õues on sügis , igalpool toimuvad temaatilised üritused .
+A 2 2|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 7 8|||R:WS|||igal pool|||REQUIRED|||-NONE-|||0
+A 7 9|||R:WO|||toimuvad igal pool|||REQUIRED|||-NONE-|||0
+
+S Ühel ilusal päeval kaisime koos oma perega ühel konserdil , kus esinesid koolilapsed , musikakooli lapsed .
+A 3 4|||R:SPELL|||käisime|||REQUIRED|||-NONE-|||0
+A 8 9|||R:SPELL|||kontserdil|||REQUIRED|||-NONE-|||0
+A 14 15|||R:SPELL|||muusikakooli|||REQUIRED|||-NONE-|||0
+
+S Kontsert meeldis väga !
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Sest et laste esinemist alati mõnus kuulata , vaadata .
+A 4 4|||M:LEX|||on|||REQUIRED|||-NONE-|||0
+A 1 2|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 4 4|||M:LEX|||on|||REQUIRED|||-NONE-|||1
+A 6 9|||R:PUNCT|||kuulata-vaadata|||REQUIRED|||-NONE-|||1
+A 4 4|||M:LEX|||on|||REQUIRED|||-NONE-|||2
+A 7 8|||M:LEX|||ja|||REQUIRED|||-NONE-|||2
+
+S Peale kontserti läksime restoraanis .
+A 3 4|||R:NOM:FORM:SPELL|||restorani|||REQUIRED|||-NONE-|||0
+A 2 3|||R:LEX|||käisime|||REQUIRED|||-NONE-|||1
+A 3 4|||R:SPELL|||restoranis|||REQUIRED|||-NONE-|||1
+
+S Sel päeval oli vaga sisukas ja mõnus päev , perepäev .
+A 0 1|||R:NOM:FORM|||See|||REQUIRED|||-NONE-|||0
+A 1 2|||R:NOM:FORM|||päev|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||väga|||REQUIRED|||-NONE-|||0
+A 7 8|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+A 0 1|||R:NOM:FORM|||See|||REQUIRED|||-NONE-|||1
+A 1 2|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 3 4|||R:SPELL|||väga|||REQUIRED|||-NONE-|||1
+
+S Meile meeldib käia laste kontsertitel , sest et meil on oma 10 aastane tüdruk , kes juba 4 aastat käib muusikakoolis , klaverit mängimas .
+A 4 5|||R:SPELL|||kontsertidel|||REQUIRED|||-NONE-|||0
+A 11 13|||R:WS|||10aastane||10-aastane|||REQUIRED|||-NONE-|||0
+A 21 22|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||kontsertidel|||REQUIRED|||-NONE-|||1
+A 7 8|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 11 13|||R:WS|||10aastane||10-aastane|||REQUIRED|||-NONE-|||1
+A 16 21|||R:WO|||käib juba 4 aastat muusikakoolis||käib muusikakoolis juba 4 aastat|||REQUIRED|||-NONE-|||1
+A 21 22|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+A 4 5|||R:SPELL|||kontsertidel|||REQUIRED|||-NONE-|||2
+A 10 11|||R:NOM:FORM|||omal|||REQUIRED|||-NONE-|||2
+A 11 13|||R:WS|||10aastane||10-aastane|||REQUIRED|||-NONE-|||2
+A 16 21|||R:WO|||käib juba 4 aastat muusikakoolis||käib muusikakoolis juba 4 aastat|||REQUIRED|||-NONE-|||2
+
+S Ja järgmine kontsert toimub samas muusikakoolis , kuhu me kindlasti lähme .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+A 3 3|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 3 11|||R:WO|||kuhu me kindlasti lähme , toimub samas muusikakoolis|||REQUIRED|||-NONE-|||1
+A 1 6|||R:WO|||samas muusikakoolis toimub järgmine kontsert|||REQUIRED|||-NONE-|||2
+
+S Musikaalsed päevad , koos oma inimestega , mida võib paremini olla ...
+A 2 3|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 7 8|||R:NOM:FORM|||mis|||REQUIRED|||-NONE-|||0
+A 9 10|||R:LEX|||parem|||REQUIRED|||-NONE-|||0
+A 2 3|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+A 7 8|||R:NOM:FORM|||mis|||REQUIRED|||-NONE-|||1
+A 8 9|||R:VERB:FORM|||võiks|||REQUIRED|||-NONE-|||1
+A 9 10|||R:LEX|||parem|||REQUIRED|||-NONE-|||1
+
+S Ja see kvaliteetaeg peale kontserti , siis kui me lähme välja sööma kõik koos .
+A 10 14|||R:WO|||kõik koos välja sööma|||REQUIRED|||-NONE-|||0
+
+S Kus me arutame erinevad teemad : kodu , kool ja nii edasi .
+A 3 4|||R:NOM:FORM|||erinevaid|||REQUIRED|||-NONE-|||0
+A 4 5|||R:NOM:FORM|||teemasid|||REQUIRED|||-NONE-|||0
+
+S Selline päev juhtub meil väga harva .
+A 0 1|||R:NOM:FORM|||Sellist|||REQUIRED|||-NONE-|||0
+A 1 2|||R:NOM:FORM|||päeva|||REQUIRED|||-NONE-|||0
+A 0 1|||R:NOM:FORM|||Selliseid|||REQUIRED|||-NONE-|||1
+A 1 2|||R:NOM:FORM|||päevi|||REQUIRED|||-NONE-|||1
+A 0 1|||R:NOM:FORM|||Selliseid|||REQUIRED|||-NONE-|||2
+A 1 2|||R:NOM:FORM|||päevi|||REQUIRED|||-NONE-|||2
+A 2 3|||R:LEX|||on|||REQUIRED|||-NONE-|||2
+
+S Aga hea et üldse juhtub .
+A 2 2|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 2 2|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 4 5|||R:LEX|||on|||REQUIRED|||-NONE-|||1

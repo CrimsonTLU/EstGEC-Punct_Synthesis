@@ -1,0 +1,87 @@
+
+S Tere tuttavad !
+A 1 1|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+
+S Mul on teile üks pakkumine .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Ma korrastasin hiljuti oma raamaturiiuleid ning leidsin raamatuid ja ajakirju , mida mul enam ei vaja ja tahaksin need ära anda .
+A 12 13|||R:NOM:FORM|||ma|||REQUIRED|||-NONE-|||0
+A 15 15|||M:LEX|||ole|||REQUIRED|||-NONE-|||1
+
+S Ma leidsin väga palju erinevat ajakirjandust .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Esiteks , ma võin pakkuda laste raamatuid , näiteks " Sipsik " ja teised lühikesed jutud .
+A 5 7|||R:WS|||lasteraamatuid|||REQUIRED|||-NONE-|||0
+A 5 7|||R:WS|||lasteraamatuid|||REQUIRED|||-NONE-|||1
+A 13 14|||R:NOM:FORM|||teisi|||REQUIRED|||-NONE-|||1
+A 14 16|||R:WS:NOM:FORM|||lühijutte|||REQUIRED|||-NONE-|||1
+
+S Vanaisa mul jäi vene raamatuid .
+A 0 1|||R:NOM:FORM|||Vanaisast||Vanaisalt|||REQUIRED|||-NONE-|||0
+A 1 2|||R:NOM:FORM|||mulle|||REQUIRED|||-NONE-|||0
+A 1 3|||R:WO|||jäi mulle|||REQUIRED|||-NONE-|||0
+
+S Kahjuks , vene keelt ma ei oska , aga ma kuulsin , et Dostojevksi , Gogol , Puškin ja Lermontov kirjutasid väga ilusalt ja põnevalt .
+A 1 2|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 2 7|||R:WO|||ma ei oska vene keelt|||REQUIRED|||-NONE-|||0
+A 10 11|||R:VERB:FORM|||olen kuulnud|||REQUIRED|||-NONE-|||0
+A 13 14|||R:SPELL|||Dostojevski|||REQUIRED|||-NONE-|||0
+
+S Siis , kes oskab vene keelt ja kes natuke huvitatud vene kultuurist , palun , võtke .
+A 0 1|||R:LEX|||Niisiis||Seega|||REQUIRED|||-NONE-|||0
+A 8 8|||M:LEX|||on|||REQUIRED|||-NONE-|||0
+A 8 12|||R:WO|||vene kultuurist natuke huvitatud|||REQUIRED|||-NONE-|||0
+A 14 15|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 16 16|||M:LEX|||need|||REQUIRED|||-NONE-|||0
+
+S Mul on veel kirjandus , mida ma juba lugesin .
+A 3 4|||R:NOM:FORM|||kirjandust|||REQUIRED|||-NONE-|||0
+A 8 9|||R:VERB:FORM|||olen lugenud|||REQUIRED|||-NONE-|||0
+A 7 9|||R:WO|||olen juba lugenud|||REQUIRED|||-NONE-|||0
+
+S Mõned raamatud sellistest on minu lemmikud , aga mulle ei meeldi lugeda raamatut mitu korda .
+A 2 3|||R:LEX|||nendest|||REQUIRED|||-NONE-|||0
+A 12 12|||M:LEX|||ühte|||REQUIRED|||-NONE-|||0
+A 2 3|||R:LEX|||nendest|||REQUIRED|||-NONE-|||1
+
+S Minu lemmikutele raamatudele kuluvad Orwell " 1984 " , Jack London'i ja Steven King'i raamatud .
+A 1 2|||R:NOM:FORM|||lemmikute|||REQUIRED|||-NONE-|||0
+A 2 3|||R:NOM:FORM|||raamatute|||REQUIRED|||-NONE-|||0
+A 3 3|||M:LEX|||hulka|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||kuuluvad|||REQUIRED|||-NONE-|||0
+A 4 5|||R:NOM:FORM|||Orwelli|||REQUIRED|||-NONE-|||0
+A 10 11|||R:SPELL|||Londoni|||REQUIRED|||-NONE-|||0
+A 13 14|||R:SPELL|||Kingi|||REQUIRED|||-NONE-|||0
+
+S Peale selle , ma tahtsin teil küsida nõu .
+A 2 3|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 3 5|||R:WO|||tahtsin ma|||REQUIRED|||-NONE-|||0
+A 5 6|||R:NOM:FORM|||teilt|||REQUIRED|||-NONE-|||0
+A 6 8|||R:WO|||nõu küsida|||REQUIRED|||-NONE-|||0
+
+S Mida teha raamatute ja ajakirjadega , mida keegi ei soovi ?
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Võib olla , teil on tuttavad , kellel on huvi neid võtta , või teil on raamatukogude kontaktid .
+A 0 2|||R:WS|||Võib-olla||Võibolla|||REQUIRED|||-NONE-|||0
+A 2 3|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 3 5|||R:WO|||on teil|||REQUIRED|||-NONE-|||0
+A 5 6|||R:NOM:FORM|||tuttavaid|||REQUIRED|||-NONE-|||0
+A 12 13|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 17 18|||R:NOM:FORM|||kontakte|||REQUIRED|||-NONE-|||0
+
+S Siis , kui te tahate minu raamatuid saada - helistage --- ja pärast tulge minu juurde .
+A 8 9|||R:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 0 2|||U:LEX|||Kui|||REQUIRED|||-NONE-|||1
+
+S Minu aadress on Pae --- , Tallinn .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Ootan vastust !
+A 1 1|||M:LEX|||teie|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||1
+
+S Lugupidamisega Sergei ---
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0

@@ -1,0 +1,111 @@
+
+S Tere minu kallis sõbrad !
+A 1 1|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 2 3|||R:NOM:FORM|||kallid|||REQUIRED|||-NONE-|||0
+
+S Mul on teile väga huvitav uudis .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Eelmisel nädalavahetusel mina koristasin oma suvilas .
+A 2 4|||R:WO|||koristasin mina|||REQUIRED|||-NONE-|||0
+A 2 3|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+
+S Kujutage ette , et viimasel korusel mu kahekorulises majas katuse all mina leidsin vana raamaturiiuleid , kus olid palju raamatuid ja ajakirju .
+A 3 7|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||korrusel|||REQUIRED|||-NONE-|||0
+A 6 7|||R:LEX|||oma|||REQUIRED|||-NONE-|||0
+A 7 8|||R:NOM:FORM:SPELL|||kahekorruselise|||REQUIRED|||-NONE-|||0
+A 8 9|||R:NOM:FORM|||maja|||REQUIRED|||-NONE-|||0
+A 10 11|||R:NOM:FORM|||alt|||REQUIRED|||-NONE-|||0
+A 4 13|||R:WO|||mina leidsin oma kahekorruselise maja viimasel korrusel katuse alt|||REQUIRED|||-NONE-|||0
+A 13 14|||R:NOM:FORM|||vanad|||REQUIRED|||-NONE-|||0
+A 14 15|||R:NOM:FORM|||raamaturiiulid|||REQUIRED|||-NONE-|||0
+A 17 18|||R:VERB:FORM|||oli|||REQUIRED|||-NONE-|||0
+A 3 7|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 4 5|||R:NOM:FORM|||viimaselt|||REQUIRED|||-NONE-|||1
+A 5 6|||R:NOM:FORM:SPELL|||korruselt|||REQUIRED|||-NONE-|||1
+A 6 7|||R:LEX|||oma|||REQUIRED|||-NONE-|||1
+A 7 8|||R:NOM:FORM:SPELL|||kahekorruselise|||REQUIRED|||-NONE-|||1
+A 8 9|||R:NOM:FORM|||maja|||REQUIRED|||-NONE-|||1
+A 10 11|||R:NOM:FORM|||alt|||REQUIRED|||-NONE-|||1
+A 4 13|||R:WO|||mina leidsin oma kahekorruselise maja viimaselt korruselt katuse alt|||REQUIRED|||-NONE-|||1
+A 13 14|||R:NOM:FORM|||vanu|||REQUIRED|||-NONE-|||1
+A 14 15|||R:NOM:FORM|||raamaturiiuleid|||REQUIRED|||-NONE-|||1
+A 17 18|||R:VERB:FORM|||oli|||REQUIRED|||-NONE-|||1
+
+S Kohe mina lõpetasin korristamist ja hakkan lugema kuni õhtuni .
+A 0 3|||R:WO|||Mina lõpetasin kohe|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOM:FORM:SPELL|||koristamise|||REQUIRED|||-NONE-|||0
+A 5 6|||R:VERB:FORM|||hakkasin|||REQUIRED|||-NONE-|||0
+A 1 2|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 0 3|||R:WO|||Lõpetasin kohe|||REQUIRED|||-NONE-|||1
+A 3 4|||R:NOM:FORM:SPELL|||koristamise|||REQUIRED|||-NONE-|||1
+A 5 6|||R:VERB:FORM|||hakkasin|||REQUIRED|||-NONE-|||1
+
+S Kui te teate mina tahaks müüa oma suvila ja mina ei tahaks müüa need raamatuid ja ajakirju .
+A 0 1|||R:LEX|||Kuid|||REQUIRED|||-NONE-|||0
+A 3 3|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 3 3|||M:LEX|||et|||REQUIRED|||-NONE-|||0
+A 7 8|||R:NOM:FORM|||suvilat|||REQUIRED|||-NONE-|||0
+A 5 8|||R:WO|||oma suvilat müüa|||REQUIRED|||-NONE-|||0
+A 13 14|||R:NOM:FORM|||neid|||REQUIRED|||-NONE-|||0
+A 12 17|||R:WO|||neid raamatuid ja ajakirju müüa|||REQUIRED|||-NONE-|||0
+A 0 1|||R:LEX|||Kuid|||REQUIRED|||-NONE-|||1
+A 3 3|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 3 3|||M:LEX|||et|||REQUIRED|||-NONE-|||1
+A 7 8|||R:NOM:FORM|||suvilat|||REQUIRED|||-NONE-|||1
+A 8 8|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 8 9|||R:LEX|||aga|||REQUIRED|||-NONE-|||1
+A 13 14|||R:NOM:FORM|||neid|||REQUIRED|||-NONE-|||1
+
+S Sest sellisel riiulil on seisavad meie " ajaloo " ja " lapsepõlv " , täpsemalt öelda , iga raamat ja ajakirju mina tahaks hoida ja anda headekätte .
+A 1 2|||R:LEX|||sellel|||REQUIRED|||-NONE-|||0
+A 3 4|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+A 4 5|||R:VERB:FORM|||seisab|||REQUIRED|||-NONE-|||0
+A 6 7|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 7 8|||R:NOM:FORM|||ajalugu|||REQUIRED|||-NONE-|||0
+A 8 9|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 10 11|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 12 13|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 15 16|||R:VERB:FORM|||öeldes|||REQUIRED|||-NONE-|||0
+A 16 17|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 18 19|||R:NOM:FORM|||raamatut|||REQUIRED|||-NONE-|||0
+A 20 21|||R:NOM:FORM|||ajakirja|||REQUIRED|||-NONE-|||0
+A 17 23|||R:WO|||tahaks mina iga raamatut ja ajakirja|||REQUIRED|||-NONE-|||0
+A 26 27|||R:WS:NOM:FORM|||headesse kätesse|||REQUIRED|||-NONE-|||0
+
+S Mina pakkun kohtuda järgmisel nägalavahetusel minu juures suvilas , veedame aega looduses ja te valite endale mida teile meeldib .
+A 1 2|||R:SPELL|||pakun|||REQUIRED|||-NONE-|||0
+A 2 2|||M:LEX|||välja|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||nädalavahetusel|||REQUIRED|||-NONE-|||0
+A 16 16|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 16 17|||R:NOM:FORM|||mis|||REQUIRED|||-NONE-|||0
+
+S Kui te ei taha võtta raamat tasuta , siis pakkun teile valida mida anda mulle raamatu vastu .
+A 5 6|||R:NOM:FORM|||raamatuid|||REQUIRED|||-NONE-|||0
+A 4 7|||R:WO|||raamatuid tasuta võtta|||REQUIRED|||-NONE-|||0
+A 9 10|||R:LEX|||lasen|||REQUIRED|||-NONE-|||0
+A 10 11|||R:NOM:FORM|||teil|||REQUIRED|||-NONE-|||0
+A 12 12|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 15 16|||R:NOM:FORM|||raamatute|||REQUIRED|||-NONE-|||0
+A 13 17|||R:WO|||mulle raamatute vastu anda|||REQUIRED|||-NONE-|||0
+A 5 6|||R:NOM:FORM|||raamatut|||REQUIRED|||-NONE-|||1
+A 4 7|||R:WO|||raamatut tasuta võtta|||REQUIRED|||-NONE-|||1
+A 9 10|||R:LEX|||lasen|||REQUIRED|||-NONE-|||1
+A 10 11|||R:NOM:FORM|||teil|||REQUIRED|||-NONE-|||1
+A 12 12|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 13 17|||R:WO|||mulle raamatu vastu anda|||REQUIRED|||-NONE-|||1
+
+S Ootan teid !
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Mul oleks rõõm teid näha veel kord , nii et me juba ammu ei kohtunud koos !
+A 4 7|||R:WO|||veel kord näha|||REQUIRED|||-NONE-|||0
+A 8 9|||R:LEX|||sest|||REQUIRED|||-NONE-|||0
+A 14 14|||M:LEX|||ole|||REQUIRED|||-NONE-|||0
+A 11 14|||R:WO|||ei ole juba ammu kohtunud|||REQUIRED|||-NONE-|||0
+A 15 16|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Teie sõber , Sergei !
+A 2 3|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 4 5|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0

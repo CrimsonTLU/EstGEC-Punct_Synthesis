@@ -1,0 +1,108 @@
+
+S Lugupeetud omavalitsuse juhataja !
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S mina olen Karl --- , elan aderssil : Mustakivi tee --- , korter --- .
+A 0 1|||R:CASE|||Mina|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||aadressil|||REQUIRED|||-NONE-|||0
+A 7 8|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Mina pöördun Teie juurde sellise probleemiga .
+A 3 4|||R:LEX|||poole|||REQUIRED|||-NONE-|||0
+A 0 1|||R:NOM:FORM|||Ma|||REQUIRED|||-NONE-|||1
+A 3 4|||R:LEX|||poole|||REQUIRED|||-NONE-|||1
+
+S Eelmisest aastast meie tänavate ja parkide hooldustööd teostatakse uue firmaga " Mugav linn " .
+A 6 7|||R:NOM:FORM|||hooldustöid|||REQUIRED|||-NONE-|||0
+A 7 8|||R:VERB:FORM|||teostab|||REQUIRED|||-NONE-|||0
+A 2 8|||R:WO|||teostab meie tänavate ja parkide hooldustööd|||REQUIRED|||-NONE-|||0
+A 8 9|||R:NOM:FORM|||uus|||REQUIRED|||-NONE-|||0
+A 9 10|||R:NOM:FORM|||firma|||REQUIRED|||-NONE-|||0
+A 10 11|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 12 13|||R:CASE|||Linn|||REQUIRED|||-NONE-|||0
+A 13 14|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Tahaksin märkida , et teenuste kvaliteet muutus halvemaks
+A 6 7|||R:VERB:FORM|||on muutunud|||REQUIRED|||-NONE-|||0
+A 8 8|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+
+S Teed on must , parkimiskohad halvas seisundis .
+A 2 3|||R:NOM:FORM|||mustad|||REQUIRED|||-NONE-|||0
+
+S Nad pole märgitud selgelt ja õigesti , invaliidi koht ei ole värvitud sinise värviga , märkust ei ole .
+A 0 1|||R:LEX|||Need|||REQUIRED|||-NONE-|||0
+A 2 6|||R:WO|||selgelt ja õigesti märgitud|||REQUIRED|||-NONE-|||0
+A 7 9|||R:WS|||invaliidikoht|||REQUIRED|||-NONE-|||0
+A 15 16|||R:LEX|||märki|||REQUIRED|||-NONE-|||0
+A 0 1|||R:LEX|||Need|||REQUIRED|||-NONE-|||1
+A 2 6|||R:WO|||selgelt ja õigesti märgitud|||REQUIRED|||-NONE-|||1
+A 7 9|||R:WS|||invaliidikoht|||REQUIRED|||-NONE-|||1
+A 12 13|||R:NOM:FORM|||siniseks|||REQUIRED|||-NONE-|||1
+A 13 14|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 11 13|||R:WO|||siniseks värvitud|||REQUIRED|||-NONE-|||1
+A 15 16|||R:LEX:NOM:FORM|||märk|||REQUIRED|||-NONE-|||1
+A 16 17|||R:LEX|||on|||REQUIRED|||-NONE-|||1
+A 17 18|||R:LEX|||puudu|||REQUIRED|||-NONE-|||1
+
+S Asfaalt on kahjustustega ja nii edasi , ja nii edasi - te teate kõik ise .
+A 0 1|||R:SPELL|||Asfalt|||REQUIRED|||-NONE-|||0
+A 13 14|||R:NOM:FORM|||kõike|||REQUIRED|||-NONE-|||0
+
+S Koristamise tööd teostatakse ainult kord nädalas kella neljast hommikul vaatamata sellele , et kõik magavad sellel ajal .
+A 1 2|||R:NOM:FORM|||töid|||REQUIRED|||-NONE-|||0
+A 14 17|||R:WO|||sellel ajal magavad|||REQUIRED|||-NONE-|||0
+A 0 2|||R:WS|||Koristustöid|||REQUIRED|||-NONE-|||1
+A 15 16|||R:NOM:FORM|||sel|||REQUIRED|||-NONE-|||1
+A 14 17|||R:WO|||sel ajal magavad|||REQUIRED|||-NONE-|||1
+
+S Meie peres on kaks last ning nad ei saa magada pärast sellist koristamist kuni hommikuni .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Ma tean et teenustasu muutus suuremaks , kas Teie saaksite selgitada meie elanikutele miks nii toimus ?
+A 2 2|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 6 7|||R:PUNCT|||.|||REQUIRED|||-NONE-|||0
+A 7 8|||R:CASE|||Kas|||REQUIRED|||-NONE-|||0
+A 12 13|||R:NOM:FORM:SPELL|||elanikele|||REQUIRED|||-NONE-|||0
+A 13 13|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 15 16|||R:LEX|||tehti||juhtus|||REQUIRED|||-NONE-|||0
+A 2 2|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 12 13|||R:NOM:FORM:SPELL|||elanikele|||REQUIRED|||-NONE-|||1
+A 13 13|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 15 16|||R:LEX|||tehti||juhtus|||REQUIRED|||-NONE-|||1
+
+S Ma elan selles majas juba kolmkümmend aastat .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Varem ma millegi ei kohtunud samasuguse probreemidega .
+A 2 3|||R:LEX|||iialgi||kunagi|||REQUIRED|||-NONE-|||0
+A 4 4|||M:LEX|||ole|||REQUIRED|||-NONE-|||0
+A 0 4|||R:WO|||Ma ei ole varem iialgi|||REQUIRED|||-NONE-|||0
+A 4 5|||R:LEX|||kohanud|||REQUIRED|||-NONE-|||0
+A 5 6|||R:NOM:FORM|||samasugust|||REQUIRED|||-NONE-|||0
+A 6 7|||R:NOM:FORM|||probleemi|||REQUIRED|||-NONE-|||0
+A 4 7|||R:WO|||samasugust probleemi kohanud|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||millalgi|||REQUIRED|||-NONE-|||1
+A 4 4|||M:LEX|||ole|||REQUIRED|||-NONE-|||1
+A 1 4|||R:WO|||ei ole ma millalgi|||REQUIRED|||-NONE-|||1
+A 4 5|||R:LEX|||kohanud|||REQUIRED|||-NONE-|||1
+A 5 6|||R:NOM:FORM|||samasugust|||REQUIRED|||-NONE-|||1
+A 6 7|||R:NOM:FORM|||probleemi|||REQUIRED|||-NONE-|||1
+A 4 7|||R:WO|||samasugust probleemi kohanud|||REQUIRED|||-NONE-|||1
+
+S Palun läbi vaadata lepingutingimusi , kutsuda omanikukoosolekut ja lahendada kõik küsimusi järgmise kuu jooksul
+A 3 4|||R:NOM:FORM|||lepingutingimused|||REQUIRED|||-NONE-|||0
+A 1 4|||R:WO|||lepingutingimused läbi vaadata|||REQUIRED|||-NONE-|||0
+A 6 6|||M:LEX|||kokku|||REQUIRED|||-NONE-|||0
+A 6 7|||R:WS:NOM:FORM|||omanike koosolek|||REQUIRED|||-NONE-|||0
+A 10 11|||R:NOM:FORM|||küsimused|||REQUIRED|||-NONE-|||0
+A 14 14|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+
+S Ootan Teie vastust telefooni teel ---- või e-mailile ---@hot.ee
+A 3 4|||R:SPELL|||telefoni|||REQUIRED|||-NONE-|||0
+A 7 8|||R:LEX|||e-postile|||REQUIRED|||-NONE-|||0
+A 9 9|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||telefoni|||REQUIRED|||-NONE-|||1
+A 9 9|||M:PUNCT|||.|||REQUIRED|||-NONE-|||1
+
+S Tervitades , Karl ---
+A 1 2|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0

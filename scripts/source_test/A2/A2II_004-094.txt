@@ -1,0 +1,32 @@
+
+S Müüakse auto , Mazda 6 2015. a .
+A 1 2|||R:NOM:FORM|||autot|||REQUIRED|||-NONE-|||0
+A 2 3|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 0 1|||R:VERB:FORM|||Müüa|||REQUIRED|||-NONE-|||1
+A 2 3|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+A 0 1|||R:VERB:FORM|||Müüa|||REQUIRED|||-NONE-|||2
+A 3 7|||R:WO|||2015. a Mazda 6|||REQUIRED|||-NONE-|||2
+
+S Värv on tumepruun , üks omanik , ostetud uuena saloonist , kaasas on kaks võtti ja talverehv
+A 9 10|||R:SPELL|||salongist|||REQUIRED|||-NONE-|||0
+A 14 15|||R:NOM:FORM:SPELL|||võtit|||REQUIRED|||-NONE-|||0
+A 16 17|||R:NOM:FORM|||talverehvid|||REQUIRED|||-NONE-|||0
+A 17 17|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+
+S Auto on vähe kasutatud .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+A 0 1|||R:NOM:FORM|||Autot|||REQUIRED|||-NONE-|||1
+
+S Läbisõit on 30000 km .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Auto asub Tallinnas , Õismäel .
+A 3 4|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Kui soovite näha , helistage telefonil .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+A 2 2|||M:LEX|||seda|||REQUIRED|||-NONE-|||1
+
+S Parem aeg on õhtul või nädalavahetusel .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+A 0 1|||R:NOM:FORM|||Parim|||REQUIRED|||-NONE-|||1

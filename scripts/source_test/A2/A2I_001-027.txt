@@ -1,0 +1,52 @@
+
+S Kallis Mari ,
+A 2 3|||R:PUNCT|||!|||REQUIRED|||-NONE-|||0
+A 2 3|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+
+S Ma tahan kutsuda sind ühte huvitavat linna .
+A 5 6|||R:NOM:FORM|||huvitavasse|||REQUIRED|||-NONE-|||0
+A 2 4|||R:WO|||sind kutsuda|||REQUIRED|||-NONE-|||1
+A 5 6|||R:NOM:FORM|||huvitavasse|||REQUIRED|||-NONE-|||1
+
+S Asi on sellest , et ma sõidan Tartu .
+A 2 3|||R:NOM:FORM|||selles|||REQUIRED|||-NONE-|||0
+A 7 8|||R:NOM:FORM|||Tartusse|||REQUIRED|||-NONE-|||0
+
+S Lähme koos minuga .
+A 0 1|||R:LEX|||Tule|||REQUIRED|||-NONE-|||0
+A 2 3|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 2 3|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||2
+A 3 4|||R:PUNCT|||!|||REQUIRED|||-NONE-|||2
+
+S Ma lähen kaheksateistkümnendal mail .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Ma tean , et sina ei tööta ja sul on vaba aeg .
+A 4 5|||R:NOM:FORM|||sa|||REQUIRED|||-NONE-|||0
+A 11 12|||R:NOM:FORM|||aega|||REQUIRED|||-NONE-|||0
+A 11 12|||R:NOM:FORM|||aega|||REQUIRED|||-NONE-|||1
+A 5 5|||M:LEX|||siis|||REQUIRED|||-NONE-|||2
+A 11 12|||R:NOM:FORM|||aega|||REQUIRED|||-NONE-|||2
+
+S Me sõidame bussiga .
+A 2 2|||M:LEX|||sinna|||REQUIRED|||-NONE-|||0
+
+S Seal me käime linnas , musemiumis , kohvikus .
+A 5 6|||R:SPELL|||muuseumis|||REQUIRED|||-NONE-|||0
+A 1 3|||R:WO|||käime me|||REQUIRED|||-NONE-|||1
+A 5 6|||R:SPELL|||muuseumis|||REQUIRED|||-NONE-|||1
+A 6 7|||M:LEX|||ja|||REQUIRED|||-NONE-|||1
+
+S Ma külasin , et Tartu väga ilus linn ja seal on suur tervisse müseum .
+A 1 2|||R:SPELL|||kuulsin|||REQUIRED|||-NONE-|||0
+A 5 5|||M:LEX|||on|||REQUIRED|||-NONE-|||0
+A 12 14|||R:WS:SPELL|||tervisemuuseum|||REQUIRED|||-NONE-|||0
+
+S Loodan , et sa oled nõus ja sulle meeldib see kutse .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Kohtume kaheksateistkümnendal mail kell 10.00 vana linnas .
+A 5 7|||R:WS|||vanalinnas|||REQUIRED|||-NONE-|||0
+
+S Kõike head !
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0

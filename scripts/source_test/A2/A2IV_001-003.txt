@@ -1,0 +1,41 @@
+
+S Eelmisel aastal ma käisin maal vanaemale juures .
+A 2 4|||R:WO|||käisin ma|||REQUIRED|||-NONE-|||0
+A 5 6|||R:NOM:FORM|||vanaema|||REQUIRED|||-NONE-|||0
+
+S Ta asub Venemaal mere ääres .
+A 1 2|||R:LEX|||elab|||REQUIRED|||-NONE-|||0
+
+S Ma perega käisin ranna ujuda .
+A 1 3|||R:WO|||käisin perega|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOM:FORM|||rannas|||REQUIRED|||-NONE-|||0
+A 4 5|||R:VERB:FORM|||ujumas|||REQUIRED|||-NONE-|||0
+
+S Veel me käisime metsas marju ja seeni .
+A 1 2|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+A 4 5|||R:NOM:FORM|||marjul|||REQUIRED|||-NONE-|||0
+A 6 7|||R:NOM:FORM|||seenel|||REQUIRED|||-NONE-|||0
+A 1 3|||R:WO|||käisime me|||REQUIRED|||-NONE-|||1
+A 4 5|||R:NOM:FORM|||marjul|||REQUIRED|||-NONE-|||1
+A 6 7|||R:NOM:FORM|||seenel|||REQUIRED|||-NONE-|||1
+A 1 3|||R:WO|||käisime me|||REQUIRED|||-NONE-|||2
+A 7 7|||M:LEX|||korjamas|||REQUIRED|||-NONE-|||2
+
+S Suvel oli ilus päikesepaisteline ilm .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Vanaema küpsitasib pirukad seeniga ja marjuga .
+A 1 2|||R:SPELL|||küpsetas|||REQUIRED|||-NONE-|||0
+A 2 3|||R:NOM:FORM|||pirukaid|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||seentega|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||marjadega|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||küpsetas|||REQUIRED|||-NONE-|||1
+A 2 3|||R:NOM:FORM|||pirukaid|||REQUIRED|||-NONE-|||1
+A 3 4|||R:NOM:FORM:SPELL|||seente|||REQUIRED|||-NONE-|||1
+A 5 6|||R:SPELL|||marjadega|||REQUIRED|||-NONE-|||1
+
+S Jargmisel suvel ma veel sõidan maal .
+A 0 1|||R:SPELL|||Järgmisel|||REQUIRED|||-NONE-|||0
+A 3 4|||R:LEX|||uuesti||taas|||REQUIRED|||-NONE-|||0
+A 2 5|||R:WO|||sõidan ma uuesti||sõidan ma taas|||REQUIRED|||-NONE-|||0
+A 5 6|||R:NOM:FORM|||maale|||REQUIRED|||-NONE-|||0

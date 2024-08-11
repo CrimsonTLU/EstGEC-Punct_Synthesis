@@ -1,0 +1,62 @@
+
+S Tere Kallis ,
+A 1 1|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 1 2|||R:CASE|||kallis|||REQUIRED|||-NONE-|||0
+A 2 3|||R:PUNCT|||!|||REQUIRED|||-NONE-|||0
+A 1 1|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 1 2|||R:CASE|||kallis|||REQUIRED|||-NONE-|||1
+A 2 3|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+
+S Ma tahan külastada tartu .
+A 3 4|||R:NOM:FORM:CASE|||Tartut|||REQUIRED|||-NONE-|||0
+
+S Ma tean et sul ei ole vaba aega aga kui sa on vaba Me võime külastada seda .
+A 2 2|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 8 8|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 11 12|||R:VERB:FORM|||oled|||REQUIRED|||-NONE-|||0
+A 11 13|||R:WO|||vaba oled|||REQUIRED|||-NONE-|||0
+A 13 14|||R:LEX|||, siis|||REQUIRED|||-NONE-|||0
+A 15 17|||R:WO|||seda külastada|||REQUIRED|||-NONE-|||0
+A 2 2|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 8 8|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 11 12|||R:VERB:FORM|||oled|||REQUIRED|||-NONE-|||1
+A 13 13|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 13 14|||R:CASE|||me|||REQUIRED|||-NONE-|||1
+A 13 15|||R:WO|||võime me|||REQUIRED|||-NONE-|||1
+A 15 17|||R:WO|||seda külastada|||REQUIRED|||-NONE-|||1
+
+S Ma loodan et järgmisel läupäeval sobib sulle .
+A 2 2|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||laupäeval|||REQUIRED|||-NONE-|||0
+A 2 2|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 4 5|||R:SPELL|||laupäeval|||REQUIRED|||-NONE-|||1
+A 7 7|||M:LEX|||minna|||REQUIRED|||-NONE-|||1
+A 2 2|||M:PUNCT|||,|||REQUIRED|||-NONE-|||2
+A 4 5|||R:SPELL|||laupäeval|||REQUIRED|||-NONE-|||2
+A 3 7|||R:WO|||sulle sobib järgmisel laupäeval|||REQUIRED|||-NONE-|||2
+A 7 7|||M:LEX|||minna|||REQUIRED|||-NONE-|||2
+
+S Me saame näha kui ilus see linn on , samuti Me saame minna Vanalinna seal .
+A 3 3|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 10 11|||R:CASE|||me|||REQUIRED|||-NONE-|||0
+A 10 12|||R:WO|||saame me|||REQUIRED|||-NONE-|||0
+A 13 14|||R:CASE|||vanalinna|||REQUIRED|||-NONE-|||0
+A 12 15|||R:WO|||seal vanalinna minna|||REQUIRED|||-NONE-|||0
+A 3 3|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 10 11|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 13 14|||R:CASE|||vanalinna|||REQUIRED|||-NONE-|||1
+A 12 15|||R:WO|||seal vanalinna minna|||REQUIRED|||-NONE-|||1
+
+S Ma ootan sind .
+A 3 4|||R:PUNCT|||!|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||1
+
+S Palun väste Mulle ni kiiresti kui võimalik .
+A 1 2|||R:SPELL|||vasta|||REQUIRED|||-NONE-|||0
+A 2 3|||R:CASE|||mulle|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||nii|||REQUIRED|||-NONE-|||0
+A 7 8|||R:PUNCT|||!|||REQUIRED|||-NONE-|||0
+
+S Sinu Sõber ,
+A 1 2|||R:CASE|||sõber|||REQUIRED|||-NONE-|||0
+A 2 3|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0

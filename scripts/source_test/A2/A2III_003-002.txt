@@ -1,0 +1,48 @@
+
+S Tere Sergei !
+A 1 1|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+
+S Oli tore !
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Kuidas läheb ?
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S ( - hästi ! )
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+A 2 3|||R:CASE|||Hästi|||REQUIRED|||-NONE-|||1
+
+S Minul eile kodumasin katki ja minu vaja appi .
+A 1 1|||M:LEX|||läks|||REQUIRED|||-NONE-|||0
+A 5 6|||R:NOM:FORM|||mul||minul|||REQUIRED|||-NONE-|||0
+A 6 6|||M:LEX|||on|||REQUIRED|||-NONE-|||0
+A 7 8|||R:NOM:FORM|||abi|||REQUIRED|||-NONE-|||0
+A 1 1|||M:LEX|||läks|||REQUIRED|||-NONE-|||1
+A 5 6|||R:NOM:FORM|||ma||mina|||REQUIRED|||-NONE-|||1
+A 6 7|||R:VERB:FORM|||vajan|||REQUIRED|||-NONE-|||1
+A 7 7|||M:LEX|||sind|||REQUIRED|||-NONE-|||1
+
+S Eile koristasin vannituba ja näen nagu kodumasin katki .
+A 4 5|||R:VERB:FORM|||nägin|||REQUIRED|||-NONE-|||0
+A 5 5|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 7 7|||M:LEX|||oleks|||REQUIRED|||-NONE-|||0
+A 4 5|||R:VERB:FORM|||nägin|||REQUIRED|||-NONE-|||1
+A 5 5|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 5 6|||R:LEX|||et|||REQUIRED|||-NONE-|||1
+A 7 7|||M:LEX|||on|||REQUIRED|||-NONE-|||1
+
+S Kas sa tuled mulle ?
+A 4 4|||M:LEX|||appi|||REQUIRED|||-NONE-|||0
+
+S ( - Ja , muidugi ! )
+A 2 3|||R:SPELL|||Jaa||Jah|||REQUIRED|||-NONE-|||0
+
+S Suur tanu !
+A 1 2|||R:SPELL|||tänu|||REQUIRED|||-NONE-|||0
+
+S Ma väga hea meel .
+A 0 1|||R:NOM:FORM|||Mul|||REQUIRED|||-NONE-|||0
+A 1 1|||M:LEX|||on|||REQUIRED|||-NONE-|||0
+A 4 5|||R:PUNCT|||!|||REQUIRED|||-NONE-|||0
+A 0 1|||R:NOM:FORM|||Mul|||REQUIRED|||-NONE-|||1
+A 1 1|||M:LEX|||on|||REQUIRED|||-NONE-|||1

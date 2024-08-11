@@ -1,0 +1,75 @@
+
+S Lugupeetud Anna ---
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+A 3 3|||M:PUNCT|||!|||REQUIRED|||-NONE-|||1
+
+S Meie haiglal 2019. aastal on sünnipäev , tä töötab juba 20 aastat .
+A 2 5|||R:WO|||on 2019. aastal|||REQUIRED|||-NONE-|||0
+A 7 8|||R:LEX:SPELL|||see|||REQUIRED|||-NONE-|||0
+A 2 5|||R:WO|||on 2019. aastal|||REQUIRED|||-NONE-|||1
+A 7 8|||R:SPELL|||ta|||REQUIRED|||-NONE-|||1
+
+S Kuidas me kõik teame haigla sünnipäevaks plaanitkse välja anda tutvustav raamat , sest ma tahan kirjutada oma mõtteid asutuse kohta .
+A 0 1|||R:LEX|||Nagu|||REQUIRED|||-NONE-|||0
+A 4 4|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||plaanitakse|||REQUIRED|||-NONE-|||0
+A 4 7|||R:WO|||plaanitakse haigla sünnipäevaks|||REQUIRED|||-NONE-|||0
+A 9 9|||M:LEX|||seda|||REQUIRED|||-NONE-|||0
+A 12 13|||R:LEX|||ja|||REQUIRED|||-NONE-|||0
+A 16 16|||M:LEX|||teile|||REQUIRED|||-NONE-|||0
+A 0 1|||R:LEX|||Nagu|||REQUIRED|||-NONE-|||1
+A 4 4|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 6 7|||R:SPELL|||plaanitakse|||REQUIRED|||-NONE-|||1
+A 4 7|||R:WO|||plaanitakse haigla sünnipäevaks|||REQUIRED|||-NONE-|||1
+A 9 9|||M:LEX|||seda|||REQUIRED|||-NONE-|||1
+A 12 13|||R:LEX|||seetõttu||seepärast||mistõttu||mispärast|||REQUIRED|||-NONE-|||1
+A 13 15|||R:WO|||tahan ma|||REQUIRED|||-NONE-|||1
+A 15 15|||M:LEX|||teile|||REQUIRED|||-NONE-|||1
+
+S Ma olen üsna uss töötaja ning töötan haiglas vaid ühe aasta jooksul .
+A 3 4|||R:SPELL|||uus|||REQUIRED|||-NONE-|||0
+A 6 7|||R:VERB:FORM|||olen töötanud|||REQUIRED|||-NONE-|||0
+A 6 8|||R:WO|||olen haiglas töötanud|||REQUIRED|||-NONE-|||0
+A 11 12|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Alustasin töötada haiglas päras ülikooli lõppu .
+A 1 2|||R:LEX|||töötamist|||REQUIRED|||-NONE-|||0
+A 1 3|||R:WO|||haiglas töötamist|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||pärast|||REQUIRED|||-NONE-|||0
+
+S Mul oli väga suur rõõm , et mul pakutud töötama erakoralise meditsiini osakonnas .
+A 7 8|||R:NOM:FORM|||mulle|||REQUIRED|||-NONE-|||0
+A 8 9|||R:VERB:FORM|||pakuti|||REQUIRED|||-NONE-|||0
+A 9 10|||R:LEX|||tööd|||REQUIRED|||-NONE-|||0
+A 10 11|||R:SPELL|||erakorralise|||REQUIRED|||-NONE-|||0
+
+S Kuid meie töö on raske ja seal on palju stressi , mulle meeldib , et meie töökollektiiv on väga sõbralik ja abivalmis .
+A 0 1|||R:LEX|||Kuigi|||REQUIRED|||-NONE-|||0
+A 11 13|||R:WO|||meeldib mulle|||REQUIRED|||-NONE-|||0
+A 0 1|||R:LEX|||Kuigi|||REQUIRED|||-NONE-|||1
+A 6 8|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 8 9|||R:LEX|||väga|||REQUIRED|||-NONE-|||1
+A 9 10|||R:LEX|||stressirohke|||REQUIRED|||-NONE-|||1
+A 11 13|||R:WO|||meeldib mulle|||REQUIRED|||-NONE-|||1
+
+S Tööõhkkond on väga rahulik , kõik teavad , et me töötame meeskonnas .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Veel meie osakonnas eelmisel aastal oli tehtud remont , sest kõik ruumid on ilusad ja mugavad .
+A 1 6|||R:WO|||oli meie osakonnas eelmisel aastal|||REQUIRED|||-NONE-|||0
+A 9 10|||R:LEX|||nüüd|||REQUIRED|||-NONE-|||0
+A 10 13|||R:WO|||on kõik ruumid|||REQUIRED|||-NONE-|||0
+A 5 6|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 5 7|||R:VERB:FORM|||tehti|||REQUIRED|||-NONE-|||1
+A 0 7|||R:WO|||Meie osakonnas tehti veel eelmisel aastal|||REQUIRED|||-NONE-|||1
+A 9 10|||R:LEX|||nüüd|||REQUIRED|||-NONE-|||1
+A 10 13|||R:WO|||on kõik ruumid|||REQUIRED|||-NONE-|||1
+
+S Kokkuvõtteks tahan öelda , et 10-15 aasta pärast meie haigla võiks olla suurem , sest meiel on palju arengu ruumi .
+A 8 11|||R:WO|||võiks meie haigla suurem olla|||REQUIRED|||-NONE-|||0
+A 15 16|||R:SPELL|||meil|||REQUIRED|||-NONE-|||0
+A 18 20|||R:WS|||arenguruumi|||REQUIRED|||-NONE-|||0
+
+S Lugupidamisega Juta --- e-post : ---@---.ee tel . +372------
+A 7 8|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||1

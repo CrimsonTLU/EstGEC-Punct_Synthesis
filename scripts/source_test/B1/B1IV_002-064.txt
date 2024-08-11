@@ -1,0 +1,145 @@
+
+S Tavaliselt ma saan igapäevane uudiseid telerist , internetist , ajalehest ja ajakirjalt .
+A 1 3|||R:WO|||saan ma|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOM:FORM|||igapäevaseid|||REQUIRED|||-NONE-|||0
+A 11 12|||R:NOM:FORM|||ajakirjast|||REQUIRED|||-NONE-|||0
+
+S Mulle meeldivad uudiseid reisimidest , spordist , loodust , loomadest ja moest .
+A 2 3|||R:NOM:FORM|||uudised|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||reisimisest|||REQUIRED|||-NONE-|||0
+A 7 8|||R:NOM:FORM|||loodusest|||REQUIRED|||-NONE-|||0
+
+S Telerist ma vaatan spordisaateid näiteks võrkpalli , korvpalli ja ujumine võistlused .
+A 1 3|||R:WO|||vaatan ma|||REQUIRED|||-NONE-|||0
+A 4 4|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 9 11|||R:WS:NOM:FORM|||ujumisvõistlusi||ujumisvõistluseid|||REQUIRED|||-NONE-|||0
+A 1 3|||R:WO|||vaatan ma|||REQUIRED|||-NONE-|||1
+A 4 4|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 9 10|||R:NOM:FORM|||ujumise|||REQUIRED|||-NONE-|||1
+A 10 11|||R:NOM:FORM|||võistlusi||võistluseid|||REQUIRED|||-NONE-|||1
+
+S Kõige rohkem mulle meeldib vaadata suusatamine ja tiatlooni võistluseid .
+A 2 4|||R:WO|||meeldib mulle|||REQUIRED|||-NONE-|||0
+A 5 6|||R:NOM:FORM|||suusatamise|||REQUIRED|||-NONE-|||0
+A 7 8|||R:SPELL|||triatloni|||REQUIRED|||-NONE-|||0
+A 2 4|||R:WO|||meeldib mulle|||REQUIRED|||-NONE-|||1
+A 5 6|||R:NOM:FORM|||suusatamist|||REQUIRED|||-NONE-|||1
+A 7 9|||R:WS:SPELL|||triatlonivõistluseid|||REQUIRED|||-NONE-|||1
+
+S Veel mulle huvitav kanaal " Minu planeet " , sealt võib tutvustada inimese eluga maailmas .
+A 1 1|||M:LEX|||on|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||kanal|||REQUIRED|||-NONE-|||0
+A 4 5|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 6 7|||R:CASE|||Planeet|||REQUIRED|||-NONE-|||0
+A 7 8|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 9 10|||R:NOM:FORM|||seal|||REQUIRED|||-NONE-|||0
+A 11 12|||R:LEX|||tutvuda|||REQUIRED|||-NONE-|||0
+A 1 1|||M:LEX|||on|||REQUIRED|||-NONE-|||1
+A 1 2|||R:WO|||Mulle on veel|||REQUIRED|||-NONE-|||1
+A 3 4|||R:SPELL|||kanal|||REQUIRED|||-NONE-|||1
+A 4 5|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+A 6 7|||R:CASE|||Planeet|||REQUIRED|||-NONE-|||1
+A 7 8|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+A 9 10|||R:NOM:FORM|||seal|||REQUIRED|||-NONE-|||1
+A 10 11|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 11 12|||R:VERB:FORM|||tutvustatakse|||REQUIRED|||-NONE-|||1
+A 12 13|||R:NOM:FORM|||inimeste|||REQUIRED|||-NONE-|||1
+A 13 14|||R:NOM:FORM|||elu|||REQUIRED|||-NONE-|||1
+A 1 2|||R:NOM:FORM|||mind|||REQUIRED|||-NONE-|||2
+A 2 3|||R:LEX|||huvitab|||REQUIRED|||-NONE-|||2
+A 1 2|||R:WO|||Mind huvitab veel|||REQUIRED|||-NONE-|||2
+A 3 4|||R:SPELL|||kanal|||REQUIRED|||-NONE-|||2
+A 4 5|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||2
+A 6 7|||R:CASE|||Planeet|||REQUIRED|||-NONE-|||2
+A 7 8|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||2
+A 9 10|||R:NOM:FORM|||seal|||REQUIRED|||-NONE-|||2
+A 11 12|||R:LEX|||tutvuda|||REQUIRED|||-NONE-|||2
+A 12 13|||R:NOM:FORM|||inimeste|||REQUIRED|||-NONE-|||2
+
+S Internetist ma võin tõtta uudised välisriikidelt , näen millised sündmused iga päev toimuvad .
+A 1 3|||R:WO|||võin ma|||REQUIRED|||-NONE-|||0
+A 3 4|||R:LEX:SPELL|||leida||saada||lugeda|||REQUIRED|||-NONE-|||0
+A 4 5|||R:NOM:FORM|||uudiseid|||REQUIRED|||-NONE-|||0
+A 5 6|||R:NOM:FORM|||välisriikidest|||REQUIRED|||-NONE-|||0
+A 8 8|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+
+S ETV või ERR kodulehelt võib lugeda , kuidas elab iga päev Ida-Virumaa maakond , millised uudised meil on .
+A 2 3|||R:NOM:FORM|||ERR-i|||REQUIRED|||-NONE-|||0
+A 2 3|||R:NOM:FORM|||ERR-i|||REQUIRED|||-NONE-|||1
+A 8 13|||R:WO|||Ida-Virumaa maakond iga päev elab|||REQUIRED|||-NONE-|||1
+A 2 3|||R:NOM:FORM|||ERR-i|||REQUIRED|||-NONE-|||2
+A 8 9|||R:VERB:FORM|||elatakse|||REQUIRED|||-NONE-|||2
+A 12 13|||R:VERB:FORM|||maakonnas|||REQUIRED|||-NONE-|||2
+A 8 13|||R:WO|||Ida-Virumaa maakonnas iga päev elatakse|||REQUIRED|||-NONE-|||2
+A 13 14|||M:LEX|||ja|||REQUIRED|||-NONE-|||2
+A 15 18|||R:WO:NOM:FORM|||on meie uudised|||REQUIRED|||-NONE-|||2
+
+S Õhtuti ma loen ajalehed naiteks see on " Põhjarannik " , " Postimees " , " Pealinn " , mulle väga huvitavad ludeda kultuurist , sportist , võistlusest ja vaatan , milline ilm on homme .
+A 1 3|||R:WO|||loen ma|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOM:FORM|||ajalehti|||REQUIRED|||-NONE-|||0
+A 4 4|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||näiteks|||REQUIRED|||-NONE-|||0
+A 5 7|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+A 7 8|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 9 10|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 11 12|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 13 14|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 15 16|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 17 18|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 19 20|||R:NOM:FORM|||mul|||REQUIRED|||-NONE-|||0
+A 18 20|||R:PUNCT|||. Mul||. Mulle|||REQUIRED|||-NONE-|||0
+A 20 20|||M:LEX|||on|||REQUIRED|||-NONE-|||0
+A 21 22|||R:NOM:FORM|||huvitav|||REQUIRED|||-NONE-|||0
+A 22 23|||R:SPELL|||lugeda|||REQUIRED|||-NONE-|||0
+A 25 26|||R:SPELL|||spordist|||REQUIRED|||-NONE-|||0
+A 27 28|||R:NOM:FORM|||võistlustest|||REQUIRED|||-NONE-|||0
+A 29 30|||R:VERB:FORM|||vaadata|||REQUIRED|||-NONE-|||0
+A 1 3|||R:WO|||loen ma|||REQUIRED|||-NONE-|||1
+A 3 4|||R:NOM:FORM|||ajalehti|||REQUIRED|||-NONE-|||1
+A 4 4|||M:PUNCT|||.|||REQUIRED|||-NONE-|||1
+A 4 5|||R:SPELL|||näiteks|||REQUIRED|||-NONE-|||1
+A 5 6|||R:NOM:FORM|||need|||REQUIRED|||-NONE-|||1
+A 4 7|||R:WO|||Need on näiteks|||REQUIRED|||-NONE-|||1
+A 7 8|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+A 9 10|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+A 11 12|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+A 13 14|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+A 15 16|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+A 17 18|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+A 19 20|||R:NOM:FORM|||mul|||REQUIRED|||-NONE-|||1
+A 18 20|||R:PUNCT|||. Mul||. Mulle|||REQUIRED|||-NONE-|||1
+A 20 20|||M:LEX|||on|||REQUIRED|||-NONE-|||1
+A 21 22|||R:NOM:FORM|||huvitav|||REQUIRED|||-NONE-|||1
+A 22 23|||R:SPELL|||lugeda|||REQUIRED|||-NONE-|||1
+A 25 26|||R:SPELL|||spordist|||REQUIRED|||-NONE-|||1
+A 27 28|||R:NOM:FORM|||võistlustest|||REQUIRED|||-NONE-|||1
+A 29 30|||R:VERB:FORM|||vaadata|||REQUIRED|||-NONE-|||1
+A 32 35|||R:WO|||on ilm homme||ilm homme on|||REQUIRED|||-NONE-|||1
+A 1 3|||R:WO|||loen ma|||REQUIRED|||-NONE-|||2
+A 3 4|||R:NOM:FORM|||ajalehti|||REQUIRED|||-NONE-|||2
+A 4 4|||M:PUNCT|||,|||REQUIRED|||-NONE-|||2
+A 4 5|||R:SPELL|||näiteks|||REQUIRED|||-NONE-|||2
+A 5 7|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||2
+A 7 8|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||2
+A 8 9|||R:NOM:FORM|||Põhjarannikut|||REQUIRED|||-NONE-|||2
+A 9 10|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||2
+A 11 12|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||2
+A 12 13|||R:NOM:FORM|||Postimeest|||REQUIRED|||-NONE-|||2
+A 13 14|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||2
+A 15 16|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||2
+A 8 9|||R:NOM:FORM|||Pealinna|||REQUIRED|||-NONE-|||2
+A 17 18|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||2
+A 19 20|||R:NOM:FORM|||mul|||REQUIRED|||-NONE-|||2
+A 20 20|||M:LEX|||on|||REQUIRED|||-NONE-|||2
+A 21 22|||R:NOM:FORM|||huvitav|||REQUIRED|||-NONE-|||2
+A 22 23|||R:SPELL|||lugeda|||REQUIRED|||-NONE-|||2
+A 25 26|||R:SPELL|||spordist|||REQUIRED|||-NONE-|||2
+A 27 28|||R:NOM:FORM|||võistlustest|||REQUIRED|||-NONE-|||2
+A 29 30|||R:VERB:FORM|||vaadata|||REQUIRED|||-NONE-|||2
+A 34 35|||R:NOM:FORM|||homne|||REQUIRED|||-NONE-|||2
+A 32 35|||R:WO|||on homne ilm|||REQUIRED|||-NONE-|||2
+
+S Ma arvan et tanapäevadeks on palju võimalusi uudiseid ja infot saate .
+A 1 1|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOM:FORM:SPELL|||tänapäeval|||REQUIRED|||-NONE-|||0
+A 10 11|||R:VERB:FORM|||saada|||REQUIRED|||-NONE-|||0

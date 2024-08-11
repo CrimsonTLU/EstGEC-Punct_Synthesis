@@ -1,0 +1,104 @@
+
+S Tere Hommikust .
+A 1 2|||R:CASE|||hommikust|||REQUIRED|||-NONE-|||0
+A 2 3|||R:PUNCT|||!|||REQUIRED|||-NONE-|||0
+A 1 2|||R:CASE|||hommikust|||REQUIRED|||-NONE-|||1
+A 2 3|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+
+S Täna tahan rääkida infolevi kohta .
+A 3 4|||R:NOM:FORM|||infolevist|||REQUIRED|||-NONE-|||0
+A 4 5|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Praegu võib info saata mitmelt teelt .
+A 2 3|||R:NOM:FORM|||infot|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||saada|||REQUIRED|||-NONE-|||0
+A 4 5|||R:NOM:FORM|||mitmel|||REQUIRED|||-NONE-|||0
+A 5 6|||R:LEX|||moel|||REQUIRED|||-NONE-|||0
+A 2 3|||R:NOM:FORM|||infot|||REQUIRED|||-NONE-|||1
+A 3 4|||R:SPELL|||saada|||REQUIRED|||-NONE-|||1
+A 4 5|||R:NOM:FORM|||mitut|||REQUIRED|||-NONE-|||1
+A 5 6|||R:LEX|||moodi|||REQUIRED|||-NONE-|||1
+A 2 3|||R:NOM:FORM|||infot|||REQUIRED|||-NONE-|||2
+A 3 4|||R:SPELL|||saada|||REQUIRED|||-NONE-|||2
+A 4 5|||R:NOM:FORM|||mitut|||REQUIRED|||-NONE-|||2
+A 5 6|||R:NOM:FORM|||teed|||REQUIRED|||-NONE-|||2
+A 6 6|||M:LEX|||pidi|||REQUIRED|||-NONE-|||2
+
+S Mulle rohkem meeldida otsida infot internetist .
+A 2 3|||R:VERB:FORM|||meeldib|||REQUIRED|||-NONE-|||0
+A 1 3|||R:WO|||meeldib rohkem|||REQUIRED|||-NONE-|||0
+
+S Aga loen ka ajalehte ja ajakirju , aga väga harva .
+A 3 4|||R:NOM:FORM|||ajalehti|||REQUIRED|||-NONE-|||0
+A 7 8|||R:LEX|||kuigi||ehkki|||REQUIRED|||-NONE-|||0
+A 0 2|||U:LEX|||Loen|||REQUIRED|||-NONE-|||1
+A 3 4|||R:NOM:FORM|||ajalehti|||REQUIRED|||-NONE-|||1
+
+S Minu huvilised teemad on aed , taimede kasvatamine ja koduloomad .
+A 0 1|||R:NOM:FORM|||Mind|||REQUIRED|||-NONE-|||0
+A 1 2|||R:LEX|||huvitavad|||REQUIRED|||-NONE-|||0
+A 0 1|||R:NOM:FORM|||Mind|||REQUIRED|||-NONE-|||1
+A 1 2|||R:LEX|||huvipakkuvad|||REQUIRED|||-NONE-|||1
+
+S Mul on kaks koerad ja väike aed , sest see teemat on mul huvi .
+A 3 4|||R:NOM:FORM|||koera|||REQUIRED|||-NONE-|||0
+A 8 9|||R:LEX|||sellepärast||seetõttu|||REQUIRED|||-NONE-|||0
+A 9 10|||R:NOM:FORM|||nende|||REQUIRED|||-NONE-|||0
+A 10 11|||R:NOM:FORM|||teemade|||REQUIRED|||-NONE-|||0
+A 11 11|||M:LEX|||vastu|||REQUIRED|||-NONE-|||0
+A 9 14|||R:WO|||on mul huvi nende teemade vastu|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOM:FORM|||koera|||REQUIRED|||-NONE-|||1
+A 8 9|||R:LEX|||sellepärast||seetõttu|||REQUIRED|||-NONE-|||1
+A 9 10|||R:NOM:FORM|||nende|||REQUIRED|||-NONE-|||1
+A 10 11|||R:NOM:FORM|||teemade|||REQUIRED|||-NONE-|||1
+A 11 11|||M:LEX|||vastu|||REQUIRED|||-NONE-|||1
+A 9 14|||R:WO|||on mul nende teemade vastu huvi|||REQUIRED|||-NONE-|||1
+A 3 4|||R:NOM:FORM|||koera|||REQUIRED|||-NONE-|||2
+A 8 9|||R:LEX|||sellepärast||seetõttu|||REQUIRED|||-NONE-|||2
+A 9 10|||R:NOM:FORM|||nende|||REQUIRED|||-NONE-|||2
+A 10 11|||R:NOM:FORM|||teemade|||REQUIRED|||-NONE-|||2
+A 11 11|||M:LEX|||vastu|||REQUIRED|||-NONE-|||2
+A 11 12|||R:LEX|||tunnen|||REQUIRED|||-NONE-|||2
+A 12 13|||R:NOM:FORM|||ma|||REQUIRED|||-NONE-|||2
+A 9 14|||R:WO|||tunnen ma nende teemade vastu huvi|||REQUIRED|||-NONE-|||2
+
+S Internetis võib info saata lihtsam , minu arvates .
+A 0 1|||R:NOM:FORM|||Internetist|||REQUIRED|||-NONE-|||0
+A 2 3|||R:NOM:FORM|||infot|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||saada|||REQUIRED|||-NONE-|||0
+A 4 5|||R:LEX|||lihtsamini|||REQUIRED|||-NONE-|||0
+A 5 6|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 2 8|||R:WO|||minu arvates lihtsamini infot saada|||REQUIRED|||-NONE-|||0
+A 0 1|||R:NOM:FORM|||Internetist|||REQUIRED|||-NONE-|||1
+A 1 2|||R:LEX|||on|||REQUIRED|||-NONE-|||1
+A 2 3|||R:NOM:FORM|||infot|||REQUIRED|||-NONE-|||1
+A 3 4|||R:SPELL|||saada|||REQUIRED|||-NONE-|||1
+A 5 6|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+A 2 8|||R:WO|||minu arvates lihtsam infot saada|||REQUIRED|||-NONE-|||1
+A 0 1|||R:NOM:FORM|||Internetist|||REQUIRED|||-NONE-|||2
+A 2 3|||R:NOM:FORM|||infot|||REQUIRED|||-NONE-|||2
+A 3 4|||R:SPELL|||saada|||REQUIRED|||-NONE-|||2
+A 4 4|||M:LEX|||kõige|||REQUIRED|||-NONE-|||2
+A 4 5|||R:LEX|||lihtsamini|||REQUIRED|||-NONE-|||2
+A 5 6|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||2
+A 2 8|||R:WO|||minu arvates kõige lihtsamini infot saada|||REQUIRED|||-NONE-|||2
+
+S Seal on palju võimalusi : võib lugeda ja pildid on olemas .
+A 8 11|||R:WO|||on olemas pildid|||REQUIRED|||-NONE-|||0
+A 8 8|||M:LEX|||vaadata|||REQUIRED|||-NONE-|||1
+A 8 9|||R:NOM:FORM|||pilte|||REQUIRED|||-NONE-|||1
+A 9 11|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+
+S Võib kasutada erinevad saitit , võib info saada teise
+A 2 3|||R:NOM:FORM|||erinevaid|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOM:FORM:SPELL|||saite|||REQUIRED|||-NONE-|||0
+A 6 7|||R:NOM:FORM|||infot|||REQUIRED|||-NONE-|||0
+A 8 9|||R:NOM:FORM|||teist|||REQUIRED|||-NONE-|||0
+A 6 9|||R:WO|||saada teist infot|||REQUIRED|||-NONE-|||0
+A 9 9|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+A 2 3|||R:NOM:FORM|||erinevaid|||REQUIRED|||-NONE-|||1
+A 3 4|||R:NOM:FORM:SPELL|||saite|||REQUIRED|||-NONE-|||1
+A 6 7|||R:NOM:FORM|||infot|||REQUIRED|||-NONE-|||1
+A 8 9|||R:LEX:NOM:FORM|||teistsugust|||REQUIRED|||-NONE-|||1
+A 6 9|||R:WO|||saada teistsugust infot|||REQUIRED|||-NONE-|||1
+A 9 9|||M:PUNCT|||.|||REQUIRED|||-NONE-|||1

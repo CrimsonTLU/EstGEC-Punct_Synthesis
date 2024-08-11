@@ -1,0 +1,94 @@
+
+S Eile ma nägin Anna .
+A 1 3|||R:WO|||nägin ma|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOM:FORM|||Annat|||REQUIRED|||-NONE-|||0
+A 0 3|||R:WO|||Ma nägin eile|||REQUIRED|||-NONE-|||1
+A 3 4|||R:NOM:FORM|||Annat|||REQUIRED|||-NONE-|||1
+A 3 4|||R:NOM:FORM|||Annat|||REQUIRED|||-NONE-|||2
+
+S Praegu ta töötab koolis .
+A 1 3|||R:WO|||töötab ta|||REQUIRED|||-NONE-|||0
+A 0 3|||R:WO|||Ta töötab praegu|||REQUIRED|||-NONE-|||1
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||2
+
+S Me suhtleme oma vahel ja ta jutustas mulle et ta on eesti keele õpetaja .
+A 1 2|||R:VERB:FORM|||suhtlesime|||REQUIRED|||-NONE-|||0
+A 2 4|||R:WS|||omavahel|||REQUIRED|||-NONE-|||0
+A 8 8|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 1 2|||R:LEX|||rääkisime|||REQUIRED|||-NONE-|||1
+A 2 4|||R:WS|||omavahel|||REQUIRED|||-NONE-|||1
+A 8 8|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+
+S Anna töötas Tammiku põhikoolis juba 5 aasta .
+A 1 2|||R:VERB:FORM|||töötab|||REQUIRED|||-NONE-|||0
+A 6 7|||R:NOM:FORM|||aastat|||REQUIRED|||-NONE-|||0
+A 1 2|||R:VERB:FORM|||on töötanud|||REQUIRED|||-NONE-|||1
+A 6 7|||R:NOM:FORM|||aastat|||REQUIRED|||-NONE-|||1
+A 1 2|||R:VERB:FORM|||on töötanud|||REQUIRED|||-NONE-|||2
+A 1 4|||R:WO|||on Tammiku põhikoolis töötanud|||REQUIRED|||-NONE-|||2
+A 6 7|||R:NOM:FORM|||aastat|||REQUIRED|||-NONE-|||2
+
+S See on huvitav , sest et koolis ta oli halb õpilane .
+A 7 9|||R:WO|||oli ta|||REQUIRED|||-NONE-|||0
+A 5 6|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 6 9|||R:WO|||ta oli koolis|||REQUIRED|||-NONE-|||1
+
+S Ta ei oskasid Eest keel , aga ta oli väga sõbralik ja mõistev tüdruk .
+A 2 3|||R:VERB:FORM|||osanud|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL:CASE|||eesti|||REQUIRED|||-NONE-|||0
+A 4 5|||R:NOM:FORM|||keelt|||REQUIRED|||-NONE-|||0
+
+S Varem me oleme sõbrad .
+A 2 3|||R:VERB:FORM|||olime|||REQUIRED|||-NONE-|||0
+A 1 3|||R:WO|||olime me|||REQUIRED|||-NONE-|||0
+A 2 3|||R:VERB:FORM|||olime|||REQUIRED|||-NONE-|||1
+A 0 3|||R:WO|||Me olime varem|||REQUIRED|||-NONE-|||1
+A 2 3|||R:VERB:FORM|||olime|||REQUIRED|||-NONE-|||2
+
+S Me õppime koos 7 aasta aga ta oli minu parem sõber .
+A 1 2|||R:VERB:FORM:SPELL|||õppisime|||REQUIRED|||-NONE-|||0
+A 4 5|||R:NOM:FORM|||aastat|||REQUIRED|||-NONE-|||0
+A 5 6|||R:LEX|||ja|||REQUIRED|||-NONE-|||0
+A 9 10|||R:NOM:FORM|||parim|||REQUIRED|||-NONE-|||0
+
+S Praegu Anna on ilus , ennesekindel naine .
+A 1 3|||R:WO|||on Anna|||REQUIRED|||-NONE-|||0
+A 4 5|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||enesekindel|||REQUIRED|||-NONE-|||0
+A 1 3|||R:WO|||on Anna|||REQUIRED|||-NONE-|||1
+A 4 5|||M:LEX|||ja|||REQUIRED|||-NONE-|||1
+A 5 6|||R:SPELL|||enesekindel|||REQUIRED|||-NONE-|||1
+A 1 3|||R:WO|||on Anna|||REQUIRED|||-NONE-|||2
+A 5 6|||R:SPELL|||enesekindel|||REQUIRED|||-NONE-|||2
+
+S Ta väga muutunud .
+A 1 1|||M:LEX|||on|||REQUIRED|||-NONE-|||0
+
+S Tal on pikkad , ilusad juuksed , aga koolis tal oli alati luhikesed juuksed .
+A 2 3|||R:SPELL|||pikad|||REQUIRED|||-NONE-|||0
+A 3 4|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 10 11|||R:VERB:FORM|||olid|||REQUIRED|||-NONE-|||0
+A 9 11|||R:WO|||olid tal|||REQUIRED|||-NONE-|||0
+A 12 13|||R:SPELL|||lühikesed|||REQUIRED|||-NONE-|||0
+
+S Praegu Anna on väga hea õpetaja ja lihtsalt tore inimene .
+A 1 3|||R:WO|||on Anna|||REQUIRED|||-NONE-|||0
+A 0 3|||R:WO|||Anna on praegu|||REQUIRED|||-NONE-|||1
+
+S Ma loodan et näen teda veel kord .
+A 2 2|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 2 2|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 5 7|||R:WS|||veelkord|||REQUIRED|||-NONE-|||1
+
+S Jutusta mulle oma huvitavad kohtumisest .
+A 3 4|||R:NOM:FORM|||huvitavatest|||REQUIRED|||-NONE-|||0
+A 4 5|||R:NOM:FORM|||kohtumistest|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOM:FORM|||huvitavast|||REQUIRED|||-NONE-|||1
+
+S Loodan et sulle meeldis minu kiri .
+A 1 1|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 6 7|||R:PUNCT|||!|||REQUIRED|||-NONE-|||0
+A 1 1|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+
+S Marina
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0

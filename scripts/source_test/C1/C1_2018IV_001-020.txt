@@ -1,0 +1,109 @@
+
+S Tere , minu lugupeetud kolleegia !
+A 4 5|||R:SPELL|||kolleegid|||REQUIRED|||-NONE-|||0
+
+S Osalesin paar päeva tagasi tervisekonverentsil ja kuulsin palju huvitavaid mõtteid .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Tahaks jagada teiega oma arvamusi .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+A 0 1|||R:VERB:FORM|||Tahaksin|||REQUIRED|||-NONE-|||1
+
+S Tervisekonverentsil oli jutt kohaliku omavalitsuse võimalustest ja viisidest elanike tervise eest hoolitsemisel .
+A 2 3|||R:NOM:FORM|||juttu|||REQUIRED|||-NONE-|||0
+A 2 3|||R:NOM:FORM|||juttu|||REQUIRED|||-NONE-|||1
+A 11 12|||R:VERB:FORM|||hoolitseda|||REQUIRED|||-NONE-|||1
+
+S Mulle meeldis , et sellele probleemile pööratakse nii palju tähelepanu .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Olid läbi rääkitud mõned variantid , mulle meeldis kõige rohkem aga üks .
+A 0 1|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+A 1 2|||R:CASE|||Läbi|||REQUIRED|||-NONE-|||0
+A 2 2|||M:LEX|||said|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||räägitud|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||variandid|||REQUIRED|||-NONE-|||0
+A 0 1|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 1 2|||R:CASE|||Läbi|||REQUIRED|||-NONE-|||1
+A 2 2|||M:LEX|||said|||REQUIRED|||-NONE-|||1
+A 2 3|||R:SPELL|||räägitud|||REQUIRED|||-NONE-|||1
+A 4 5|||R:SPELL|||variandid|||REQUIRED|||-NONE-|||1
+A 6 12|||R:WO|||üks aga meeldis mulle kõige rohkem||üks meeldis mulle aga kõige rohkem|||REQUIRED|||-NONE-|||1
+
+S Minu arvates tuleks teha linnas rohkem kohti , kus lapsed ja täiskasvanud inimesed saaksid tegeleda spordiga tasuta .
+A 14 17|||R:WO|||tasuta spordiga tegeleda|||REQUIRED|||-NONE-|||0
+
+S Tänapaeval need jõusaalid ja trennid maksavad palju raha ja mitte kõikidel on võimalus sportiga tegeleda .
+A 0 1|||R:SPELL|||Tänapäeval|||REQUIRED|||-NONE-|||0
+A 1 6|||R:WO|||maksavad need jõusaalid ja trennid|||REQUIRED|||-NONE-|||0
+A 11 12|||R:VERB:FORM|||pole|||REQUIRED|||-NONE-|||0
+A 12 13|||R:NOM:FORM|||võimalust|||REQUIRED|||-NONE-|||0
+A 13 14|||R:SPELL|||spordiga|||REQUIRED|||-NONE-|||0
+
+S Mina arvan , et võiks ehitada ka õues ja pargides rohkem sportiplattsi , kus lapsed võiksid tegeleda suvel .
+A 7 8|||R:NOM:FORM|||õue|||REQUIRED|||-NONE-|||0
+A 9 10|||R:NOM:FORM:SPELL|||parkidesse|||REQUIRED|||-NONE-|||0
+A 4 10|||R:WO|||ka õue ja parkidesse võiks ehitada|||REQUIRED|||-NONE-|||0
+A 11 12|||R:NOM:FORM:SPELL|||spordiplatse|||REQUIRED|||-NONE-|||0
+A 16 17|||R:LEX|||tegutseda|||REQUIRED|||-NONE-|||0
+A 16 18|||R:WO|||suvel tegutseda|||REQUIRED|||-NONE-|||0
+
+S Konverentsil me rääkisime ka töötervishoiuarsti juures läbiviidava kohustusliku tervisekontrolli olulisusest .
+A 1 3|||R:WO|||rääkisime me|||REQUIRED|||-NONE-|||0
+
+S Mina olen nõus inimestega , kes rääkisid selle tervisekontrolli olulisusest .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Mina nagu töötaja tahan olla kindel , et minuga koos töötavad inimesed on terved .
+A 1 2|||R:LEX|||kui|||REQUIRED|||-NONE-|||0
+
+S Mina töötan lasteaias , kus on palju lapsi .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Minu arvates kõik inimesed , kes puutuvad kokku lastega peavad tervisekontrolli läbima .
+A 2 10|||R:WO|||peavad kõik inimesed , kes lastega kokku puutuvad|||REQUIRED|||-NONE-|||0
+A 10 10|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+
+S Laste tervis on väga oluline asi ja sellessse on vaja väga tõsiselt suhtuda .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Õnneks , meil Eestis pööratakse sellele tähelepanu , ja inimene ei saa töötada ilma tervisetõendita .
+A 1 2|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 2 5|||R:WO|||pööratakse meil Eestis|||REQUIRED|||-NONE-|||0
+A 7 8|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Hea on ka see , et paljud tööandjad tagastavad inimestele raha .
+A 10 10|||M:LEX|||tervisekontrolli|||REQUIRED|||-NONE-|||0
+A 10 10|||M:LEX|||eest|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||1
+A 10 10|||M:LEX|||selle||nende|||REQUIRED|||-NONE-|||2
+
+S Mulle väga meeldis osaleda tervisekonverentsil .
+A 3 5|||R:WO|||tervisekonverentsil osaleda|||REQUIRED|||-NONE-|||0
+
+S Teemad olid väga olulised ja aktuaalsed .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Mina sain teada palju uut ja kasulilikke informatsioone .
+A 6 7|||R:NOM:FORM:SPELL|||kasulikku|||REQUIRED|||-NONE-|||0
+A 7 8|||R:NOM:FORM|||informatsiooni|||REQUIRED|||-NONE-|||0
+A 0 1|||R:NOM:FORM|||Ma|||REQUIRED|||-NONE-|||1
+A 6 7|||R:NOM:FORM:SPELL|||kasulikku|||REQUIRED|||-NONE-|||1
+A 7 8|||R:NOM:FORM|||informatsiooni|||REQUIRED|||-NONE-|||1
+
+S Minul tekkisid huvitavad mõtted ja mina tahtsin neid teile jutustada .
+A 7 8|||R:NOM:FORM|||neist|||REQUIRED|||-NONE-|||0
+A 0 1|||R:NOM:FORM|||Mul|||REQUIRED|||-NONE-|||1
+A 7 8|||R:NOM:FORM|||neist|||REQUIRED|||-NONE-|||1
+
+S Võimalusel käin ka veel kord konverentsil , mis on pühendatud tervisele .
+A 9 11|||R:WO|||tervisele pühendatud|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||1
+A 1 2|||R:LEX:VERB:FORM|||läheksin|||REQUIRED|||-NONE-|||2
+A 2 3|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||2
+A 3 5|||R:WS|||veelkord|||REQUIRED|||-NONE-|||2
+A 5 6|||R:NOM:FORM|||konverentsile|||REQUIRED|||-NONE-|||2
+A 6 7|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||2
+A 7 8|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||2
+A 8 9|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||2
+A 5 11|||R:WO|||tervisele pühendatud konverentsile|||REQUIRED|||-NONE-|||2

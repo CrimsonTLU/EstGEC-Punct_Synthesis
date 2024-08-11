@@ -1,0 +1,35 @@
+
+S Ma tahan müüa autod .
+A 3 4|||R:NOM:FORM|||autot|||REQUIRED|||-NONE-|||0
+
+S Minu auto välimus on punane BMW .
+A 2 3|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S See auto maksab viis tuhat eurod .
+A 5 6|||R:NOM:FORM|||eurot|||REQUIRED|||-NONE-|||0
+
+S Te saate autot näha 14. mail .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Me saame kohtuda teie kodu ääres .
+A 5 6|||R:LEX|||juures|||REQUIRED|||-NONE-|||0
+
+S Te saate mulle helistada numbrile --- .
+A 4 5|||R:NOM:FORM|||numbril|||REQUIRED|||-NONE-|||0
+A 2 3|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+
+S Minu eesnimi on Julia .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S See auto on uus ja korralik
+A 6 6|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+
+S Sõidab auto kiiresti .
+A 0 2|||R:WO|||Auto sõidab|||REQUIRED|||-NONE-|||0
+
+S Ma müüan seda autod , sest mulle kingitakse uue autod
+A 1 2|||R:SPELL|||müün|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOM:FORM|||autot|||REQUIRED|||-NONE-|||0
+A 8 9|||R:NOM:FORM|||uus|||REQUIRED|||-NONE-|||0
+A 9 10|||R:NOM:FORM|||auto|||REQUIRED|||-NONE-|||0
+A 10 10|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0

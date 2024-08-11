@@ -1,0 +1,70 @@
+
+S Tere Tatjana .
+A 1 1|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 2 3|||R:PUNCT|||!|||REQUIRED|||-NONE-|||0
+A 1 1|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 2 3|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+
+S Sa ju tead , et ma töötan haiglas ? !
+A 9 10|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 8 10|||R:PUNCT|||.|||REQUIRED|||-NONE-|||1
+
+S Minul tekkis probleem ülemusega , kes ei taha aru saada , et meil on vaja võtta kaks inimest juurde , kuna töökoormus on suurenenud .
+A 15 19|||R:WO|||kaks inimest juurde võtta|||REQUIRED|||-NONE-|||0
+
+S Ma saan kõigest aru , et ma saan oma tööga hakkama ja ta ei näe mõtted liigsele väljaminekule .
+A 5 6|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+A 15 16|||R:NOM:FORM|||mõtet|||REQUIRED|||-NONE-|||0
+A 16 17|||R:NOM:FORM|||liigseks|||REQUIRED|||-NONE-|||0
+A 17 18|||R:NOM:FORM|||väljaminekuks|||REQUIRED|||-NONE-|||0
+A 15 16|||R:NOM:FORM|||mõtet|||REQUIRED|||-NONE-|||1
+A 16 17|||R:NOM:FORM|||liigsel|||REQUIRED|||-NONE-|||1
+A 17 18|||R:NOM:FORM|||väljaminekul|||REQUIRED|||-NONE-|||1
+A 15 18|||R:NOM:FORM|||liigsel väljaminekul mõtet|||REQUIRED|||-NONE-|||1
+
+S Kuid ta ei arvesta sellega , et ma ei ole robot ja ei saa kõike töid teha üksi .
+A 14 15|||R:NOM:FORM|||kõiki|||REQUIRED|||-NONE-|||0
+A 14 15|||R:NOM:FORM|||kõiki|||REQUIRED|||-NONE-|||1
+A 16 18|||R:WO|||üksi teha|||REQUIRED|||-NONE-|||1
+A 11 13|||R:LEX|||ega|||REQUIRED|||-NONE-|||2
+A 14 15|||R:NOM:FORM|||kõiki|||REQUIRED|||-NONE-|||2
+A 16 18|||R:WO|||üksi teha|||REQUIRED|||-NONE-|||2
+
+S Kaheksa tunni jooksul , millal olen tööl , mul ei ole aega isegi lõunat süüa , ma pean olema oma töökohal .
+A 4 5|||R:LEX|||mil|||REQUIRED|||-NONE-|||0
+A 8 11|||R:WO|||ei ole mul|||REQUIRED|||-NONE-|||0
+
+S Ma arvan , kui ta võtaks kasvõi ühte inimest juurde , mul oleks kõvasti kergem .
+A 3 3|||M:LEX|||et|||REQUIRED|||-NONE-|||0
+A 7 8|||R:NOM:FORM|||ühe|||REQUIRED|||-NONE-|||0
+A 8 9|||R:NOM:FORM|||inimese|||REQUIRED|||-NONE-|||0
+A 11 13|||R:WO|||oleks mul|||REQUIRED|||-NONE-|||0
+A 3 3|||M:LEX|||et|||REQUIRED|||-NONE-|||1
+A 7 8|||R:NOM:FORM|||ühe|||REQUIRED|||-NONE-|||1
+A 8 9|||R:NOM:FORM|||inimese|||REQUIRED|||-NONE-|||1
+A 5 10|||R:WO|||kasvõi ühe inimese juurde võtaks|||REQUIRED|||-NONE-|||1
+A 11 13|||R:WO|||oleks mul|||REQUIRED|||-NONE-|||1
+
+S Kui ta seda ei tee , siis ma ei tea , kui kauaks mind veel jätkub .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Mis saab , kui ma jään haiguslehele ?
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Kes siis sellisel juhul hakkab minu tööd tegema ?
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Selle peale ta ei ole vist mõelnud .
+A 2 5|||R:WO|||ei ole ta|||REQUIRED|||-NONE-|||0
+
+S Kuid ma olen ka inimene ja elus võib kõike juhtuda .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Sooviksin , et sa annaksid mulle nõu , kuidas ma saaksin oma ülemust ümberveenda , et ta võttaks veel inimesi tööle ?
+A 13 14|||R:WS|||ümber veenda|||REQUIRED|||-NONE-|||0
+A 17 18|||R:SPELL|||võtaks|||REQUIRED|||-NONE-|||0
+A 21 22|||R:PUNCT|||.|||REQUIRED|||-NONE-|||0
+A 13 14|||R:WS|||ümber veenda|||REQUIRED|||-NONE-|||1
+A 17 18|||R:SPELL|||võtaks|||REQUIRED|||-NONE-|||1
+A 17 21|||R:WO|||veel inimesi tööle võtaks|||REQUIRED|||-NONE-|||1
+A 21 22|||R:PUNCT|||.|||REQUIRED|||-NONE-|||1

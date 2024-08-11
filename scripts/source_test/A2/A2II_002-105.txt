@@ -1,0 +1,46 @@
+
+S Tähelepanu !
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Müüa auto .
+A 2 3|||R:PUNCT|||!|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||1
+
+S Ma soovin müüa oma auto .
+A 4 5|||R:NOM:FORM|||autot|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||1
+
+S Minu auto on musta värvi .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Auto on väga ilus ja mugav .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Auto on automaat .
+A 2 3|||R:LEX|||automaatkäigukastiga||automaatkastiga|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||1
+
+S Auto on 5 aastat vana .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Ta on kiire .
+A 0 1|||R:LEX|||See|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||1
+
+S Ta maksab 1500 eurot .
+A 0 1|||R:LEX|||See|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||1
+
+S Ta asub Narvas , Tiimani tänaval .
+A 0 1|||R:LEX|||See|||REQUIRED|||-NONE-|||0
+A 3 4|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 3 4|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+
+S Minu telefoninumber on --- .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Helista ja vaata !
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+A 2 2|||M:LEX|||tule|||REQUIRED|||-NONE-|||1
+A 2 2|||M:LEX|||tule|||REQUIRED|||-NONE-|||2
+A 2 3|||R:VERB:FORM|||vaatama|||REQUIRED|||-NONE-|||2

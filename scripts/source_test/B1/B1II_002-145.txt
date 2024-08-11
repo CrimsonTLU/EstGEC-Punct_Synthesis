@@ -1,0 +1,97 @@
+
+S Minu endine klassikaaslane on Viktor --- .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Me istusime temaga ühe koolipingi taga .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S See oli kolmkümmend aastat tagasi .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Õppisime koos kuuendast klassist üheksa klassini .
+A 4 5|||R:NOM:FORM|||üheksanda|||REQUIRED|||-NONE-|||0
+
+S Koolis ta oli väga naljakas , tegi nalja kogu aeg .
+A 1 3|||R:WO|||oli ta|||REQUIRED|||-NONE-|||0
+A 7 10|||R:WO|||kogu aeg nalja|||REQUIRED|||-NONE-|||0
+
+S Kirjutasin minust vihikust vene keelt ja matemaatika maha .
+A 0 1|||R:VERB:FORM|||Kirjutas|||REQUIRED|||-NONE-|||0
+A 1 2|||R:NOM:FORM|||minu|||REQUIRED|||-NONE-|||0
+A 6 7|||R:NOM:FORM|||matemaatikat|||REQUIRED|||-NONE-|||0
+
+S Tema välimus oli koolis ka huvitav .
+A 0 5|||R:WO|||Ka tema välimus oli koolis|||REQUIRED|||-NONE-|||0
+A 4 5|||R:LEX|||samuti|||REQUIRED|||-NONE-|||1
+A 1 2|||R:LEX|||välimuski|||REQUIRED|||-NONE-|||2
+A 4 5|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||2
+
+S Keskmist kasvu , rohelise silmaga , tume juustega , üks kord ta värvis oma juukseid roheliseks .
+A 3 4|||R:NOM:FORM|||roheliste|||REQUIRED|||-NONE-|||0
+A 4 5|||R:NOM:FORM|||silmadega|||REQUIRED|||-NONE-|||0
+A 6 7|||R:NOM:FORM|||tumedate|||REQUIRED|||-NONE-|||0
+A 14 15|||R:NOM:FORM|||juuksed|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOM:FORM|||roheliste|||REQUIRED|||-NONE-|||1
+A 4 5|||R:NOM:FORM|||silmadega|||REQUIRED|||-NONE-|||1
+A 6 7|||R:NOM:FORM|||tumedate|||REQUIRED|||-NONE-|||1
+A 9 11|||R:NOM:FORM|||ükskord|||REQUIRED|||-NONE-|||1
+A 11 13|||R:WO|||värvis ta|||REQUIRED|||-NONE-|||1
+A 14 15|||R:NOM:FORM|||juuksed|||REQUIRED|||-NONE-|||1
+A 3 4|||R:NOM:FORM|||roheliste|||REQUIRED|||-NONE-|||2
+A 4 5|||R:NOM:FORM|||silmadega|||REQUIRED|||-NONE-|||2
+A 6 7|||R:NOM:FORM|||tumedate|||REQUIRED|||-NONE-|||2
+A 8 10|||R:PUNCT|||. Üks|||REQUIRED|||-NONE-|||2
+A 11 13|||R:WO|||värvis ta|||REQUIRED|||-NONE-|||2
+A 14 15|||R:NOM:FORM|||juuksed|||REQUIRED|||-NONE-|||2
+
+S Meie klassijuhataja oli väga kuri sellest .
+A 5 6|||M:LEX|||selle pärast|||REQUIRED|||-NONE-|||0
+A 3 6|||R:WO|||selle pärast väga kuri|||REQUIRED|||-NONE-|||0
+A 5 6|||M:LEX|||selle peale|||REQUIRED|||-NONE-|||1
+A 3 6|||R:WO|||selle peale väga kuri|||REQUIRED|||-NONE-|||1
+A 5 6|||M:LEX|||tõttu|||REQUIRED|||-NONE-|||2
+A 3 6|||R:WO|||selle tõttu väga kuri|||REQUIRED|||-NONE-|||2
+
+S Praegu ta on ilus kõrge kasvu mees , sellepärast ma kohe ei teadnud teda .
+A 1 3|||R:WO|||on ta|||REQUIRED|||-NONE-|||0
+A 4 5|||R:LEX:NOM:FORM|||pikka|||REQUIRED|||-NONE-|||0
+A 12 13|||R:LEX|||tundnud|||REQUIRED|||-NONE-|||0
+A 14 14|||M:LEX|||ära|||REQUIRED|||-NONE-|||0
+A 9 14|||R:WO|||ei tundnud ma teda kohe|||REQUIRED|||-NONE-|||0
+
+S Viktor on väga muutunud .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Ta on kuulus reisija , tegeleb fotoga , kirjutab palju huvitavaid ajalehtedes .
+A 6 7|||R:LEX|||fotograafiaga|||REQUIRED|||-NONE-|||0
+A 11 11|||M:LEX|||artikleid|||REQUIRED|||-NONE-|||0
+A 11 12|||R:NOM:FORM|||ajalehtedesse|||REQUIRED|||-NONE-|||0
+A 6 7|||R:LEX|||fotograafiaga|||REQUIRED|||-NONE-|||1
+A 11 11|||M:LEX|||artikleid|||REQUIRED|||-NONE-|||1
+A 11 12|||R:NOM:FORM|||ajalehtedesse|||REQUIRED|||-NONE-|||1
+A 9 12|||R:WO|||ajalehtedesse palju huvitavaid artikleid|||REQUIRED|||-NONE-|||1
+A 6 7|||R:LEX|||fotograafiaga|||REQUIRED|||-NONE-|||2
+A 10 11|||R:NOM:FORM|||huvitavat|||REQUIRED|||-NONE-|||2
+A 11 12|||R:NOM:FORM|||ajalehtedesse|||REQUIRED|||-NONE-|||2
+A 9 12|||R:WO|||ajalehtedesse palju huvitavat|||REQUIRED|||-NONE-|||2
+
+S Ma olen rõõmus teda näha .
+A 1 2|||R:VERB:FORM|||olin|||REQUIRED|||-NONE-|||0
+A 4 5|||R:VERB:FORM|||nähes|||REQUIRED|||-NONE-|||0
+A 2 5|||R:WO|||teda nähes rõõmus|||REQUIRED|||-NONE-|||0
+A 0 1|||R:NOM:FORM|||Mul|||REQUIRED|||-NONE-|||1
+A 1 2|||R:VERB:FORM|||oli|||REQUIRED|||-NONE-|||1
+A 2 3|||R:LEX|||rõõm|||REQUIRED|||-NONE-|||1
+A 3 3|||M:LEX|||, et|||REQUIRED|||-NONE-|||2
+A 4 5|||R:VERB:FORM|||nägin|||REQUIRED|||-NONE-|||2
+
+S Ta elab praegu Austraalias .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Ma arvan , et sulle oli huvitav seda kiri lugeda .
+A 1 2|||R:LEX|||loodan|||REQUIRED|||-NONE-|||0
+A 4 5|||R:NOM:FORM|||sul|||REQUIRED|||-NONE-|||0
+A 8 9|||R:NOM:FORM|||kirja|||REQUIRED|||-NONE-|||0
+
+S Sinu sõbranna Polina
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0

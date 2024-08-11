@@ -1,0 +1,97 @@
+
+S Tere , Anton !
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Ma olen tekkinud probleemiga minu tööulesannete täitmiseks .
+A 0 1|||R:NOM:FORM|||Mul|||REQUIRED|||-NONE-|||0
+A 1 2|||R:VERB:FORM|||on|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOM:FORM|||probleem|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||tööülesannete|||REQUIRED|||-NONE-|||0
+A 6 7|||R:NOM:FORM|||täitmisel|||REQUIRED|||-NONE-|||0
+
+S Ma töötan disainerina , minu tööulesanneteks on disainmakettite ettevalmistamine ja kujundamine arvuti programmide vahendusel .
+A 5 6|||R:NOM:FORM:SPELL|||tööülesandeks|||REQUIRED|||-NONE-|||0
+A 7 8|||R:SPELL|||disainmakettide|||REQUIRED|||-NONE-|||0
+A 11 13|||R:WS|||arvutiprogrammide|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||tööülesanneteks|||REQUIRED|||-NONE-|||1
+A 7 8|||R:SPELL|||disainmakettide|||REQUIRED|||-NONE-|||1
+A 11 13|||R:WS|||arvutiprogrammide|||REQUIRED|||-NONE-|||1
+
+S Viimasel ajal minu tööviljakus on langenud .
+A 2 5|||R:WO|||on minu tööviljakus|||REQUIRED|||-NONE-|||0
+
+S Ma kulutan palju aega programmide vastuste ootamiseks .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Seepärast ma ei suuta teha minu töö õigeks ajaks .
+A 3 4|||R:VERB:FORM:SPELL|||suuda|||REQUIRED|||-NONE-|||0
+A 1 4|||R:WO|||ei suuda ma|||REQUIRED|||-NONE-|||0
+A 5 6|||R:LEX|||enda||oma|||REQUIRED|||-NONE-|||0
+A 6 7|||R:NOM:FORM|||tööd|||REQUIRED|||-NONE-|||0
+
+S Ma arvan et minu töövahendid ( näiteks arvuti ja tarkvara ) on vananenud .
+A 2 2|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+
+S On vaja vahetada vana arvuti uue vastu nii kiiresti kui on võimalik .
+A 0 7|||R:WO|||Vana arvuti on vaja uue vastu vahetada|||REQUIRED|||-NONE-|||0
+A 9 9|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 0 7|||R:WO|||Vana arvuti on vaja vahetada uue vastu|||REQUIRED|||-NONE-|||1
+A 9 9|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 9 9|||M:PUNCT|||,|||REQUIRED|||-NONE-|||2
+
+S Lisaks oleks mõistlikuks instaleerida uusi programme .
+A 2 3|||R:NOM:FORM|||mõistlik|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||installeerida||installida|||REQUIRED|||-NONE-|||0
+A 4 5|||R:NOM:FORM|||uued|||REQUIRED|||-NONE-|||0
+A 5 6|||R:NOM:FORM|||programmid|||REQUIRED|||-NONE-|||0
+
+S Kahjuks ma ei saa ise valida nii arvuti , kui ka tarkvara .
+A 1 4|||R:WO|||ei saa ma|||REQUIRED|||-NONE-|||0
+A 6 7|||R:LEX|||ei|||REQUIRED|||-NONE-|||0
+A 7 8|||R:NOM:FORM|||arvutit|||REQUIRED|||-NONE-|||0
+A 8 9|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 9 10|||R:LEX|||ega|||REQUIRED|||-NONE-|||0
+A 1 4|||R:WO|||ei saa ma|||REQUIRED|||-NONE-|||1
+A 6 7|||R:LEX|||ei|||REQUIRED|||-NONE-|||1
+A 7 8|||R:NOM:FORM|||arvutit|||REQUIRED|||-NONE-|||1
+A 8 9|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+A 9 10|||R:LEX|||ega|||REQUIRED|||-NONE-|||1
+A 10 11|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 4 12|||R:WO|||ei arvutit ega tarkvara ise valida|||REQUIRED|||-NONE-|||1
+
+S Mul ei ole oskusi ja arusaamist .
+A 4 5|||R:LEX|||ega|||REQUIRED|||-NONE-|||0
+
+S Oleks ka raskusi , et meie büroo ei saa eraldada palju raha uute töövahendite ostamiseks .
+A 0 1|||R:VERB:FORM|||On|||REQUIRED|||-NONE-|||0
+A 2 3|||R:LEX:NOM:FORM|||probleem|||REQUIRED|||-NONE-|||0
+A 14 15|||R:SPELL|||ostmiseks|||REQUIRED|||-NONE-|||0
+A 0 1|||R:LEX:VERB:FORM|||Valmistab|||REQUIRED|||-NONE-|||1
+A 14 15|||R:SPELL|||ostmiseks|||REQUIRED|||-NONE-|||1
+
+S Mul on hädavajalik sinu nõuande arvuti valiku kohta .
+A 0 1|||R:NOM:FORM|||Mulle|||REQUIRED|||-NONE-|||0
+A 4 5|||R:NOM:FORM|||nõuanne|||REQUIRED|||-NONE-|||0
+
+S Ma saatsin teile meile peale palju variante ja ootan loodusega teie vastust , mis arvuti on parem minu ülesannete jaoks .
+A 2 3|||R:NOM:FORM|||sulle|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOM:FORM|||meili|||REQUIRED|||-NONE-|||0
+A 9 10|||R:SPELL|||lootusega|||REQUIRED|||-NONE-|||0
+A 10 11|||R:NOM:FORM|||sinu|||REQUIRED|||-NONE-|||0
+A 13 14|||R:NOM:FORM|||milline|||REQUIRED|||-NONE-|||0
+A 16 17|||R:NOM:FORM|||parim|||REQUIRED|||-NONE-|||0
+A 2 3|||R:NOM:FORM|||sulle|||REQUIRED|||-NONE-|||1
+A 3 4|||R:NOM:FORM|||meili|||REQUIRED|||-NONE-|||1
+A 9 10|||R:SPELL|||lootusega|||REQUIRED|||-NONE-|||1
+A 10 11|||R:NOM:FORM|||sinu|||REQUIRED|||-NONE-|||1
+A 16 17|||R:NOM:FORM|||parim|||REQUIRED|||-NONE-|||1
+
+S Ära unusta , palun , et hind oleks olla mõistlik .
+A 2 3|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 7 8|||R:LEX|||võiks|||REQUIRED|||-NONE-|||0
+A 2 3|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+A 0 4|||R:WO|||Palun ära unusta|||REQUIRED|||-NONE-|||1
+A 8 9|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+
+S Ette tänades , Irina ---
+A 2 3|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0

@@ -1,0 +1,82 @@
+
+S Mul on vaba päeval detsembris , ma käisin venemaalt , Pihkvas .
+A 1 2|||R:VERB:FORM|||olid|||REQUIRED|||-NONE-|||0
+A 2 3|||R:NOM:FORM|||vabad|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOM:FORM|||päevad|||REQUIRED|||-NONE-|||0
+A 2 5|||R:WO|||detsembris vabad päevad|||REQUIRED|||-NONE-|||0
+A 8 9|||R:NOM:FORM:CASE|||Venemaal|||REQUIRED|||-NONE-|||0
+A 9 10|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 2 3|||R:NOM:FORM|||vabad|||REQUIRED|||-NONE-|||1
+A 3 4|||R:NOM:FORM|||päevad|||REQUIRED|||-NONE-|||1
+A 2 5|||R:WO|||detsembris vabad päevad|||REQUIRED|||-NONE-|||1
+A 6 6|||M:LEX|||siis|||REQUIRED|||-NONE-|||1
+A 7 8|||R:LEX:VERB:FORM|||lähen|||REQUIRED|||-NONE-|||1
+A 6 8|||R:WO|||lähen ma|||REQUIRED|||-NONE-|||1
+A 8 9|||R:NOM:FORM:CASE|||Venemaale|||REQUIRED|||-NONE-|||1
+A 9 10|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+A 10 11|||R:NOM:FORM|||Pihkvasse|||REQUIRED|||-NONE-|||1
+A 2 3|||R:NOM:FORM|||vabad|||REQUIRED|||-NONE-|||2
+A 3 4|||R:NOM:FORM|||päevad|||REQUIRED|||-NONE-|||2
+A 2 5|||R:WO|||detsembris vabad päevad|||REQUIRED|||-NONE-|||2
+A 6 6|||M:LEX|||siis|||REQUIRED|||-NONE-|||2
+A 7 8|||R:VERB:FORM|||käin|||REQUIRED|||-NONE-|||2
+A 6 8|||R:WO|||käin ma|||REQUIRED|||-NONE-|||2
+A 8 9|||R:NOM:FORM:CASE|||Venemaal|||REQUIRED|||-NONE-|||2
+A 9 10|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||2
+
+S Mul meeldin venemaal .
+A 0 1|||R:NOM:FORM|||Mulle|||REQUIRED|||-NONE-|||0
+A 1 2|||R:VERB:FORM|||meeldis|||REQUIRED|||-NONE-|||0
+A 2 3|||R:CASE|||Venemaal|||REQUIRED|||-NONE-|||0
+A 0 1|||R:NOM:FORM|||Mulle|||REQUIRED|||-NONE-|||1
+A 1 2|||R:VERB:FORM|||meeldib|||REQUIRED|||-NONE-|||1
+A 2 3|||R:CASE|||Venemaal|||REQUIRED|||-NONE-|||1
+A 0 1|||R:NOM:FORM|||Mulle|||REQUIRED|||-NONE-|||2
+A 1 2|||R:VERB:FORM|||meeldib|||REQUIRED|||-NONE-|||2
+A 2 3|||R:CASE|||Venemaal|||REQUIRED|||-NONE-|||2
+A 3 3|||M:LEX|||käia|||REQUIRED|||-NONE-|||2
+
+S Ma käisin muuseumis , teatris parkis .
+A 5 5|||M:LEX|||ja|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||pargis|||REQUIRED|||-NONE-|||0
+A 1 2|||R:VERB:FORM|||käin|||REQUIRED|||-NONE-|||1
+A 5 5|||M:LEX|||ja|||REQUIRED|||-NONE-|||1
+A 5 6|||R:SPELL|||pargis|||REQUIRED|||-NONE-|||1
+
+S Ma sõidan bussiga
+A 1 2|||R:VERB:FORM|||sõitsin|||REQUIRED|||-NONE-|||0
+A 2 2|||M:LEX|||sinna|||REQUIRED|||-NONE-|||0
+A 3 3|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+A 2 2|||M:LEX|||sinna|||REQUIRED|||-NONE-|||1
+A 3 3|||M:PUNCT|||.|||REQUIRED|||-NONE-|||1
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||2
+
+S Ma võttan kaasa palju asjad .
+A 1 2|||R:VERB:FORM:SPELL|||võtsin|||REQUIRED|||-NONE-|||0
+A 4 5|||R:NOM:FORM|||asju|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||võtan|||REQUIRED|||-NONE-|||1
+A 4 5|||R:NOM:FORM|||asju|||REQUIRED|||-NONE-|||1
+
+S Ma ei tee ilm on soe , võib vihma sajab .
+A 2 3|||R:VERB:FORM:SPELL|||teadnud|||REQUIRED|||-NONE-|||0
+A 3 3|||M:LEX|||, kas|||REQUIRED|||-NONE-|||0
+A 6 7|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 7 8|||R:LEX|||või|||REQUIRED|||-NONE-|||0
+A 8 10|||R:WO|||sajab vihma|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||tea|||REQUIRED|||-NONE-|||1
+A 3 3|||M:LEX|||, kas|||REQUIRED|||-NONE-|||1
+A 6 7|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+A 7 8|||R:LEX|||või|||REQUIRED|||-NONE-|||1
+A 8 10|||R:WO|||sajab vihma|||REQUIRED|||-NONE-|||1
+
+S Head reisiga minule .
+A 0 1|||R:NOM:FORM|||Hea|||REQUIRED|||-NONE-|||0
+A 1 2|||R:NOM:FORM|||reis|||REQUIRED|||-NONE-|||0
+A 2 2|||M:LEX|||oli|||REQUIRED|||-NONE-|||0
+A 2 3|||R:NOM:FORM|||minul||mul|||REQUIRED|||-NONE-|||0
+A 0 3|||R:WO|||Minul oli hea reis||Mul oli hea reis|||REQUIRED|||-NONE-|||0
+A 1 2|||R:NOM:FORM|||reisi|||REQUIRED|||-NONE-|||1
+A 3 4|||R:PUNCT|||!|||REQUIRED|||-NONE-|||1
+A 1 2|||R:NOM:FORM|||reisi|||REQUIRED|||-NONE-|||2
+A 2 3|||R:NOM:FORM|||mulle|||REQUIRED|||-NONE-|||2
+A 3 4|||R:PUNCT|||!|||REQUIRED|||-NONE-|||2

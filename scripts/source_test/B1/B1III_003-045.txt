@@ -1,0 +1,136 @@
+
+S Hiljuti ma käisin kontserdil .
+A 1 3|||R:WO|||käisin ma|||REQUIRED|||-NONE-|||0
+A 0 3|||R:WO|||Ma käisin hiljuti|||REQUIRED|||-NONE-|||1
+
+S See oli Haapsalus .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Iga aastat seal oli kontsert nimi Tšaikovki .
+A 0 1|||R:NOM:FORM|||Igal|||REQUIRED|||-NONE-|||0
+A 1 2|||R:NOM:FORM|||aastal|||REQUIRED|||-NONE-|||0
+A 3 4|||R:VERB:FORM|||on|||REQUIRED|||-NONE-|||0
+A 2 4|||R:WO|||on seal|||REQUIRED|||-NONE-|||0
+A 5 6|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||Tšaikovski|||REQUIRED|||-NONE-|||0
+A 4 7|||R:WO|||Tšaikovski kontsert|||REQUIRED|||-NONE-|||0
+A 1 2|||R:NOM:FORM|||aasta|||REQUIRED|||-NONE-|||1
+A 3 4|||R:VERB:FORM|||on|||REQUIRED|||-NONE-|||1
+A 2 4|||R:WO|||on seal|||REQUIRED|||-NONE-|||1
+A 5 6|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 6 7|||R:SPELL|||Tšaikovski|||REQUIRED|||-NONE-|||1
+A 4 7|||R:WO|||Tšaikovski kontsert|||REQUIRED|||-NONE-|||1
+A 0 1|||R:NOM:FORM|||Igal|||REQUIRED|||-NONE-|||2
+A 1 2|||R:NOM:FORM|||aastal|||REQUIRED|||-NONE-|||2
+A 3 4|||R:LEX:VERB:FORM|||toimub|||REQUIRED|||-NONE-|||2
+A 2 4|||R:WO|||toimub seal|||REQUIRED|||-NONE-|||2
+A 5 6|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||2
+A 6 7|||R:LEX:SPELL|||Tšaikovski-nimeline|||REQUIRED|||-NONE-|||2
+A 4 7|||R:WO|||Tšaikovski-nimeline kontsert|||REQUIRED|||-NONE-|||2
+
+S Mulle vaga meeldib klassikat musiika .
+A 1 2|||R:SPELL|||väga|||REQUIRED|||-NONE-|||0
+A 3 4|||R:LEX:NOM:FORM|||klassikaline|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||muusika|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||väga|||REQUIRED|||-NONE-|||1
+A 3 4|||R:LEX:NOM:FORM|||klassikaline|||REQUIRED|||-NONE-|||1
+A 4 5|||R:SPELL|||muusika|||REQUIRED|||-NONE-|||1
+A 1 5|||R:WO|||meeldib klassikaline muusika väga|||REQUIRED|||-NONE-|||1
+
+S Me varem ostsime piletid .
+A 1 2|||R:LEX|||varakult|||REQUIRED|||-NONE-|||0
+A 2 3|||R:VERB:FORM|||ostame|||REQUIRED|||-NONE-|||0
+A 1 4|||R:WO|||ostame piletid varakult|||REQUIRED|||-NONE-|||0
+
+S Mõnikord juba jaanuaris .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Seelel suvel ma sõidsin abikaasaga ja sõpradega .
+A 0 1|||R:SPELL|||Sellel|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||sõitsin|||REQUIRED|||-NONE-|||0
+A 2 4|||R:WO|||sõitsin ma|||REQUIRED|||-NONE-|||0
+A 0 1|||R:SPELL|||Sellel|||REQUIRED|||-NONE-|||1
+A 3 4|||R:SPELL|||sõitsin|||REQUIRED|||-NONE-|||1
+A 2 4|||R:WO|||sõitsin ma|||REQUIRED|||-NONE-|||1
+A 4 4|||R:LEX|||sinna|||REQUIRED|||-NONE-|||1
+A 4 5|||R:NOM:FORM|||abikaasa|||REQUIRED|||-NONE-|||1
+
+S Me bronerime hotel seal , ja elame paar päeva .
+A 1 2|||R:VERB:FORM:SPELL|||broneerisime|||REQUIRED|||-NONE-|||0
+A 2 3|||R:NOM:FORM:SPELL|||hotelli|||REQUIRED|||-NONE-|||0
+A 2 4|||R:WO|||seal hotelli|||REQUIRED|||-NONE-|||0
+A 5 6|||R:LEX|||kus|||REQUIRED|||-NONE-|||0
+A 6 7|||R:VERB:FORM|||elasime|||REQUIRED|||-NONE-|||0
+A 1 2|||R:VERB:FORM:SPELL|||broneerisime|||REQUIRED|||-NONE-|||1
+A 2 3|||R:NOM:FORM:SPELL|||hotelli|||REQUIRED|||-NONE-|||1
+A 4 5|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+A 6 7|||R:VERB:FORM|||elasime|||REQUIRED|||-NONE-|||1
+A 3 7|||R:WO|||ja elasime seal|||REQUIRED|||-NONE-|||1
+A 1 2|||R:SPELL|||broneerime|||REQUIRED|||-NONE-|||2
+A 2 3|||R:NOM:FORM:SPELL|||hotelli|||REQUIRED|||-NONE-|||2
+A 2 4|||R:WO|||seal hotelli|||REQUIRED|||-NONE-|||2
+A 4 5|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||2
+
+S Pärast konstserti me jalutame mere äres .
+A 1 2|||R:SPELL|||kontserti|||REQUIRED|||-NONE-|||0
+A 2 3|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+A 3 4|||R:VERB:FORM|||jalutasime|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||ääres|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||kontserti|||REQUIRED|||-NONE-|||1
+A 3 4|||R:VERB:FORM|||jalutasime|||REQUIRED|||-NONE-|||1
+A 2 4|||R:WO|||jalutasime me|||REQUIRED|||-NONE-|||1
+A 5 6|||R:SPELL|||ääres|||REQUIRED|||-NONE-|||1
+A 1 2|||R:SPELL|||kontserti|||REQUIRED|||-NONE-|||2
+A 2 4|||R:WO|||jalutame me|||REQUIRED|||-NONE-|||2
+A 5 6|||R:SPELL|||ääres|||REQUIRED|||-NONE-|||2
+
+S jstume kohvikus , sööme , joome , suhtleme .
+A 0 1|||R:VERB:FORM:SPELL:CASE|||Istusime|||REQUIRED|||-NONE-|||0
+A 3 4|||R:VERB:FORM|||sõime|||REQUIRED|||-NONE-|||0
+A 5 6|||R:VERB:FORM|||jõime|||REQUIRED|||-NONE-|||0
+A 7 8|||R:VERB:FORM|||suhtlesime|||REQUIRED|||-NONE-|||0
+A 0 1|||R:SPELL:CASE|||Istume|||REQUIRED|||-NONE-|||1
+
+S Seal iga päev mängib muusika erinevas kohas .
+A 1 5|||R:WO|||mängib muusika iga päev|||REQUIRED|||-NONE-|||0
+
+S Seele aastal oli palju inimest .
+A 0 1|||R:NOM:FORM:SPELL|||Sellel|||REQUIRED|||-NONE-|||0
+A 4 5|||R:NOM:FORM|||inimesi|||REQUIRED|||-NONE-|||0
+A 0 1|||R:NOM:FORM:SPELL|||Sellel|||REQUIRED|||-NONE-|||1
+A 3 3|||M:LEX|||seal|||REQUIRED|||-NONE-|||1
+A 4 5|||R:NOM:FORM|||inimesi|||REQUIRED|||-NONE-|||1
+
+S Ma mõtlen järgmise aasta sõita või ei sõitis .
+A 2 2|||M:LEX|||, kas|||REQUIRED|||-NONE-|||0
+A 2 3|||R:NOM:FORM|||järgmisel|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOM:FORM|||aastal|||REQUIRED|||-NONE-|||0
+A 6 7|||R:LEX|||mitte|||REQUIRED|||-NONE-|||0
+A 7 8|||R:VERB:FORM|||sõita|||REQUIRED|||-NONE-|||0
+A 2 2|||M:LEX|||, kas|||REQUIRED|||-NONE-|||1
+A 2 3|||R:NOM:FORM|||järgmisel|||REQUIRED|||-NONE-|||1
+A 3 4|||R:NOM:FORM|||aastal|||REQUIRED|||-NONE-|||1
+A 4 4|||M:LEX|||sinna|||REQUIRED|||-NONE-|||1
+A 6 7|||R:LEX|||mitte|||REQUIRED|||-NONE-|||1
+A 7 8|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+
+S Seal huvitav aga natuke kallis .
+A 1 1|||M:LEX|||on|||REQUIRED|||-NONE-|||0
+A 2 2|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+
+S Ma arvan et järgmisel kontserdil me läheme kesegi Tallinnasse .
+A 2 2|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOM:FORM|||järgmisele|||REQUIRED|||-NONE-|||0
+A 4 5|||R:NOM:FORM|||kontserdile|||REQUIRED|||-NONE-|||0
+A 7 8|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+A 2 2|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 3 4|||R:NOM:FORM|||järgmisele|||REQUIRED|||-NONE-|||1
+A 4 5|||R:NOM:FORM|||kontserdile|||REQUIRED|||-NONE-|||1
+A 5 7|||R:WO|||läheme me|||REQUIRED|||-NONE-|||1
+A 7 8|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 8 9|||R:NOM:FORM|||Tallinna|||REQUIRED|||-NONE-|||1
+A 2 2|||M:PUNCT|||,|||REQUIRED|||-NONE-|||2
+A 3 4|||R:NOM:FORM|||järgmisele|||REQUIRED|||-NONE-|||2
+A 4 5|||R:NOM:FORM|||kontserdile|||REQUIRED|||-NONE-|||2
+A 5 7|||R:WO|||läheme me|||REQUIRED|||-NONE-|||2
+A 7 8|||R:SPELL|||kellegagi|||REQUIRED|||-NONE-|||2

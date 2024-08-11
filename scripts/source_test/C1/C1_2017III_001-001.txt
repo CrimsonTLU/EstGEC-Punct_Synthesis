@@ -1,0 +1,118 @@
+
+S Möödunud nädalal osalesin meediafoorumil , mille põhiline teema oli meedia võimalused ja roll .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Kuuldud ettekannete põhjal sooviksin kirjutada oma arvamusest .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S See on väga aktuaalne teema praegusel ajal .
+A 2 7|||R:WO|||praegusel ajal väga aktuaalne teema|||REQUIRED|||-NONE-|||0
+
+S Me elame info sajandil .
+A 2 4|||R:WS|||infosajandil|||REQUIRED|||-NONE-|||0
+
+S Kaasaegses maailmas toimuvad piidevalt muutused ühiskonnas , poliitikas , looduses .
+A 3 4|||R:SPELL|||pidevalt|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||pidevalt|||REQUIRED|||-NONE-|||1
+A 8 9|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+A 8 8|||M:LEX|||ja|||REQUIRED|||-NONE-|||1
+
+S Inimene tahab saada uudiseid meediast .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Aga meedial on suured võimalused inimeste kasvatamises , väärtushinnangute kujundamisel .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+A 7 8|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+A 7 7|||M:LEX|||ja|||REQUIRED|||-NONE-|||1
+
+S Eriti see on oluline laste kasvatamiseks .
+A 1 3|||R:WO|||on see|||REQUIRED|||-NONE-|||0
+
+S Meedia peab propageerima selliseid väärtushinnanguid nagu patriotism , looduskaitse , kõlbelised omadused inimestel .
+A 5 5|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 12 13|||R:NOM:FORM|||inimeste|||REQUIRED|||-NONE-|||0
+A 10 13|||R:WO|||inimeste kõlbelised omadused|||REQUIRED|||-NONE-|||0
+A 5 5|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 9 10|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+A 9 9|||M:LEX|||ja|||REQUIRED|||-NONE-|||1
+A 12 13|||R:NOM:FORM|||inimeste|||REQUIRED|||-NONE-|||1
+A 10 13|||R:WO|||inimeste kõlbelised omadused|||REQUIRED|||-NONE-|||1
+
+S Oleks hea , kui inimestel oleks võimalus vaadata igal ajal telesaateid loodusest , klassikalise muusika kontserte .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+A 12 13|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+A 12 12|||M:LEX|||ja|||REQUIRED|||-NONE-|||1
+
+S Lapsed telesaated peavad kasvatama lugupidamist eakatele inimestele , sallivust , armastust oma kodumaale .
+A 0 1|||R:NOM:FORM|||Lastes|||REQUIRED|||-NONE-|||0
+A 1 3|||R:WO|||peavad telesaated|||REQUIRED|||-NONE-|||0
+A 5 6|||R:NOM:FORM|||eakate|||REQUIRED|||-NONE-|||0
+A 6 7|||R:NOM:FORM|||inimeste|||REQUIRED|||-NONE-|||0
+A 7 7|||M:LEX|||vastu|||REQUIRED|||-NONE-|||0
+A 12 13|||R:NOM:FORM|||kodumaa|||REQUIRED|||-NONE-|||0
+A 10 13|||R:WO|||oma kodumaa armastust|||REQUIRED|||-NONE-|||0
+A 0 1|||R:NOM:FORM|||Lastes|||REQUIRED|||-NONE-|||1
+A 1 3|||R:WO|||peavad telesaated|||REQUIRED|||-NONE-|||1
+A 5 6|||R:NOM:FORM|||eakate|||REQUIRED|||-NONE-|||1
+A 6 7|||R:NOM:FORM|||inimeste|||REQUIRED|||-NONE-|||1
+A 7 7|||M:LEX|||vastu|||REQUIRED|||-NONE-|||1
+A 9 10|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+A 9 9|||M:LEX|||ja|||REQUIRED|||-NONE-|||1
+A 12 13|||R:NOM:FORM|||kodumaa|||REQUIRED|||-NONE-|||1
+A 10 13|||R:WO|||oma kodumaa armastust|||REQUIRED|||-NONE-|||1
+
+S Artiklid ajalehes , ajakirjas peavad jutustama headest inimestest , nende käitumisest , kangelastest .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+A 1 2|||R:NOM:FORM|||ajalehtedes|||REQUIRED|||-NONE-|||1
+A 2 3|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+A 2 3|||M:LEX|||ja|||REQUIRED|||-NONE-|||1
+A 3 4|||R:NOM:FORM|||ajakirjades|||REQUIRED|||-NONE-|||1
+A 1 2|||R:NOM:FORM|||ajalehtedes|||REQUIRED|||-NONE-|||2
+A 2 3|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||2
+A 2 2|||M:LEX|||ja|||REQUIRED|||-NONE-|||2
+A 3 4|||R:NOM:FORM|||ajakirjades|||REQUIRED|||-NONE-|||2
+A 11 12|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||2
+A 11 11|||M:LEX|||ja|||REQUIRED|||-NONE-|||2
+
+S Nende elu peab olema inimestele eeskuju .
+A 5 6|||R:NOM:FORM|||eeskujuks|||REQUIRED|||-NONE-|||0
+
+S Samuti on meedia suur roll teavitajana , harijana ja ka meelelahutajana .
+A 2 3|||R:NOM:FORM|||meedial|||REQUIRED|||-NONE-|||0
+
+S Inimesed loevad ajalehti ja ajakirju sagedamini kui raamatuid .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Sellepärast hea meedia allikas peab sisaldama uudiseid , uusi teadmisi ja samuti meelelahutusi .
+A 2 4|||R:WS|||meediaallikas|||REQUIRED|||-NONE-|||0
+A 1 5|||R:WO|||peab hea meediaallikas|||REQUIRED|||-NONE-|||0
+
+S Sageli inimesed ostavad ajakirju , et lugeda midagi uut .
+A 1 3|||R:WO|||ostavad inimesed|||REQUIRED|||-NONE-|||0
+
+S Aga kui ajakirjas on olemas artikkel uutest uurimistest arheoloogias või meditsiinis , ajaloos jne , siis inimene loeb seda ka .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+A 7 8|||R:LEX|||uurimustest||uuringutest|||REQUIRED|||-NONE-|||1
+
+S Mida rohkem kvaliteetseid ajakirju , telesaateid riigis , seda rohkem seal haritud inimesi .
+A 10 10|||M:LEX|||on|||REQUIRED|||-NONE-|||0
+A 4 5|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+A 4 5|||M:LEX|||ja|||REQUIRED|||-NONE-|||1
+A 10 10|||M:LEX|||on|||REQUIRED|||-NONE-|||1
+
+S Koolides peavad olema rikkad raamatukogud , kus iga laps saab valida ajakirja või ajalehe oma maitse järgi .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Kokkuvõtteks saab öelda , et meedia roll ja võimalused kaasaegses maailmas tingimata on suured .
+A 11 13|||R:WO|||on tingimata|||REQUIRED|||-NONE-|||0
+
+S Meedia on teavitaja , harija ja meelelahutaja samal ajal .
+A 2 9|||R:WO|||samal ajal teavitaja , harija ja meelelahutaja|||REQUIRED|||-NONE-|||0
+
+S Sellepärast riik peab toetama ja kontrollima meedia tegevust .
+A 1 3|||R:WO|||peab riik|||REQUIRED|||-NONE-|||0
+A 3 8|||R:WO|||meedia tegevust toetama ja kontrollima|||REQUIRED|||-NONE-|||0
+A 1 3|||R:WO|||peab riik|||REQUIRED|||-NONE-|||1
+
+S Meedial on suur roll uue põlvkonna kasvatamises .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0

@@ -1,0 +1,34 @@
+
+S Tere , Anton !
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Järgmisel nädalavahetusel sõidan Rakveresse .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Kas soovid minu koos minna ?
+A 2 3|||R:NOM:FORM|||minuga|||REQUIRED|||-NONE-|||0
+A 2 3|||R:NOM:FORM|||minuga|||REQUIRED|||-NONE-|||1
+A 3 4|||R:LEX|||kaasa|||REQUIRED|||-NONE-|||1
+A 4 5|||R:LEX|||tulla|||REQUIRED|||-NONE-|||1
+A 2 3|||R:NOM:FORM|||minuga|||REQUIRED|||-NONE-|||2
+A 4 5|||R:LEX|||tulla|||REQUIRED|||-NONE-|||2
+
+S Rakvere on väga ilus linn .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Õhtul võib restoranis süüa ja õlut juua .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Kui sa oled nõus , kohtume siis laupäeval , kell 10 , minu juures .
+A 5 7|||R:WO|||siis kohtume|||REQUIRED|||-NONE-|||0
+A 8 9|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 11 12|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 6 7|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 8 9|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+A 11 12|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+
+S Head aega !
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Olga
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0

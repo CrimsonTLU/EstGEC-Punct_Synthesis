@@ -1,0 +1,135 @@
+
+S Minu lemmikloom on kass .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Ma olen sünndinud kassi aastal .
+A 2 3|||R:SPELL|||sündinud|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||sündinud|||REQUIRED|||-NONE-|||1
+A 3 5|||R:WS|||kassiaastal|||REQUIRED|||-NONE-|||1
+
+S Ja kass on minu talisman .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Ma armastan kassid ja kassid armastavad mind .
+A 2 3|||R:NOM:FORM|||kasse|||REQUIRED|||-NONE-|||0
+
+S Kass on väike ja rahu lemmikloom .
+A 4 5|||R:LEX|||rahulik|||REQUIRED|||-NONE-|||0
+
+S Ei ole vaja ulutada õues .
+A 0 1|||M:LEX|||Temaga ei|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||jalutada|||REQUIRED|||-NONE-|||0
+A 3 5|||R:WO|||õues jalutada|||REQUIRED|||-NONE-|||0
+A 0 1|||M:LEX|||Temaga ei|||REQUIRED|||-NONE-|||1
+A 3 4|||R:LEX:SPELL|||jalutamas käia|||REQUIRED|||-NONE-|||1
+A 3 5|||R:WO|||õues jalutamas käia||käia õues jalutamas|||REQUIRED|||-NONE-|||1
+
+S Kui mul on puhkus siis saan võtta kassikene kassa või anna minu tädi juurde külas .
+A 4 4|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 7 8|||R:NOM:FORM|||kassikese|||REQUIRED|||-NONE-|||0
+A 8 9|||R:SPELL|||kaasa|||REQUIRED|||-NONE-|||0
+A 10 11|||R:LEX:VERB:FORM|||viia|||REQUIRED|||-NONE-|||0
+A 11 12|||R:LEX|||oma||enda|||REQUIRED|||-NONE-|||0
+A 14 15|||R:NOM:FORM|||külla|||REQUIRED|||-NONE-|||0
+A 4 4|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 7 8|||R:NOM:FORM|||kassikese|||REQUIRED|||-NONE-|||1
+A 8 9|||R:SPELL|||kaasa|||REQUIRED|||-NONE-|||1
+A 6 9|||R:WO|||kassikese kaasa võtta|||REQUIRED|||-NONE-|||1
+A 10 11|||R:VERB:FORM|||anda|||REQUIRED|||-NONE-|||1
+A 11 12|||R:LEX|||oma||enda|||REQUIRED|||-NONE-|||1
+A 12 13|||R:NOM:FORM|||tädile|||REQUIRED|||-NONE-|||1
+A 13 14|||R:LEX|||hoida|||REQUIRED|||-NONE-|||1
+A 14 15|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 4 4|||M:PUNCT|||,|||REQUIRED|||-NONE-|||2
+A 7 8|||R:NOM:FORM|||kassikese|||REQUIRED|||-NONE-|||2
+A 8 9|||R:SPELL|||kaasa|||REQUIRED|||-NONE-|||2
+A 6 9|||R:WO|||kassikese kaasa võtta|||REQUIRED|||-NONE-|||2
+A 10 11|||R:LEX:VERB:FORM|||viia|||REQUIRED|||-NONE-|||2
+A 11 12|||R:LEX|||oma||enda|||REQUIRED|||-NONE-|||2
+A 14 15|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||2
+
+S Kui ma võtaks kassi siis loomamajast .
+A 4 4|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 5 6|||R:LEX|||varjupaigast|||REQUIRED|||-NONE-|||0
+A 4 4|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 5 6|||R:LEX|||loomade varjupaigast|||REQUIRED|||-NONE-|||1
+
+S Tahaks anna vaevane kassi uus kodu .
+A 1 2|||R:VERB:FORM|||anda|||REQUIRED|||-NONE-|||0
+A 2 3|||R:LEX:NOM:FORM|||vaesele|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOM:FORM|||kassile|||REQUIRED|||-NONE-|||0
+A 4 5|||R:NOM:FORM|||uue|||REQUIRED|||-NONE-|||0
+
+S Kujutan ette , ma tulen koju väsinud töölt ega lemmikloom jooksab rõõmuga minu juurde .
+A 6 7|||R:NOM:FORM|||väsinuna|||REQUIRED|||-NONE-|||0
+A 5 8|||R:WO|||väsinuna töölt koju|||REQUIRED|||-NONE-|||0
+A 8 8|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 8 9|||R:LEX|||aga|||REQUIRED|||-NONE-|||0
+A 10 11|||R:SPELL|||jookseb|||REQUIRED|||-NONE-|||0
+A 3 3|||M:LEX|||kuidas||et|||REQUIRED|||-NONE-|||1
+A 6 7|||R:NOM:FORM|||väsinuna|||REQUIRED|||-NONE-|||1
+A 5 8|||R:WO|||väsinuna töölt koju|||REQUIRED|||-NONE-|||1
+A 8 9|||R:LEX|||ja|||REQUIRED|||-NONE-|||1
+A 10 11|||R:SPELL|||jookseb|||REQUIRED|||-NONE-|||1
+
+S Mul ei ole praegu kassi kodus .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+A 4 6|||R:WO|||kodus kassi|||REQUIRED|||-NONE-|||1
+
+S Sellepärast ma ürrin korter .
+A 1 1|||M:LEX|||et|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||üürin|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOM:FORM|||korterit|||REQUIRED|||-NONE-|||0
+A 1 1|||M:LEX|||, et|||REQUIRED|||-NONE-|||1
+A 2 3|||R:SPELL|||üürin|||REQUIRED|||-NONE-|||1
+A 3 4|||R:NOM:FORM|||korterit|||REQUIRED|||-NONE-|||1
+
+S Minu korter on väike ja väga palju mööblit , ei ole kassi kohta .
+A 5 5|||M:LEX|||seal on|||REQUIRED|||-NONE-|||0
+A 11 12|||R:NOM:FORM|||kassile|||REQUIRED|||-NONE-|||0
+A 9 12|||R:WO|||kassile ei ole|||REQUIRED|||-NONE-|||0
+A 5 5|||M:LEX|||seal on|||REQUIRED|||-NONE-|||1
+A 9 9|||M:LEX|||mistõttu||seetõttu||seepärast|||REQUIRED|||-NONE-|||1
+A 11 12|||R:NOM:FORM|||kassile|||REQUIRED|||-NONE-|||1
+A 5 5|||M:LEX|||on|||REQUIRED|||-NONE-|||2
+A 4 8|||R:WO|||ja mööblit on väga palju|||REQUIRED|||-NONE-|||2
+A 9 9|||M:LEX|||seal|||REQUIRED|||-NONE-|||2
+A 11 12|||R:NOM:FORM|||kassile|||REQUIRED|||-NONE-|||2
+
+S Veel lemmikloomad on kallis sõber .
+A 1 2|||R:NOM:FORM|||lemmikloom|||REQUIRED|||-NONE-|||0
+A 0 3|||R:WO|||Lemmikloom on veel||Veel on lemmikloom|||REQUIRED|||-NONE-|||0
+A 1 3|||R:WO|||on lemmikloomad|||REQUIRED|||-NONE-|||1
+A 3 4|||R:NOM:FORM|||kallid|||REQUIRED|||-NONE-|||1
+A 4 5|||R:NOM:FORM|||sõbrad|||REQUIRED|||-NONE-|||1
+A 0 1|||R:LEX|||Lisaks|||REQUIRED|||-NONE-|||2
+A 1 2|||R:NOM:FORM|||lemmikloom|||REQUIRED|||-NONE-|||2
+A 1 3|||R:WO|||on lemmikloom|||REQUIRED|||-NONE-|||2
+
+S Toidu , loomaarst ja teised loomaasjad maksavad liiga palju .
+A 0 1|||R:NOM:FORM|||Toit|||REQUIRED|||-NONE-|||0
+
+S Võib-olla minevikus , kui mul on suurem palka ja uus avar korter siis ma võttan kassi loomamajast .
+A 1 2|||R:LEX|||tulevikus|||REQUIRED|||-NONE-|||0
+A 7 8|||R:NOM:FORM|||palk|||REQUIRED|||-NONE-|||0
+A 12 12|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 14 15|||R:SPELL|||võtan|||REQUIRED|||-NONE-|||0
+A 16 17|||R:LEX|||varjupaigast|||REQUIRED|||-NONE-|||0
+A 15 17|||R:WO|||varjupaigast kassi|||REQUIRED|||-NONE-|||0
+A 1 2|||R:LEX|||tulevikus|||REQUIRED|||-NONE-|||1
+A 7 8|||R:NOM:FORM|||palk|||REQUIRED|||-NONE-|||1
+A 12 12|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 12 13|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 14 15|||R:SPELL|||võtan|||REQUIRED|||-NONE-|||1
+A 13 15|||R:WO|||võtan ma|||REQUIRED|||-NONE-|||1
+A 16 17|||R:LEX|||loomade varjupaigast|||REQUIRED|||-NONE-|||1
+A 15 17|||R:WO|||loomade varjupaigast kassi|||REQUIRED|||-NONE-|||1
+
+S Aga praegu hakkan vaadata kassist videot YouTubis .
+A 3 4|||R:VERB:FORM|||vaatama|||REQUIRED|||-NONE-|||0
+A 6 7|||R:NOM:FORM:SPELL|||Youtube'ist||YouTube'ist|||REQUIRED|||-NONE-|||0
+A 3 7|||R:WO|||Youtube'ist vaatama videot kassist||YouTube'ist vaatama videot kassist|||REQUIRED|||-NONE-|||0
+A 3 4|||R:VERB:FORM|||vaatama|||REQUIRED|||-NONE-|||1
+A 4 6|||R:WS|||kassivideot|||REQUIRED|||-NONE-|||1
+A 6 7|||R:NOM:FORM:SPELL|||Youtube'ist||YouTube'ist|||REQUIRED|||-NONE-|||1
+A 4 7|||R:WO|||Youtube'ist kassivideot||YouTube'ist kassivideot|||REQUIRED|||-NONE-|||1

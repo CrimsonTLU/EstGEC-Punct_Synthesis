@@ -1,0 +1,46 @@
+
+S Tere kallis sõber Paul !
+A 1 1|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+
+S Ma tahan kutsuda sinna Pärnus linn .
+A 3 4|||R:LEX|||sind|||REQUIRED|||-NONE-|||0
+A 4 5|||R:NOM:FORM|||Pärnu|||REQUIRED|||-NONE-|||0
+A 5 6|||R:NOM:FORM|||linna|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOM:FORM|||sind|||REQUIRED|||-NONE-|||1
+A 4 5|||R:NOM:FORM|||Pärnu|||REQUIRED|||-NONE-|||1
+A 5 6|||R:NOM:FORM|||linna|||REQUIRED|||-NONE-|||1
+A 2 6|||R:WO|||sind Pärnu linna kutsuda|||REQUIRED|||-NONE-|||1
+
+S Ma tahan sõida Pärnusse , sellepärast see linn on väga ilus , seal väga ilus rand ja mere .
+A 2 3|||R:SPELL|||sõita|||REQUIRED|||-NONE-|||0
+A 6 6|||M:LEX|||et|||REQUIRED|||-NONE-|||0
+A 13 13|||M:LEX|||on|||REQUIRED|||-NONE-|||0
+A 17 18|||R:NOM:FORM|||meri|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||sõita|||REQUIRED|||-NONE-|||1
+A 4 5|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+A 6 6|||M:LEX|||, et|||REQUIRED|||-NONE-|||1
+A 13 13|||M:LEX|||on|||REQUIRED|||-NONE-|||1
+A 17 18|||R:NOM:FORM|||meri|||REQUIRED|||-NONE-|||1
+
+S Seal me oleme jalutama , ujuma , tantsima .
+A 2 3|||R:LEX|||läheme|||REQUIRED|||-NONE-|||0
+A 2 3|||R:LEX|||läheme|||REQUIRED|||-NONE-|||1
+A 1 3|||R:WO|||läheme me|||REQUIRED|||-NONE-|||1
+A 6 7|||M:LEX|||ja|||REQUIRED|||-NONE-|||1
+A 2 3|||R:LEX|||saame|||REQUIRED|||-NONE-|||2
+A 1 3|||R:WO|||saame me|||REQUIRED|||-NONE-|||2
+A 3 4|||R:VERB:FORM|||jalutada|||REQUIRED|||-NONE-|||2
+A 5 6|||R:VERB:FORM|||ujuda|||REQUIRED|||-NONE-|||2
+A 7 8|||R:VERB:FORM|||tantsida|||REQUIRED|||-NONE-|||2
+
+S Kui sinu selge , vasta mulle .
+A 2 2|||M:LEX|||plaan on|||REQUIRED|||-NONE-|||0
+A 4 4|||M:LEX|||siis|||REQUIRED|||-NONE-|||0
+A 1 2|||R:NOM:FORM|||sulle|||REQUIRED|||-NONE-|||1
+A 2 3|||R:LEX|||sobib|||REQUIRED|||-NONE-|||1
+A 4 4|||M:LEX|||siis|||REQUIRED|||-NONE-|||1
+
+S Ma ootan sinu vasta , Sinu sõber Igor .
+A 3 4|||R:LEX|||vastust|||REQUIRED|||-NONE-|||0
+A 4 5|||R:PUNCT|||.||!|||REQUIRED|||-NONE-|||0
+A 8 9|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0

@@ -1,0 +1,140 @@
+
+S Tere kallis õpetaja .
+A 1 1|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 3 4|||R:PUNCT|||!|||REQUIRED|||-NONE-|||0
+A 1 1|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 3 4|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+
+S Hiljuti mina oli kontserdil .
+A 2 3|||R:LEX:VERB:FORM|||käisin|||REQUIRED|||-NONE-|||0
+A 0 3|||R:WO|||Mina käisin hiljuti|||REQUIRED|||-NONE-|||0
+A 1 2|||R:NOM:FORM|||ma|||REQUIRED|||-NONE-|||1
+A 2 3|||R:LEX:VERB:FORM|||käisin|||REQUIRED|||-NONE-|||1
+A 0 3|||R:WO|||Hiljuti käisin ma||Ma käisin hiljuti|||REQUIRED|||-NONE-|||1
+A 2 3|||R:VERB:FORM|||olin|||REQUIRED|||-NONE-|||2
+A 1 2|||R:NOM:FORM|||ma|||REQUIRED|||-NONE-|||2
+A 1 3|||R:WO|||olin ma|||REQUIRED|||-NONE-|||2
+
+S Kontserdil oli minu lemmikmuusika ja grupp Guns'n'Roses .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+A 1 2|||R:LEX|||kõlas|||REQUIRED|||-NONE-|||1
+A 5 5|||M:LEX|||esines|||REQUIRED|||-NONE-|||1
+
+S Mulle meeldib selline muusikat .
+A 3 4|||R:NOM:FORM|||muusika|||REQUIRED|||-NONE-|||0
+A 2 3|||R:NOM:FORM|||sellist|||REQUIRED|||-NONE-|||1
+A 4 4|||M:LEX|||kuulata|||REQUIRED|||-NONE-|||1
+
+S See on rokk muus'ka .
+A 2 4|||R:WS:SPELL|||rokkmuusika|||REQUIRED|||-NONE-|||0
+
+S Kontserdil olin koos oma naisega ja sõpradega .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+A 4 5|||R:NOM:FORM|||naise|||REQUIRED|||-NONE-|||1
+
+S Nad ka meeldivad selline muusikat .
+A 0 1|||R:NOM:FORM|||Neile|||REQUIRED|||-NONE-|||0
+A 2 3|||R:VERB:FORM|||meeldib|||REQUIRED|||-NONE-|||0
+A 1 3|||R:WO|||meeldib ka|||REQUIRED|||-NONE-|||0
+A 4 5|||R:NOM:FORM|||muusika|||REQUIRED|||-NONE-|||0
+A 2 3|||R:LEX|||kuulavad|||REQUIRED|||-NONE-|||1
+A 1 3|||R:WO|||kuulavad ka|||REQUIRED|||-NONE-|||1
+A 3 4|||R:NOM:FORM|||sellist|||REQUIRED|||-NONE-|||1
+A 2 3|||R:LEX|||armastavad|||REQUIRED|||-NONE-|||2
+A 1 3|||R:WO|||armastavad ka|||REQUIRED|||-NONE-|||2
+A 3 4|||R:NOM:FORM|||sellist|||REQUIRED|||-NONE-|||2
+
+S Väga tore oli kontserdil .
+A 0 4|||R:WO|||Kontserdil oli väga tore|||REQUIRED|||-NONE-|||0
+A 4 5|||R:PUNCT|||!|||REQUIRED|||-NONE-|||0
+A 0 4|||R:WO|||Kontserdil oli väga tore|||REQUIRED|||-NONE-|||1
+
+S Mulle väga meeldis .
+A 3 4|||R:PUNCT|||!|||REQUIRED|||-NONE-|||0
+A 1 3|||R:WO|||meeldis väga|||REQUIRED|||-NONE-|||1
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||2
+
+S Nad mängisid kui vanad laulud ja uued .
+A 2 3|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOM:FORM|||vanu|||REQUIRED|||-NONE-|||0
+A 4 5|||R:NOM:FORM|||laule|||REQUIRED|||-NONE-|||0
+A 6 7|||R:NOM:FORM|||uusi|||REQUIRED|||-NONE-|||0
+A 4 7|||R:WO|||ja uusi laule|||REQUIRED|||-NONE-|||0
+A 2 3|||R:LEX|||nii|||REQUIRED|||-NONE-|||1
+A 3 4|||R:NOM:FORM|||vanu|||REQUIRED|||-NONE-|||1
+A 4 5|||R:NOM:FORM|||laule|||REQUIRED|||-NONE-|||1
+A 5 6|||R:LEX|||kui ka|||REQUIRED|||-NONE-|||1
+A 6 7|||R:NOM:FORM|||uusi|||REQUIRED|||-NONE-|||1
+A 2 3|||R:LEX|||nii|||REQUIRED|||-NONE-|||2
+A 3 4|||R:NOM:FORM|||vanu|||REQUIRED|||-NONE-|||2
+A 4 5|||R:NOM:FORM|||laule|||REQUIRED|||-NONE-|||2
+A 5 6|||R:LEX|||kui ka|||REQUIRED|||-NONE-|||2
+A 6 7|||R:NOM:FORM|||uusi|||REQUIRED|||-NONE-|||2
+A 4 7|||R:WO|||kui ka uusi laule|||REQUIRED|||-NONE-|||2
+
+S Mina sain võimalus pildistada nendega .
+A 2 3|||R:NOM:FORM|||võimaluse|||REQUIRED|||-NONE-|||0
+A 3 5|||R:WO|||nendega pildistada|||REQUIRED|||-NONE-|||0
+A 0 1|||R:NOM:FORM|||Ma|||REQUIRED|||-NONE-|||1
+A 2 3|||R:NOM:FORM|||võimaluse|||REQUIRED|||-NONE-|||1
+A 3 5|||R:WO|||nendega pildistada|||REQUIRED|||-NONE-|||1
+
+S Pärast kontserti käisime baarisse .
+A 3 4|||R:NOM:FORM|||baaris|||REQUIRED|||-NONE-|||0
+A 2 3|||R:LEX|||läksime|||REQUIRED|||-NONE-|||1
+A 3 4|||R:NOM:FORM|||baari|||REQUIRED|||-NONE-|||1
+
+S Me kohe hakkasime vestlema kontserdist , ka , sest jäi imelik tunnu .
+A 5 6|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 1 7|||R:WO|||hakkasime ka kohe vestlema kontserdist||hakkasime ka kohe kontserdist vestlema||hakkasime kohe ka kontserdist vestlema|||REQUIRED|||-NONE-|||0
+A 9 9|||M:LEX|||see|||REQUIRED|||-NONE-|||0
+A 9 10|||R:LEX|||jättis|||REQUIRED|||-NONE-|||0
+A 10 11|||R:LEX:NOM:FORM|||imelise|||REQUIRED|||-NONE-|||0
+A 11 12|||R:NOM:FORM:SPELL|||tunde|||REQUIRED|||-NONE-|||0
+A 3 4|||R:LEX|||rääkima|||REQUIRED|||-NONE-|||1
+A 1 7|||R:WO|||hakkasime ka kohe kontserdist rääkima||hakkasime kohe ka kontserdist rääkima|||REQUIRED|||-NONE-|||1
+A 9 10|||R:LEX|||oli|||REQUIRED|||-NONE-|||1
+A 10 11|||R:LEX|||imeline|||REQUIRED|||-NONE-|||1
+A 11 12|||R:SPELL|||tunne|||REQUIRED|||-NONE-|||1
+A 1 7|||R:WO|||hakkasime ka kohe vestlema kontserdist||hakkasime ka kohe kontserdist vestlema||hakkasime kohe ka kontserdist vestlema|||REQUIRED|||-NONE-|||2
+A 5 6|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||2
+A 9 9|||M:LEX|||sellest|||REQUIRED|||-NONE-|||2
+A 10 11|||R:LEX|||imeline|||REQUIRED|||-NONE-|||2
+A 11 12|||R:SPELL|||tunne|||REQUIRED|||-NONE-|||2
+
+S Aga aeg oli öö , me hakkasime koju minna .
+A 1 2|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+A 8 9|||R:VERB:FORM|||minema|||REQUIRED|||-NONE-|||0
+A 1 2|||R:LEX|||käes|||REQUIRED|||-NONE-|||1
+A 8 9|||R:VERB:FORM|||minema|||REQUIRED|||-NONE-|||1
+A 3 4|||R:LEX|||hiline|||REQUIRED|||-NONE-|||2
+A 8 9|||R:VERB:FORM|||minema|||REQUIRED|||-NONE-|||2
+
+S Ma kuulnud , et järgmisel aastal meile tuleb Metallika .
+A 1 1|||M:LEX|||olen|||REQUIRED|||-NONE-|||0
+A 6 8|||R:WO|||tuleb meile|||REQUIRED|||-NONE-|||0
+A 8 9|||R:SPELL|||Metallica|||REQUIRED|||-NONE-|||0
+A 1 2|||R:VERB:FORM|||kuulsin|||REQUIRED|||-NONE-|||1
+A 6 8|||R:WO|||tuleb meile|||REQUIRED|||-NONE-|||1
+A 8 9|||R:SPELL|||Metallica|||REQUIRED|||-NONE-|||1
+
+S Muidugi mina lähen sellisel kontsertil .
+A 1 3|||R:WO|||lähen mina|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOM:FORM|||sellisele|||REQUIRED|||-NONE-|||0
+A 4 5|||R:NOM:FORM:SPELL|||kontserdile|||REQUIRED|||-NONE-|||0
+A 1 2|||R:NOM:FORM|||ma|||REQUIRED|||-NONE-|||1
+A 1 3|||R:WO|||lähen ma|||REQUIRED|||-NONE-|||1
+A 3 4|||R:LEX:NOM:FORM|||sellele|||REQUIRED|||-NONE-|||1
+A 4 5|||R:NOM:FORM:SPELL|||kontserdile|||REQUIRED|||-NONE-|||1
+
+S Mulle meeldib niisuguse kontserti käia .
+A 2 3|||R:NOM:FORM|||niisugustel|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOM:FORM|||kontsertidel|||REQUIRED|||-NONE-|||0
+
+S Seal saab uue tutvustus .
+A 0 1|||R:NOM:FORM|||Sealt|||REQUIRED|||-NONE-|||0
+A 2 3|||R:NOM:FORM|||uusi|||REQUIRED|||-NONE-|||0
+A 3 4|||R:LEX:NOM:FORM|||tutvusi|||REQUIRED|||-NONE-|||0
+A 2 3|||R:NOM:FORM|||uusi|||REQUIRED|||-NONE-|||1
+A 3 4|||R:LEX:NOM:FORM|||tutvusi|||REQUIRED|||-NONE-|||1
+A 4 4|||M:LEX|||leida|||REQUIRED|||-NONE-|||1

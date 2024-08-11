@@ -1,0 +1,83 @@
+
+S Iga päev ma saan uudiseid ja infot .
+A 2 4|||R:WO|||saan ma|||REQUIRED|||-NONE-|||0
+A 0 4|||R:WO|||Ma saan iga päev|||REQUIRED|||-NONE-|||1
+A 3 4|||R:LEX|||hangin||otsin|||REQUIRED|||-NONE-|||2
+A 0 4|||R:WO|||Ma hangin iga päev||Ma otsin iga päev|||REQUIRED|||-NONE-|||2
+
+S Minu õpetaja küsis mind : " Kust ma saan infot ja uudiseid ? "
+A 3 4|||R:NOM:FORM|||minult||mult|||REQUIRED|||-NONE-|||0
+A 4 5|||R:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 5 6|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 6 7|||R:CASE|||kust|||REQUIRED|||-NONE-|||0
+A 12 13|||R:PUNCT|||.|||REQUIRED|||-NONE-|||0
+A 13 14|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOM:FORM|||minult||mult|||REQUIRED|||-NONE-|||1
+A 4 5|||R:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 5 6|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+A 6 7|||R:CASE|||kust|||REQUIRED|||-NONE-|||1
+A 8 12|||R:WO|||infot ja uudiseid saan|||REQUIRED|||-NONE-|||1
+A 12 13|||R:PUNCT|||.|||REQUIRED|||-NONE-|||1
+A 13 14|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+A 3 4|||R:NOM:FORM|||minult||mult|||REQUIRED|||-NONE-|||2
+A 7 8|||R:LEX|||sa|||REQUIRED|||-NONE-|||2
+A 8 9|||R:VERB:FORM|||saad|||REQUIRED|||-NONE-|||2
+
+S Iga päev ma loen ajalehti .
+A 2 4|||R:WO|||loen ma|||REQUIRED|||-NONE-|||0
+A 0 4|||R:WO|||Ma loen iga päev|||REQUIRED|||-NONE-|||1
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||2
+
+S Minu lemmikud ajalehed on Põhjaraanik ja Postimees .
+A 4 5|||R:SPELL|||Põhjarannik|||REQUIRED|||-NONE-|||0
+A 1 3|||R:WS|||lemmikajalehed|||REQUIRED|||-NONE-|||1
+A 4 5|||R:SPELL|||Põhjarannik|||REQUIRED|||-NONE-|||1
+
+S Postimees ma loen iga päev , aga Põhjaraanik üks kord kuus .
+A 0 1|||R:NOM:FORM|||Postimeest|||REQUIRED|||-NONE-|||0
+A 1 3|||R:WO|||loen ma|||REQUIRED|||-NONE-|||0
+A 7 8|||R:NOM:FORM:SPELL|||Põhjarannikut|||REQUIRED|||-NONE-|||0
+
+S Mulle meeldib lugeda oma linnast , linnavalitsusest .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+A 5 6|||M:LEX|||ja|||REQUIRED|||-NONE-|||1
+
+S Mõnikord ma otsin infot internetist , sest internetis on ka minu lemmik ajaleht Postimees .
+A 1 3|||R:WO|||otsin ma|||REQUIRED|||-NONE-|||0
+A 11 13|||R:WS|||lemmikajaleht|||REQUIRED|||-NONE-|||0
+A 1 2|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 9 9|||M:LEX|||olemas|||REQUIRED|||-NONE-|||1
+A 11 13|||R:WS|||lemmikajaleht|||REQUIRED|||-NONE-|||1
+A 1 2|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||2
+A 7 8|||R:LEX|||seal|||REQUIRED|||-NONE-|||2
+A 11 13|||R:WS|||lemmikajaleht|||REQUIRED|||-NONE-|||2
+
+S Ma ei loe ajakirju , sest nad maksavad väga palju .
+A 6 7|||R:LEX|||need|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||1
+
+S Internetist ma otsin ka infot teistest maadest .
+A 1 3|||R:WO|||otsin ma|||REQUIRED|||-NONE-|||0
+A 3 5|||R:WO|||infot ka|||REQUIRED|||-NONE-|||0
+A 1 3|||R:WO|||otsin ma|||REQUIRED|||-NONE-|||1
+A 3 5|||R:WO|||infot ka|||REQUIRED|||-NONE-|||1
+A 5 6|||R:NOM:FORM|||teiste|||REQUIRED|||-NONE-|||1
+A 6 7|||R:NOM:FORM|||maade|||REQUIRED|||-NONE-|||1
+A 7 7|||M:LEX|||kohta|||REQUIRED|||-NONE-|||1
+
+S Veel ma leian infot raamatutest .
+A 1 3|||R:WO|||leian ma|||REQUIRED|||-NONE-|||0
+A 0 4|||R:WO|||Ma leian infot veel|||REQUIRED|||-NONE-|||1
+
+S Minu vanaemal kodus on palju raamatuid .
+A 2 4|||R:WO|||on kodus|||REQUIRED|||-NONE-|||0
+
+S Ma loen neid igal nädalavahetusel .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Mulle meeldib lugeda muinasjutte minu onutütrale .
+A 4 5|||R:LEX|||oma||enda|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||onutütrele|||REQUIRED|||-NONE-|||0
+A 4 5|||R:LEX|||oma||enda|||REQUIRED|||-NONE-|||1
+A 5 6|||R:SPELL|||onutütrele|||REQUIRED|||-NONE-|||1
+A 2 6|||R:WO|||oma onutütrele muinasjutte lugeda||enda onutütrele muinasjutte lugeda|||REQUIRED|||-NONE-|||1

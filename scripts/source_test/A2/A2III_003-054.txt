@@ -1,0 +1,30 @@
+
+S Kallis sõber mul on üks prooblem .
+A 2 2|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||probleem|||REQUIRED|||-NONE-|||0
+A 2 2|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 4 5|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 5 6|||R:SPELL|||probleem|||REQUIRED|||-NONE-|||1
+
+S Minu kodumasin on katki .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Seda on vaja remontida .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Aitad mind .
+A 0 1|||R:VERB:FORM|||Aita|||REQUIRED|||-NONE-|||0
+A 2 3|||R:PUNCT|||!|||REQUIRED|||-NONE-|||0
+A 0 1|||R:VERB:FORM|||Aita|||REQUIRED|||-NONE-|||1
+A 0 1|||M:LEX|||Kas aitad|||REQUIRED|||-NONE-|||2
+A 2 3|||R:PUNCT|||?|||REQUIRED|||-NONE-|||2
+
+S Kas sa tuled minu juurde homme ?
+A 3 6|||R:WO|||homme minu juurde|||REQUIRED|||-NONE-|||0
+
+S Ma küpsetan sind koogi ja annan natuke raha , sest mul on väga vähe raha .
+A 2 3|||R:NOM:FORM|||sulle|||REQUIRED|||-NONE-|||0
+
+S Ma ei helista torumees , sest raha on läbi .
+A 3 4|||R:NOM:FORM|||torumehele|||REQUIRED|||-NONE-|||0
+A 8 9|||R:LEX|||otsas|||REQUIRED|||-NONE-|||0

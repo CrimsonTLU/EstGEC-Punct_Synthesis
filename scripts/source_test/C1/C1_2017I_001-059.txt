@@ -1,0 +1,75 @@
+
+S Päästeameti korraldatud teabepäeval oli räägitud õnnetusjuhtumitest .
+A 3 5|||R:VERB:FORM|||räägiti|||REQUIRED|||-NONE-|||0
+
+S Vaatamata sellele , et teema on väga lai , Päästeameti esindaja esitatud seisukohad olid põhjendatud ning ei jäänud ilma statistiliste kinnitusteta .
+A 9 14|||R:WO|||olid Päästeameti esindaja esitatud seisukohad|||REQUIRED|||-NONE-|||0
+
+S Kõigepealt , ta rääkis õnnetusjuhtumite põhjustest .
+A 1 2|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 2 4|||R:WO|||rääkis ta|||REQUIRED|||-NONE-|||0
+
+S Päästeameti päringute alusel peamiseks põhjuseks on ohutusnõuete eiramine .
+A 3 6|||R:WO|||on peamiseks põhjuseks|||REQUIRED|||-NONE-|||0
+
+S 40% eelmisel aastal toimunud tulekahjudest olid majades ja korterites , kus ei olnud suitsuandurit .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Minule see asjaolu tundus küll väga imeline , kuna andurid on odavad ja kättesaadavad ning oleks raske leida põhjendust sellele , miks neid oma koju ei panda .
+A 1 4|||R:WO|||tundus see asjaolu|||REQUIRED|||-NONE-|||0
+A 6 7|||R:LEX|||imelik|||REQUIRED|||-NONE-|||0
+
+S Teiseks põhjuseks oli inimeste alkoholi kuritarvitamine .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Vaatamata kõigile riigi poolt võetud meetmetele on joobes juhtimine ikka aktuaalne probleem .
+A 3 4|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Joobes autojuhid põhjustavad rohkem kui kolm neljandikku kõikidest liiklusõnnetustest aastas ning minu arvates see tegu on vastutustundetu nii iseenda kui ka teiste inimeste suhtes , kellele see võib kahju tuua .
+A 13 16|||R:WO|||on see tegu|||REQUIRED|||-NONE-|||0
+
+S Teabepäeva teine osa oli pühendatud õnnetusjuhtumite ennetustegevusele .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Osa oli korraldatud seminari vormis ning enamiku osalejate arvates kõige parim viis õnnetuste ennetamiseks on ühiskonna informeerimine .
+A 10 11|||R:NOM:FORM|||parem|||REQUIRED|||-NONE-|||0
+A 9 15|||R:WO|||on kõige parem viis õnnetuste ennetamiseks|||REQUIRED|||-NONE-|||0
+
+S Ma olen sellega nõus , näiteks bussipeatuste reklaamide asendamine probleemi puudutava infoteabega oluliselt tõstaks inimeste teadvustatust - seda kinnitab ka päästeameti statistika
+A 11 12|||R:LEX|||infoga||teabega|||REQUIRED|||-NONE-|||0
+A 12 14|||R:WO|||tõstaks oluliselt|||REQUIRED|||-NONE-|||0
+A 22 22|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+
+S Ka mõnel määral inimeste raskest hooletustest tulenevate juhtumite sanksioneerimine võiks omakorda tuua kasu .
+A 1 2|||R:LEX|||mõningal|||REQUIRED|||-NONE-|||0
+A 5 6|||R:NOM:FORM|||hooletusest|||REQUIRED|||-NONE-|||0
+A 8 9|||R:SPELL|||sanktsioneerimine|||REQUIRED|||-NONE-|||0
+A 1 9|||R:WO|||inimeste raskest hooletustest tulenevate juhtumite sanksioneerimine mõnel määral|||REQUIRED|||-NONE-|||0
+A 11 13|||R:WO|||kasu tuua|||REQUIRED|||-NONE-|||0
+
+S Probleem aga , minu arvates , seisneb selles , et seda oleks väga raske reguleerida ilma inimeste õiguste riivamiseta .
+A 2 3|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 5 6|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 1 7|||R:WO|||seisneb aga minu arvates selles|||REQUIRED|||-NONE-|||0
+
+S Riik saab määrata kõrgemaid trahve joobes juhtimise eest , aga üldjuhul kontrolli teostamine inimeste üle on väga problemaatiline .
+A 11 16|||R:WO|||on inimeste üle kontrolli teostamine|||REQUIRED|||-NONE-|||0
+A 12 13|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 14 15|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 11 12|||R:NOM:FORM|||kontrollimine|||REQUIRED|||-NONE-|||1
+A 11 16|||R:WO|||on inimeste kontrollimine|||REQUIRED|||-NONE-|||1
+
+S Lõppkokkuvõttes , keegi ei saa sind aidata parem , kui sa aitad iseennst .
+A 7 8|||R:LEX|||paremini|||REQUIRED|||-NONE-|||0
+A 12 13|||R:SPELL|||iseennast|||REQUIRED|||-NONE-|||0
+A 7 8|||R:LEX|||paremini|||REQUIRED|||-NONE-|||1
+A 12 13|||R:SPELL|||iseennast|||REQUIRED|||-NONE-|||1
+A 6 8|||R:WO|||paremini aidata|||REQUIRED|||-NONE-|||1
+A 8 9|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+A 11 13|||R:WO|||iseennast aitad|||REQUIRED|||-NONE-|||1
+
+S Me peame hoolitsema ja püüdma , et meie tegevus ei tooks kahju endale ega meid ümbritsevatele inimestele .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Selleks on vaja alati kontrollida oma tegevusi ja mõelda , mis tagajärgi need võivad tuua .
+A 4 7|||R:WO|||oma tegevusi kontrollida|||REQUIRED|||-NONE-|||0

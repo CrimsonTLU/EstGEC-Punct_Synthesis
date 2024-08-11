@@ -1,0 +1,60 @@
+
+S Lugupeetud asutuse personalijuht ,
+A 3 4|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Minu nimi on Viktor --- , ma olen teie vanem programmeerija .
+A 9 11|||R:WS|||vanemprogrammeerija|||REQUIRED|||-NONE-|||0
+
+S Ma kirjutan teile , et kirjeldata kuidas ma sattusin siia töötama , mis mulle siin meeldib ja mis ma tahaks näha tulevikus .
+A 5 6|||R:SPELL|||kirjeldada|||REQUIRED|||-NONE-|||0
+A 6 6|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 17 18|||R:NOM:FORM|||mida|||REQUIRED|||-NONE-|||0
+
+S Kui ma olin 10 aasta noorem , ma just lõpetasin ülikooli ja otsisin endale töökohta .
+A 4 5|||R:NOM:FORM|||aastat|||REQUIRED|||-NONE-|||0
+A 7 10|||R:WO|||lõpetasin ma just|||REQUIRED|||-NONE-|||0
+
+S See olid keerulised ajad minu jaoks ning ma juba kaotasin lootust , aga ühel päeval minu sõber , kellega ma õppisin ülikoolis , helistas ja jutustas mulle , et ta leidis uut ja huvitavat asutust , kus on vajalikud töötajäd .
+A 0 1|||R:NOM:FORM|||Need|||REQUIRED|||-NONE-|||0
+A 10 11|||R:NOM:FORM|||lootuse|||REQUIRED|||-NONE-|||0
+A 31 32|||R:NOM:FORM|||uue|||REQUIRED|||-NONE-|||0
+A 33 34|||R:NOM:FORM|||huvitava|||REQUIRED|||-NONE-|||0
+A 34 35|||R:NOM:FORM|||asutuse|||REQUIRED|||-NONE-|||0
+A 38 39|||R:LEX|||vaja|||REQUIRED|||-NONE-|||0
+A 39 40|||R:NOM:FORM:SPELL|||töötajaid|||REQUIRED|||-NONE-|||0
+A 0 1|||R:NOM:FORM|||Need|||REQUIRED|||-NONE-|||1
+A 20 22|||R:WO|||ülikoolis õppisin|||REQUIRED|||-NONE-|||1
+A 31 32|||R:NOM:FORM|||uue|||REQUIRED|||-NONE-|||1
+A 33 34|||R:NOM:FORM|||huvitava|||REQUIRED|||-NONE-|||1
+A 34 35|||R:NOM:FORM|||asutuse|||REQUIRED|||-NONE-|||1
+A 38 39|||R:LEX|||vaja|||REQUIRED|||-NONE-|||1
+A 39 40|||R:NOM:FORM:SPELL|||töötajaid|||REQUIRED|||-NONE-|||1
+
+S Ma kirjutasin kirja minust ja mulle pakuti töökohta .
+A 3 4|||R:LEX|||endast|||REQUIRED|||-NONE-|||0
+A 2 4|||R:WO|||endast kirja|||REQUIRED|||-NONE-|||0
+
+S Selles kollektiivis mulle väga meeldib see , et igaüks on hea ja südamlik , igaüks on valmis aitama , kui sul elus või töös on mingi probleem , alati võib saada head soovitust .
+A 2 5|||R:WO|||meeldib mulle väga|||REQUIRED|||-NONE-|||0
+A 2 5|||R:WO|||meeldib mulle väga|||REQUIRED|||-NONE-|||1
+A 21 25|||R:WO|||on elus või töös|||REQUIRED|||-NONE-|||1
+A 31 32|||R:NOM:FORM|||häid|||REQUIRED|||-NONE-|||1
+A 32 33|||R:NOM:FORM|||soovitusi|||REQUIRED|||-NONE-|||1
+
+S Tööõhkkond on väga sõbralik ja meeldiv , pärast tööpäeva me tihti lõõgastume koos .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S 10-15 aasta pärast ma ootan , et asutus veel suureneb ning loodan , et siin hakkavad töötama palju noorte eriteadlasi .
+A 8 10|||R:WO|||suureneb veel|||REQUIRED|||-NONE-|||0
+A 15 16|||R:VERB:FORM|||hakkab|||REQUIRED|||-NONE-|||0
+A 18 19|||R:NOM:FORM|||noori|||REQUIRED|||-NONE-|||0
+A 0 7|||R:WO|||Ma ootan , et 10-15 aasta pärast|||REQUIRED|||-NONE-|||1
+A 8 10|||R:WO|||suureneb veel|||REQUIRED|||-NONE-|||1
+A 15 16|||R:VERB:FORM|||hakkab|||REQUIRED|||-NONE-|||1
+A 18 19|||R:NOM:FORM|||noori|||REQUIRED|||-NONE-|||1
+
+S Lugupidamisega , Viktor --- , vanemprogrammeerija vanem programmeerija +372--- ---@hot.ee
+A 1 2|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 4 5|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 6 7|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+A 7 8|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0

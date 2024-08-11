@@ -1,0 +1,112 @@
+S Tere kallis õpetaja !
+A 1 1|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+
+S Ma unistan ammu lemmikloomast aga minu vanemad enam ei lubanud .
+A 4 4|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 7 8|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+A 10 10|||M:LEX|||seda|||REQUIRED|||-NONE-|||0
+A 1 2|||R:VERB:FORM|||olen unistanud|||REQUIRED|||-NONE-|||1
+A 1 4|||R:WO|||olen ammu lemmikloomast unistanud|||REQUIRED|||-NONE-|||1
+A 4 4|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 7 8|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 9 9|||M:LEX|||ole seda|||REQUIRED|||-NONE-|||1
+
+S Ma tahaksin väga saada endale kassi .
+A 3 6|||R:WO|||endale kassi saada|||REQUIRED|||-NONE-|||0
+A 3 4|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+
+S Mul ei olnud kassi mitte kunagi .
+A 2 3|||R:VERB:FORM|||ole olnud|||REQUIRED|||-NONE-|||0
+A 2 6|||R:WO|||ole mitte kunagi kassi olnud|||REQUIRED|||-NONE-|||0
+
+S Aga nüüd ma saan osta või võtta teda .
+A 7 8|||R:NOM:FORM|||ta|||REQUIRED|||-NONE-|||0
+A 4 8|||R:WO|||ta osta või võtta|||REQUIRED|||-NONE-|||0
+
+S Ma tahan seda looma endale selle pärast ta on väga rahulik ja hea loom .
+A 5 7|||R:WS|||sellepärast|||REQUIRED|||-NONE-|||0
+A 7 7|||M:LEX|||, et|||REQUIRED|||-NONE-|||0
+A 7 7|||M:LEX|||, et|||REQUIRED|||-NONE-|||1
+A 13 14|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+
+S Tema kohta ma tean veel et ta on samuti puhas ja vaikne loom .
+A 2 4|||R:WO|||tean ma|||REQUIRED|||-NONE-|||0
+A 5 5|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 0 3|||U:LEX|||Ma|||REQUIRED|||-NONE-|||1
+A 5 5|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 8 9|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+
+S Viist ma saan selle looma kui minu laps kasvab suurem .
+A 0 1|||R:SPELL|||Vist|||REQUIRED|||-NONE-|||0
+A 0 3|||R:WO|||Ma saan vist|||REQUIRED|||-NONE-|||0
+A 5 5|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 9 10|||R:NOM:FORM|||suuremaks|||REQUIRED|||-NONE-|||0
+A 0 1|||R:SPELL|||Vist|||REQUIRED|||-NONE-|||1
+A 0 3|||R:WO|||Ma saan vist|||REQUIRED|||-NONE-|||1
+A 5 5|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 9 10|||R:NOM:FORM|||suuremaks|||REQUIRED|||-NONE-|||1
+A 8 10|||R:WO|||suuremaks kasvab|||REQUIRED|||-NONE-|||1
+
+S Muigugi minu lapsele meeldib loomad ka .
+A 0 1|||R:SPELL|||Muidugi|||REQUIRED|||-NONE-|||0
+A 3 4|||R:VERB:FORM|||meeldivad|||REQUIRED|||-NONE-|||0
+A 1 6|||R:WO|||meeldivad loomad ka minu lapsele|||REQUIRED|||-NONE-|||0
+A 0 1|||R:SPELL|||Muidugi|||REQUIRED|||-NONE-|||1
+A 3 4|||R:VERB:FORM|||meeldivad|||REQUIRED|||-NONE-|||1
+A 1 6|||R:WO|||meeldivad ka minu lapsele loomad|||REQUIRED|||-NONE-|||1
+
+S Eriti kassid ja koerad .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Alati loomade järel on vaja ( tuleb ) koristada ja hoida .
+A 2 3|||R:LEX|||järelt|||REQUIRED|||-NONE-|||0
+A 0 4|||R:WO|||Loomade järelt on alati|||REQUIRED|||-NONE-|||0
+A 5 8|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+A 10 10|||M:LEX|||neid|||REQUIRED|||-NONE-|||0
+A 2 3|||R:LEX|||järelt|||REQUIRED|||-NONE-|||1
+A 1 5|||R:WO|||on vaja loomade järelt|||REQUIRED|||-NONE-|||1
+A 5 8|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 10 10|||M:LEX|||neid|||REQUIRED|||-NONE-|||1
+
+S Kui seda pole teha , korteris on ( olla ) mustus .
+A 3 4|||R:VERB:FORM|||tehtud|||REQUIRED|||-NONE-|||0
+A 5 7|||R:WO|||on korteris|||REQUIRED|||-NONE-|||0
+A 7 10|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Praegu ma ei tea täpselt kust ma saan kasi . ,
+A 1 4|||R:WO|||ei tea ma|||REQUIRED|||-NONE-|||0
+A 5 5|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 8 9|||R:SPELL|||kassi|||REQUIRED|||-NONE-|||0
+A 7 9|||R:WO|||kassi saan|||REQUIRED|||-NONE-|||0
+A 10 11|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 0 4|||R:WO|||Ma ei tea praegu|||REQUIRED|||-NONE-|||1
+A 5 5|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 8 9|||R:SPELL|||kassi|||REQUIRED|||-NONE-|||1
+A 7 9|||R:WO|||kassi saan|||REQUIRED|||-NONE-|||1
+A 10 11|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+
+S võimalikult ma küsin minu ja mehe sõbra(de) käest .
+A 0 1|||R:LEX:CASE|||Võimalik|||REQUIRED|||-NONE-|||0
+A 1 1|||M:LEX|||, et|||REQUIRED|||-NONE-|||0
+A 3 4|||R:LEX|||enda|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||sõprade|||REQUIRED|||-NONE-|||0
+
+S Nendel on koduloomad .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Varem kui ma õppisin ülikoolis , ma elasin eraldi ja mul olid kanad ( akvaariumis ) ja papagoi .
+A 1 1|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 6 8|||R:WO|||elasin ma|||REQUIRED|||-NONE-|||0
+A 12 13|||R:LEX|||kalad|||REQUIRED|||-NONE-|||0
+A 1 1|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 6 6|||M:LEX|||siis|||REQUIRED|||-NONE-|||1
+A 12 13|||R:LEX|||kalad|||REQUIRED|||-NONE-|||1
+
+S Mulle väga meeldivad erinevad kanad .
+A 4 5|||R:LEX|||kalad|||REQUIRED|||-NONE-|||0
+
+S Aitäh tähelepanu eest .
+A 3 4|||R:PUNCT|||!|||REQUIRED|||-NONE-|||0
+
+S Nägemiseni !
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0

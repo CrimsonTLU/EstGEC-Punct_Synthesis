@@ -1,0 +1,171 @@
+
+S Tervist !
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Anton olen .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+A 0 2|||R:WO|||Olen Anton|||REQUIRED|||-NONE-|||1
+A 1 2|||R:LEX|||siinpool|||REQUIRED|||-NONE-|||2
+
+S Kuule , nagu sa tead olen meie firmas tarkvara arendaja .
+A 5 5|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 8 10|||R:WS|||tarkvaraarendaja|||REQUIRED|||-NONE-|||0
+
+S Paar päeva tagasi ülemus on otsustanut , et uue suure projekti arendamiseks neil on piisav resourse .
+A 4 6|||R:VERB:FORM:SPELL|||otsustas|||REQUIRED|||-NONE-|||0
+A 3 6|||R:WO|||otsustas ülemus|||REQUIRED|||-NONE-|||0
+A 8 14|||R:WO|||neil on uue suure projekti arendamiseks|||REQUIRED|||-NONE-|||0
+A 14 15|||R:LEX|||piisavalt|||REQUIRED|||-NONE-|||0
+A 15 16|||R:SPELL|||ressursse|||REQUIRED|||-NONE-|||0
+A 0 5|||R:WO|||Ülemus on paar päeva tagasi|||REQUIRED|||-NONE-|||1
+A 5 6|||R:SPELL|||otsustanud|||REQUIRED|||-NONE-|||1
+A 12 13|||R:LEX|||meil|||REQUIRED|||-NONE-|||1
+A 8 14|||R:WO|||meil on uue suure projekti arendamiseks|||REQUIRED|||-NONE-|||1
+A 14 15|||R:LEX|||piisavalt|||REQUIRED|||-NONE-|||1
+A 15 16|||R:SPELL|||ressursse|||REQUIRED|||-NONE-|||1
+
+S Samal ajal meie töötajad sellest üldse pole midagi teadnud .
+A 6 7|||R:VERB:FORM|||polnud|||REQUIRED|||-NONE-|||0
+A 2 7|||R:WO|||polnud meie töötajad sellest üldse|||REQUIRED|||-NONE-|||0
+A 6 7|||R:VERB:FORM|||polnud|||REQUIRED|||-NONE-|||1
+A 2 7|||R:WO|||polnud meie töötajad sellest üldse|||REQUIRED|||-NONE-|||1
+A 7 8|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 8 9|||R:LEX|||teadlikud|||REQUIRED|||-NONE-|||1
+A 6 7|||R:VERB:FORM|||ei|||REQUIRED|||-NONE-|||2
+A 2 9|||R:WO|||ei teadnud meie töötajad sellest üldse midagi|||REQUIRED|||-NONE-|||2
+
+S Aga , nagu sa saad aru , projekt on juba käes ja loobuda ei saa , vaid firmast lahkuda .
+A 1 2|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 4 6|||R:WO|||aru saad|||REQUIRED|||-NONE-|||0
+A 7 9|||R:WO|||on projekt|||REQUIRED|||-NONE-|||0
+A 12 12|||M:LEX|||sellest|||REQUIRED|||-NONE-|||0
+A 16 16|||M:LEX|||saab||saan|||REQUIRED|||-NONE-|||0
+A 4 6|||R:WO|||aru saad|||REQUIRED|||-NONE-|||1
+A 7 9|||R:WO|||on projekt|||REQUIRED|||-NONE-|||1
+A 13 13|||M:LEX|||sellest|||REQUIRED|||-NONE-|||1
+A 16 16|||M:LEX|||saab||saan|||REQUIRED|||-NONE-|||1
+
+S Ma tunnen , et sa võiks mulle aidata !
+A 6 7|||R:NOM:FORM|||mind|||REQUIRED|||-NONE-|||0
+A 5 6|||R:LEX|||saaks||oskaks|||REQUIRED|||-NONE-|||1
+A 6 7|||R:NOM:FORM|||mind|||REQUIRED|||-NONE-|||1
+A 8 9|||R:PUNCT|||.|||REQUIRED|||-NONE-|||1
+A 1 2|||R:LEX|||arvan|||REQUIRED|||-NONE-|||2
+A 5 6|||R:LEX|||saaks||oskaks|||REQUIRED|||-NONE-|||2
+A 6 7|||R:NOM:FORM|||mind|||REQUIRED|||-NONE-|||2
+A 8 9|||R:PUNCT|||.|||REQUIRED|||-NONE-|||2
+
+S Esimeses , sa oled tark ja sellepärast meil enam ei tööta .
+A 0 1|||R:LEX|||Esiteks|||REQUIRED|||-NONE-|||0
+A 0 1|||R:LEX|||Esiteks|||REQUIRED|||-NONE-|||1
+A 7 11|||R:WO|||enam meil ei tööta|||REQUIRED|||-NONE-|||1
+A 0 1|||R:LEX|||Esiteks|||REQUIRED|||-NONE-|||2
+A 1 2|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||2
+A 2 4|||R:WO|||oled sa|||REQUIRED|||-NONE-|||2
+A 7 11|||R:WO|||enam meil ei tööta|||REQUIRED|||-NONE-|||2
+
+S Ise probleem on selles , et me nüüd peame mobiilirakendused arendama .
+A 0 2|||R:WO|||Probleem ise|||REQUIRED|||-NONE-|||0
+A 7 9|||R:WO|||peame nüüd|||REQUIRED|||-NONE-|||0
+A 9 10|||R:NOM:FORM|||mobiilirakendusi|||REQUIRED|||-NONE-|||0
+A 0 2|||U:LEX|||Probleem|||REQUIRED|||-NONE-|||1
+A 7 9|||R:WO|||peame nüüd|||REQUIRED|||-NONE-|||1
+A 9 10|||R:NOM:FORM|||mobiilirakendusi|||REQUIRED|||-NONE-|||1
+A 9 11|||R:WO|||arendama mobiilirakendusi|||REQUIRED|||-NONE-|||1
+
+S Kas kujutad ette ?
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Meie sellest midagi ei tea !
+A 1 5|||R:WO|||ei tea sellest midagi|||REQUIRED|||-NONE-|||0
+
+S Uus programmeerimiskeel , keskkond ja arendusviis .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Muidugi meie küll võiks proovida uues keeles kirjutada hakkama , see ongi kõige targem lahendus , kuid ei ole kiire ja nõuab aega .
+A 1 2|||R:NOM:FORM|||me|||REQUIRED|||-NONE-|||0
+A 2 4|||R:WO|||võiks küll|||REQUIRED|||-NONE-|||0
+A 7 8|||R:VERB:FORM|||kirjutama|||REQUIRED|||-NONE-|||0
+A 8 9|||R:VERB:FORM|||hakata|||REQUIRED|||-NONE-|||0
+A 1 2|||R:NOM:FORM|||me|||REQUIRED|||-NONE-|||1
+A 2 3|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 1 4|||R:WO|||võiks me|||REQUIRED|||-NONE-|||1
+A 7 8|||R:VERB:FORM|||kirjutama|||REQUIRED|||-NONE-|||1
+A 8 9|||R:VERB:FORM|||hakata|||REQUIRED|||-NONE-|||1
+A 9 11|||R:PUNCT|||. See|||REQUIRED|||-NONE-|||1
+A 1 2|||R:NOM:FORM|||me|||REQUIRED|||-NONE-|||2
+A 0 4|||R:WO|||Me võiks küll muidugi|||REQUIRED|||-NONE-|||2
+A 7 8|||R:VERB:FORM|||kirjutama|||REQUIRED|||-NONE-|||2
+A 8 9|||R:VERB:FORM|||hakata|||REQUIRED|||-NONE-|||2
+A 9 11|||R:PUNCT|||. See|||REQUIRED|||-NONE-|||2
+A 18 19|||R:LEX|||käi|||REQUIRED|||-NONE-|||2
+A 19 20|||R:LEX|||kiiresti|||REQUIRED|||-NONE-|||2
+
+S Nagu mul on teadav , sina praegu tegeled mobiilirakendusega .
+A 1 2|||R:NOM:FORM|||mulle|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||teada|||REQUIRED|||-NONE-|||0
+A 5 8|||R:WO|||tegeled sina praegu|||REQUIRED|||-NONE-|||0
+A 1 2|||R:NOM:FORM|||mulle|||REQUIRED|||-NONE-|||1
+A 3 4|||R:SPELL|||teada|||REQUIRED|||-NONE-|||1
+A 2 4|||R:WO|||teada on|||REQUIRED|||-NONE-|||1
+A 5 6|||R:NOM:FORM|||sa|||REQUIRED|||-NONE-|||1
+A 5 8|||R:WO|||tegeled sa praegu|||REQUIRED|||-NONE-|||1
+A 8 9|||R:NOM:FORM|||mobiilirakendustega|||REQUIRED|||-NONE-|||1
+
+S Samamoodi ma tean , et igasugusel platvormi peal olemas alternatiivsed keeled .
+A 1 2|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+A 6 7|||R:NOM:FORM|||platvormil|||REQUIRED|||-NONE-|||0
+A 7 8|||R:LEX|||on|||REQUIRED|||-NONE-|||0
+A 1 3|||R:WO|||tean ma|||REQUIRED|||-NONE-|||1
+A 5 6|||R:LEX:NOM:FORM|||iga|||REQUIRED|||-NONE-|||1
+A 7 8|||R:LEX|||jaoks|||REQUIRED|||-NONE-|||1
+A 8 8|||M:LEX|||on|||REQUIRED|||-NONE-|||1
+
+S See mõte mulle magada et anna !
+A 2 3|||R:NOM:FORM|||mul|||REQUIRED|||-NONE-|||0
+A 4 5|||R:LEX|||ei|||REQUIRED|||-NONE-|||0
+A 5 6|||R:LEX|||lase|||REQUIRED|||-NONE-|||0
+A 2 6|||R:WO|||ei lase mul magada|||REQUIRED|||-NONE-|||0
+A 3 4|||R:VERB:FORM|||magades|||REQUIRED|||-NONE-|||1
+A 4 4|||M:LEX|||rahu|||REQUIRED|||-NONE-|||1
+A 4 5|||R:LEX|||ei|||REQUIRED|||-NONE-|||1
+A 2 6|||R:WO|||ei anna mulle magades rahu|||REQUIRED|||-NONE-|||1
+
+S Oled ju asjatundja selles valdkonnas ?
+A 2 5|||R:WO|||selles valdkonnas asjatundja|||REQUIRED|||-NONE-|||0
+A 2 5|||R:WO:NOM:FORM|||selle valdkonna asjatundja|||REQUIRED|||-NONE-|||1
+
+S On ju ? 
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Äkki sa annad nõu , kuidas edasi liikuda ?
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+A 1 3|||R:WO|||annad sa|||REQUIRED|||-NONE-|||1
+A 1 2|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||2
+
+S Soovitad mulle teised platvormikeeled , valmis lahendused .
+A 2 3|||R:NOM:FORM|||teisi|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOM:FORM|||platvormikeeli|||REQUIRED|||-NONE-|||0
+A 6 7|||R:NOM:FORM|||lahendusi|||REQUIRED|||-NONE-|||0
+A 2 3|||R:NOM:FORM|||teisi|||REQUIRED|||-NONE-|||1
+A 3 4|||R:NOM:FORM|||platvormikeeli|||REQUIRED|||-NONE-|||1
+A 5 7|||R:WS:NOM:FORM|||valmislahendusi|||REQUIRED|||-NONE-|||1
+
+S Või oleks targem tööst lahkuda ?
+A 3 4|||R:NOM:FORM|||töölt|||REQUIRED|||-NONE-|||0
+
+S Kuidas sa mõtled ?
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+A 0 1|||R:LEX|||Mida|||REQUIRED|||-NONE-|||1
+A 0 1|||R:LEX|||Mida|||REQUIRED|||-NONE-|||2
+A 2 3|||R:LEX|||arvad|||REQUIRED|||-NONE-|||2
+
+S Palun , aita mulle otsustada .
+A 1 2|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOM:FORM|||mul|||REQUIRED|||-NONE-|||0
+A 1 2|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+A 3 4|||R:NOM:FORM|||mul|||REQUIRED|||-NONE-|||1
+A 5 6|||R:PUNCT|||!|||REQUIRED|||-NONE-|||1
+
+S Ootan väga sinu vastust , Anton
+A 4 5|||R:PUNCT|||!||.|||REQUIRED|||-NONE-|||0

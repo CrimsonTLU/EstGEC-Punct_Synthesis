@@ -1,0 +1,22 @@
+
+S See on sõiduauto Toyota .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Auto on sinist värvi .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Temale on kümme aastat .
+A 0 1|||R:NOM:FORM|||Ta|||REQUIRED|||-NONE-|||0
+A 4 4|||M:LEX|||vana|||REQUIRED|||-NONE-|||0
+
+S Toyota hind on viis tuhat eurot .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Võib vaatada autot esmaspäevast kuni reedeni aadressil : Tallinn , Narva mnt . --- .
+A 0 1|||R:LEX|||Saab|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||vaadata|||REQUIRED|||-NONE-|||0
+A 0 3|||R:WO|||Autot saab vaadata|||REQUIRED|||-NONE-|||0
+A 7 8|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Ootame Teil !
+A 1 2|||R:NOM:FORM|||Teid|||REQUIRED|||-NONE-|||0

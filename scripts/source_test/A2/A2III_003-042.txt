@@ -1,0 +1,38 @@
+
+S Tere , Tõnis !
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Kuidas läheb ?
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Kas sa saaksid aita mind ?
+A 3 4|||R:VERB:FORM|||aidata|||REQUIRED|||-NONE-|||0
+A 3 5|||R:WO|||mind aidata|||REQUIRED|||-NONE-|||0
+
+S Mul on probleem kodus .
+A 2 4|||R:WO|||kodus probleem|||REQUIRED|||-NONE-|||0
+
+S Minu kodumasin läks katki üleeile .
+A 3 5|||R:WO|||üleeile katki|||REQUIRED|||-NONE-|||0
+
+S Palun sind , tule minu juurde laupäeval või pühapäeval , mul on vaja su abi remonti teha .
+A 1 2|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+A 2 3|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 15 15|||M:LEX|||, et|||REQUIRED|||-NONE-|||0
+A 1 2|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 2 3|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+A 4 9|||R:WO|||laupäeval või pühapäeval minu juurde|||REQUIRED|||-NONE-|||1
+A 15 16|||R:NOM:FORM|||remondi|||REQUIRED|||-NONE-|||1
+A 16 17|||R:LEX|||tegemisel|||REQUIRED|||-NONE-|||1
+A 4 9|||R:WO|||laupäeval või pühapäeval minu juurde|||REQUIRED|||-NONE-|||2
+A 15 15|||M:LEX|||, et|||REQUIRED|||-NONE-|||2
+
+S Annan sulle kõik , mida sa tahaksid !
+A 6 7|||R:VERB:FORM|||tahad|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||1
+
+S Kohtumiseni !
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Tšau !
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0

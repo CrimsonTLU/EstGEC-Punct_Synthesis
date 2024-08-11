@@ -1,0 +1,31 @@
+
+S Kevadel ma käisin reisil Montenegrosse .
+A 1 3|||R:WO|||käisin ma|||REQUIRED|||-NONE-|||0
+A 4 5|||R:NOM:FORM|||Montenegros|||REQUIRED|||-NONE-|||0
+A 0 3|||R:WO|||Ma käisin kevadel|||REQUIRED|||-NONE-|||1
+A 4 5|||R:NOM:FORM|||Montenegros|||REQUIRED|||-NONE-|||1
+
+S Ma puhkusin Budvas .
+A 1 2|||R:SPELL|||puhkasin|||REQUIRED|||-NONE-|||0
+
+S See on väga ilus ja väike linna .
+A 6 7|||R:NOM:FORM|||linn|||REQUIRED|||-NONE-|||0
+
+S Budva asub mere ääres .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Budvas on vanalinn .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Ma läksin musemius ja ekskursioni .
+A 2 3|||R:NOM:FORM:SPELL|||muuseumi||muuseumisse|||REQUIRED|||-NONE-|||0
+A 4 5|||R:NOM:FORM:SPELL|||ekskursioonile|||REQUIRED|||-NONE-|||0
+A 1 2|||R:LEX|||käisin|||REQUIRED|||-NONE-|||1
+A 2 3|||R:SPELL|||muuseumis|||REQUIRED|||-NONE-|||1
+A 4 5|||R:NOM:FORM:SPELL|||ekskursioonil|||REQUIRED|||-NONE-|||1
+
+S Mulle meeldib köögi : palju kalad ja lamba liha .
+A 2 2|||M:LEX|||sealne|||REQUIRED|||-NONE-|||0
+A 2 3|||R:NOM:FORM|||köök|||REQUIRED|||-NONE-|||0
+A 5 6|||R:NOM:FORM|||kala|||REQUIRED|||-NONE-|||0
+A 7 9|||R:WS|||lambaliha|||REQUIRED|||-NONE-|||0

@@ -1,0 +1,77 @@
+
+S Mulle meeldib lugeda mõned ajalehed ja ajakirjud , veel ma vaatan uudiseid telerit .
+A 3 4|||R:LEX:NOM:FORM|||mõningaid|||REQUIRED|||-NONE-|||0
+A 4 5|||R:NOM:FORM|||ajalehti|||REQUIRED|||-NONE-|||0
+A 6 7|||R:NOM:FORM:SPELL|||ajakirju|||REQUIRED|||-NONE-|||0
+A 9 11|||R:WO|||vaatan ma|||REQUIRED|||-NONE-|||0
+A 12 13|||R:NOM:FORM|||telerist|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOM:FORM|||mõnesid|||REQUIRED|||-NONE-|||1
+A 4 5|||R:NOM:FORM|||ajalehti|||REQUIRED|||-NONE-|||1
+A 6 7|||R:NOM:FORM:SPELL|||ajakirju|||REQUIRED|||-NONE-|||1
+A 9 11|||R:WO|||vaatan ma|||REQUIRED|||-NONE-|||1
+A 12 13|||R:NOM:FORM|||telerist|||REQUIRED|||-NONE-|||1
+
+S Minu lemmik teema on " maailma uudiseid " .
+A 1 3|||R:WS|||lemmikteema|||REQUIRED|||-NONE-|||0
+A 4 5|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 6 7|||R:NOM:FORM|||uudised|||REQUIRED|||-NONE-|||0
+A 7 8|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Mulle on huvitav mida maailmas toimud .
+A 3 3|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOM:FORM|||mis|||REQUIRED|||-NONE-|||0
+A 5 6|||R:VERB:FORM|||toimub|||REQUIRED|||-NONE-|||0
+
+S Veel ma loen uudiseid ja otsin infot internetist , seal on palju infot ja uudiseid .
+A 1 3|||R:WO|||loen ma|||REQUIRED|||-NONE-|||0
+
+S ma vaatan uudiseid delfi.ee , seal on kõik uudiseid ja infot .
+A 0 1|||R:CASE|||Ma|||REQUIRED|||-NONE-|||0
+A 4 4|||M:LEX|||portaalist||veebilehelt||lehelt|||REQUIRED|||-NONE-|||0
+A 8 9|||R:NOM:FORM|||uudised|||REQUIRED|||-NONE-|||0
+A 10 11|||R:NOM:FORM|||info|||REQUIRED|||-NONE-|||0
+A 0 1|||R:CASE|||Ma|||REQUIRED|||-NONE-|||1
+A 3 3|||M:LEX|||portaalist||veebilehelt||lehelt|||REQUIRED|||-NONE-|||1
+A 8 9|||R:NOM:FORM|||uudised|||REQUIRED|||-NONE-|||1
+A 10 11|||R:NOM:FORM|||info|||REQUIRED|||-NONE-|||1
+
+S Eestist .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Need uudiseid aitavad mulle koolis .
+A 1 2|||R:NOM:FORM|||uudised|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOM:FORM|||mind|||REQUIRED|||-NONE-|||0
+
+S Kui sina tead mis toimub maailmas , see on väga hästi .
+A 1 2|||R:NOM:FORM|||sa|||REQUIRED|||-NONE-|||0
+A 3 3|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 4 6|||R:WO|||maailmas toimub|||REQUIRED|||-NONE-|||0
+A 7 8|||R:LEX|||siis|||REQUIRED|||-NONE-|||0
+A 1 2|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 3 3|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 4 6|||R:WO|||maailmas toimub|||REQUIRED|||-NONE-|||1
+A 7 7|||M:LEX|||siis|||REQUIRED|||-NONE-|||1
+A 7 9|||R:WO|||on see|||REQUIRED|||-NONE-|||1
+A 10 11|||R:LEX|||hea|||REQUIRED|||-NONE-|||1
+
+S Ma arvan , et iga inimene peab teada mida toimub teda riigis .
+A 7 8|||R:VERB:FORM|||teadma|||REQUIRED|||-NONE-|||0
+A 8 8|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 8 9|||R:NOM:FORM|||mis|||REQUIRED|||-NONE-|||0
+A 10 11|||R:NOM:FORM|||tema|||REQUIRED|||-NONE-|||0
+A 7 8|||R:VERB:FORM|||teadma|||REQUIRED|||-NONE-|||1
+A 8 8|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 8 9|||R:NOM:FORM|||mis|||REQUIRED|||-NONE-|||1
+A 10 11|||R:NOM:FORM|||tema|||REQUIRED|||-NONE-|||1
+A 9 12|||R:WO|||tema riigis toimub|||REQUIRED|||-NONE-|||1
+
+S Sellega lõpeta , aga ma soovin kõikile inimestele uudiseid vaadata ja infot leida .
+A 1 2|||R:VERB:FORM|||lõpetan|||REQUIRED|||-NONE-|||0
+A 5 6|||R:LEX|||soovitan|||REQUIRED|||-NONE-|||0
+A 6 7|||R:NOM:FORM|||kõigil||kõikidel|||REQUIRED|||-NONE-|||0
+A 7 8|||R:NOM:FORM|||inimestel|||REQUIRED|||-NONE-|||0
+A 1 2|||R:VERB:FORM|||lõpetan|||REQUIRED|||-NONE-|||1
+A 5 6|||R:LEX|||soovitan|||REQUIRED|||-NONE-|||1
+A 6 7|||R:NOM:FORM|||kõigil||kõikidel|||REQUIRED|||-NONE-|||1
+A 7 8|||R:NOM:FORM|||inimestel|||REQUIRED|||-NONE-|||1
+A 12 13|||R:LEX|||otsida|||REQUIRED|||-NONE-|||1

@@ -1,0 +1,29 @@
+
+S Ma armastan reisida .
+A 3 4|||R:PUNCT|||!|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||1
+
+S Kuid mul on palju tööd ja minu viimane reis oli kaks aastat tagasi .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Ma reisisin Itaaliasse koos perega ja sõbradega .
+A 6 7|||R:SPELL|||sõpradega|||REQUIRED|||-NONE-|||0
+A 4 5|||R:NOM:FORM|||pere|||REQUIRED|||-NONE-|||1
+A 6 7|||R:SPELL|||sõpradega|||REQUIRED|||-NONE-|||1
+
+S Reisil me kõndisime , vaatasime erinevaid huvitavaid alasid .
+A 1 2|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+A 3 3|||M:LEX|||ringi|||REQUIRED|||-NONE-|||0
+A 7 8|||R:LEX|||kohti||piirkondi|||REQUIRED|||-NONE-|||0
+A 3 4|||M:LEX|||ja|||REQUIRED|||-NONE-|||1
+A 7 8|||R:LEX|||kohti|||REQUIRED|||-NONE-|||1
+
+S Itaalia köök on ka väga huvitav ja maitsev .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Mulle meeldis reisida Itaaliasse .
+A 2 4|||R:WO|||Itaaliasse reisida|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||1
+
+S Reisimine avardab silmaringi .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0

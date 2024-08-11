@@ -1,0 +1,93 @@
+
+S Lapsepõlvest ma armastan kassid .
+A 1 1|||M:LEX|||saati||alates||peale|||REQUIRED|||-NONE-|||0
+A 1 3|||R:WO|||armastan ma|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOM:FORM|||kasse|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOM:FORM|||kasse|||REQUIRED|||-NONE-|||1
+A 0 4|||R:WO|||Ma armastan kasse lapsepõlvest|||REQUIRED|||-NONE-|||1
+A 4 4|||M:LEX|||saati||alates||peale|||REQUIRED|||-NONE-|||1
+A 0 1|||M:LEX|||Juba lapsepõlvest|||REQUIRED|||-NONE-|||2
+A 1 3|||R:WO|||armastan ma|||REQUIRED|||-NONE-|||2
+A 3 4|||R:NOM:FORM|||kasse|||REQUIRED|||-NONE-|||2
+
+S Aga kui ma olin laps , minu vanemad ei lubanud mulle kodulooma pidada .
+A 6 7|||R:NOM:FORM|||mu|||REQUIRED|||-NONE-|||0
+A 6 10|||R:WO|||ei lubanud mu vanemad|||REQUIRED|||-NONE-|||0
+A 10 11|||R:NOM:FORM|||mul|||REQUIRED|||-NONE-|||0
+A 6 10|||R:WO|||ei lubanud minu vanemad|||REQUIRED|||-NONE-|||1
+A 10 11|||R:NOM:FORM|||mul|||REQUIRED|||-NONE-|||1
+
+S Praegu ma olen täiskasvanud ja ma kavatsen osta kassi .
+A 1 3|||R:WO|||olen ma|||REQUIRED|||-NONE-|||0
+A 1 3|||R:WO|||olen ma|||REQUIRED|||-NONE-|||1
+A 3 4|||R:LEX|||täiskasvanu|||REQUIRED|||-NONE-|||1
+A 5 6|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 7 9|||R:WO|||kassi osta|||REQUIRED|||-NONE-|||1
+
+S Ma tahaksin pidada seda looma , sest see on nii nünnu ja pehme .
+A 7 8|||R:LEX|||ta|||REQUIRED|||-NONE-|||0
+A 10 11|||R:SPELL|||nunnu|||REQUIRED|||-NONE-|||0
+A 2 5|||R:WO|||seda looma pidada|||REQUIRED|||-NONE-|||1
+A 7 8|||R:LEX|||ta|||REQUIRED|||-NONE-|||1
+A 10 11|||R:SPELL|||nunnu|||REQUIRED|||-NONE-|||1
+
+S Kassid armastavad palju magada .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Mulle meeldib sest kassiga ei ole vaja õue minna , nagu näiteks koeraga .
+A 2 2|||M:LEX|||see|||REQUIRED|||-NONE-|||0
+A 2 2|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 1 1|||M:LEX|||see|||REQUIRED|||-NONE-|||1
+A 2 2|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 0 1|||M:LEX|||See mulle|||REQUIRED|||-NONE-|||2
+A 2 2|||M:PUNCT|||,|||REQUIRED|||-NONE-|||2
+
+S Ma tahaksin osta kassi järgmisel kuus .
+A 5 6|||R:NOM:FORM|||kuul|||REQUIRED|||-NONE-|||0
+A 2 4|||R:WO|||kassi osta|||REQUIRED|||-NONE-|||1
+A 5 6|||R:NOM:FORM|||kuul|||REQUIRED|||-NONE-|||1
+
+S Ma otsin internetist üks naine , kes müüab kassid .
+A 1 2|||R:VERB:FORM|||otsisin|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOM:FORM|||ühe|||REQUIRED|||-NONE-|||0
+A 4 5|||R:NOM:FORM|||naise|||REQUIRED|||-NONE-|||0
+A 7 8|||R:SPELL|||müüb|||REQUIRED|||-NONE-|||0
+A 8 9|||R:NOM:FORM|||kasse|||REQUIRED|||-NONE-|||0
+A 1 2|||R:LEX:VERB:FORM|||leidsin|||REQUIRED|||-NONE-|||1
+A 3 4|||R:NOM:FORM|||ühe|||REQUIRED|||-NONE-|||1
+A 4 5|||R:NOM:FORM|||naise|||REQUIRED|||-NONE-|||1
+A 7 8|||R:SPELL|||müüb|||REQUIRED|||-NONE-|||1
+A 8 9|||R:NOM:FORM|||kasse|||REQUIRED|||-NONE-|||1
+
+S Ta elab Narvas .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Ma helistaksin talle .
+A 1 2|||R:VERB:FORM|||helistasin|||REQUIRED|||-NONE-|||0
+
+S Ta rääkis et kassipoeg on , aga ta on liiga väike .
+A 2 2|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 5 5|||M:LEX|||olemas|||REQUIRED|||-NONE-|||0
+
+S Siis mul tuleb oodata natuke .
+A 1 3|||R:WO|||tuleb mul|||REQUIRED|||-NONE-|||0
+A 3 5|||R:WO|||natuke oodata|||REQUIRED|||-NONE-|||0
+A 0 1|||R:LEX|||Järelikult||Niisiis||Seega|||REQUIRED|||-NONE-|||1
+A 1 3|||R:WO|||tuleb mul|||REQUIRED|||-NONE-|||1
+A 3 5|||R:WO|||natuke oodata|||REQUIRED|||-NONE-|||1
+
+S Praegu ma ei pidada kodus looma .
+A 3 4|||R:VERB:FORM|||pea|||REQUIRED|||-NONE-|||0
+A 1 4|||R:WO|||ei pea ma|||REQUIRED|||-NONE-|||0
+A 3 4|||R:VERB:FORM|||pea|||REQUIRED|||-NONE-|||1
+A 5 6|||R:NOM:FORM|||loomi|||REQUIRED|||-NONE-|||1
+A 2 6|||R:WO|||kodus loomi ei pea|||REQUIRED|||-NONE-|||1
+
+S Aga ma ootan minu kassipoega hea meelega .
+A 3 4|||R:LEX|||enda||oma|||REQUIRED|||-NONE-|||0
+
+S Ostin talle juba mänguasjad .
+A 0 1|||R:SPELL|||Ostsin|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOM:FORM|||mänguasju|||REQUIRED|||-NONE-|||0
+A 0 1|||R:SPELL|||Ostsin|||REQUIRED|||-NONE-|||1
+A 4 4|||M:LEX|||ära|||REQUIRED|||-NONE-|||1

@@ -1,0 +1,45 @@
+
+S Tere Julia !
+A 1 1|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+
+S Mul on pesumasin läks katki .
+A 1 2|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+A 2 4|||R:WO|||läks pesumasin|||REQUIRED|||-NONE-|||0
+A 0 1|||R:NOM:FORM|||Mu|||REQUIRED|||-NONE-|||1
+A 1 2|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+
+S Mul on vaja tema abi .
+A 3 4|||R:LEX|||sinu||su|||REQUIRED|||-NONE-|||0
+A 3 4|||R:LEX|||sellega|||REQUIRED|||-NONE-|||1
+A 2 5|||R:WO|||sellega abi vaja|||REQUIRED|||-NONE-|||1
+A 3 4|||R:LEX|||sinu||su|||REQUIRED|||-NONE-|||2
+A 2 5|||R:WO|||sinu abi vaja||su abi vaja|||REQUIRED|||-NONE-|||2
+
+S Sina tuled mulle kodus homme .
+A 3 4|||R:LEX|||külla|||REQUIRED|||-NONE-|||0
+A 3 5|||R:WO|||homme külla|||REQUIRED|||-NONE-|||0
+A 0 1|||R:NOM:FORM|||Sa|||REQUIRED|||-NONE-|||1
+A 3 4|||R:LEX|||külla|||REQUIRED|||-NONE-|||1
+A 3 5|||R:WO|||homme külla|||REQUIRED|||-NONE-|||1
+A 0 1|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||2
+A 1 2|||R:VERB:FORM:CASE|||Tule|||REQUIRED|||-NONE-|||2
+A 3 4|||R:LEX|||külla|||REQUIRED|||-NONE-|||2
+A 3 5|||R:WO|||homme külla|||REQUIRED|||-NONE-|||2
+
+S Ma ootan sind kell viisteistkümne pärast .
+A 3 4|||R:NOM:FORM|||kella|||REQUIRED|||-NONE-|||0
+A 4 5|||R:NOM:FORM|||viitteist|||REQUIRED|||-NONE-|||0
+A 3 6|||R:WO|||pärast kella viitteist|||REQUIRED|||-NONE-|||0
+
+S Ma loodan , et sa saad mulle aidata .
+A 6 7|||R:NOM:FORM|||mind|||REQUIRED|||-NONE-|||0
+
+S Võib olla sa midagi soovitad .
+A 0 2|||R:WS|||Võib-olla||Võibolla|||REQUIRED|||-NONE-|||0
+A 3 5|||R:WO|||soovitad midagi|||REQUIRED|||-NONE-|||0
+
+S Kohtumiseni .
+A 1 2|||R:PUNCT|||!|||REQUIRED|||-NONE-|||0
+
+S Sinu sõbranna Irina .
+A 3 4|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0

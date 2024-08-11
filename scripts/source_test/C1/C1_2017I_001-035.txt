@@ -1,0 +1,127 @@
+
+S Osalesin hiljuti Päästeameti poolt korraldatud teabepäeval .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+A 5 6|||R:LEX|||infopäeval|||REQUIRED|||-NONE-|||1
+
+S Arutatud teemad olid väga huvipakkuvad ja aktuaalsed .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Päevakavas olid järgmised teemad : - Õnnetusjuhtumite põhjused : ohutusnõuete eiramine ja alkoholijoove . - Ennetustegevuse viisid ja võimalused õnnetuste vältimiseks .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+A 5 6|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+A 13 14|||R:PUNCT|||;|||REQUIRED|||-NONE-|||1
+A 14 15|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+
+S Tahaksin nendel teemadel lähemalt peatuda .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Inimese elu on kõige suurem ja tähtsam väärtus .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S On kahjuks aga suur hulk neid , kes suhtuvad oma elusse kergemõistlikult .
+A 11 12|||R:LEX|||kergekäeliselt|||REQUIRED|||-NONE-|||0
+A 0 2|||R:WO|||Kahjuks on|||REQUIRED|||-NONE-|||1
+A 11 12|||R:LEX|||kergekäeliselt|||REQUIRED|||-NONE-|||1
+
+S See mõjub nende käitumist kui autoroolis , ka tööl või ühiskonnas .
+A 1 2|||R:LEX|||mõjutab|||REQUIRED|||-NONE-|||0
+A 4 5|||R:LEX|||nii|||REQUIRED|||-NONE-|||0
+A 6 7|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 7 7|||M:LEX|||kui|||REQUIRED|||-NONE-|||0
+A 1 2|||R:LEX|||mõjutab|||REQUIRED|||-NONE-|||1
+A 4 5|||R:LEX|||nii|||REQUIRED|||-NONE-|||1
+A 7 8|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 9 10|||R:LEX|||kui|||REQUIRED|||-NONE-|||1
+A 10 10|||M:LEX|||ka|||REQUIRED|||-NONE-|||1
+
+S Kõige traagilisemad juhtumid on üsna tihti seotud ohutusnõuete eiramisega .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Peaegu kõik reeglid ja ohutusnõued on " verega " kirjutatud .
+A 0 1|||R:SPELL|||Peaaegu|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||ohutusnõuded|||REQUIRED|||-NONE-|||0
+A 0 1|||R:SPELL|||Peaaegu|||REQUIRED|||-NONE-|||1
+A 4 5|||R:SPELL|||ohutusnõuded|||REQUIRED|||-NONE-|||1
+A 8 9|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+A 10 11|||M:PUNCT|||"|||REQUIRED|||-NONE-|||1
+
+S Päästeamet väljastas andmed , et liigi 70% autojuhidest ületavad lubatud kiirusepiirangut .
+A 5 6|||R:SPELL|||ligi|||REQUIRED|||-NONE-|||0
+A 7 8|||R:SPELL|||autojuhtidest|||REQUIRED|||-NONE-|||0
+
+S Aga ületades ainult 10 km/h võrra kannatu saab drammatiliselt rohkem vigastusi .
+A 6 7|||R:SPELL|||kannatanu|||REQUIRED|||-NONE-|||0
+A 6 8|||R:WO|||saab kannatanu|||REQUIRED|||-NONE-|||0
+A 8 9|||R:SPELL|||dramaatiliselt|||REQUIRED|||-NONE-|||0
+
+S Olukord kiirtee peal on veel kurvem .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+A 1 2|||R:NOM:FORM|||kiirteel|||REQUIRED|||-NONE-|||1
+A 2 3|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+
+S Seal enamus tragöödijaid lõppevad surmaga .
+A 1 2|||R:LEX|||enamik|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||tragöödiad|||REQUIRED|||-NONE-|||0
+A 3 4|||R:VERB:FORM|||lõppeb||lõpeb|||REQUIRED|||-NONE-|||0
+A 1 4|||R:WO|||lõppeb enamik tragöödiaid||lõpeb enamik tragöödiaid|||REQUIRED|||-NONE-|||0
+
+S Sageli põhjuseks on kiirusepiiri uletamine , kinnitamata turvavöö või roolis alkoholi tarvitamine .
+A 1 3|||R:WO|||on põhjuseks|||REQUIRED|||-NONE-|||0
+A 3 4|||R:LEX|||kiirusepiirangu|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||ületamine|||REQUIRED|||-NONE-|||0
+
+S Minu meelest vaga kurb statistika .
+A 2 3|||R:SPELL|||väga|||REQUIRED|||-NONE-|||0
+
+S Aga ohutusnõued on ka teistel elukulgedel , naiteks tööl .
+A 1 2|||R:SPELL|||ohutusnõuded|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||elukülgedel|||REQUIRED|||-NONE-|||0
+A 7 8|||R:SPELL|||näiteks|||REQUIRED|||-NONE-|||0
+
+S Eriti kannatab ehitussektor .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Seal on vaga ranged ohtusnõued , aga ikkagi siin ja seal on siiamani tihti kuulda juhtumitest , mis on lõppenud kas või surmaga või raskete vigastustega .
+A 2 3|||R:SPELL|||väga|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||ohutusnõuded|||REQUIRED|||-NONE-|||0
+A 8 9|||R:LEX|||siit|||REQUIRED|||-NONE-|||0
+A 10 11|||R:LEX|||sealt|||REQUIRED|||-NONE-|||0
+A 12 13|||R:SPELL|||siiamaani|||REQUIRED|||-NONE-|||0
+A 8 13|||R:WO|||on siit ja sealt siiamaani|||REQUIRED|||-NONE-|||0
+
+S Ja see kõik toimub meie maailmas vaatamata sellele , et tehakse väga palju tööd õnnetuste vältimiseks .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Sotsiaalne reklaam , tervislikku eluviisi propogandeerimine , trahvide suurendamine jne .
+A 3 4|||R:NOM:FORM|||tervisliku|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||propageerimine|||REQUIRED|||-NONE-|||0
+
+S Minu meelest kasvatamine selles suunas peab alustama lapsepõlvest - lasteaias , pärast koolis ja ülikoolis .
+A 2 3|||R:NOM:FORM|||kasvatamisega|||REQUIRED|||-NONE-|||0
+A 2 6|||R:WO|||peab selles suunas kasvatamisega|||REQUIRED|||-NONE-|||0
+
+S Inimene peab arusaama , et elu on kõige väärtuslikum asi , mis tal on .
+A 2 3|||R:WS|||aru saama|||REQUIRED|||-NONE-|||0
+
+S Ja tal ei ole õigust seda ohustada ja peab austama teiste inimeste õigust väärtuslikult elad ka .
+A 14 15|||R:VERB:FORM|||elada|||REQUIRED|||-NONE-|||0
+A 9 16|||R:WO|||ka austama teiste inimeste õigust väärtuslikult elada|||REQUIRED|||-NONE-|||0
+
+S Ohutusnõued peavad olema ära seletatud ja reeglina päheõpitud lapsepõlvest saadik .
+A 0 1|||R:SPELL|||Ohutusnõuded|||REQUIRED|||-NONE-|||0
+A 7 8|||R:WS|||pähe õpitud|||REQUIRED|||-NONE-|||0
+A 7 10|||R:WO|||lapsepõlvest saadik pähe õpitud|||REQUIRED|||-NONE-|||0
+A 0 1|||R:SPELL|||Ohutusnõuded|||REQUIRED|||-NONE-|||1
+A 7 8|||R:WS|||pähe õpitud|||REQUIRED|||-NONE-|||1
+A 6 10|||R:WO|||lapsepõlvest saadik reeglina pähe õpitud|||REQUIRED|||-NONE-|||1
+
+S Sotsiaalmeedia roll selles küsimuse on ka väga suur .
+A 3 4|||R:NOM:FORM|||küsimuses|||REQUIRED|||-NONE-|||0
+
+S Kõik reklaamid , mis näitavad kui traagiliselt võib lõppetada joobes autojuhtimine , roolis sms-i kirjutamine teevad head tööd .
+A 5 6|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 8 9|||R:LEX:SPELL|||lõppeda|||REQUIRED|||-NONE-|||0
+A 15 15|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+
+S Järelduseks võin öelda , et iga inimene vastutab oma elu eest ise ja me kõik oleme ilusa elu väärt .
+A 16 17|||R:NOM:FORM|||ilusat|||REQUIRED|||-NONE-|||0

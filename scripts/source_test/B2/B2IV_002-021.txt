@@ -1,0 +1,50 @@
+
+S Lugupeetud hr --- ,
+A 3 4|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Meie asutuse sünnipäevaks plaanitakse välja anda asutust tutvustav raamat .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Me mõtlesime kolleegide ringis , millised mõtted on meil oma asutuse kohta .
+A 6 7|||R:LEX|||mälestused|||REQUIRED|||-NONE-|||0
+A 10 11|||R:NOM:FORM|||asutusest|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||1
+
+S Ma tulin sellesse asutusse töötama juba 6 aastat tagasi .
+A 4 5|||R:LEX|||tööle|||REQUIRED|||-NONE-|||0
+
+S Minu vana töökoha ülemus pakkus mul teie kollektiivi tulla , sest siin on väga sõbralik tööõhkkond .
+A 4 5|||R:LEX|||soovitas|||REQUIRED|||-NONE-|||0
+
+S Meie asutuses töötavad enesekindlad , viisakad ja töökad inimesed .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Ma leidsin siin palju uut sõpru , kes võib aidata , kui ma palusin neid .
+A 4 5|||R:NOM:FORM|||uusi|||REQUIRED|||-NONE-|||0
+A 8 9|||R:VERB:FORM|||võivad|||REQUIRED|||-NONE-|||0
+A 13 14|||R:VERB:FORM|||palun|||REQUIRED|||-NONE-|||0
+A 13 15|||R:WO|||neid palun|||REQUIRED|||-NONE-|||0
+
+S Mulle see atmosfäär kollektiivis väga meeldib ja ma tulen tööle iga päev hea meelega , eriti kui on vaja teha palju töid .
+A 9 14|||R:WO|||iga päev hea meelega tööle|||REQUIRED|||-NONE-|||0
+
+S Ma soovin kõike head meie asutusele .
+A 2 6|||R:WO|||meie asutusele kõike head|||REQUIRED|||-NONE-|||0
+
+S Minu meelest , 10-15 aasta pärast asutus võiks olla samasugune , võib olla midagi uuendab , aga õhkkond jääb samaks .
+A 2 3|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 3 8|||R:WO|||võiks asutus 10-15 aasta pärast|||REQUIRED|||-NONE-|||0
+A 11 13|||R:WS|||võib-olla||võibolla|||REQUIRED|||-NONE-|||0
+A 14 15|||R:VERB:FORM|||uuendatakse|||REQUIRED|||-NONE-|||0
+A 18 19|||R:VERB:FORM|||jääks|||REQUIRED|||-NONE-|||0
+
+S See on väga tähtis , et te tunnete huvi oma mõtte kohta .
+A 9 10|||R:LEX|||meie|||REQUIRED|||-NONE-|||0
+A 10 11|||R:NOM:FORM|||mõtete|||REQUIRED|||-NONE-|||0
+A 11 12|||R:LEX|||vastu|||REQUIRED|||-NONE-|||0
+
+S Ma olen väga rõõmus , et töötan selle asutuses .
+A 7 8|||R:NOM:FORM|||selles|||REQUIRED|||-NONE-|||0
+
+S Lugupidamisega , Liina --- .
+A 1 2|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0

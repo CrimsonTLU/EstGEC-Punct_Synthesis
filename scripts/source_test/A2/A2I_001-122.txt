@@ -1,0 +1,49 @@
+
+S Tere Peeter ,
+A 1 1|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 2 3|||R:PUNCT|||!|||REQUIRED|||-NONE-|||0
+A 1 1|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 2 3|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+
+S Kas sul on vaba aega järgmisel nadalavahetusel ?
+A 6 7|||R:SPELL|||nädalavahetusel|||REQUIRED|||-NONE-|||0
+A 3 7|||R:WO|||järgmisel nädalavahetusel vaba aega|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||nädalavahetusel|||REQUIRED|||-NONE-|||1
+
+S Ma tahan minna Riiga .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Lähme koos : Riia on väga ilus ja väga vanna linn .
+A 2 3|||R:PUNCT|||!||,|||REQUIRED|||-NONE-|||0
+A 9 10|||R:SPELL|||vana|||REQUIRED|||-NONE-|||0
+
+S Ma arvan , et ma sõidan oma autoga .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Kui sulle sobib , lähme laupäeval kell 10 .
+A 4 4|||M:LEX|||siis|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||1
+
+S Kui ilm on ilus me jalutame Riias kesklinnas .
+A 4 4|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 4 6|||R:WO|||jalutame me|||REQUIRED|||-NONE-|||0
+A 6 7|||R:NOM:FORM|||Riia|||REQUIRED|||-NONE-|||0
+A 4 4|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 4 5|||R:LEX|||siis|||REQUIRED|||-NONE-|||1
+A 6 7|||R:NOM:FORM|||Riia|||REQUIRED|||-NONE-|||1
+
+S Ma arvan , et me tuleme tagasi Riiast koju pühapäeval õhtul .
+A 6 8|||R:WO|||Riiast tagasi|||REQUIRED|||-NONE-|||0
+A 9 10|||R:NOM:FORM|||pühapäeva|||REQUIRED|||-NONE-|||0
+A 6 7|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 9 10|||R:NOM:FORM|||pühapäeva|||REQUIRED|||-NONE-|||1
+
+S Kui sulle see plaan soobib , kohtume laupäeval kell 10 . minu maja ees .
+A 4 5|||R:SPELL|||sobib|||REQUIRED|||-NONE-|||0
+A 6 6|||M:LEX|||siis|||REQUIRED|||-NONE-|||0
+A 10 11|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||sobib|||REQUIRED|||-NONE-|||1
+A 10 11|||R:CASE|||Minu|||REQUIRED|||-NONE-|||1
+A 1 4|||R:WO|||see plaan sulle|||REQUIRED|||-NONE-|||2
+A 4 5|||R:SPELL|||sobib|||REQUIRED|||-NONE-|||2
+A 10 11|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||2

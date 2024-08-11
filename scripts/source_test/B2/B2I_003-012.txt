@@ -1,0 +1,88 @@
+
+S Tere , kallis Mari !
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Pöördun sinu poole abipalvega .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Järgmisel nädalal oli ammu mul plaanis läbi viia üks psühholoogiline koolitus meie töötajale .
+A 0 6|||R:WO|||Mul oli ammu plaanis järgmisel nädalal|||REQUIRED|||-NONE-|||0
+A 12 13|||R:NOM:FORM|||töötajatega|||REQUIRED|||-NONE-|||0
+A 6 13|||R:WO|||meie töötajatega läbi viia üks psühholoogiline koolitus|||REQUIRED|||-NONE-|||0
+A 0 6|||R:WO|||Mul oli ammu plaanis järgmisel nädalal|||REQUIRED|||-NONE-|||1
+A 6 8|||R:LEX|||korraldada|||REQUIRED|||-NONE-|||1
+A 8 9|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 12 13|||R:NOM:FORM|||töötajatele|||REQUIRED|||-NONE-|||1
+A 0 6|||R:WO|||Mul oli ammu plaanis järgmisel nädalal|||REQUIRED|||-NONE-|||2
+A 12 13|||R:NOM:FORM|||töötajatele|||REQUIRED|||-NONE-|||2
+
+S Teemaks on emotsionaalse läbipõletamise sündroom .
+A 3 4|||R:LEX|||läbipõlemise|||REQUIRED|||-NONE-|||0
+
+S Koolitus on juba kinnitatud juhtkonna poolt ja väga oodatud ning mina ei saa sellest keelduda .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+A 3 6|||R:WO|||juhtkonna poolt kinnitatud|||REQUIRED|||-NONE-|||1
+A 0 1|||R:NOM:FORM|||Koolituse|||REQUIRED|||-NONE-|||2
+A 3 4|||R:VERB:FORM|||kinnitanud|||REQUIRED|||-NONE-|||2
+A 4 5|||R:NOM:FORM|||juhtkond|||REQUIRED|||-NONE-|||2
+A 0 5|||R:WO|||Juhtkond on koolituse juba kinnitanud|||REQUIRED|||-NONE-|||2
+A 5 6|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||2
+A 7 7|||M:LEX|||see on|||REQUIRED|||-NONE-|||2
+
+S Samas selgus , et ei saa seda teha , sest eile helistas arst Ida-Tallinna Keskhaiglast ja ütles , et operatsioon isale hakkavad nad tegema samal päeval .
+A 4 7|||R:WO|||seda ei saa|||REQUIRED|||-NONE-|||0
+A 19 20|||R:NOM:FORM|||operatsiooni|||REQUIRED|||-NONE-|||0
+A 19 26|||R:WO|||nad hakkavad samal päeval isale operatsiooni tegema|||REQUIRED|||-NONE-|||0
+A 4 4|||M:LEX|||ma|||REQUIRED|||-NONE-|||1
+A 19 20|||R:NOM:FORM|||operatsiooni|||REQUIRED|||-NONE-|||1
+A 19 26|||R:WO|||nad hakkavad samal päeval isale operatsiooni tegema|||REQUIRED|||-NONE-|||1
+A 4 4|||M:LEX|||ma|||REQUIRED|||-NONE-|||2
+A 19 20|||R:NOM:FORM|||operatsiooni|||REQUIRED|||-NONE-|||2
+A 19 26|||R:WO|||nad hakkavad isale samal päeval operatsiooni tegema|||REQUIRED|||-NONE-|||2
+
+S See on minu jaoks väga tähtis ja ma pean olema peale operatsiooni temaga koos .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+A 9 14|||R:WO|||peale operatsiooni temaga koos olema|||REQUIRED|||-NONE-|||1
+
+S Seetõttu palun sind aidata !!!
+A 2 3|||R:NOM:FORM|||sul|||REQUIRED|||-NONE-|||0
+A 3 3|||M:LEX|||mind|||REQUIRED|||-NONE-|||0
+A 4 5|||R:PUNCT|||!|||REQUIRED|||-NONE-|||0
+A 2 3|||R:NOM:FORM|||sinu|||REQUIRED|||-NONE-|||1
+A 3 4|||R:LEX|||abi|||REQUIRED|||-NONE-|||1
+A 4 5|||R:PUNCT|||!|||REQUIRED|||-NONE-|||1
+A 3 4|||R:LEX|||appi|||REQUIRED|||-NONE-|||2
+A 4 5|||R:PUNCT|||!|||REQUIRED|||-NONE-|||2
+
+S Tean , et sina oled väga pädev minu kolleeg ja see koolituse teema on sinu jaoks väga tuttav .
+A 5 8|||R:WO|||minu väga pädev|||REQUIRED|||-NONE-|||0
+A 10 11|||R:NOM:FORM|||selle|||REQUIRED|||-NONE-|||0
+A 5 8|||R:WO|||minu väga pädev|||REQUIRED|||-NONE-|||1
+
+S Samuti tean , et sa vajad praegu rahatoetust , sest sinu poeg õpib ülikoolis .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+A 7 8|||R:LEX:WS|||rahalist toetust|||REQUIRED|||-NONE-|||1
+A 7 8|||R:LEX|||raha||toetust|||REQUIRED|||-NONE-|||2
+
+S Mõtle palun minu pakkumisest ja kirjuta võimalikult kiiremini oma otsusest .
+A 3 4|||R:NOM:FORM|||pakkumisele|||REQUIRED|||-NONE-|||0
+A 7 8|||R:LEX|||kiiresti|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOM:FORM|||pakkumise|||REQUIRED|||-NONE-|||1
+A 4 4|||M:LEX|||üle||peale|||REQUIRED|||-NONE-|||1
+A 7 8|||R:LEX|||kiiresti|||REQUIRED|||-NONE-|||1
+A 0 2|||R:WO|||Palun mõtle|||REQUIRED|||-NONE-|||2
+A 3 4|||R:NOM:FORM|||pakkumisele|||REQUIRED|||-NONE-|||2
+A 7 8|||R:LEX|||kiiresti|||REQUIRED|||-NONE-|||2
+
+S Siis ma võtan ühendust ülemusega ja teavitan teda .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+A 3 5|||R:WO|||ülemusega ühendust|||REQUIRED|||-NONE-|||1
+
+S Olen kindel , et ta vastu ei ole .
+A 5 8|||R:WO|||ei ole vastu|||REQUIRED|||-NONE-|||0
+
+S Loodan , et kõik tuleb korda .
+A 4 5|||R:LEX|||saab|||REQUIRED|||-NONE-|||0
+
+S Päikest Marina
+A 1 1|||M:PUNCT|||!|||REQUIRED|||-NONE-|||0

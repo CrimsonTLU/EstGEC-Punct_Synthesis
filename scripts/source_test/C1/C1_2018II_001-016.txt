@@ -1,0 +1,109 @@
+
+S Osalesin digipädevuse seminaril , kus räägitati digipädevusest kui tänapäeva ühiskonnas toimetuleku eeldusest .
+A 5 6|||R:SPELL|||räägiti|||REQUIRED|||-NONE-|||0
+
+S Jutustati ka digiseadmete turvariskidest ning nende hoidumise võimalustest .
+A 5 6|||R:NOM:FORM|||nendest|||REQUIRED|||-NONE-|||0
+
+S Meie maailm areneb suure kiirusega ja digitehnoloogiad aitavad meil tunda ennast hästi mugavalt selles muutuvas maailmas .
+A 10 11|||R:NOM:FORM|||end|||REQUIRED|||-NONE-|||0
+A 9 16|||R:WO|||end selles muutuvas maailmas hästi mugavalt tunda|||REQUIRED|||-NONE-|||0
+
+S Me kasutame tehnoloogiaid meie elus igal päeval .
+A 0 2|||U:LEX|||Kasutame|||REQUIRED|||-NONE-|||0
+A 5 6|||R:NOM:FORM|||iga|||REQUIRED|||-NONE-|||0
+A 6 7|||R:NOM:FORM|||päev|||REQUIRED|||-NONE-|||0
+A 0 2|||U:LEX|||Kasutame|||REQUIRED|||-NONE-|||1
+A 5 7|||R:LEX|||igapäevaselt|||REQUIRED|||-NONE-|||1
+
+S Nii koolis kui ka tööl räägitakse digitehnoloogiatest .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Seminaril räägiti meile palju haridusest .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Tulevikus kavatsetakse koolides kasutada ainult e-õpikuid ja eksameid sooritada ainult digitaalselt .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Arvan , et see aitab õpilastel häid tulemusi saada .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Töö asutustes tuleb kõiki tööd teha ka arvuti abil .
+A 0 2|||R:WS|||Tööasutustes|||REQUIRED|||-NONE-|||0
+A 4 5|||R:NOM:FORM|||töid|||REQUIRED|||-NONE-|||0
+A 0 7|||R:WO|||Ka tööasutustes tuleb kõiki tõid teha|||REQUIRED|||-NONE-|||0
+A 0 2|||R:WS|||Tööasutustes|||REQUIRED|||-NONE-|||1
+A 4 5|||R:NOM:FORM|||töid|||REQUIRED|||-NONE-|||1
+A 3 9|||R:WO|||ka kõiki töid arvuti abil teha|||REQUIRED|||-NONE-|||1
+
+S Arvutid annavad meile palju võimalusi .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Kõigepealt töötades arvutitega me säästame palju aega .
+A 1 5|||R:WO|||arvutitega töötades säästame me|||REQUIRED|||-NONE-|||0
+
+S Arvuti võib teha mingit tööd meie asemel .
+A 2 5|||R:WO|||meie asemel mingit tööd teha|||REQUIRED|||-NONE-|||0
+
+S Praegu meie ühiskond , eriti Eestis , püüab teha kõiki tööd digitaalselt .
+A 1 8|||R:WO|||püüab meie ühiskond , eriti Eestis ,|||REQUIRED|||-NONE-|||0
+A 10 11|||R:NOM:FORM|||töid|||REQUIRED|||-NONE-|||0
+A 8 11|||R:WO|||kõiki töid teha|||REQUIRED|||-NONE-|||0
+A 1 8|||R:WO|||püüab meie ühiskond , eriti Eestis ,|||REQUIRED|||-NONE-|||1
+A 10 11|||R:NOM:FORM|||töid|||REQUIRED|||-NONE-|||1
+
+S Me oleme esimene riik maailmas , kus valitakse parlamendi liikmeid digitaalselt .
+A 8 10|||R:WS|||parlamendiliikmeid|||REQUIRED|||-NONE-|||0
+A 7 10|||R:WO|||parlamendiliikmeid valitakse|||REQUIRED|||-NONE-|||0
+A 8 10|||R:WS|||parlamendiliikmeid|||REQUIRED|||-NONE-|||1
+
+S Arvan , et kui ühiskond kasutab e-tehnoloogiaid , siis ta areneb kiiremini .
+A 9 10|||R:LEX|||see|||REQUIRED|||-NONE-|||0
+A 9 11|||R:WO|||areneb see|||REQUIRED|||-NONE-|||0
+A 9 11|||R:WO|||areneb ta|||REQUIRED|||-NONE-|||1
+
+S Kui vaatame sellele küsimusele teiselt poolt , siis võime oletada , et tekkivad digiseadmete turvariskid .
+A 12 13|||R:SPELL|||tekivad|||REQUIRED|||-NONE-|||0
+
+S Andmebaasis hoiakse inimeste isikuandmed ja seepärast on suur oht , et keegi varustab neid .
+A 1 2|||R:SPELL|||hoitakse|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOM:FORM|||isikuandmeid|||REQUIRED|||-NONE-|||0
+A 12 13|||R:LEX|||varastab|||REQUIRED|||-NONE-|||0
+
+S Samuti on suur probleem , et inimesed ei saa teha palju tööd ilma arvutita .
+A 10 11|||R:NOM:FORM|||paljusid|||REQUIRED|||-NONE-|||0
+A 11 12|||R:NOM:FORM|||töid|||REQUIRED|||-NONE-|||0
+A 9 14|||R:WO|||paljusid töid ilma arvutita teha|||REQUIRED|||-NONE-|||0
+
+S Näiteks , meie riigi arstid töötavad digitehnoloogiatega ja nad ei saa töötada , kui arvutisüsteem ei tööta .
+A 1 2|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 2 6|||R:WO|||töötavad meie riigi arstid|||REQUIRED|||-NONE-|||0
+A 7 7|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 1 2|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+A 2 6|||R:WO|||töötavad meie riigi arstid|||REQUIRED|||-NONE-|||1
+A 7 7|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 7 8|||R:LEX|||kuid|||REQUIRED|||-NONE-|||1
+A 11 11|||M:LEX|||seda|||REQUIRED|||-NONE-|||1
+A 11 12|||R:LEX|||teha|||REQUIRED|||-NONE-|||1
+A 16 17|||R:LEX|||funktsioneeri|||REQUIRED|||-NONE-|||1
+
+S Kui tekib probleem süsteemiga , siis arstide töö peatub ja patsiendid ei saa kvaliteetselt abi .
+A 9 9|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+
+S Minu arvates , IT-spetsialistid peavad arvuti süsteemi parandada .
+A 2 3|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 3 5|||R:WO|||peavad IT-spetsialistid|||REQUIRED|||-NONE-|||0
+A 5 7|||R:WS|||arvutisüsteemi|||REQUIRED|||-NONE-|||0
+A 7 8|||R:VERB:FORM|||parandama|||REQUIRED|||-NONE-|||0
+
+S Riik peab ka jälgima turvariskidest ja leidma uusi digiseadmete hoidumise võimalusi .
+A 4 5|||R:NOM:FORM|||turvariske|||REQUIRED|||-NONE-|||0
+A 9 10|||R:LEX|||hoidmise|||REQUIRED|||-NONE-|||0
+
+S Lõpuks , me elame e-riigis , kus digitehnoloogiad mängivad suurt rolli .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Minu arvates , e-tehnoloogiad ja töö arvutitega on meie tulevikus .
+A 2 3|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 3 8|||R:WO|||on e-tehnoloogiad ja töö arvutitega|||REQUIRED|||-NONE-|||0
+A 9 10|||R:NOM:FORM|||tulevik|||REQUIRED|||-NONE-|||0

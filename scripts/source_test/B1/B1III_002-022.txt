@@ -1,0 +1,125 @@
+
+S Tere päevast , minu kallis eesti keele õpetaja Anna .
+A 9 10|||R:PUNCT|||!|||REQUIRED|||-NONE-|||0
+A 9 10|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+
+S See on teie õpilane Peeter .
+A 0 1|||R:LEX|||Siin|||REQUIRED|||-NONE-|||0
+A 0 1|||R:LEX|||Ma|||REQUIRED|||-NONE-|||1
+A 1 2|||R:VERB:FORM|||olen|||REQUIRED|||-NONE-|||1
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||2
+
+S Tahan teile kirjutada , et hiljuti ma käisin väga huvitav kontserdil minu sõbrannaga .
+A 5 8|||R:WO|||ma käisin hiljuti|||REQUIRED|||-NONE-|||0
+A 9 10|||R:NOM:FORM|||huvitaval|||REQUIRED|||-NONE-|||0
+A 11 12|||R:LEX|||oma||enda|||REQUIRED|||-NONE-|||0
+A 8 13|||R:WO|||oma sõbrannaga väga huvitaval kontserdil||enda sõbrannaga väga huvitaval kontserdil|||REQUIRED|||-NONE-|||0
+A 6 8|||R:WO|||käisin ma|||REQUIRED|||-NONE-|||1
+A 9 10|||R:NOM:FORM|||huvitaval|||REQUIRED|||-NONE-|||1
+A 11 12|||R:LEX|||oma||enda|||REQUIRED|||-NONE-|||1
+A 8 13|||R:WO|||oma sõbrannaga väga huvitaval kontserdil||enda sõbrannaga väga huvitaval kontserdil|||REQUIRED|||-NONE-|||1
+
+S Soovin kirjutada sellest surepärasest pidust .
+A 3 4|||R:SPELL|||suurepärasest|||REQUIRED|||-NONE-|||0
+A 4 5|||R:NOM:FORM|||peost|||REQUIRED|||-NONE-|||0
+
+S Seal oli " Mettalica " !
+A 2 3|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||Metallica|||REQUIRED|||-NONE-|||0
+A 4 5|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Aga see on rokki-klassika !
+A 3 4|||R:SPELL|||rokiklassika|||REQUIRED|||-NONE-|||0
+
+S Kontserdimajas oli väga palju inimeseid , ümbes 5000 !
+A 4 5|||R:SPELL|||inimesi|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||umbes|||REQUIRED|||-NONE-|||0
+
+S Ma ütlesin juba , et ma käisin kontserdil minu sõbrannaga .
+A 8 9|||R:LEX|||oma||enda|||REQUIRED|||-NONE-|||0
+
+S Ta väga armastab " Mettalica " ka , kui mina .
+A 1 3|||R:WO|||armastab väga|||REQUIRED|||-NONE-|||0
+A 3 4|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 4 5|||R:NOM:FORM:SPELL|||Metallicat|||REQUIRED|||-NONE-|||0
+A 5 6|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 8 9|||R:LEX|||nagu|||REQUIRED|||-NONE-|||0
+A 6 9|||R:WO|||, nagu ka|||REQUIRED|||-NONE-|||0
+A 3 4|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+A 4 5|||R:NOM:FORM:SPELL|||Metallicat|||REQUIRED|||-NONE-|||1
+A 5 6|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+A 1 7|||R:WO|||armastab ka väga Metallicat|||REQUIRED|||-NONE-|||1
+A 7 8|||U:PUNCT|||-NONE|||REQUIRED|||-NONE-|||1
+A 8 9|||R:LEX|||nagu|||REQUIRED|||-NONE-|||1
+
+S See on proffesionalne rokk-gruup , kõige parem maailmas .
+A 2 3|||R:SPELL|||professionaalne|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||rokigrupp|||REQUIRED|||-NONE-|||0
+
+S Kontserdimaja oli väga mugav ja valge .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Me tutvusime palju huvitavadega inimestega .
+A 2 3|||R:NOM:FORM|||paljude|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOM:FORM:SPELL|||huvitavate|||REQUIRED|||-NONE-|||0
+
+S Aga pärast kontserti me käisime kohvikus .
+A 3 5|||R:WO|||käisime me|||REQUIRED|||-NONE-|||0
+
+S Järgmisena , talvel me hakkame lähema teine suurel kontserdil .
+A 0 1|||R:NOM:FORM|||Järgmisel|||REQUIRED|||-NONE-|||0
+A 1 2|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 4 5|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+A 5 6|||R:VERB:FORM:SPELL|||läheme|||REQUIRED|||-NONE-|||0
+A 3 6|||R:WO|||läheme me|||REQUIRED|||-NONE-|||0
+A 6 7|||R:NOM:FORM|||teisele|||REQUIRED|||-NONE-|||0
+A 7 8|||R:NOM:FORM|||suurele|||REQUIRED|||-NONE-|||0
+A 8 9|||R:NOM:FORM|||kontserdile|||REQUIRED|||-NONE-|||0
+A 1 2|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+A 4 5|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 5 6|||R:VERB:FORM:SPELL|||läheme|||REQUIRED|||-NONE-|||1
+A 2 6|||R:WO|||läheme me talvel|||REQUIRED|||-NONE-|||1
+A 6 7|||R:NOM:FORM|||teisele|||REQUIRED|||-NONE-|||1
+A 7 8|||R:NOM:FORM|||suurele|||REQUIRED|||-NONE-|||1
+A 8 9|||R:NOM:FORM|||kontserdile|||REQUIRED|||-NONE-|||1
+A 1 2|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||2
+A 4 5|||R:LEX|||plaanime||kavatseme|||REQUIRED|||-NONE-|||2
+A 5 6|||R:VERB:FORM:SPELL|||minna|||REQUIRED|||-NONE-|||2
+A 2 6|||R:WO|||plaanime me talvel minna||kavatseme me talvel minna|||REQUIRED|||-NONE-|||2
+
+S See on " Depesh Mode " , aga see on kuningad rokki-maailmas .
+A 2 3|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||Depeche|||REQUIRED|||-NONE-|||0
+A 5 6|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+A 7 8|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+A 10 11|||R:NOM:FORM|||kuningas|||REQUIRED|||-NONE-|||0
+A 11 12|||R:SPELL|||rokimaailmas|||REQUIRED|||-NONE-|||0
+A 10 12|||R:WO:NOM:FORM|||rokimaailma kuningas|||REQUIRED|||-NONE-|||0
+A 2 3|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+A 3 4|||R:SPELL|||Depeche|||REQUIRED|||-NONE-|||1
+A 5 6|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||1
+A 7 8|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||1
+A 8 9|||R:LEX|||nad||nemad|||REQUIRED|||-NONE-|||1
+A 11 12|||R:SPELL|||rokimaailmas|||REQUIRED|||-NONE-|||1
+A 10 12|||R:WO|||rokimaailmas kuningad|||REQUIRED|||-NONE-|||1
+A 2 3|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||2
+A 3 4|||R:SPELL|||Depeche|||REQUIRED|||-NONE-|||2
+A 4 5|||R:NOM:FORM|||Mode'i|||REQUIRED|||-NONE-|||2
+A 5 5|||M:LEX|||kontsert|||REQUIRED|||-NONE-|||2
+A 5 6|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||2
+A 7 8|||R:LEX|||sest|||REQUIRED|||-NONE-|||2
+A 8 9|||R:LEX|||nad|||REQUIRED|||-NONE-|||2
+A 11 12|||R:SPELL|||rokimaailmas|||REQUIRED|||-NONE-|||2
+A 10 12|||R:WO:NOM:FORM|||rokimaailma kuningad|||REQUIRED|||-NONE-|||2
+
+S See ongi ma tahan teile kirjutada .
+A 2 2|||M:LEX|||, millest|||REQUIRED|||-NONE-|||0
+A 1 2|||R:VERB:FORM|||oligi|||REQUIRED|||-NONE-|||1
+A 2 2|||M:LEX|||, millest|||REQUIRED|||-NONE-|||1
+A 3 4|||R:VERB:FORM|||tahtsin|||REQUIRED|||-NONE-|||1
+
+S Tervitades !
+A 1 2|||U:PUNCT|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S teie õpilane Riho
+A 0 1|||R:CASE|||Teie|||REQUIRED|||-NONE-|||0

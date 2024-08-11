@@ -1,0 +1,68 @@
+
+S Ta on meie polikliinikus parem arst .
+A 4 5|||R:NOM:FORM|||parim|||REQUIRED|||-NONE-|||0
+A 4 5|||R:NOM:FORM|||parim|||REQUIRED|||-NONE-|||1
+A 2 6|||R:WO|||parim arst meie polikliinikus|||REQUIRED|||-NONE-|||1
+
+S Olime õppinud koolis 12 aastat ja pärast veel olime õppinud Tallinnas 5 aastat .
+A 0 1|||R:VERB:FORM|||Oleme|||REQUIRED|||-NONE-|||0
+A 3 3|||M:LEX|||koos|||REQUIRED|||-NONE-|||0
+A 8 9|||R:VERB:FORM|||oleme|||REQUIRED|||-NONE-|||0
+A 7 10|||R:WO|||oleme veel õppinud|||REQUIRED|||-NONE-|||0
+A 10 13|||R:WO|||5 aastat Tallinnas|||REQUIRED|||-NONE-|||0
+A 0 2|||R:VERB:FORM|||Õppisime|||REQUIRED|||-NONE-|||1
+A 8 10|||R:VERB:FORM|||õppisime|||REQUIRED|||-NONE-|||1
+A 7 11|||R:WO|||õppisime Tallinnas veel|||REQUIRED|||-NONE-|||1
+
+S Mäletan , et kooli ajal ta oli väga sõbralik ja abivalmis .
+A 5 7|||R:WO|||oli ta|||REQUIRED|||-NONE-|||0
+
+S Ta aitas kõikidele koduülesannetega .
+A 2 3|||R:NOM:FORM|||kõiki|||REQUIRED|||-NONE-|||0
+
+S Võin öelda , et ta üldse ei muutunud .
+A 6 8|||R:VERB:FORM|||ei ole muutunud|||REQUIRED|||-NONE-|||0
+A 5 8|||R:WO|||ei ole üldse muutunud|||REQUIRED|||-NONE-|||0
+
+S Koolis ta rääkis , et kui ta suureks kasvab siis hakkab ta tegeleda spordiga .
+A 1 3|||R:WO|||rääkis ta|||REQUIRED|||-NONE-|||0
+A 9 9|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 12 13|||R:VERB:FORM|||tegelema|||REQUIRED|||-NONE-|||0
+A 0 3|||R:WO|||Ta rääkis koolis|||REQUIRED|||-NONE-|||1
+A 9 9|||M:PUNCT|||,|||REQUIRED|||-NONE-|||1
+A 12 13|||R:VERB:FORM|||tegelema|||REQUIRED|||-NONE-|||1
+A 9 9|||M:PUNCT|||,|||REQUIRED|||-NONE-|||2
+A 12 13|||R:VERB:FORM|||tegelema|||REQUIRED|||-NONE-|||2
+
+S Varem ma rääkisin sulle , et ta on parem arst , aga veel ta on meie linnas kuulus sportlane .
+A 1 2|||U:LEX|||-NONE-|||REQUIRED|||-NONE-|||0
+A 8 9|||R:NOM:FORM|||parim|||REQUIRED|||-NONE-|||0
+A 12 14|||R:WO|||ta on veel|||REQUIRED|||-NONE-|||0
+A 0 4|||R:WO|||Ma rääkisin sulle varem|||REQUIRED|||-NONE-|||1
+A 8 9|||R:NOM:FORM|||parim|||REQUIRED|||-NONE-|||1
+A 13 15|||R:WO|||on ta|||REQUIRED|||-NONE-|||1
+A 8 9|||R:NOM:FORM|||parim|||REQUIRED|||-NONE-|||2
+A 13 15|||R:WO|||on ta|||REQUIRED|||-NONE-|||2
+
+S Ta tegi ka oma kursused , sest mõnedel inimestel on probleemid kaaluga ja toitumisega .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+A 4 5|||R:NOM:FORM|||kursusi|||REQUIRED|||-NONE-|||1
+A 10 11|||R:NOM:FORM|||probleeme|||REQUIRED|||-NONE-|||1
+A 1 2|||R:LEX|||lõi||koostas||pani kokku||algatas|||REQUIRED|||-NONE-|||2
+
+S Kui sa tahad võid ka tema kursustele käia .
+A 3 3|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 6 7|||R:NOM:FORM|||kursustel|||REQUIRED|||-NONE-|||0
+
+S Arvan , et nad sulle väga aitavad .
+A 3 4|||R:LEX|||need|||REQUIRED|||-NONE-|||0
+A 4 5|||R:NOM:FORM|||sind|||REQUIRED|||-NONE-|||0
+A 4 7|||R:WO|||aitavad sind väga|||REQUIRED|||-NONE-|||0
+A 4 5|||R:NOM:FORM|||sind|||REQUIRED|||-NONE-|||1
+A 4 7|||R:WO|||aitavad sind väga|||REQUIRED|||-NONE-|||1
+
+S Kui sul on veel küsimused , siis küsi .
+A 4 5|||R:NOM:FORM|||küsimusi|||REQUIRED|||-NONE-|||0
+
+S Alisa
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0

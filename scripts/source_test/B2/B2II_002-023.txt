@@ -1,0 +1,53 @@
+
+S Lugupeetud omavalitsuse ametnik , kirjutan teile kaebusega , sest hakkasin märkama , et meie tänavate ja parkide hooldamise tase hakkas halvenema .
+A 3 5|||U:PUNCT|||Kirjutan|||REQUIRED|||-NONE-|||0
+A 12 13|||R:LEX|||kuidas|||REQUIRED|||-NONE-|||0
+
+S Ma ei ole rahul sellega , et vähenesid parkimiskohad autodele ja kui ma oma lastedega sõidan pargisse jalutamas , siis ma isegi ei tea kuhu oma auto jätta , sest vaba kohte üldse ei ole .
+A 3 5|||R:WO|||sellega rahul|||REQUIRED|||-NONE-|||0
+A 10 10|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 14 15|||R:SPELL|||lastega|||REQUIRED|||-NONE-|||0
+A 13 16|||R:WO|||sõidan oma lastega|||REQUIRED|||-NONE-|||0
+A 16 17|||R:NOM:FORM|||parki|||REQUIRED|||-NONE-|||0
+A 17 18|||R:VERB:FORM|||jalutama|||REQUIRED|||-NONE-|||0
+A 24 24|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 26 27|||R:NOM:FORM|||autot|||REQUIRED|||-NONE-|||0
+A 30 31|||R:NOM:FORM|||vabu|||REQUIRED|||-NONE-|||0
+A 31 32|||R:SPELL|||kohti|||REQUIRED|||-NONE-|||0
+
+S Teine põhjus on see , et parkides ja tänavatel ei ole uusi laste mänguplatse .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Eile jalutasime lastedega ja märkasime , et vanad mänguplatsid on juba katki tehtud ja lastedele seal oma aega veeta on väga ohtlik .
+A 2 3|||R:SPELL|||lastega|||REQUIRED|||-NONE-|||0
+A 14 15|||R:SPELL|||lastel|||REQUIRED|||-NONE-|||0
+A 15 22|||R:WO|||on seal väga ohtlik oma aega veeta|||REQUIRED|||-NONE-|||0
+
+S Kolmas põhjus on see , et tänavates ja parkides on palju prügi , aga prügikaste leidub seal väga vähe .
+A 6 7|||R:NOM:FORM|||tänavatel|||REQUIRED|||-NONE-|||0
+
+S Inimesed viskavad erinevaid pabereid rohile , erinevaid purge ja muu prügi .
+A 4 5|||R:SPELL|||rohule|||REQUIRED|||-NONE-|||0
+A 2 5|||R:WO|||rohule erinevaid pabereid|||REQUIRED|||-NONE-|||0
+A 7 8|||R:SPELL|||purke|||REQUIRED|||-NONE-|||0
+A 9 10|||R:NOM:FORM|||muud|||REQUIRED|||-NONE-|||0
+
+S Lahendamisele pakkun teile luua rohkem parkimiskohti autodele või üldse ehitada üks suur parkla .
+A 0 1|||R:LEX|||Lahenduseks|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||pakun|||REQUIRED|||-NONE-|||0
+A 2 3|||R:NOM:FORM|||teil|||REQUIRED|||-NONE-|||0
+
+S Luua uusi mänguplatse lastedele , kas või korvpalliplatsi või jalgpalliplatsi , ja loomulikult panna rohkem prügikaste , et jalutada oli meeldiv ja õhk parkides oli puhas .
+A 3 4|||R:SPELL|||lastele|||REQUIRED|||-NONE-|||0
+A 1 4|||R:WO|||lastele uusi mänguplatse|||REQUIRED|||-NONE-|||0
+A 7 8|||R:NOM:FORM|||korvpalliplats|||REQUIRED|||-NONE-|||0
+A 9 10|||R:NOM:FORM|||jalgpalliplats|||REQUIRED|||-NONE-|||0
+A 19 20|||R:VERB:FORM|||oleks|||REQUIRED|||-NONE-|||0
+A 24 25|||R:VERB:FORM|||oleks|||REQUIRED|||-NONE-|||0
+
+S Väga loodan , et te loete mu kaebuse ja muudate seda olukorra .
+A 7 8|||R:NOM:FORM|||kaebust|||REQUIRED|||-NONE-|||0
+A 11 12|||R:NOM:FORM|||olukorda|||REQUIRED|||-NONE-|||0
+
+S Mul tuleb väga meeldiv .
+A 1 2|||R:LEX|||oleks|||REQUIRED|||-NONE-|||0

@@ -1,0 +1,84 @@
+
+S Tere Paul !
+A 1 1|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+
+S Meie asutusel on varsti sünnipäev .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Seoses sellega tahan jutustada oma töökohast .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+A 0 2|||R:WO|||Sellega seoses|||REQUIRED|||-NONE-|||1
+
+S 5 aastat tagasi alustasin töötada Narva polikliinikus silmaarstina .
+A 4 5|||R:LEX|||töötamist||tööd|||REQUIRED|||-NONE-|||0
+A 4 5|||R:LEX|||tööd|||REQUIRED|||-NONE-|||1
+A 4 7|||R:WO|||Narva polikliinikus tööd|||REQUIRED|||-NONE-|||1
+
+S Tahtsin elada selles linnas , siis see töökoht sobis mulle .
+A 5 6|||R:LEX|||seega|||REQUIRED|||-NONE-|||0
+A 1 4|||R:WO|||selles linnas elada|||REQUIRED|||-NONE-|||1
+A 5 6|||R:LEX|||seega|||REQUIRED|||-NONE-|||1
+
+S Meil on sõbralik ja vastutundlik kollektiiv ja mugav ja rahulik tööõhkkond .
+A 4 5|||R:SPELL|||vastutustundlik|||REQUIRED|||-NONE-|||0
+A 6 7|||R:LEX|||ning|||REQUIRED|||-NONE-|||0
+A 4 5|||R:LEX|||vastuvõtlik||vastutulelik|||REQUIRED|||-NONE-|||1
+A 6 7|||R:LEX|||ning|||REQUIRED|||-NONE-|||1
+
+S Kõik töötajad aitavad teine teistele .
+A 3 5|||R:WS:NOM:FORM|||teineteist|||REQUIRED|||-NONE-|||0
+
+S Kui kollektiivis ilmub probleem või raskus , alati lahendame seda koos .
+A 2 3|||R:LEX|||ilmneb|||REQUIRED|||-NONE-|||0
+A 9 10|||R:NOM:FORM|||selle|||REQUIRED|||-NONE-|||0
+A 7 10|||R:WO|||lahendame selle alati|||REQUIRED|||-NONE-|||0
+
+S Kui patsiendil on küsimused , siis kõik arstid või meditsiini töötajad aitavad leida vastust .
+A 3 4|||R:NOM:FORM|||küsimusi|||REQUIRED|||-NONE-|||0
+A 9 11|||R:WS|||meditsiinitöötajad|||REQUIRED|||-NONE-|||0
+A 6 12|||R:WO|||aitavad kõik arstid või meditsiinitöötajad|||REQUIRED|||-NONE-|||0
+A 13 14|||R:NOM:FORM|||vastuseid|||REQUIRED|||-NONE-|||0
+A 12 14|||R:WO|||vastuseid leida|||REQUIRED|||-NONE-|||0
+
+S See tähendab , et oleme abivalmis .
+A 5 6|||R:NOM:FORM|||abivalmid|||REQUIRED|||-NONE-|||0
+
+S Tööõhkkond sõltub ka juhatajast .
+A -1 -1|||noop|||-NONE-|||-NONE-|||-NONE-|||0
+
+S Meie juhataja alati aitab leida ühist keelt ja ei loo probleeme või tülisid .
+A 2 4|||R:WO|||aitab alati|||REQUIRED|||-NONE-|||0
+A 4 7|||R:WO|||ühist keelt leida|||REQUIRED|||-NONE-|||0
+A 2 4|||R:WO|||aitab alati|||REQUIRED|||-NONE-|||1
+
+S Kahjuks meie polikliinikus on vana mööbel ja tehnika .
+A 1 4|||R:WO|||on meie polikliinikus|||REQUIRED|||-NONE-|||0
+
+S Loodan , et 10-15 aasta pärast meil tuleb remondi ja uut tehnikat .
+A 6 8|||R:WO|||tuleb meil|||REQUIRED|||-NONE-|||0
+A 8 9|||R:NOM:FORM|||remont|||REQUIRED|||-NONE-|||0
+A 10 11|||R:NOM:FORM|||uus|||REQUIRED|||-NONE-|||0
+A 11 12|||R:NOM:FORM|||tehnika|||REQUIRED|||-NONE-|||0
+A 6 6|||M:LEX|||on|||REQUIRED|||-NONE-|||1
+A 7 8|||R:LEX|||tehtud|||REQUIRED|||-NONE-|||1
+A 8 9|||R:NOM:FORM|||remont||remonti|||REQUIRED|||-NONE-|||1
+A 10 10|||M:LEX|||oleme saanud|||REQUIRED|||-NONE-|||1
+
+S See aitab kiiresti aidata inimesi ja ravida neid .
+A 2 5|||R:WO|||inimesi kiiresti aidata|||REQUIRED|||-NONE-|||0
+A 6 8|||R:WO|||neid ravida|||REQUIRED|||-NONE-|||0
+
+S Veel arvan , et meil on vaja rohkem inimest , sest suur osa meditsiinitöötajadest elab suurtes linnades .
+A 0 2|||R:WO|||Arvan veel|||REQUIRED|||-NONE-|||0
+A 8 9|||R:NOM:FORM|||inimesi|||REQUIRED|||-NONE-|||0
+A 13 14|||R:SPELL|||meditsiinitöötajatest|||REQUIRED|||-NONE-|||0
+
+S Loodan , et kohalik omavalitsus jõuab lahendada selle probleemi .
+A 6 9|||R:WO|||selle probleemi lahendada|||REQUIRED|||-NONE-|||0
+A 7 8|||R:NOM:FORM|||seda|||REQUIRED|||-NONE-|||1
+A 6 9|||R:WO|||seda probleemi lahendada|||REQUIRED|||-NONE-|||1
+
+S Lõpuks tähan lisada , et mulle meeldib töötada selles asutuses , sest sõbralik töökeskond aitab töötada kergelt ja rahulikult .
+A 1 2|||R:SPELL|||tahan|||REQUIRED|||-NONE-|||0
+A 7 10|||R:WO|||selles asutuses töötada|||REQUIRED|||-NONE-|||0
+A 13 14|||R:SPELL|||töökeskkond|||REQUIRED|||-NONE-|||0
