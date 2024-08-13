@@ -17,7 +17,9 @@ Statistics are output in two ways:
 ## Output structure:
 Parallel corpora consists of matching files with suffixes **.correct** and **.incorrect** accordingly. There are both joint sets and subsets:
 
-* Joint - all the sentences
+* All - all the sentences
 * Train - 8/10 of the sentences
 * Valid - 1/10 of the sentences
 * Test - 1/10 of the sentences
+
+Correct and incorrect sentences are matched via line number of file pairs, i.e correct sentence at line 6 in file train.correct matches the incorrect sentence at line 6 in file train.incorrect
