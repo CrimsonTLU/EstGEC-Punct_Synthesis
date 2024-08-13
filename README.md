@@ -1,1 +1,23 @@
 # EstGEC-Punct_Synthesis
+## Author: Christian Hindremäe
+
+This repository contains scripts that were developed as part of the Bachelor Thesis titled <a href="https://www.etera.ee/zoom/201483/view?page=34&p=separate&tool=info&view=0,0,2550,3301">Synthesis of Punctuation Errors for Estonian Grammatical Error Correction</a>
+
+It consists of following scripts:
+
+* **analyzer.py** - Iterates over gold token edits and calculates statistics of punctuation errors
+* **error_generator.py** - Determines a punctuation to be used and synthesizes the error
+* **synthesizer.py** - Main script, retrieves statistics from analyzer.py, processes source text with correct sentences, determines error type, calls appropriate functions from error_generator.py and outputs a parallel corpora of correct and incorrect sentences.
+
+## Statistics structure:
+Statistics are output in two ways:
+1. Text file, meant to be human readable
+2. Binary file, meant to be consumed by the main script
+
+## Output structure:
+Parallel corpora consists of matching files with suffixes **.correct** and **.incorrect** accordingly. There are both joint sets and subsets:
+
+* Joint - all the sentences
+* Train - 8/10 of the sentences
+* Valid - 1/10 of the sentences
+* Test - 1/10 of the sentences
