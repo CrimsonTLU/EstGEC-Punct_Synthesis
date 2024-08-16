@@ -14,6 +14,10 @@ Statistics are output in two ways:
 1. Text file, meant to be human readable
 2. Binary file, meant to be consumed by the main script
 
+In general, the logic chain of the statistics is as follows:
+
+Total number of sentences > Number of punctuation errors in total > No. of punct errors by type > Frequency of every punctuation under specific error type > Context sensitive frequencies (punctuation and preceding/following word etc) 
+
 ## Output structure:
 Parallel corpora consists of matching files with suffixes **.correct** and **.incorrect** accordingly. There are both joint sets and subsets:
 
